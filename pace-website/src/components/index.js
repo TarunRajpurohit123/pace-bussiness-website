@@ -8,6 +8,7 @@ import PhoneIcon from "./svgs/PhoneIcon";
 import MessageIcon from "./svgs/MessageIcon";
 import Hero from "./Hero/Hero";
 import TSwitcher from "./TSwitcher/TSwitcher";
+import StockInfo from "./StockInfo/StockInfo";
 
 export {
   Navbar,
@@ -20,4 +21,5 @@ export {
   MessageIcon,
   Hero,
   TSwitcher,
+  StockInfo,
 };
