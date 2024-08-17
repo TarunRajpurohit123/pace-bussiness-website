@@ -1,7 +1,19 @@
-export default function Button({ classNames, id, text, clickFn, styles, key }) {
+export default function Button({
+  classNames,
+  id,
+  text,
+  clickFn,
+  styles,
+  key,
+  type = "button",
+  ariaLabel,
+  ...props
+}) {
   return (
     <>
       <button
+        aria-label={ariaLabel}
+        type={type}
         key={key}
         style={styles}
         className={classNames}
@@ -9,6 +21,7 @@ export default function Button({ classNames, id, text, clickFn, styles, key }) {
         onClick={(e) => {
           clickFn(e);
         }}
+        {...props}
       >
         {text}
       </button>
