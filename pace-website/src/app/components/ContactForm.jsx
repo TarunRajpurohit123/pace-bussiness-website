@@ -1,9 +1,10 @@
 import Link from "next/link";
+import Form from "./Form";
 
 export default function ContactForm() {
   return (
     <>
-      <section className="contact_form page-width">
+      <section className="contact_form page-width flex justify-between items-start">
         {/* left */}
         <div className="cform_left ">
           <div className="w-full h-full pt-[8rem] pl-[8rem] pr-[8rem]">
@@ -38,7 +39,9 @@ export default function ContactForm() {
           </div>
         </div>
         {/* right */}
-        <div className="cform_right"></div>
+        <div className="cform_right">
+          <Form />
+        </div>
       </section>
     </>
   );

@@ -1,8 +1,8 @@
-import { Inter } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 import { Annoucebar, Footer, Navbar } from "@/components";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Karla({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Pace",

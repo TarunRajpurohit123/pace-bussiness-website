@@ -114,7 +114,7 @@ body {
   font-weight: 400;
 }
 #newsletter::placeholder {
-  color: var(--primary-text);
+  color: var(--gray_700);
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -175,8 +175,7 @@ body {
 .cform_left {
   width: 46.5rem;
   height: 78.2rem;
-  border-top-left-radius: 1.2rem;
-  border-bottom-left-radius: 1.2rem;
+  border-radius: 1.2rem;
   background-image: url("../../public/fm-zig.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -206,4 +205,59 @@ body {
 }
 .pone2 > a {
   color: var(--pure);
+}
+.pure-contact-form {
+  width: 79rem;
+  height: 78.2rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 4px 8px 0px #f7f7f70d;
+  box-shadow: 0px -2px 8px 0px #f7f7f70d;
+}
+
+.pure-contact-form > h1 {
+  font-size: 4.4rem;
+  font-weight: 700;
+  color: var(--pure_F7);
+}
+
+.pure-contact-form > p {
+  color: var(--primary-text);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.cinput {
+  border: 1px solid var(--gray_700);
+  background: none;
+  color: var(--primary-text);
+  outline: none;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.cinput::placeholder {
+  color: var(--gray_700);
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+.contactInputContainer > label {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--pure_F7);
+}
+.phone-code {
+  color: var(--pure_F7);
+  font-weight: 400;
+  font-size: 1.6rem;
+  border: 1px solid var(--gray_700);
+  background: none;
+}
+.phone-code-opt {
+  color: var(--pure_F7);
+  font-weight: 400;
+  font-size: 1.6rem;
+  background: var(--mode-bg);
+}
+.phone-code-opt:hover {
+  background-color: var(--red) !important;
 }
