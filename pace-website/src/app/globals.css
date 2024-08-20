@@ -3,6 +3,86 @@
 @tailwind utilities;
 
 :root {
+  font-size: 62.5%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+.dark-mode {
   --pure: white;
   --primary-text: #b3b3b3;
+  --mode-bg: #0b090a;
+  --primary_01_black: #0b090a;
+  --success: #17b26a;
+  --gray_25: #f9f9f9;
+  --gray_100: #e7e7e7;
+}
+
+.back-gray_100 {
+  background-color: var(--gray_100);
+}
+.border-gray_100 {
+  border-color: var(--gray_100);
+}
+
+.primary-text {
+  color: var(--primary-text);
+}
+.pure-text {
+  color: var(--pure);
+}
+.success-text {
+  color: var(--success);
+}
+.success-bg {
+  background-color: var(--success);
+}
+.gray_25-text {
+  color: var(--gray_25);
+}
+.sp_statics {
+  margin-left: 0.5rem;
+}
+.sp_statics > .sp_statics_text {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-left: 0.5rem;
+}
+
+.strockinfo-wrapper > .sp_label {
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+.strockinfo-wrapper > .sp_rupee {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.announcemnet-wrapper {
+  background-color: var(--primary_01_black);
+  height: 4.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-width {
+  width: 90%;
+  margin: auto;
+}
+.navbar-link {
+  color: var(--primary-text);
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--mode-bg);
+}
+
+.website_switcher_text {
+  font-size: 1.6rem;
+  font-weight: 400;
 }
