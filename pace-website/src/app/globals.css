@@ -23,8 +23,10 @@ body {
   --success: #17b26a;
   --gray_25: #f9f9f9;
   --gray_100: #e7e7e7;
+  --gray_400: #9d9d9d;
   --gray_700: #555354;
   --red: #cc3321;
+  --cf-opacity: rgba(0, 0, 0, 0.67);
 }
 
 .back-gray_100 {
@@ -173,6 +175,35 @@ body {
 .cform_left {
   width: 46.5rem;
   height: 78.2rem;
-  padding: 8rem 0px 8.9rem 0px;
-  border-radius: 1.2rem 0px 0px 0px;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 1.2rem;
+  background-image: url("../../public/fm-zig.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cform_left > div {
+  background-color: var(--cf-opacity);
+}
+.cform_left .pone1 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--pure_F7);
+}
+
+.c__topic_selector > label {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--gray_100);
+}
+.c__topic_selector {
+  margin-top: 4rem;
+}
+
+.pone2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--gray_400);
+}
+.pone2 > a {
+  color: var(--pure);
 }
