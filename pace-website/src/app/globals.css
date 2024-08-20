@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  font-size: 60.5%;
+  font-size: 62.5%;
 }
 
 * {
@@ -16,6 +16,7 @@ body {
 
 .dark-mode {
   --pure: white;
+  --pure_F7: #f7f7f7;
   --primary-text: #b3b3b3;
   --mode-bg: #0b090a;
   --primary_01_black: #0b090a;
@@ -158,3 +159,20 @@ body {
   background: var(--gray_700);
 }
 /* scroll end */
+
+.pages_hero--left > h1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--pure_F7);
+}
+.pages_hero--left > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--primary-text);
+}
+.cform_left {
+  width: 46.5rem;
+  height: 78.2rem;
+  padding: 8rem 0px 8.9rem 0px;
+  border-radius: 1.2rem 0px 0px 0px;
+}

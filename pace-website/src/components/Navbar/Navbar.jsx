@@ -7,7 +7,7 @@ export default function Navbar() {
     { name: "Group", link: "#" },
     { name: "Brands", link: "#" },
     { name: "About Us", link: "#" },
-    { name: "Contact Us", link: "#" },
+    { name: "Contact Us", link: "/contact" },
     { name: "Career", link: "#" },
     { name: "Investor Relations", link: "#" },
   ];
