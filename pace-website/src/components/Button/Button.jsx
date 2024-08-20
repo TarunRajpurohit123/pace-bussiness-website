@@ -2,7 +2,6 @@ export default function Button({
   classNames,
   id,
   text,
-  clickFn,
   styles,
   key,
   type = "button",
@@ -18,9 +17,6 @@ export default function Button({
         style={styles}
         className={classNames}
         id={id}
-        onClick={(e) => {
-          clickFn(e);
-        }}
         {...props}
       >
         {text}

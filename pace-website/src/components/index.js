@@ -11,6 +11,10 @@ import Hero from "./Hero/Hero";
 import TSwitcher from "./TSwitcher/TSwitcher";
 import StockInfo from "./StockInfo/StockInfo";
 import Spacer from "./Spacer/Spacer";
+import FacebookIcon from "./svgs/FacebookIcon";
+import LinkedinIcon from "./svgs/LinkedinIcon";
+import InstagramIcon from "./svgs/InstagramIcon";
+import TwitterIcon from "./svgs/TwitterIcon";
 
 export {
   Navbar,
@@ -26,4 +30,8 @@ export {
   StockInfo,
   ShareIcon,
   Spacer,
+  FacebookIcon,
+  LinkedinIcon,
+  InstagramIcon,
+  TwitterIcon,
 };

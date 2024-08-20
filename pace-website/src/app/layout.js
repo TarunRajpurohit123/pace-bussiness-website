@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} dark-mode`}>
         <Annoucebar />
         <Navbar />
+        <div className="h-[35vh]"></div>
         {children}
         <Footer />
       </body>
