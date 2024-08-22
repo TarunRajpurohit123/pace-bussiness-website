@@ -1,7 +1,19 @@
+"use client";
+
 import { Button } from "@/components";
-import { countries } from "@/json/country";
+import { useEffect, useState } from "react";
+import { countriesCode } from "@/json/country";
 
 export default function Form() {
+  const [countries, setCountries] = useState([]);
+
+  useEffect(() => {
+    fetch("https://restcountries.com/v3.1/all")
+      .then((response) => response.json())
+      .then((data) => setCountries(data))
+      .catch((error) => console.error("Error:", error));
+  }, []);
+
   return (
     <>
       <section className="pure-contact-form p-[8rem]">
@@ -37,7 +49,7 @@ export default function Form() {
           </div>
           {/* row 2 */}
           <div className="row flex mt-[2.5rem]">
-            {/* first name */}
+            {/* email */}
             <div className="contactInputContainer flex flex-col">
               <label htmlFor="email">
                 Email Address <span style={{ color: "var(--red)" }}>*</span>
@@ -52,7 +64,7 @@ export default function Form() {
           </div>
           {/* row 3 */}
           <div className="row flex mt-[2.5rem]">
-            {/* first name */}
+            {/* phone */}
             <div className="contactInputContainer flex flex-col">
               <label htmlFor="phone">
                 Phone Number <span style={{ color: "var(--red)" }}>*</span>
@@ -61,13 +73,13 @@ export default function Form() {
                 <select
                   className="w-[6.3rem] h-[3.4rem] cursor-pointer mt-[0.5rem] phone-code outline-none"
                   style={{ borderRadius: "0.4rem" }}
+                  defaultValue={"+91"}
                 >
-                  {countries?.map((cd, ind) => {
+                  {countriesCode?.map((cd, ind) => {
                     return (
                       <option
                         className="phone-code-opt"
                         key={Date.now() * ind + 1}
-                        value={cd?.dialing_code}
                       >
                         {cd?.dialing_code}
                       </option>
@@ -82,17 +94,29 @@ export default function Form() {
                 />
               </div>
             </div>
-            {/* last name */}
+            {/* location */}
             <div className="contactInputContainer flex flex-col ml-[2.5rem]">
               <label htmlFor="location">
                 Location <span style={{ color: "var(--red)" }}>*</span>
               </label>
-              <input
-                className="pl-[1.5rem] w-[30.2rem] mt-[0.5rem] h-[3.4rem] cinput"
-                id="location"
-                type="text"
-                placeholder="Location"
-              />
+              <div className=" w-[30.2rem] mt-[0.5rem] h-[3.4rem] cinput pl-0 flex items-center">
+                <select
+                  className="h-[3.4rem] cursor-pointer phone-code location-code outline-none"
+                  style={{ borderRadius: "0.4rem" }}
+                >
+                  {countries?.map((cd, ind) => {
+                    return (
+                      <option
+                        className="phone-code-opt"
+                        key={Date.now() * ind + 1}
+                      >
+                        {cd?.flag} &nbsp;&nbsp;
+                        {cd?.name?.common}
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
             </div>
           </div>
           {/* row 4 */}

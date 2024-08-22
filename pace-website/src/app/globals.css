@@ -28,6 +28,7 @@ body {
   --red: #cc3321;
   --cf-opacity: rgba(0, 0, 0, 0.67);
   --contact-box: #f7f7f70d;
+  --contact-card-border: #818181;
 }
 
 .back-gray_100 {
@@ -274,6 +275,13 @@ body {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+.location-code {
+  width: calc(100% - 2rem);
+  border: none;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  margin-right: 1rem;
+}
 .phone-code-opt {
   color: var(--pure_F7);
   font-weight: 400;
@@ -304,4 +312,53 @@ button:hover {
 nav {
   padding-top: 2.2rem;
   padding-bottom: 2.2rem;
+}
+.contact_card {
+  width: 29.7rem;
+  height: 23.7rem;
+  border-radius: 1.6rem;
+  padding: 2.5rem;
+  border: 1px solid var(--contact-card-border);
+}
+.contact_cards_section {
+  margin-top: 10rem;
+  margin-bottom: 7.5rem;
+}
+
+.global-abs {
+  width: 100%;
+}
+.contact_card > h1 {
+  color: var(--pure_F7);
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 2.5rem;
+}
+
+.contact_card > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--gray_400);
+}
+
+.contact_card > a {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--gray_100);
+  width: 24.7rem;
+  height: 3.4rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.4rem;
+  border: 1px solid var(--gray_100);
+  margin-top: 2.5rem;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.5s;
+}
+.contact_card > a:hover {
+  background-color: var(--gray_100);
+  color: var(--mode-bg);
+}
+.location__input {
+  background: none;
 }

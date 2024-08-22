@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} dark-mode `}>
         <Annoucebar />
         <Navbar />
-        <section className="absolute top-[5rem] z-[-9]">
+        <section className="absolute global-abs top-[5rem] z-[-9]">
           {children}
           <Footer />
         </section>
