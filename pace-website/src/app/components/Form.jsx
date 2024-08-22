@@ -17,7 +17,9 @@ export default function Form() {
   return (
     <>
       <section className="pure-contact-form p-[8rem]">
-        <h1>We’d love to help</h1>
+        <h1>
+          We’d <span className="red-text">love to</span> help
+        </h1>
         <p>Reach out and we’ll get in touch within 24 hours</p>
         <form className="mt-[4rem]">
           {/* row 1 */}

@@ -4,6 +4,7 @@
 
 :root {
   font-size: 62.5%;
+  letter-spacing: -0.5px;
 }
 
 * {
@@ -24,6 +25,7 @@ body {
   --gray_25: #f9f9f9;
   --gray_100: #e7e7e7;
   --gray_400: #9d9d9d;
+  --gray_500: #848384;
   --gray_700: #555354;
   --red: #cc3321;
   --cf-opacity: rgba(0, 0, 0, 0.67);
@@ -44,6 +46,9 @@ body {
 
 .primary-text {
   color: var(--primary-text);
+}
+.red-text {
+  color: var(--red);
 }
 .pure-text {
   color: var(--pure);
@@ -84,7 +89,7 @@ body {
   align-items: center;
 }
 .page-width {
-  width: 90%;
+  width: 128rem;
   margin: auto;
 }
 .navbar-link {
@@ -297,7 +302,7 @@ body {
 }
 .contact--hero-image {
   animation: rotate 2s linear infinite;
-  animation-duration: 10000ms;
+  animation-duration: 15000ms;
 }
 @keyframes rotate {
   0% {
@@ -365,6 +370,7 @@ nav {
   font-size: 1.6rem;
   font-weight: 400;
   color: var(--gray_400);
+  letter-spacing: -0.5px;
 }
 
 .contact_card > a {
@@ -398,4 +404,23 @@ nav {
   align-items: center;
   cursor: pointer;
   border: 1px solid var(--icon-wrap_border);
+}
+.contact__left_select {
+  margin-top: 0.5rem;
+  width: 30.5rem;
+  height: 3.4rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.4rem;
+  font-size: 1.6rem !important;
+  font-weight: 400;
+  letter-spacing: -0.05rem;
+  background: none;
+  outline: none;
+  color: var(--gray_500);
+  border: 1px solid var(--gray_500);
+  cursor: pointer;
+}
+
+option:hover {
+  background-color: green !important;
 }
