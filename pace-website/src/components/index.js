@@ -15,6 +15,7 @@ import FacebookIcon from "./svgs/FacebookIcon";
 import LinkedinIcon from "./svgs/LinkedinIcon";
 import InstagramIcon from "./svgs/InstagramIcon";
 import TwitterIcon from "./svgs/TwitterIcon";
+import Badge from "./Badge/Badge";
 
 export {
   Navbar,
@@ -34,4 +35,5 @@ export {
   LinkedinIcon,
   InstagramIcon,
   TwitterIcon,
+  Badge,
 };
