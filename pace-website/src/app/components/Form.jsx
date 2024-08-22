@@ -3,6 +3,7 @@
 import { Button } from "@/components";
 import { useEffect, useState } from "react";
 import { countriesCode } from "@/json/country";
+import Link from "next/link";
 
 export default function Form() {
   const [countries, setCountries] = useState([]);
@@ -131,6 +132,17 @@ export default function Form() {
                 id="message"
                 placeholder="Leave us a message"
               />
+              <div className="mt-[0.7rem] check_contact_text flex items-center">
+                <div class="checkbox-wrapper-40">
+                  <label>
+                    <input type="checkbox" />
+                    <span class="checkbox"></span>
+                  </label>
+                </div>
+                <p className="ml-[0.7rem]">
+                  You agree to our friendly <Link href="#">Privacy Policy</Link>
+                </p>
+              </div>
             </div>
           </div>
           <Button text={"Send Message"} classNames={"contact_btn"} />
