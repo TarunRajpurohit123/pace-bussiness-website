@@ -12,11 +12,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} dark-mode`}>
+      <body className={`${inter.className} dark-mode `}>
         <Annoucebar />
         <Navbar />
-        {children}
-        <Footer />
+        <section className="absolute top-[5rem] z-[-9]">
+          {children}
+          <Footer />
+        </section>
       </body>
     </html>
   );

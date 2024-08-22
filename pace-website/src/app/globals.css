@@ -27,6 +27,7 @@ body {
   --gray_700: #555354;
   --red: #cc3321;
   --cf-opacity: rgba(0, 0, 0, 0.67);
+  --contact-box: #f7f7f70d;
 }
 
 .back-gray_100 {
@@ -130,6 +131,18 @@ body {
   border-radius: 0.4rem;
   margin-left: 1rem;
 }
+.contact_btn {
+  background: var(--red);
+  color: var(--pure);
+  width: 63rem;
+  border: none;
+  outline: none;
+  padding: 0.6rem 1.5rem 0.6rem 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  border-radius: 0.4rem;
+  margin-top: 2.5rem;
+}
 .footer-socials > label {
   color: var(--primary-text);
   font-size: 1.6rem;
@@ -162,6 +175,13 @@ body {
 }
 /* scroll end */
 
+.pages_hero_wrapper {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 51, 33, 0.5) 0%,
+    #0b090a 93.81%
+  );
+}
 .pages_hero--left > h1 {
   font-size: 4.8rem;
   font-weight: 700;
@@ -210,8 +230,8 @@ body {
   width: 79rem;
   height: 78.2rem;
   border-radius: 1.2rem;
-  box-shadow: 0px 4px 8px 0px #f7f7f70d;
-  box-shadow: 0px -2px 8px 0px #f7f7f70d;
+  box-shadow: 0px 4px 8px 0px var(--contact-box);
+  box-shadow: 0px -2px 8px 0px var(--contact-box);
 }
 
 .pure-contact-form > h1 {
@@ -251,6 +271,8 @@ body {
   font-size: 1.6rem;
   border: 1px solid var(--gray_700);
   background: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .phone-code-opt {
   color: var(--pure_F7);
@@ -260,4 +282,26 @@ body {
 }
 .phone-code-opt:hover {
   background-color: var(--red) !important;
+}
+.contact--hero-image {
+  animation: rotate 2s linear infinite;
+  animation-duration: 10000ms;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+button {
+  transition: 0.5s all;
+}
+button:hover {
+  opacity: 80%;
+}
+nav {
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
 }

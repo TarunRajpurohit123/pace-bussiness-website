@@ -1,3 +1,4 @@
+import { Button } from "@/components";
 import { countries } from "@/json/country";
 
 export default function Form() {
@@ -96,7 +97,7 @@ export default function Form() {
           </div>
           {/* row 4 */}
           <div className="row flex mt-[2.5rem]">
-            {/* first name */}
+            {/* message */}
             <div className="contactInputContainer flex flex-col">
               <label htmlFor="message">Message</label>
               <textarea
@@ -106,6 +107,7 @@ export default function Form() {
               />
             </div>
           </div>
+          <Button text={"Send Message"} classNames={"contact_btn"} />
         </form>
       </section>
     </>
