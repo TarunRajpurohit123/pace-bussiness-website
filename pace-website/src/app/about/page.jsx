@@ -1,13 +1,13 @@
-import { SparklesPreview } from "@/components/ui/sparklesPreview";
 import CompanyProfile from "./(components)/CompanyProfile";
 import AboutCards from "./(components)/AboutCards";
 import Zigzag from "@/components/ui/zigzag";
 import CTA from "./(components)/CTA";
+import Hero2 from "../components/Hero2";
 
 export default function About() {
   return (
     <>
-      <SparklesPreview heading="About us" />
+      <Hero2 />
       <CompanyProfile />
       <AboutCards />
       <Zigzag

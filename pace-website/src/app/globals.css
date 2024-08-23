@@ -624,3 +624,24 @@ option:hover {
 .about__cta__section_wrapper > .about__cta__section > .cta_content > a:hover {
   opacity: 80%;
 }
+.hero__two {
+  height: 45rem;
+  padding: 20.2rem 0 0 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.hero__two > h1 {
+  color: var(--pure_F7);
+  font-size: 4.8rem;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+.hero__two > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+  color: var(--gray_400);
+  width: 46.6rem;
+  text-align: center;
+}
