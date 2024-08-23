@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import React, { useRef } from "react";
 
 export default function Zigzag({ styles }) {
   const images = [
@@ -27,7 +28,7 @@ export default function Zigzag({ styles }) {
   };
   return (
     <div
-      className="relative flex flex-col items-center p-8 gap-10 h-full overflow-hidden"
+      className={`relative flex flex-col items-center p-8 gap-10 h-full overflow-hidden`}
       style={styles}
     >
       <div className="flex flex-row -ml-20">
