@@ -432,7 +432,7 @@ option:hover {
   font-weight: 400;
   letter-spacing: -0.05rem;
 }
-.check_contact_text > a {
+.check_contact_text > p > a {
   color: var(--gray_100) !important;
   text-decoration: underline;
   text-decoration-color: var(--gray_100) !important;
@@ -565,7 +565,7 @@ option:hover {
   border-end-end-radius: 1.6rem;
 }
 .aboutcards_section {
-  padding: 7.5rem 8rem 7.5rem 8rem;
+  padding: 7.5rem 0rem 7.5rem 0rem;
 }
 .aboutcards_section > h1 {
   font-size: 4.4rem;
