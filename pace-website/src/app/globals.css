@@ -35,7 +35,11 @@ body {
   --contact-card-border: #818181;
   --icon-wrap: #cc33211a;
   --icon-wrap_border: rgba(231, 231, 231, 0.3);
-  --contact_card: linear-gradient(180deg, rgba(11, 9, 10, 0) 0%, #cc3321 100%),
+  --contact_card: linear-gradient(
+      180deg,
+      rgba(11, 9, 10, 0) 0%,
+      var(--red) 100%
+    ),
     linear-gradient(0deg, rgba(60, 58, 59, 0.67), rgba(60, 58, 59, 0.67));
 }
 
