@@ -4,9 +4,11 @@ export default function Announcebar() {
   return (
     <>
       <div className="announcemnet-wrapper page-width ">
-        <div className="w-[100%] flex justify-between">
+        <div className="w-[100%] annoucement-inner flex justify-between">
           <StockInfo />
-          <TSwitcher />
+          <div className="annoucement_theme_switcher">
+            <TSwitcher />
+          </div>
         </div>
       </div>
     </>

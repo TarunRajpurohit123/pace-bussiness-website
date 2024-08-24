@@ -15,7 +15,10 @@ export default function Navbar() {
   return (
     <>
       <Spacer classes={"w-full h-[1rem]"} />
-      <nav className="page-width mt-[1rem] flex justify-between items-center">
+      <nav
+        className="page-width mt-[1rem] flex justify-between items-center"
+        id="desktop__navbar"
+      >
         <Logo />
 
         {/* links goes here*/}

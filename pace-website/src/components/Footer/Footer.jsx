@@ -30,7 +30,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="footer">
+      <footer className="footer" id="desktop__footer">
         <section className="page-width">
           {/* main footer */}
           <div className="footer-main pt-[7.5rem] pb-[7.5rem] w-full flex justify-between items-start">

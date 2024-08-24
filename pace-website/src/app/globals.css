@@ -649,3 +649,37 @@ option:hover {
   width: 46.6rem;
   text-align: center;
 }
+
+/* 768 under media query */
+@media (max-width: 768px) {
+  /* navbar goes */
+  #desktop__navbar {
+    display: none;
+  }
+  #mobile__navbar {
+    display: block;
+  }
+  /* navbar end */
+
+  /* footer */
+  #desktop__footer {
+    display: none;
+  }
+  #mobile__footer {
+    display: block;
+  }
+  /* footer end */
+
+  /* annoncement */
+  .annoucement_theme_switcher {
+    display: none;
+  }
+  .annoucement-inner {
+    justify-content: center;
+  }
+  /* annoucement end */
+
+  .page-width {
+    width: 100%;
+  }
+}
