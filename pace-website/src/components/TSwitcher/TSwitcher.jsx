@@ -7,7 +7,7 @@ export default function TSwitcher() {
   return (
     <>
       <div className="website_switcher flex items-center">
-        <div className="website_switcher_text gray_25-text">Dark Mode</div>
+        <div className="website_switcher_text gray_25-text">Theme Mode</div>
         <div
           className={`ml-[1rem] cursor-pointer pointer-events-auto w-[3.6rem] h-[1.9rem] rounded-full p-1 transition duration-200 ease-in-out ${
             isSwitch ? "success-bg" : "back-gray_100 border-gray_100"

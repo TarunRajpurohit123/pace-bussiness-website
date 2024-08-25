@@ -1,6 +1,7 @@
 import { Karla } from "next/font/google";
 import "./globals.css";
 import { Annoucebar, Footer, Navbar } from "@/components";
+import MobileNavbar from "@/components/Navbar/MobileNavbar";
 
 const inter = Karla({ subsets: ["latin"] });
 
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.className} dark-mode `}>
         <Annoucebar />
         <Navbar />
+        <MobileNavbar />
         <section className="absolute global-abs top-[5rem] z-[-9]">
           {children}
           <Footer />

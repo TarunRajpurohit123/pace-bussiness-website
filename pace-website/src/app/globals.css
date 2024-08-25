@@ -649,7 +649,9 @@ option:hover {
   width: 46.6rem;
   text-align: center;
 }
-
+#mobile__navbar {
+  display: none;
+}
 /* 768 under media query */
 @media (max-width: 768px) {
   /* navbar goes */
@@ -678,6 +680,14 @@ option:hover {
     justify-content: center;
   }
   /* annoucement end */
+
+  .website_switcher_text {
+    display: none;
+  }
+
+  .mobile-spacer{
+    background-color: var(--mode-bg);
+  }
 
   .page-width {
     width: 100%;

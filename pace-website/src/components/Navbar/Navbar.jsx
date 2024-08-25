@@ -1,20 +1,11 @@
 import Link from "next/link";
 import { Logo, SearchIcon, Spacer } from "..";
+import { links } from "./links";
 
 export default function Navbar() {
-  // links
-  const links = [
-    { name: "Group", link: "#" },
-    { name: "Brands", link: "#" },
-    { name: "About Us", link: "/about" },
-    { name: "Contact Us", link: "/contact" },
-    { name: "Career", link: "#" },
-    { name: "Investor Relations", link: "#" },
-  ];
-
   return (
     <>
-      <Spacer classes={"w-full h-[1rem]"} />
+      <Spacer classes={"w-full h-[1rem] mobile-spacer"} />
       <nav
         className="page-width mt-[1rem] flex justify-between items-center"
         id="desktop__navbar"
