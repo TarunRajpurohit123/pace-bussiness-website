@@ -18,7 +18,13 @@ const CompanyProfile = () => {
             src={"/r1i2.jpeg"}
             width="200"
             height="228"
-            className="acp_r1_i2"
+            className="acp_r1_i2 acp_desktop_image"
+          />
+          <Image
+            src={"/r1i1.jpeg"}
+            width="415"
+            height="228"
+            className="acp_r1_i2 acp_mobile_image"
           />
         </div>
         {/* row 1 end */}
@@ -28,17 +34,23 @@ const CompanyProfile = () => {
             src={"/r1i2.jpeg"}
             width="200"
             height="228"
-            className="acp_r2_i1"
+            className="acp_r2_i1 acp_desktop_image"
           />
           <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
-            className="acp_r2_i2"
+            className="acp_r2_i2 "
+          />
+          <Image
+            src={"/r1i1.jpeg"}
+            width="415"
+            height="228"
+            className="acp_r1_i2 acp_mobile_image"
           />
         </div>
         {/* row 2 end */}
-        {/* row 1 start*/}
+        {/* row 3 start*/}
         <div className="acp__left_row flex justify-between mt-[2.5rem]">
           <Image
             src={"/r1i1.jpeg"}
@@ -50,10 +62,16 @@ const CompanyProfile = () => {
             src={"/r1i2.jpeg"}
             width="200"
             height="228"
-            className="acp_r1_i2"
+            className="acp_r1_i2 acp_desktop_image"
+          />
+          <Image
+            src={"/r1i1.jpeg"}
+            width="415"
+            height="228"
+            className="acp_r1_i2 acp_mobile_image"
           />
         </div>
-        {/* row 1 end */}
+        {/* row 3 end */}
       </div>
       <div className="acp__right">
         <Badge>About our organization</Badge>

@@ -649,11 +649,19 @@ option:hover {
   width: 46.6rem;
   text-align: center;
 }
+.acp_mobile_image {
+  display: none;
+}
 #mobile__navbar {
   display: none;
 }
 /* 768 under media query */
 @media (max-width: 768px) {
+  /* root */
+  :root {
+    font-size: 50.5%;
+    letter-spacing: -0.05em;
+  }
   /* navbar goes */
   #desktop__navbar {
     display: none;
@@ -693,6 +701,7 @@ option:hover {
   .about__company_profile_section {
     flex-direction: column;
     align-items: center;
+    padding-bottom: 0;
   }
   .acp__left {
     width: 90%;
@@ -700,16 +709,34 @@ option:hover {
   .acp__left_row {
     flex-direction: column;
     height: auto;
+    margin-top: 0;
   }
   .acp__left_row > img {
     border-radius: 1.6rem;
     width: 100%;
+    margin-top: 2.5rem;
   }
   .acp__right {
     width: 90%;
     height: auto;
+    margin-top: 5rem;
+    padding: 2rem;
+  }
+  .acp_mobile_image {
+    display: block;
+  }
+  .acp_desktop_image {
+    display: none;
   }
   .hero__two > p {
+    width: 90%;
+  }
+  .aboutcards_section {
+    padding-top: 0;
+    margin-top: 5.5rem;
+  }
+  .aboutcards_section > h1 {
+    margin: auto;
     width: 90%;
   }
   .aboutcards_section > section {
@@ -719,6 +746,7 @@ option:hover {
   .aboutcards_section > section > .contact_card {
     margin-left: 0;
     width: 90% !important;
+    margin-top: 2.5rem;
   }
   /* about end here */
 
