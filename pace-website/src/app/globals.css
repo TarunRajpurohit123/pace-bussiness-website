@@ -655,22 +655,55 @@ option:hover {
 #mobile__navbar {
   display: none;
 }
-.home_wel_heading {
+.home__cta__section {
+  height: 34.6rem;
+  background: url("../../public/home-cta-bg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.home_cta_right > a {
+  display: inline-block;
+  color: var(--gray_100);
+  width: 20rem;
+  height: 5rem;
+  padding: 1rem 4rem 1rem 4rem;
+  border-radius: 0.4rem;
+  background-color: var(--red);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  letter-spacing: -0.05em;
+  text-align: center;
+  transition: all 0.5s;
+}
+.home_cta_right > a:hover {
+  opacity: 80%;
+}
+.home_cta_left > h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+  letter-spacing: -0.05em;
+  text-align: left;
+  color: var(--gray_100);
+}
+.home_cta_left > h1 {
   font-size: 4.4rem;
   font-weight: 700;
-  line-height: 6.6rem;
+  line-height: 5.2rem;
   letter-spacing: -0.05em;
+  text-align: left;
   color: var(--gray_100);
-  text-align: center;
 }
-.home_wel_heading > span {
-  color: var(--red);
+.home__cta__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.home_wel_paragraph {
-  font-size: 2.4rem;
-  font-weight: 400;
-  line-height: 3.6rem;
-  text-align: center;
-  color: var(--gray_100);
-  margin-top: 5rem;
+.home__cta__main {
+  display: flex;
+  justify-content: space-between;
+  width: 112rem;
+  height: 10.6rem;
+  margin: auto;
 }

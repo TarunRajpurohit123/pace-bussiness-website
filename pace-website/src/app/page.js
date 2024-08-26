@@ -1,9 +1,9 @@
-import HomeWelcome from "./components/HomeWelcome";
+import HomeCta from "./components/HomeCta";
 
 export default function Home() {
   return (
     <>
-      <HomeWelcome />
+      <HomeCta />
     </>
   );
 }
