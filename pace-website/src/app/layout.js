@@ -1,5 +1,6 @@
 import { Karla } from "next/font/google";
 import "./globals.css";
+import "./tablet-and-tablet.css";
 import { Annoucebar, Footer, Navbar } from "@/components";
 import MobileNavbar from "@/components/Navbar/MobileNavbar";
 
