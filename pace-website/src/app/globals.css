@@ -685,9 +685,42 @@ option:hover {
     display: none;
   }
 
-  .mobile-spacer{
+  .mobile-spacer {
     background-color: var(--mode-bg);
   }
+
+  /* about goes here */
+  .about__company_profile_section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .acp__left {
+    width: 90%;
+  }
+  .acp__left_row {
+    flex-direction: column;
+    height: auto;
+  }
+  .acp__left_row > img {
+    border-radius: 1.6rem;
+    width: 100%;
+  }
+  .acp__right {
+    width: 90%;
+    height: auto;
+  }
+  .hero__two > p {
+    width: 90%;
+  }
+  .aboutcards_section > section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutcards_section > section > .contact_card {
+    margin-left: 0;
+    width: 90% !important;
+  }
+  /* about end here */
 
   .page-width {
     width: 100%;
