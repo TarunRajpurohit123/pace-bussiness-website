@@ -41,6 +41,12 @@
   }
 
   /* about goes here */
+  .about__company_profile_section {
+    padding-top: 0 !important;
+  }
+  .hero__two {
+    padding-top: 17rem;
+  }
   .aboutcards_section {
     padding-bottom: 0;
   }
