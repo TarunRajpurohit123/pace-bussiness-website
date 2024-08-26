@@ -755,6 +755,10 @@ option:hover {
     margin: auto;
     flex-wrap: wrap;
   }
+  .zinzag-image {
+    width: 11rem !important;
+    height: 11rem !important;
+  }
   /* about end here */
 
   .page-width {

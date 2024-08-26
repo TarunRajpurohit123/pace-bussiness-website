@@ -48,7 +48,7 @@ export default function Zigzag({ styles }) {
               alt="Bali image"
               width={288}
               height={288}
-              className="rounded-lg  object-cover flex-shrink-0"
+              className="rounded-lg zinzag-image  object-cover flex-shrink-0"
               style={{ width: "28.8rem", height: "28.8rem" }}
               priority // Optional: can be used for images that are in the viewport on page load
             />
