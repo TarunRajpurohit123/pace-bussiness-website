@@ -10,6 +10,18 @@ import BrandCard from "./BrandCard";
 
 export default function HomeBrands() {
   const swiperRef = useRef(null);
+  const data = [
+    {
+      brand: "Zwankee",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/zwnakeeBrand.png",
+      hoverColor: "var(--pure)",
+      headingColor: "var(--mode-bg)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/zwankeelogo.png",
+    },
+  ];
   return (
     <>
       <section className="homebrands__section">
@@ -69,24 +81,25 @@ export default function HomeBrands() {
               }}
               className="mySwiper"
             >
-              <SwiperSlide>
-                <BrandCard />
-              </SwiperSlide>
-              <SwiperSlide style={{ marginLeft: "2.5rem" }}>
-                <BrandCard />
-              </SwiperSlide>
-              <SwiperSlide style={{ marginLeft: "2.5rem" }}>
-                <BrandCard />
-              </SwiperSlide>
-              <SwiperSlide style={{ marginLeft: "2.5rem" }}>
-                <BrandCard />
-              </SwiperSlide>
-              <SwiperSlide style={{ marginLeft: "2.5rem" }}>
-                <BrandCard />
-              </SwiperSlide>
-              <SwiperSlide style={{ marginLeft: "2.5rem" }}>
-                <BrandCard />
-              </SwiperSlide>
+              {data?.map((card, ind) => {
+                return (
+                  <>
+                    <SwiperSlide
+                      style={ind !== 0 ? { marginLeft: "2.5rem" } : {}}
+                    >
+                      <BrandCard
+                        brand={card?.brand}
+                        content={card?.content}
+                        image={card?.image}
+                        hoverColor={card?.hoverColor}
+                        hoverImage={card?.hoverImage}
+                        headingColor={card?.headingColor}
+                        brandLogo={card?.brandLogo}
+                      />
+                    </SwiperSlide>
+                  </>
+                );
+              })}
             </Swiper>
           </div>
         </div>
