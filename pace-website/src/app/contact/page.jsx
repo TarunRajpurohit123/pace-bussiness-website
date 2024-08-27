@@ -37,7 +37,7 @@ export default function Contact() {
     <>
       <Hero />
       <ContactForm />
-      <section className="contact_cards_section page-width mt-[10rem] mb-[7.5rem] flex justify-between">
+      <section className="contact_cards_section page-width c-mobile-width mt-[10rem] mb-[7.5rem] flex justify-between">
         {cardData?.map((card) => {
           return (
             <Card

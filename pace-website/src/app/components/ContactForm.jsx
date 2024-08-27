@@ -4,7 +4,7 @@ import Form from "./Form";
 export default function ContactForm() {
   return (
     <>
-      <section className="contact_form page-width flex justify-between items-start">
+      <section className="contact_form page-width c-mobile-width flex justify-between items-start">
         {/* left */}
         <div className="cform_left ">
           <div className="w-full h-full pt-[8rem] pl-[8rem] pr-[8rem]">

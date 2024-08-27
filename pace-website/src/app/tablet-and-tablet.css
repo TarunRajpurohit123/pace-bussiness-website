@@ -1,7 +1,5 @@
+/* contact goes here */
 @media (max-width: 1000px) {
-  :root {
-    font-size: 45%;
-  }
   .pages_hero_wrapper {
     display: none;
   }
@@ -20,13 +18,73 @@
     padding-top: 15rem;
     padding-bottom: 15rem;
   }
-}
+  .contact_form {
+    flex-direction: column;
+  }
+  .cform_left {
+    width: 100%;
+    height: auto !important;
+  }
+  .cform_left > div {
+    padding-bottom: 3rem;
+  }
+  .cform_right {
+    width: 100%;
+  }
+  .cform_right > section {
+    width: 100%;
+  }
+  .cform_right {
+    margin-top: 5rem;
+  }
+  #fname {
+    width: 100%;
+  }
+  #lname {
+    width: 100%;
+  }
+  #email {
+    width: 100%;
+  }
+  #phone {
+    width: 80%;
+  }
+  #message {
+    width: 100%;
+  }
 
+  form > div {
+    width: 100%;
+  }
+  .contactInputContainer {
+    width: 100%;
+  }
+  .contactInputContainer > div {
+    width: 100%;
+  }
+  .contactInputContainer > div > select {
+    width: 19%;
+  }
+  .location-code {
+    width: 100% !important;
+  }
+  .contact_btn {
+    width: 100%;
+  }
+  .c-mobile-width {
+    width: 90% !important;
+  }
+  .contact_card {
+    width: 32% !important;
+  }
+}
+/* contact end here */
+
+/* about goes */
 /* 768 under media query */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
   /* root */
   :root {
-    font-size: 50.5%;
     letter-spacing: -0.05em;
   }
   /* navbar goes */
@@ -202,3 +260,4 @@
     line-height: 5rem;
   }
 }
+/* about end */
