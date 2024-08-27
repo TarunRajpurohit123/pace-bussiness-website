@@ -11,6 +11,7 @@
   .pages_hero_mobile_l > p {
     font-size: 1.8rem;
     font-weight: 400;
+    width: 90%;
     color: var(--primary-text);
   }
   .hero__contact__mobile {
@@ -74,8 +75,8 @@
   .c-mobile-width {
     width: 90% !important;
   }
-  .contact_card {
-    width: 32% !important;
+  .contact_cards_section {
+    flex-direction: column;
   }
 }
 /* contact end here */
