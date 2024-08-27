@@ -198,6 +198,14 @@ body {
     #0b090a 93.81%
   );
 }
+.hero__contact__mobile {
+  background: linear-gradient(
+    180deg,
+    rgba(204, 51, 33, 0.5) 0%,
+    #0b090a 93.81%
+  );
+  display: none;
+}
 .pages_hero--left > h1 {
   font-size: 4.8rem;
   font-weight: 700;

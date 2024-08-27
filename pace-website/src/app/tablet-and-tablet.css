@@ -1,9 +1,26 @@
-
-/* 1024 */
-@media (max-width:1000px){
-  
+@media (max-width: 1000px) {
+  :root {
+    font-size: 45%;
+  }
+  .pages_hero_wrapper {
+    display: none;
+  }
+  .pages_hero_mobile_l > h1 {
+    font-size: 4.8rem;
+    font-weight: 700;
+    color: var(--pure_F7);
+  }
+  .pages_hero_mobile_l > p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--primary-text);
+  }
+  .hero__contact__mobile {
+    display: block;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+  }
 }
-
 
 /* 768 under media query */
 @media (max-width: 768px) {
