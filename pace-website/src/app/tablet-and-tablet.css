@@ -3,6 +3,16 @@
   .contact_cards_section {
     margin-top: 5rem;
   }
+  .c_row3 {
+    flex-direction: column;
+  }
+  .locationInputContainer {
+    margin-left: 0rem !important;
+    margin-top: 2.5rem;
+  }
+  .pure-contact-form {
+    height: auto !important;
+  }
   .pages_hero_wrapper {
     display: none;
   }
@@ -240,6 +250,7 @@
   }
   .about__cta__section {
     width: 90%;
+    height: auto;
   }
 }
 

@@ -66,7 +66,7 @@ export default function Form() {
             </div>
           </div>
           {/* row 3 */}
-          <div className="row flex mt-[2.5rem]">
+          <div className="row flex mt-[2.5rem] c_row3">
             {/* phone */}
             <div className="contactInputContainer flex flex-col">
               <label htmlFor="phone">
@@ -98,7 +98,7 @@ export default function Form() {
               </div>
             </div>
             {/* location */}
-            <div className="contactInputContainer flex flex-col ml-[2.5rem]">
+            <div className="contactInputContainer locationInputContainer flex flex-col ml-[2.5rem]">
               <label htmlFor="location">
                 Location <span style={{ color: "var(--red)" }}>*</span>
               </label>
