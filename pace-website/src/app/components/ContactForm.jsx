@@ -17,6 +17,7 @@ export default function ContactForm() {
             {/* topic selector start */}
             <div className="c__topic_selector">
               <label>Topics (Please choose the following)</label>
+              <br />
               <select className="contact__left_select">
                 <option>Retailer Request</option>
               </select>

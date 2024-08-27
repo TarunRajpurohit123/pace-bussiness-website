@@ -1,11 +1,11 @@
-import HomeCta from "./components/HomeCta";
-import HomeHighlightCarousel from "./components/HomeHighlightCarousel";
+import HomeBrands from "./components/HomeBrands";
+import HomeWelcome from "./components/HomeWelcome";
 
 export default function Home() {
   return (
     <>
-      {/* <HomeCta /> */}
-      <HomeHighlightCarousel />
+      {/* <HomeWelcome /> */}
+      <HomeBrands />
     </>
   );
 }
