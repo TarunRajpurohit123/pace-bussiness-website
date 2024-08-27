@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="pages_hero_mobile_r flex justify-center">
             <Image
               className="mt-[5rem] contact--hero-image"
-              style={{ width: "50%" }}
+              style={{ width: "70%" }}
               src="/contact-hero.png"
               width={800}
               height={812}
