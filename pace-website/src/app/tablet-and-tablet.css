@@ -7,12 +7,15 @@
     font-size: 4.8rem;
     font-weight: 700;
     color: var(--pure_F7);
+    width: 90%;
+    margin: auto;
   }
   .pages_hero_mobile_l > p {
     font-size: 1.8rem;
     font-weight: 400;
     width: 90%;
     color: var(--primary-text);
+    margin: auto;
   }
   .hero__contact__mobile {
     display: block;
@@ -77,6 +80,10 @@
   }
   .contact_cards_section {
     flex-direction: column;
+  }
+  .contact_card {
+    margin-top: 2.5rem;
+    width: 100%;
   }
 }
 /* contact end here */
