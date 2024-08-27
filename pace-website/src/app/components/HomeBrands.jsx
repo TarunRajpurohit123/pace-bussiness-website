@@ -20,6 +20,86 @@ export default function HomeBrands() {
       headingColor: "var(--mode-bg)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/zwankeelogo.png",
+      subheadiColor: "var(--mode-bg)",
+    },
+    {
+      brand: "Ostilos",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/ostilosBrand.png",
+      hoverColor: "#0C4831",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/OstilosLogo.png",
+      subheadiColor: "var(--pure)",
+    },
+    {
+      brand: "Wishrows",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/widhrowsBrand.jpeg",
+      hoverColor: "#1E3557",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/WishroLogo.png",
+      subheadiColor: "var(--pure)",
+    },
+    {
+      brand: "Pace Print Innovations",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/ppiBrand.jpeg",
+      hoverColor: "#F36C3F",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/ppiLogo.png",
+      subheadiColor: "var(--pure)",
+      contentColor: "var(--pure)",
+    },
+    {
+      brand: "Zwankee",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/zwnakeeBrand.png",
+      hoverColor: "var(--pure)",
+      headingColor: "var(--mode-bg)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/zwankeelogo.png",
+      subheadiColor: "var(--mode-bg)",
+    },
+    {
+      brand: "Ostilos",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/ostilosBrand.png",
+      hoverColor: "#0C4831",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/OstilosLogo.png",
+      subheadiColor: "var(--pure)",
+    },
+    {
+      brand: "Wishrows",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/widhrowsBrand.jpeg",
+      hoverColor: "#1E3557",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/WishroLogo.png",
+      subheadiColor: "var(--pure)",
+    },
+    {
+      brand: "Pace Print Innovations",
+      content:
+        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      image: "/ppiBrand.jpeg",
+      hoverColor: "#F36C3F",
+      headingColor: "var(--pure)",
+      hoverImage: "/zwankee-brand-hover.png",
+      brandLogo: "/ppiLogo.png",
+      subheadiColor: "var(--pure)",
+      contentColor: "var(--pure)",
     },
   ];
   return (
@@ -95,6 +175,8 @@ export default function HomeBrands() {
                         hoverImage={card?.hoverImage}
                         headingColor={card?.headingColor}
                         brandLogo={card?.brandLogo}
+                        subheadiColor={card?.subheadiColor}
+                        contentColor={card?.contentColor}
                       />
                     </SwiperSlide>
                   </>
