@@ -1,5 +1,11 @@
 /* contact goes here */
 @media (max-width: 1000px) {
+  .pure-contact-form {
+    padding: 2rem !important;
+  }
+  .cform_left > div {
+    padding: 2rem !important;
+  }
   .contact_cards_section {
     margin-top: 5rem;
   }
@@ -33,7 +39,7 @@
   .hero__contact__mobile {
     display: block;
     padding-top: 15rem;
-    padding-bottom: 15rem;
+    padding-bottom: 5rem;
   }
   .contact_form {
     flex-direction: column;
@@ -43,7 +49,7 @@
     height: auto !important;
   }
   .cform_left > div {
-    padding-bottom: 3rem;
+    padding-bottom: 8rem;
   }
   .cform_right {
     width: 100%;
@@ -107,6 +113,14 @@
   .contact_card {
     margin-top: 2.5rem;
     width: 100%;
+  }
+}
+@media (max-width: 610px) {
+  .pure-contact-form {
+    padding: 2rem !important;
+  }
+  .cform_left > div {
+    padding: 2rem !important;
   }
 }
 /* contact end here */
