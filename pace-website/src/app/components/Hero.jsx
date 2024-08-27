@@ -20,6 +20,7 @@ export default function Hero() {
           <div className="pages_hero--right">
             <Image
               className="mt-[40rem] contact--hero-image"
+              style={{ width: "80rem" }}
               src="/contact-hero.png"
               width={800}
               height={812}
