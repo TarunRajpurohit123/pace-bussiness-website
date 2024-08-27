@@ -1,5 +1,8 @@
 /* contact goes here */
 @media (max-width: 1000px) {
+  .contact_cards_section {
+    margin-top: 5rem;
+  }
   .pages_hero_wrapper {
     display: none;
   }
@@ -79,8 +82,18 @@
     width: 90% !important;
   }
   .contact_cards_section {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
+  .contact_card {
+    margin-top: 2.5rem;
+    width: 49%;
+  }
+  .contact_card > a {
+    width: 100%;
+    display: inline-block;
+  }
+}
+@media (max-width: 647px) {
   .contact_card {
     margin-top: 2.5rem;
     width: 100%;
