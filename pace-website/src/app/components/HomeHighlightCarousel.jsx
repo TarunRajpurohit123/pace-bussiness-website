@@ -67,18 +67,18 @@ export default function HomeHighlightCarousel() {
     },
   ];
 
-  // useEffect(() => {
-  //   // Set up an interval to update the state every second (1000 milliseconds)
-  //   const interval = setInterval(() => {
-  //     const ThreeNext = document.getElementById("3dNext");
-  //     if (ThreeNext) {
-  //       ThreeNext?.click();
-  //     }
-  //   }, 4000);
+  useEffect(() => {
+    // Set up an interval to update the state every second (1000 milliseconds)
+    const interval = setInterval(() => {
+      const ThreeNext = document.getElementById("3dNext");
+      if (ThreeNext) {
+        ThreeNext?.click();
+      }
+    }, 4000);
 
-  //   // Cleanup function to clear the interval when the component unmounts
-  //   return () => clearInterval(interval);
-  // }, []);
+    // Cleanup function to clear the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div className="mb-[25rem] mt-[7.5rem]">
