@@ -140,13 +140,13 @@ export default function HomeBrands() {
         </div>
 
         {/* carousel goes here*/}
-        <div className="flex justify-end page-width">
+        <div className="flex justify-end page-width overflow-hidden">
           <div
             className="brand_carousel"
             style={{
               marginTop: "5rem",
               width: "134.2rem",
-              marginRight: "-4rem",
+              marginRight: "-10rem",
             }}
           >
             <Swiper
