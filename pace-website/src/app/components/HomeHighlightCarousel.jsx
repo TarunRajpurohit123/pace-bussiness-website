@@ -56,7 +56,7 @@ export default function HomeHighlightCarousel() {
         </div>
       </section>
       <div
-        className="page-width"
+        className="page-width mt-[5rem]"
         style={{
           height: "300px",
           margin: "auto",

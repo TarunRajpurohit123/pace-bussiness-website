@@ -922,8 +922,8 @@ option:hover {
 /* styles of video background */
 .video-background {
   position: relative;
-  width: 100%;
-  height: 100vh; /* Full viewport height */
+  /* width: 100%; */
+  height: 72.8rem; /* Full viewport height */
   overflow: hidden;
 }
 
