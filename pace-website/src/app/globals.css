@@ -842,3 +842,36 @@ option:hover {
   text-align: center;
   color: var(--gray_400);
 }
+
+.threepillar__left {
+  width: 41.2rem;
+  height: 52rem;
+}
+
+.threepillar__left > div {
+  display: flex;
+}
+
+.threepillar__left > div > .linkText {
+  margin-left: 5rem;
+  width: 21.6rem;
+  height: 10rem;
+}
+.threepillar__left > div > .linkText > h2 {
+  color: #f1f4e6;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.6rem;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.threepillar__left > div > .linkText > p {
+  color: var(--gray_400);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  text-align: left;
+}
+.threepillar__main {
+  margin-top: 5rem;
+}
