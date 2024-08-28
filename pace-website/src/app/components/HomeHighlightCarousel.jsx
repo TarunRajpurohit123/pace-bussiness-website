@@ -1,7 +1,7 @@
 "use client";
 
 // components/Carousel3D.js
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 
@@ -11,55 +11,38 @@ export default function HomeHighlightCarousel() {
   const slides = [
     {
       key: 1,
-      content: (
-        <img
-          src="about_cta_bg.png"
-          alt="1"
-          style={{ width: "100%", height: "100%" }}
-        />
-      ),
+      content: <img src="https://picsum.photos/1500/801/?random" alt="1" />,
     },
     {
       key: 2,
-      content: (
-        <img
-          src="about_cta_bg.png"
-          alt="2"
-          style={{ width: "100%", height: "100%" }}
-        />
-      ),
+      content: <img src="https://picsum.photos/1500/801/?random" alt="2" />,
     },
     {
       key: 3,
-      content: (
-        <img
-          src="about_cta_bg.png"
-          alt="3"
-          style={{ width: "100%", height: "100%" }}
-        />
-      ),
+      content: <img src="https://picsum.photos/1500/801/?random" alt="3" />,
     },
     {
       key: 4,
-      content: (
-        <img
-          src="about_cta_bg.png"
-          alt="4"
-          style={{ width: "100%", height: "100%" }}
-        />
-      ),
+      content: <img src="https://picsum.photos/1500/801/?random" alt="4" />,
     },
     {
       key: 5,
-      content: (
-        <img
-          src="about_cta_bg.png"
-          alt="5"
-          style={{ width: "100%", height: "100%" }}
-        />
-      ),
+      content: <img src="https://picsum.photos/1500/801/?random" alt="5" />,
     },
   ];
+
+  useEffect(() => {
+    // Set up an interval to update the state every second (1000 milliseconds)
+    const interval = setInterval(() => {
+      const ThreeNext = document.getElementById("3dNext");
+      if (ThreeNext) {
+        ThreeNext?.click();
+      }
+    }, 4000);
+
+    // Cleanup function to clear the interval when the component unmounts
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <div
@@ -84,7 +67,10 @@ export default function HomeHighlightCarousel() {
         >
           Prev
         </button>
-        <button onClick={() => setIndex((index + 1) % slides.length)}>
+        <button
+          id="3dNext"
+          onClick={() => setIndex((index + 1) % slides.length)}
+        >
           Next
         </button>
       </div>
