@@ -11,23 +11,23 @@ export default function HomeHighlightCarousel() {
   const slides = [
     {
       key: 1,
-      content: <img src="https://picsum.photos/1500/801/?random" alt="1" />,
+      content: <img src="https://picsum.photos/620/320/?random" alt="1" />,
     },
     {
       key: 2,
-      content: <img src="https://picsum.photos/1500/801/?random" alt="2" />,
+      content: <img src="https://picsum.photos/620/320/?random" alt="2" />,
     },
     {
       key: 3,
-      content: <img src="https://picsum.photos/1500/801/?random" alt="3" />,
+      content: <img src="https://picsum.photos/620/320/?random" alt="3" />,
     },
     {
       key: 4,
-      content: <img src="https://picsum.photos/1500/801/?random" alt="4" />,
+      content: <img src="https://picsum.photos/620/320/?random" alt="4" />,
     },
     {
       key: 5,
-      content: <img src="https://picsum.photos/1500/801/?random" alt="5" />,
+      content: <img src="https://picsum.photos/620/320/?random" alt="5" />,
     },
   ];
 
@@ -58,7 +58,6 @@ export default function HomeHighlightCarousel() {
       <div
         className="page-width"
         style={{
-          width: "100%",
           height: "300px",
           margin: "auto",
           position: "relative",
