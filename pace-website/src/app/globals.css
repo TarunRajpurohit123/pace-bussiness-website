@@ -48,6 +48,7 @@ body {
   --heroGradientColor1: rgba(204, 51, 33, 0.5);
   --brandHover: #0000001a;
   --threePillarBoxShadow: #f7f7f70d;
+  --golden: #ffae42;
 }
 
 .back-gray_100 {
@@ -755,7 +756,7 @@ option:hover {
   font-weight: 400;
   line-height: 3.6rem;
   text-align: center;
-  color: var(--gray_100);
+  color: var(--gray_400);
 }
 
 .homebrands__top_one > h1 {
@@ -821,104 +822,14 @@ option:hover {
   line-height: 2.7rem;
   letter-spacing: 0.2em;
 }
-.homeThreePillar__top__heading {
+
+.htp__heading {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 5.7rem;
   letter-spacing: -0.05em;
-  text-align: center;
-  color: var(--pure);
-}
-.homeThreePillar__top__heading > span {
-  color: var(--red);
-}
-.homeThreePillar__top__content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1.5rem;
-}
-.homeThreePillar__top__content > p {
-  width: 69rem;
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 2.3rem;
-  text-align: center;
-  color: var(--gray_400);
-}
-
-.threepillar__left {
-  width: 41.2rem;
-  height: 52rem;
-}
-
-.threepillar__left > div {
-  display: flex;
-}
-
-.threepillar__left > div > .linkText {
-  margin-left: 5rem;
-  width: 21.6rem;
-  height: 10rem;
-}
-.threepillar__left > div > .linkText > h2 {
-  color: var(--pure);
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 3.6rem;
-  letter-spacing: -0.05em;
-  text-align: left;
-}
-.threepillar__left > div > .linkText > p {
-  color: var(--gray_400);
-  font-size: 1.8rem;
-  font-weight: 400;
-  line-height: 2.7rem;
-  text-align: left;
-}
-.threepillar__main {
-  margin-top: 5rem;
-}
-
-.threepillar__right {
-  width: 81.8rem;
-  height: 52rem;
-  padding: 2.5rem;
-  border-radius: 1.2rem;
-  box-shadow: 0px 4px 8px 0px var(--threePillarBoxShadow);
-  box-shadow: 0px -2px 8px 0px var(--threePillarBoxShadow);
-}
-.threepillar__main {
-  display: flex;
-  justify-content: space-between;
-}
-.threepillar__right > h1 {
-  color: var(--pure);
-  font-size: 4.4rem;
-  font-weight: 700;
-  line-height: 5.7rem;
-  text-align: left;
-}
-.threepillar__right > h1 > span {
-  color: var(--red);
-}
-.threeMainContent {
-  margin-top: 2.5rem;
-}
-.threeMainContent > .content > h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 3.1rem;
   text-align: left;
   color: var(--pure);
-}
-.threeMainContent > .content > p {
-  font-size: 1.6rem;
-  font-weight: 400;
-  line-height: 2.4rem;
-  text-align: left;
-  color: var(--gray_400);
-  margin-top: 1.5rem;
 }
 
 /* styles of video background */
@@ -950,4 +861,34 @@ option:hover {
 
 .hhcwrapper > div > div {
   border-radius: 2.4rem;
+}
+.wc__left {
+  width: 80.3rem;
+  height: 49.6rem;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px 0px var(--threePillarBoxShadow);
+  box-shadow: 0px -2px 8px 0px var(--threePillarBoxShadow);
+}
+.wc__left > h1 {
+  color: var(--pure);
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 6.6rem;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+.wc__left__content > h1 {
+  color: var(--golden);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.1rem;
+  text-align: left;
+}
+.wc__left__content > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  color: var(--gray_400);
 }
