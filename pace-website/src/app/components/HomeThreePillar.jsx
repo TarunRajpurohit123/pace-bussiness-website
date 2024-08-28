@@ -60,7 +60,7 @@ export default function HomeThreePillar() {
                 <CircleIcon2 />
               </div>
               <div className="linkText">
-                <h2>Inspiring Lifestyle</h2>
+                <h2>Fulfilling Aspirations</h2>
                 <p>Fully committed to the success company</p>
               </div>
             </div>
