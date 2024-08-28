@@ -945,3 +945,7 @@ option:hover {
   text-align: center;
 }
 /* end video background styles */
+
+.hhcwrapper > div > div {
+  border-radius: 2.4rem;
+}

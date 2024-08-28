@@ -4,6 +4,7 @@
 import React, { useEffect, useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
+import Image from "next/image";
 
 export default function HomeHighlightCarousel() {
   const [index, setIndex] = useState(0);
@@ -11,38 +12,73 @@ export default function HomeHighlightCarousel() {
   const slides = [
     {
       key: 1,
-      content: <img src="https://picsum.photos/620/320/?random" alt="1" />,
+      content: (
+        <img
+          src="https://picsum.photos/620/320/?random"
+          // width="620"
+          // height="320"
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
     },
     {
       key: 2,
-      content: <img src="https://picsum.photos/620/320/?random" alt="2" />,
+      content: (
+        <img
+          src="https://picsum.photos/620/320/?random"
+          // width="620"
+          // height="320"
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
     },
     {
       key: 3,
-      content: <img src="https://picsum.photos/620/320/?random" alt="3" />,
+      content: (
+        <img
+          src="https://picsum.photos/620/320/?random"
+          // width="620"
+          // height="320"
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
     },
     {
       key: 4,
-      content: <img src="https://picsum.photos/620/320/?random" alt="4" />,
+      content: (
+        <img
+          src="https://picsum.photos/620/320/?random"
+          // width="620"
+          // height="320"
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
     },
     {
       key: 5,
-      content: <img src="https://picsum.photos/620/320/?random" alt="5" />,
+      content: (
+        <img
+          src="https://picsum.photos/620/320/?random"
+          // width="620"
+          // height="320"
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
     },
   ];
 
-  useEffect(() => {
-    // Set up an interval to update the state every second (1000 milliseconds)
-    const interval = setInterval(() => {
-      const ThreeNext = document.getElementById("3dNext");
-      if (ThreeNext) {
-        ThreeNext?.click();
-      }
-    }, 4000);
+  // useEffect(() => {
+  //   // Set up an interval to update the state every second (1000 milliseconds)
+  //   const interval = setInterval(() => {
+  //     const ThreeNext = document.getElementById("3dNext");
+  //     if (ThreeNext) {
+  //       ThreeNext?.click();
+  //     }
+  //   }, 4000);
 
-    // Cleanup function to clear the interval when the component unmounts
-    return () => clearInterval(interval);
-  }, []);
+  //   // Cleanup function to clear the interval when the component unmounts
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <>
@@ -56,7 +92,7 @@ export default function HomeHighlightCarousel() {
         </div>
       </section>
       <div
-        className="page-width mt-[5rem]"
+        className="page-width hhcwrapper pt-[5rem]"
         style={{
           height: "300px",
           margin: "auto",
