@@ -817,3 +817,28 @@ option:hover {
   line-height: 2.7rem;
   letter-spacing: 0.2em;
 }
+.homeThreePillar__top__heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 5.7rem;
+  letter-spacing: -0.05em;
+  text-align: center;
+  color: #f1f4e6;
+}
+.homeThreePillar__top__heading > span {
+  color: var(--red);
+}
+.homeThreePillar__top__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.homeThreePillar__top__content > p {
+  width: 69rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  text-align: center;
+  color: var(--gray_400);
+}

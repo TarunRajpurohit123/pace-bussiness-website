@@ -1,5 +1,6 @@
 import HomeBrands from "./components/HomeBrands";
 import HomeHighlightCarousel from "./components/HomeHighlightCarousel";
+import HomeThreePillar from "./components/HomeThreePillar";
 import HomeWelcome from "./components/HomeWelcome";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <>
       {/* <HomeWelcome /> */}
       {/* <HomeBrands /> */}
-      <HomeHighlightCarousel />
+      {/* <HomeHighlightCarousel /> */}
+      <HomeThreePillar />
     </>
   );
 }
