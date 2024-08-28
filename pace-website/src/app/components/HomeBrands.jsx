@@ -27,7 +27,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/ostilosBrand.png",
-      hoverColor: "#0C4831",
+      hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/OstilosLogo.png",
@@ -38,7 +38,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/widhrowsBrand.jpeg",
-      hoverColor: "#1E3557",
+      hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/WishroLogo.png",
@@ -49,7 +49,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/ppiBrand.jpeg",
-      hoverColor: "#F36C3F",
+      hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/ppiLogo.png",
@@ -72,7 +72,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/ostilosBrand.png",
-      hoverColor: "#0C4831",
+      hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/OstilosLogo.png",
@@ -83,7 +83,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/widhrowsBrand.jpeg",
-      hoverColor: "#1E3557",
+      hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/WishroLogo.png",
@@ -94,7 +94,7 @@ export default function HomeBrands() {
       content:
         "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
       image: "/ppiBrand.jpeg",
-      hoverColor: "#F36C3F",
+      hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/zwankee-brand-hover.png",
       brandLogo: "/ppiLogo.png",

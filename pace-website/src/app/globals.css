@@ -16,12 +16,12 @@ body {
 }
 
 .dark-mode {
-  --pure: white;
+  --pure: #f1f4e6;
   --pure_F7: #f7f7f7;
   --primary-text: #b3b3b3;
   --mode-bg: #191918;
-  /* --mode-bg: #0b090a; */
-  --primary_01_black: #0b090a;
+  --brandcard: #191918;
+  --primary_01_black: #191918;
   --success: #17b26a;
   --gray_25: #f9f9f9;
   --gray_100: #e7e7e7;
@@ -30,7 +30,7 @@ body {
   --gray_500: #848384;
   --gray_700: #555354;
   --gray_900: #0b090a;
-  --red: #cc3321;
+  --red: #cb3321;
   --cf-opacity: rgba(0, 0, 0, 0.67);
   --contact-box: #f7f7f70d;
   --contact-card-border: #818181;
@@ -42,9 +42,12 @@ body {
       var(--red) 100%
     ),
     linear-gradient(0deg, rgba(60, 58, 59, 0.67), rgba(60, 58, 59, 0.67));
-
-  /* extra */
-  --brandcard: #191918;
+  --ostilosCardHover: #0c4831;
+  --wishrowCardHover: #1e3557;
+  --ppiCardHover: #f36c3f;
+  --heroGradientColor1: rgba(204, 51, 33, 0.5);
+  --brandHover: #0000001a;
+  --threePillarBoxShadow: #f7f7f70d;
 }
 
 .back-gray_100 {
@@ -198,15 +201,15 @@ body {
 .pages_hero_wrapper {
   background: linear-gradient(
     180deg,
-    rgba(204, 51, 33, 0.5) 0%,
-    #0b090a 93.81%
+    var(--heroGradientColor1) 0%,
+    var(--gray_900) 93.81%
   );
 }
 .hero__contact__mobile {
   background: linear-gradient(
     180deg,
-    rgba(204, 51, 33, 0.5) 0%,
-    #0b090a 93.81%
+    var(--heroGradientColor1) 0%,
+    var(--gray_900) 93.81%
   );
   display: none;
 }
@@ -457,7 +460,6 @@ option:hover {
 
 /* checkbox of website goes here */
 .checkbox-wrapper-40 {
-  --borderColor: #48c;
   --borderWidth: 0.2rem;
   cursor: pointer !important;
 }
@@ -808,7 +810,7 @@ option:hover {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0000001a;
+  background: var(--brandHover);
   transition: background-color 0.5s ease;
 }
 .brand_overlay_subheading {
@@ -823,7 +825,7 @@ option:hover {
   line-height: 5.7rem;
   letter-spacing: -0.05em;
   text-align: center;
-  color: #f1f4e6;
+  color: var(--pure);
 }
 .homeThreePillar__top__heading > span {
   color: var(--red);
@@ -858,7 +860,7 @@ option:hover {
   height: 10rem;
 }
 .threepillar__left > div > .linkText > h2 {
-  color: #f1f4e6;
+  color: var(--pure);
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 3.6rem;
@@ -881,15 +883,15 @@ option:hover {
   height: 52rem;
   padding: 2.5rem;
   border-radius: 1.2rem;
-  box-shadow: 0px 4px 8px 0px #f7f7f70d;
-  box-shadow: 0px -2px 8px 0px #f7f7f70d;
+  box-shadow: 0px 4px 8px 0px var(--threePillarBoxShadow);
+  box-shadow: 0px -2px 8px 0px var(--threePillarBoxShadow);
 }
 .threepillar__main {
   display: flex;
   justify-content: space-between;
 }
 .threepillar__right > h1 {
-  color: #f1f4e6;
+  color: var(--pure);
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 5.7rem;
@@ -906,7 +908,7 @@ option:hover {
   font-weight: 700;
   line-height: 3.1rem;
   text-align: left;
-  color: #f1f4e6;
+  color: var(--pure);
 }
 .threeMainContent > .content > p {
   font-size: 1.6rem;
