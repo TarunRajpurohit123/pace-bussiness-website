@@ -1,0 +1,16 @@
+export default function HomeVideoComponent() {
+  return (
+    <>
+      <div className="video-background">
+        <video autoPlay loop muted className="video">
+          <source src="/vid-bg.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        {/* <div className="content"> */}
+        {/* Your content goes here */}
+        {/* <h1>Welcome to Our Website</h1> */}
+        {/* </div> */}
+      </div>
+    </>
+  );
+}

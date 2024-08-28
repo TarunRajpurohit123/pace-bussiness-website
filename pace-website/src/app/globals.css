@@ -918,3 +918,30 @@ option:hover {
   color: var(--gray_400);
   margin-top: 1.5rem;
 }
+
+/* styles of video background */
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.video-background > .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the video covers the background */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Places the video behind content */
+}
+
+.video-background .content {
+  position: relative;
+  z-index: 1; /* Places content above the video */
+  color: white;
+  text-align: center;
+}
+/* end video background styles */
