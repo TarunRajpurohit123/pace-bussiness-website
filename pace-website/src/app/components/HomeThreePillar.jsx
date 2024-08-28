@@ -1,3 +1,5 @@
+"use client"
+
 import CircleIcon2 from "@/components/svgs/CircleIcon2";
 import StepLineIcon from "@/components/svgs/StepLineIcon";
 import Image from "next/image";
