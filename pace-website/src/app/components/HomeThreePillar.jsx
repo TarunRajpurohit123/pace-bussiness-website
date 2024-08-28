@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import CircleIcon2 from "@/components/svgs/CircleIcon2";
 import StepLineIcon from "@/components/svgs/StepLineIcon";
@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function HomeThreePillar() {
   return (
     <>
-      <section className="homeThreePillar page-width">
+      <section className="homeThreePillar page-width pt-[7.5rem] pb-[7.5rem]">
         {/* three pillar top */}
         <div className="homeThreePillar__top">
           <h1 className="homeThreePillar__top__heading">

@@ -81,7 +81,7 @@ export default function HomeHighlightCarousel() {
   // }, []);
 
   return (
-    <>
+    <div className="mb-[25rem] mt-[7.5rem]">
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
           <h1>Higlights of the Year</h1>
@@ -123,6 +123,6 @@ export default function HomeHighlightCarousel() {
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
