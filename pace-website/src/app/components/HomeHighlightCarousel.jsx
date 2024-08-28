@@ -45,52 +45,49 @@ export default function HomeHighlightCarousel() {
   }, []);
 
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "300px",
-        margin: "auto",
-        position: "relative",
-      }}
-    >
-      <Carousel
-        slides={slides}
-        goToSlide={index}
-        offsetRadius={2}
-        showNavigation={true}
-        animationConfig={config.gentle}
-      />
-      <div style={{ textAlign: "center", marginTop: "20px" }}>
-        <button
-          onClick={() => setIndex((index - 1 + slides.length) % slides.length)}
-          style={{ marginRight: "10px" }}
-        >
-          Prev
-        </button>
-        <button
-          id="3dNext"
-          onClick={() => setIndex((index + 1) % slides.length)}
-        >
-          Next
-        </button>
+    <>
+      <section className="home__high__carousel">
+        <div className="highlightC__inner page-width">
+          <h1>Higlights of the Year</h1>
+          <p>
+            Founded in 2015 with the launch of Cot and Candy,
+            <br /> <span>PACE</span> Ecommerce Ventures Ltd.
+          </p>
+        </div>
+      </section>
+      <div
+        className="page-width"
+        style={{
+          width: "100%",
+          height: "300px",
+          margin: "auto",
+          position: "relative",
+        }}
+      >
+        <Carousel
+          slides={slides}
+          goToSlide={index}
+          offsetRadius={2}
+          showNavigation={true}
+          animationConfig={config.gentle}
+        />
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
+          <button
+            onClick={() =>
+              setIndex((index - 1 + slides.length) % slides.length)
+            }
+            style={{ marginRight: "10px" }}
+          >
+            Prev
+          </button>
+          <button
+            id="3dNext"
+            onClick={() => setIndex((index + 1) % slides.length)}
+          >
+            Next
+          </button>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
-
-// export default function HomeHighlightCarousel() {
-//   return (
-//     <>
-//       <section className="home__high__carousel">
-//         <div className="highlightC__inner page-width">
-//           <h1>Higlights of the Year</h1>
-//           <p>
-//             Founded in 2015 with the launch of Cot and Candy,
-//             <br /> <span>PACE</span> Ecommerce Ventures Ltd.
-//           </p>
-//         </div>
-//       </section>
-
-//     </>
-//   );
-// }

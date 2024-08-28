@@ -4,6 +4,7 @@ export default function HomeVideoComponent() {
       <div className="video-background">
         <video autoPlay loop muted className="video">
           <source src="/vid-bg.mp4" type="video/mp4" />
+          <source src="/vid-bg.ogg" type="video/ogg" />
           Your browser does not support the video tag.
         </video>
         {/* <div className="content"> */}

@@ -104,7 +104,7 @@ export default function HomeBrands() {
   ];
   return (
     <>
-      <section className="homebrands__section">
+      <section className="homebrands__section pt-[7.5rem] pb-[7.5rem]">
         <div className="homebrands__top  page-width">
           <div className="flex homebrands__top_one justify-between items-center">
             {/* heading */}
@@ -140,13 +140,13 @@ export default function HomeBrands() {
         </div>
 
         {/* carousel goes here*/}
-        <div className="flex justify-end">
+        <div className="flex justify-end page-width">
           <div
             className="brand_carousel"
             style={{
               marginTop: "5rem",
-              marginLeft: "2rem",
               width: "134.2rem",
+              marginRight: "-4rem",
             }}
           >
             <Swiper
