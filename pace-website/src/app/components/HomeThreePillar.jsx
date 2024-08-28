@@ -66,7 +66,49 @@ export default function HomeThreePillar() {
             </div>
             {/* pillar 2 end */}
           </div>
-          <div className="threepillar__right"></div>
+
+          {/* three pillar right goes here */}
+          <div className="threepillar__right">
+            <h1>
+              Inspiring <span>Lifestyle</span>
+            </h1>
+            <div className="threeMainContent">
+              {/* first */}
+              <div className="content">
+                <h2>What it Represents: </h2>
+                <p>
+                  The commitment to enhancing the quality of life for customers
+                  through innovative, stylish, and functional products. This
+                  pillar reflects PACE's dedication to creating brands that
+                  resonate with modern lifestyles and consumer aspirations.
+                </p>
+              </div>
+              {/* second */}
+              <div className="content mt-[1.5rem]">
+                <h2>What it Represents: </h2>
+                <p>
+                  The commitment to enhancing the quality of life for customers
+                  through innovative, stylish, and functional products. This
+                  pillar reflects PACE's dedication to creating brands that
+                  resonate with modern lifestyles and consumer aspirations.
+                </p>
+              </div>
+              {/* third */}
+              <div className="content mt-[1.5rem]">
+                <h2>Lifestyle </h2>
+                <div className="mt-[2.5rem] flex items-center">
+                  <Image src="/ostiloslogo2.png" width="137" height="36" />
+                  <Image
+                    src="/cotncandylogo.png"
+                    className="ml-[5rem]"
+                    width="138"
+                    height="36"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* three pillar right end here */}
         </main>
       </section>
     </>

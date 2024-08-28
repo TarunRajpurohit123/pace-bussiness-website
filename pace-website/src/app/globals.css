@@ -875,3 +875,44 @@ option:hover {
 .threepillar__main {
   margin-top: 5rem;
 }
+
+.threepillar__right {
+  width: 81.8rem;
+  height: 52rem;
+  padding: 2.5rem;
+  border-radius: 1.2rem;
+  box-shadow: 0px 4px 8px 0px #f7f7f70d;
+  box-shadow: 0px -2px 8px 0px #f7f7f70d;
+}
+.threepillar__main {
+  display: flex;
+  justify-content: space-between;
+}
+.threepillar__right > h1 {
+  color: #f1f4e6;
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 5.7rem;
+  text-align: left;
+}
+.threepillar__right > h1 > span {
+  color: var(--red);
+}
+.threeMainContent {
+  margin-top: 2.5rem;
+}
+.threeMainContent > .content > h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.1rem;
+  text-align: left;
+  color: #f1f4e6;
+}
+.threeMainContent > .content > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  color: var(--gray_400);
+  margin-top: 1.5rem;
+}
