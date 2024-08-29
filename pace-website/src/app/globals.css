@@ -31,6 +31,7 @@ body {
   --gray_700: #555354;
   --gray_900: #0b090a;
   --red: #cb3321;
+  --redOpacity: #d24838;
   --cf-opacity: rgba(0, 0, 0, 0.67);
   --contact-box: #f7f7f70d;
   --contact-card-border: #818181;
@@ -955,4 +956,42 @@ option:hover {
   text-align: center;
   color: var(--gray_400);
   margin-top: 1.5rem;
+}
+
+.investors__left {
+  width: 73rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid var(--gray_700);
+  border-bottom: 2px solid var(--gray_700);
+}
+
+.investors__left > .investors__cn {
+  font-size: 4.4rem;
+  font-weight: 400;
+  color: var(--pure);
+  line-height: 6.6rem;
+}
+.investors__right {
+  width: 50rem;
+  height: 30rem;
+  background-color: var(--red);
+}
+.investor_contactHeding {
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 6.6rem;
+  padding-left: 2.5rem;
+  padding-top: 1rem;
+  color: var(--pure);
+}
+.investors_cnLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  background-color: var(--redOpacity);
 }
