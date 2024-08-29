@@ -7,9 +7,15 @@ import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import BrandCard from "./BrandCard";
+import Link from "next/link";
+import ArrowRightIcon from "@/components/svgs/arrowRightIcon";
 
 export default function HomeBrands() {
   const swiperRef = useRef(null);
+  const [activeIcon, setActiveIcon] = useState({
+    prev: "var(--iconColor)",
+    next: "var(--iconColor)",
+  });
   const data = [
     {
       brand: "Zwankee",
@@ -112,22 +118,37 @@ export default function HomeBrands() {
               Our <span style={{ color: "var(--red)" }}>Brands</span>
             </h1>
             {/* carousel button */}
-            <div className="bcarousel__button">
+            <div className="bcarousel__button flex items-center">
               <button
                 onClick={() => {
+                  setActiveIcon(() => {
+                    return {
+                      prev: "var(--pure)",
+                      next: "var(--iconColor)",
+                    };
+                  });
                   if (swiperRef.current) swiperRef.current.slidePrev();
                 }}
               >
-                <CircleArrowPrevIcon />
+                <CircleArrowPrevIcon color={activeIcon?.prev} />
               </button>
               <button
-                className="ml-[2.5rem]"
+                className="ml-[2.5rem] mr-[2.5rem]"
                 onClick={() => {
+                  setActiveIcon(() => {
+                    return {
+                      prev: "var(--iconColor)",
+                      next: "var(--pure)",
+                    };
+                  });
                   if (swiperRef.current) swiperRef.current.slideNext();
                 }}
               >
-                <CircleArrowNextIcon />
+                <CircleArrowNextIcon color={activeIcon?.next} />
               </button>
+              <Link href="#" className="our__brands_viewLink flex items-center">
+                View all <ArrowRightIcon className="ml-[1.5rem]" />
+              </Link>
             </div>
           </div>
 
