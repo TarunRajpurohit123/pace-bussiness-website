@@ -1116,3 +1116,23 @@ option:hover {
 .year__tab__section {
   padding-top: 0 !important;
 }
+.investor_state_card {
+  width: 64rem;
+  height: 14.9rem;
+  padding: 2.5rem 17.1rem 2.5rem 17.1rem;
+}
+.investor_state_heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 4.8rem;
+  text-align: center;
+  color: var(--pure);
+}
+.investor_state_span {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.6rem;
+  text-align: center;
+  color: var(--gray_400);
+  margin-top: 1.5rem;
+}
