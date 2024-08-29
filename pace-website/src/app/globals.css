@@ -1027,3 +1027,73 @@ option:hover {
   display: flex;
   align-items: center;
 }
+.report__section__heading {
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 5rem;
+  text-align: center;
+  color: var(--pure);
+}
+.report_tab_btn {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: var(--pure);
+}
+.report__tab__header {
+  margin-top: 3.2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.report__main__section {
+  margin-top: 5rem;
+}
+.report__sidebar {
+  width: 52.5rem;
+  height: 72.5rem;
+}
+
+.report__sidebar {
+  display: flex;
+  flex-direction: column;
+}
+
+.side_tab {
+  width: 50rem;
+  height: 8rem;
+  padding: 1rem;
+  color: var(--pure);
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+  border-radius: 0.8rem;
+  text-align: left;
+}
+
+.active_side_tab {
+  background-color: var(--pure);
+  color: var(--red);
+  text-align: left;
+}
+
+.report__list {
+  width: 73rem;
+  height: 68rem;
+  padding: 2.5rem;
+}
+
+.view_report {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: var(--red);
+}
+.download_report {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  color: var(--red);
+}

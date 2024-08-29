@@ -16,7 +16,8 @@ export default function FontProvider() {
     <>
       <style jsx global>{`
         p,
-        a {
+        a,
+        button {
           font-family: ${poppins.style.fontFamily};
         }
         h1,

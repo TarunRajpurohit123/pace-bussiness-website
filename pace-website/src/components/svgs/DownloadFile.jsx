@@ -10,7 +10,7 @@ export default function DownloadFile({ url, fname, content }) {
   };
   return (
     <>
-      <button onClick={() => downloadFile(url, fname)}>{children}</button>
+      <button onClick={() => downloadFile(url, fname)}>{content}</button>
     </>
   );
 }
