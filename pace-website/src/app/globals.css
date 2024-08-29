@@ -1097,3 +1097,22 @@ option:hover {
   line-height: 2.3rem;
   color: var(--red);
 }
+
+.side_tab:hover {
+  opacity: 100%;
+}
+.year__tab {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.1rem;
+  text-align: left;
+  color: var(--golden);
+}
+
+.year__tab_act {
+  color: var(--pure);
+}
+
+.year__tab__section {
+  padding-top: 0 !important;
+}

@@ -60,7 +60,10 @@ const reportsData = [
     sidebar: [
       {
         type: "Closure of trading window",
-        data: null,
+        data: [
+          { name: "demo", url: "#", year: 2021 },
+          { name: "demo", url: "#", year: 2022 },
+        ],
       },
       {
         type: "SDD",
@@ -92,4 +95,37 @@ const reportsData = [
   },
 ];
 
-export { reportsData };
+const financialCalender = [
+  {
+    month: "January",
+    year: 2024,
+    name: "Publications of Key Figures2023",
+    time: "Tuesday, January 23, 2024",
+  },
+  {
+    month: "March",
+    year: 2024,
+    name: "Publications of Key Figures2023",
+    time: "Tuesday, January 23, 2024",
+  },
+  {
+    month: "April",
+    year: 2024,
+    name: "Publications of Key Figures2023",
+    time: "Tuesday, January 23, 2024",
+  },
+  {
+    month: "July",
+    year: 2024,
+    name: "Publications of Key Figures2023",
+    time: "Tuesday, January 23, 2024",
+  },
+  {
+    month: "November",
+    year: 2024,
+    name: "Publications of Key Figures2023",
+    time: "Tuesday, January 23, 2024",
+  },
+];
+
+export { reportsData, financialCalender };
