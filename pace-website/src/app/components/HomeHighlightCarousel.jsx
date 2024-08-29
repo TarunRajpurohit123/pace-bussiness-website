@@ -5,6 +5,9 @@ import React, { useEffect, useState } from "react";
 import Carousel from "react-spring-3d-carousel";
 import { config } from "react-spring";
 import Image from "next/image";
+import ArrowLeft from "@/components/svgs/ArrowLeft";
+import ArrowRight from "@/components/svgs/ArrowRight";
+import DotIcon from "@/components/svgs/dotIcon";
 
 export default function HomeHighlightCarousel() {
   const [index, setIndex] = useState(0);
@@ -103,23 +106,47 @@ export default function HomeHighlightCarousel() {
           slides={slides}
           goToSlide={index}
           offsetRadius={2}
-          showNavigation={true}
+          // showNavigation={true}
           animationConfig={config.gentle}
         />
-        <div style={{ textAlign: "center", marginTop: "20px" }}>
+        <div
+          className="flex items-center justify-center"
+          style={{ textAlign: "center", marginTop: "2.4rem" }}
+        >
           <button
             onClick={() =>
               setIndex((index - 1 + slides.length) % slides.length)
             }
-            style={{ marginRight: "10px" }}
+            className={"mr-[1.5rem]"}
           >
-            Prev
+            <ArrowLeft />
           </button>
+          <div className="flex items-center">
+            {slides?.map((slide, ind) => {
+              if (index == ind) {
+                return (
+                  <DotIcon
+                    className={"mr-[0.4rem] scale-150"}
+                    color="var(--red)"
+                    key={Date.now() + ind}
+                  />
+                );
+              } else {
+                return (
+                  <DotIcon
+                    className={"mr-[0.4rem] scale-100"}
+                    key={Date.now() + ind}
+                  />
+                );
+              }
+            })}
+          </div>
           <button
             id="3dNext"
+            className={"ml-[1.1rem]"}
             onClick={() => setIndex((index + 1) % slides.length)}
           >
-            Next
+            <ArrowRight />
           </button>
         </div>
       </div>
