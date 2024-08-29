@@ -1,4 +1,4 @@
-const countriesCode = [
+const reportsData = [
   {
     id: 1,
     uniq: "RAP",
@@ -91,3 +91,5 @@ const countriesCode = [
     tabType: "yearOnly",
   },
 ];
+
+export { reportsData };
