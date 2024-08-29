@@ -1,10 +1,6 @@
-import DownloadFile from "@/components/svgs/DownloadFile";
 import CTA from "./CTA";
+import ReportRow from "./ReportRow";
 
 export default function investors() {
-  return (
-    <>
-      <CTA />
-    </>
-  );
+  return <>{/* <CTA /> */}</>;
 }
