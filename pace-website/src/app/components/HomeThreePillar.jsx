@@ -122,9 +122,10 @@ export default function HomeThreePillar() {
           }}
         >
           {/* slide 1 */}
-          <SwiperSlide>
-            <div className="wc_slide flex">
-              <div className="wc__left">
+          <SwiperSlide className="">
+            <div className="wc_slide flex justify-between">
+              <div className="wc__left relative">
+                <p className="absolute right-0 top-0 tpslideNumber">01</p>
                 <h1>Empowering Dreams</h1>
                 <div className="wc__left__content mt-[2.5rem]">
                   <h1>What it Represents: </h1>
@@ -171,15 +172,16 @@ export default function HomeThreePillar() {
                   </div>
                 </div>
               </div>
-              <div className="wc__right">
+              <div className="wc__right" style={{ width: "45rem" }}>
                 <Image src={"/01.png"} width={450} height={505} />
               </div>
             </div>
           </SwiperSlide>
           {/* slide 2 */}
           <SwiperSlide>
-            <div className="wc_slide flex">
-              <div className="wc__left">
+            <div className="wc_slide flex justify-between">
+              <div className="wc__left relative">
+                <p className="absolute right-0 top-0 tpslideNumber">02</p>
                 <h1>Empowering Dreams</h1>
                 <div className="wc__left__content mt-[2.5rem]">
                   <h1>What it Represents: </h1>
@@ -233,8 +235,9 @@ export default function HomeThreePillar() {
           </SwiperSlide>
           {/* slide 3 */}
           <SwiperSlide>
-            <div className="wc_slide flex">
-              <div className="wc__left">
+            <div className="wc_slide flex justify-between">
+              <div className="wc__left relative">
+                <p className="absolute right-0 top-0 tpslideNumber">03</p>
                 <h1>Empowering Dreams</h1>
                 <div className="wc__left__content mt-[2.5rem]">
                   <h1>What it Represents: </h1>

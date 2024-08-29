@@ -901,3 +901,10 @@ option:hover {
   text-align: left;
   color: var(--red);
 }
+.tpslideNumber {
+  font-size: 7.2rem;
+  font-weight: 700;
+  line-height: 9.3rem;
+  color: #f1f4e6;
+  opacity: 5%;
+}
