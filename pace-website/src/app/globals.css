@@ -971,8 +971,8 @@ option:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid var(--gray_700);
-  border-bottom: 2px solid var(--gray_700);
+  border-top: 1px solid var(--gray_700);
+  border-bottom: 1px solid var(--gray_700);
 }
 
 .investors__left > .investors__cn {
@@ -1159,7 +1159,7 @@ option:hover {
 
 .financialCalenderCard {
   width: 42.7rem;
-  height: 42.7rem;
+  /* height: 42.7rem; */
   padding: 10rem 5rem 10rem 5rem;
 }
 
