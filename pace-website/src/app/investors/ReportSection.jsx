@@ -1,11 +1,17 @@
 "use client";
 
 import ReportrightArrow from "@/components/svgs/ReportrightArrow";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import ReportRow from "./ReportRow";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
+import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState(1);
+  const swiperRef = useRef(null);
   return (
     <>
       <section className="report__wrapper">
@@ -56,13 +62,63 @@ export default function ReportSection() {
           {/* report lists */}
           <div className="report__list">
             {/* year tab goes here*/}
-            <div className="year__tab__section flex justify-between items-center p-[2.5rem]">
-              <button className="year__tab">2024-25</button>
-              <button className="year__tab year__tab_act">2023-24</button>
-              <button className="year__tab">2023-24</button>
-              <button className="year__tab">2023-24</button>
+            <div className="flex items-center justify-between">
+              <button
+                className="mr-[2.5rem]"
+                onClick={() => {
+                  if (swiperRef.current) swiperRef.current.slidePrev();
+                }}
+              >
+                <CircleArrowPrevIcon isBorder={false}  color="var(--pure)" />
+              </button>
+
+              <Swiper
+                slidesPerView={4}
+                spaceBetween={30}
+                loop={true}
+                pagination={{
+                  clickable: true,
+                }}
+                onSwiper={(swiper) => {
+                  swiperRef.current = swiper; // Store the Swiper instance in the ref
+                }}
+                className="mySwiper"
+              >
+                <SwiperSlide>
+                  <button className="year__tab">2024-25</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab year__tab_act">2023-24</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab">2023-24</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab">2023-24</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab">2024-25</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab year__tab_act">2023-24</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab">2023-24</button>
+                </SwiperSlide>
+                <SwiperSlide>
+                  <button className="year__tab">2023-24</button>
+                </SwiperSlide>
+              </Swiper>
+              <button
+                className=""
+                onClick={() => {
+                  if (swiperRef.current) swiperRef.current.slideNext();
+                }}
+              >
+                <CircleArrowNextIcon isBorder={false} color="var(--pure)" />
+              </button>
             </div>
-            <div className="report__list_wrapper">
+            <div className="report__list_wrapper mt-[2.5rem]">
               {/* year tab end here*/}
               <ReportRow
                 name={"demo file"}
