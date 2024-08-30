@@ -1202,3 +1202,8 @@ option:hover {
   color: var(--gray_400);
   margin-top: 1rem;
 }
+
+.report__wrapper {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
