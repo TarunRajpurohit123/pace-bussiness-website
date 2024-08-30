@@ -846,6 +846,8 @@ option:hover {
   position: relative;
   /* width: 100%; */
   height: 72.8rem; /* Full viewport height */
+  width: 133rem;
+  margin: auto;
   overflow: hidden;
 }
 
@@ -1312,4 +1314,32 @@ option:hover {
   letter-spacing: -0.05em;
   text-align: left;
   margin-left: 1.5rem;
+}
+.yearBox {
+  width: 30.1rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1; /* Ensure the gradient covers the entire border */
+}
+.yearBox > .yearBox__company {
+  font-size: 2.4rem;
+  font-weight: 400;
+  line-height: 3.1rem;
+  color: var(--pure);
+  margin-top: 1rem;
+}
+.yearBox > .yearBox__year {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.9rem;
+  color: var(--pure);
 }

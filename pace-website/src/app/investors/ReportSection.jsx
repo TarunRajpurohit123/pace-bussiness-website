@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
 import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
+import YearBox from "./YearBox";
 
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState(1);
@@ -45,6 +46,12 @@ export default function ReportSection() {
             >
               Corporate Announcement
             </button>
+          </div>
+          <div className="page-width pt-[5rem] flex justify-between">
+            <YearBox />
+            <YearBox />
+            <YearBox />
+            <YearBox />
           </div>
         </div>
         <main className="report__main__section page-width flex justify-between">
