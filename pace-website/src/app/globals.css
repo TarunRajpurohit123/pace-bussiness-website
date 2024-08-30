@@ -1053,12 +1053,15 @@ option:hover {
   color: var(--pure);
 }
 .report__tab__header {
-  margin-top: 3.2rem;
+  margin-top: 1.5rem;
   padding-left: 8rem;
   padding-right: 8rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid var(--gray_700);
 }
 .report__main__section {
   margin-top: 5rem;
