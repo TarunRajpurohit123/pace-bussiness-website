@@ -16,12 +16,12 @@ export default function RootLayout({ children }) {
       <FontProvider />
       <html lang="en">
         <body className={`dark-mode`}>
-          {/* <Annoucebar /> */}
-          {/* <Navbar /> */}
-          {/* <MobileNavbar /> */}
+          <Annoucebar />
+          <Navbar />
+          <MobileNavbar />
           <section className="absolute global-abs top-[5rem] z-[-9]">
             {children}
-            {/* <Footer /> */}
+            <Footer />
           </section>
         </body>
       </html>

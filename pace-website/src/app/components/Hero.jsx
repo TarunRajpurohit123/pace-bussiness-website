@@ -1,32 +1,45 @@
 import Image from "next/image";
 
-export default function Hero() {
+export default function Hero({
+  isContact = true,
+  title = "Contact Us",
+  content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore.",
+}) {
   return (
     <>
       <section className="pages_hero_wrapper">
         <section className="pages_hero  page-width h-[45rem] overflow-hidden">
           <div
-            className=" flex justify-between items-center"
+            className={` flex ${
+              isContact ? "justify-between" : "justify-center"
+            } items-center`}
             style={{ height: "45rem" }}
           >
             {/* left */}
             <div className="pages_hero--left">
-              <h1>Contact Us</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore.
+              <h1 className={!isContact && `text-center`}>{title}</h1>
+              <p
+                className={
+                  !isContact
+                    ? `text-center w-[53.5rem] mt-[1.5rem]`
+                    : `mt-[1.5rem]`
+                }
+              >
+                {content}
               </p>
             </div>
             {/* right */}
-            <div className="pages_hero--right">
-              <Image
-                className="mt-[40rem] contact--hero-image"
-                style={{ width: "80rem" }}
-                src="/contact-hero.png"
-                width={800}
-                height={812}
-              />
-            </div>
+            {isContact && (
+              <div className="pages_hero--right">
+                <Image
+                  className="mt-[40rem] contact--hero-image"
+                  style={{ width: "80rem" }}
+                  src="/contact-hero.png"
+                  width={800}
+                  height={812}
+                />
+              </div>
+            )}
           </div>
         </section>
       </section>

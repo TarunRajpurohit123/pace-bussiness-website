@@ -205,7 +205,7 @@ body {
   background: linear-gradient(
     180deg,
     var(--heroGradientColor1) 0%,
-    var(--gray_900) 93.81%
+    var(--mode-bg) 93.81%
   );
 }
 .hero__contact__mobile {
