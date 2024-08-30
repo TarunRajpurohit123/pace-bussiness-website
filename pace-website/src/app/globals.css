@@ -208,6 +208,13 @@ body {
     var(--mode-bg) 93.81%
   );
 }
+.pages_investor_wrapper {
+  background: linear-gradient(
+    180deg,
+    var(--heroGradientColor1) 0%,
+    var(--mode-bg) 93.81%
+  );
+}
 .hero__contact__mobile {
   background: linear-gradient(
     180deg,
