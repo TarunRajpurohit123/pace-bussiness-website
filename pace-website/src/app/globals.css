@@ -109,7 +109,7 @@ body {
   margin: auto;
 }
 .navbar-link {
-  color: var(--primary-text);
+  color: var(--pure);
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -1342,4 +1342,13 @@ option:hover {
   font-weight: 700;
   line-height: 3.9rem;
   color: var(--pure);
+}
+.navbar__overlay {
+  width: 100%;
+  height: 10rem;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) -7.55%,
+    rgba(25, 25, 24, 0.2) 100%
+  );
 }
