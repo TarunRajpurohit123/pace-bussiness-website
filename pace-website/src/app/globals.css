@@ -1065,7 +1065,7 @@ option:hover {
 }
 .report__sidebar {
   width: 52.5rem;
-  height: 72.5rem;
+  height: 52rem;
 }
 
 .report__sidebar {
@@ -1093,7 +1093,7 @@ option:hover {
 
 .report__list {
   width: 73rem;
-  height: 68rem;
+  height: 52rem;
   padding: 2.5rem;
 }
 
@@ -1131,7 +1131,7 @@ option:hover {
 .investor_state_card {
   width: 64rem;
   height: 14.9rem;
-  padding: 2.5rem 17.1rem 2.5rem 17.1rem;
+  /* padding: 2.5rem 17.1rem 2.5rem 17.1rem; */
 }
 .investor_state_heading {
   font-size: 4.8rem;
@@ -1147,16 +1147,6 @@ option:hover {
   text-align: center;
   color: var(--gray_400);
   margin-top: 1.5rem;
-}
-.is_graBordertop {
-  border: 5px solid;
-  width: 100%;
-  border-image-source: linear-gradient(90deg, #cb3321 52.65%, #191918 100%);
-}
-.is_graBorderbottom {
-  border: 5px solid;
-  width: 100%;
-  border-image-source: linear-gradient(90deg, #cb3321 52.65%, #191918 100%);
 }
 
 .financialCalender {
@@ -1213,4 +1203,37 @@ option:hover {
 .report__wrapper {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+}
+
+.gradient-border-container {
+  background-color: var(--mode-bg); /* Background color similar to the image */
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-family: Arial, sans-serif; /* Font similar to the image */
+  position: relative; /* For positioning the pseudo-elements */
+}
+
+/* Pseudo-elements for the top and bottom gradient borders */
+.gradient-border-container::before,
+.gradient-border-container::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5px; /* Height of the border */
+  background: linear-gradient(to right, var(--red), transparent);
+}
+
+.gradient-border-container::before {
+  top: 0; /* Position at the top */
+}
+
+.gradient-border-container::after {
+  bottom: 0; /* Position at the bottom */
+  background: linear-gradient(
+    to right,
+    transparent,
+    var(--red)
+  ); /* Reverse gradient */
 }
