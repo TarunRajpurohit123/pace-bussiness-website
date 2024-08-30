@@ -63,14 +63,16 @@ export default function ReportSection() {
           <div className="report__list">
             {/* year tab goes here*/}
             <div className="flex items-center justify-between">
-              <button
-                className="mr-[2.5rem]"
-                onClick={() => {
-                  if (swiperRef.current) swiperRef.current.slidePrev();
-                }}
-              >
-                <CircleArrowPrevIcon isBorder={false}  color="var(--pure)" />
-              </button>
+              {5 > 4 && (
+                <button
+                  className="mr-[2.5rem]"
+                  onClick={() => {
+                    if (swiperRef.current) swiperRef.current.slidePrev();
+                  }}
+                >
+                  <CircleArrowPrevIcon isBorder={false} color="var(--pure)" />
+                </button>
+              )}
 
               <Swiper
                 slidesPerView={4}
@@ -109,14 +111,16 @@ export default function ReportSection() {
                   <button className="year__tab">2023-24</button>
                 </SwiperSlide>
               </Swiper>
-              <button
-                className=""
-                onClick={() => {
-                  if (swiperRef.current) swiperRef.current.slideNext();
-                }}
-              >
-                <CircleArrowNextIcon isBorder={false} color="var(--pure)" />
-              </button>
+              {5 > 4 && (
+                <button
+                  className=""
+                  onClick={() => {
+                    if (swiperRef.current) swiperRef.current.slideNext();
+                  }}
+                >
+                  <CircleArrowNextIcon isBorder={false} color="var(--pure)" />
+                </button>
+              )}
             </div>
             <div className="report__list_wrapper mt-[2.5rem]">
               {/* year tab end here*/}
