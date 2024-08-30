@@ -7,9 +7,9 @@ import ReportSection from "./ReportSection";
 export default function investors() {
   return (
     <>
-      {/* <ReportSection /> */}
+      <ReportSection />
       {/* <InvestorStatics /> */}
-      <FinancialCalender />
+      {/* <FinancialCalender /> */}
     </>
   );
 }

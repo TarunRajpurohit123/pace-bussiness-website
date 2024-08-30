@@ -62,19 +62,57 @@ export default function ReportSection() {
               <button className="year__tab">2023-24</button>
               <button className="year__tab">2023-24</button>
             </div>
-            {/* year tab end here*/}
-            <ReportRow
-              name={"demo file"}
-              url={"/01.png"}
-              filename={"image"}
-              type={"sdsnajd"}
-            />
-            <ReportRow
-              name={"demo file"}
-              url={"/01.png"}
-              filename={"image"}
-              type={"sdsnajd"}
-            />
+            <div className="report__list_wrapper">
+              {/* year tab end here*/}
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+              <ReportRow
+                name={"demo file"}
+                url={"/01.png"}
+                filename={"image"}
+                type={"sdsnajd"}
+              />
+            </div>
           </div>
         </main>
       </section>

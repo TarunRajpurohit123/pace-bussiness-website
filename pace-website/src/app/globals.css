@@ -185,9 +185,9 @@ body {
 }
 
 /* scroll */
-
 ::-webkit-scrollbar {
   width: 0.4rem;
+  height: 0rem;
 }
 ::-webkit-scrollbar-track {
   background: var(--mode-bg);
@@ -1004,6 +1004,11 @@ option:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.report__list_wrapper {
+  height: 40rem;
+  overflow: scroll;
 }
 
 .reportRow__name {
