@@ -13,10 +13,10 @@ export default function Footer() {
   const links = [
     { name: "Group", link: "#" },
     { name: "Brands", link: "#" },
-    { name: "About Us", link: "#" },
-    { name: "Contact Us", link: "#" },
+    { name: "About Us", link: "/about" },
+    { name: "Contact Us", link: "/contact" },
     { name: "Career", link: "#" },
-    { name: "Investor Relations", link: "#" },
+    { name: "Investor Relations", link: "/investors" },
   ];
 
   // subfooter link

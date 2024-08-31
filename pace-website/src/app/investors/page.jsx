@@ -10,7 +10,6 @@ export default function investors() {
     <>
       <Hero
         className="pages_investor_wrapper"
-        isContact={false}
         title="Investor Relation Highlights"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
