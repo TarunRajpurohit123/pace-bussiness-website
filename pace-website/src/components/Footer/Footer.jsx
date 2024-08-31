@@ -106,6 +106,7 @@ export default function Footer() {
                       ind != 0 ? `ml-[2.5rem] footer-link` : `footer-link`
                     }
                     href={link?.link}
+                    key={uniqid("subfooter_link")}
                   >
                     {link?.name}
                   </Link>
