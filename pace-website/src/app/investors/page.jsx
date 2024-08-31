@@ -1,9 +1,9 @@
-import Hero from "../components/Hero";
-import InvestorCTA from "./InvestorCTA";
-import FinancialCalender from "./FinancialCalender";
-import InvestorStatics from "./InvestorStatics";
-import LatestPress from "./LatestPress";
-import ReportSection from "./ReportSection";
+import Hero from "../../components/components/Hero";
+import InvestorCTA from "../../components/components/InvestorCTA";
+import FinancialCalender from "../../components/components/FinancialCalender";
+import InvestorStatics from "../../components/components/InvestorStatics";
+import LatestPress from "../../components/components/LatestPress";
+import ReportSection from "@/components/components/ReportSection";
 
 export default function investors() {
   return (

@@ -1,4 +1,4 @@
-import Card from "@/app/components/Card";
+import Card from "@/components/components/Card";
 import CircleIcon from "@/components/svgs/CircleIcon";
 import CrownIcon from "@/components/svgs/CrownIcon";
 import MessageStarIcon from "@/components/svgs/MessageStarIcon";

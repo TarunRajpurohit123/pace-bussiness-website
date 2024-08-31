@@ -1,8 +1,8 @@
-import CompanyProfile from "./(components)/CompanyProfile";
-import AboutCards from "./(components)/AboutCards";
+import CompanyProfile from "../../components/components/CompanyProfile";
+import AboutCards from "../../components/components/AboutCards";
 import Zigzag from "@/components/ui/zigzag";
-import CTA from "./(components)/CTA";
-import Hero2 from "../components/Hero2";
+import CTA from "../../components/components/CTA";
+import Hero2 from "../../components/components/Hero2";
 
 export default function About() {
   return (
