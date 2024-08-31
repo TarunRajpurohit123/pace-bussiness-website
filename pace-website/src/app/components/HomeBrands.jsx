@@ -9,6 +9,7 @@ import "swiper/css/pagination";
 import BrandCard from "./BrandCard";
 import Link from "next/link";
 import ArrowRightIcon from "@/components/svgs/arrowRightIcon";
+import uniqid from "uniqid";
 
 export default function HomeBrands() {
   const swiperRef = useRef(null);
@@ -184,23 +185,22 @@ export default function HomeBrands() {
             >
               {data?.map((card, ind) => {
                 return (
-                  <>
-                    <SwiperSlide
-                      style={ind !== 0 ? { marginLeft: "2.5rem" } : {}}
-                    >
-                      <BrandCard
-                        brand={card?.brand}
-                        content={card?.content}
-                        image={card?.image}
-                        hoverColor={card?.hoverColor}
-                        hoverImage={card?.hoverImage}
-                        headingColor={card?.headingColor}
-                        brandLogo={card?.brandLogo}
-                        subheadiColor={card?.subheadiColor}
-                        contentColor={card?.contentColor}
-                      />
-                    </SwiperSlide>
-                  </>
+                  <SwiperSlide
+                    key={uniqid()}
+                    style={ind !== 0 ? { marginLeft: "2.5rem" } : {}}
+                  >
+                    <BrandCard
+                      brand={card?.brand}
+                      content={card?.content}
+                      image={card?.image}
+                      hoverColor={card?.hoverColor}
+                      hoverImage={card?.hoverImage}
+                      headingColor={card?.headingColor}
+                      brandLogo={card?.brandLogo}
+                      subheadiColor={card?.subheadiColor}
+                      contentColor={card?.contentColor}
+                    />
+                  </SwiperSlide>
                 );
               })}
             </Swiper>

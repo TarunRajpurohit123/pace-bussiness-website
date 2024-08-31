@@ -5,6 +5,7 @@ import { Logo, SearchIcon, TSwitcher } from "..";
 import { links } from "./links";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import uniqid from "uniqid";
 
 export default function MobileNavbar() {
   const [isHide, setIsHide] = useState("hidden");
@@ -26,7 +27,7 @@ export default function MobileNavbar() {
               <TSwitcher />
 
               <button
-                dataCollapseToggle="mobile-menu-2"
+                data-collapse-toggle="mobile-menu-2"
                 type="button"
                 style={{
                   color: "var(--primary-text)",
@@ -34,8 +35,8 @@ export default function MobileNavbar() {
                   marginLeft: "1rem",
                 }}
                 className="inline-flex items-center p-2 ml-1 rounded-lg lg:hidden"
-                ariaControls="mobile-menu-2"
-                ariaExpanded="false"
+                aria-controls="mobile-menu-2"
+                aria-expanded="false"
                 onClick={() => {
                   isHide === "hidden"
                     ? setIsHide("visible")
@@ -81,11 +82,11 @@ export default function MobileNavbar() {
                 {links?.map((link) => {
                   return (
                     <>
-                      <li>
+                      <li key={uniqid("mobile", "link")}>
                         <Link
                           href={link?.link}
                           className="block py-2 pr-4 pl-3 rounded navbar-link"
-                          ariaCurrent="page"
+                          aria-current="page"
                         >
                           {link?.name}
                         </Link>
