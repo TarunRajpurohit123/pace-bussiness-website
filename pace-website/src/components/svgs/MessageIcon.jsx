@@ -27,18 +27,18 @@ export default function MessageIcon(
         <path
           d="M17 21H7C4 21 2 19.5 2 16V9C2 5.5 4 4 7 4H17C20 4 22 5.5 22 9V16C22 19.5 20 21 17 21Z"
           stroke={color}
-          stroke-width={strokeWidth}
-          stroke-miterlimit={strokeMiterlimit}
-          stroke-linecap={strokeLinecap}
-          stroke-linejoin={strokeLinejoin}
+          strokeWidth={strokeWidth}
+          strokeMiterlimit={strokeMiterlimit}
+          strokeLinecap={strokeLinecap}
+          strokeLinejoin={strokeLinejoin}
         />
         <path
           d="M17 9.5L13.87 12C12.84 12.82 11.15 12.82 10.12 12L7 9.5"
           stroke={color}
-          stroke-width={strokeWidth}
-          stroke-miterlimit={strokeMiterlimit}
-          stroke-linecap={strokeLinecap}
-          stroke-linejoin={strokeLinejoin}
+          strokeWidth={strokeWidth}
+          strokeMiterlimit={strokeMiterlimit}
+          strokeLinecap={strokeLinecap}
+          strokeLinejoin={strokeLinejoin}
         />
       </svg>
     </>
