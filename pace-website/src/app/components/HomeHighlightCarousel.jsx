@@ -8,6 +8,7 @@ import Image from "next/image";
 import ArrowLeft from "@/components/svgs/ArrowLeft";
 import ArrowRight from "@/components/svgs/ArrowRight";
 import DotIcon from "@/components/svgs/dotIcon";
+import uniqid from "uniqid";
 
 export default function HomeHighlightCarousel() {
   const [index, setIndex] = useState(0);
@@ -16,10 +17,11 @@ export default function HomeHighlightCarousel() {
     {
       key: 1,
       content: (
-        <img
+        <Image
           src="https://picsum.photos/620/320/?random"
-          // width="620"
-          // height="320"
+          width={620}
+          height={320}
+          alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -27,10 +29,11 @@ export default function HomeHighlightCarousel() {
     {
       key: 2,
       content: (
-        <img
+        <Image
           src="https://picsum.photos/620/320/?random"
-          // width="620"
-          // height="320"
+          width={620}
+          height={320}
+          alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -38,10 +41,11 @@ export default function HomeHighlightCarousel() {
     {
       key: 3,
       content: (
-        <img
+        <Image
           src="https://picsum.photos/620/320/?random"
-          // width="620"
-          // height="320"
+          width={620}
+          alt="image"
+          height={320}
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -49,10 +53,11 @@ export default function HomeHighlightCarousel() {
     {
       key: 4,
       content: (
-        <img
+        <Image
           src="https://picsum.photos/620/320/?random"
-          // width="620"
-          // height="320"
+          width={620}
+          height={320}
+          alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -60,10 +65,11 @@ export default function HomeHighlightCarousel() {
     {
       key: 5,
       content: (
-        <img
+        <Image
           src="https://picsum.photos/620/320/?random"
-          // width="620"
-          // height="320"
+          width={620}
+          alt="image"
+          height={320}
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -128,14 +134,14 @@ export default function HomeHighlightCarousel() {
                   <DotIcon
                     className={"mr-[0.4rem] scale-150"}
                     color="var(--red)"
-                    key={Date.now() + ind}
+                    key={uniqid("doticon")}
                   />
                 );
               } else {
                 return (
                   <DotIcon
                     className={"mr-[0.4rem] scale-100"}
-                    key={Date.now() + ind}
+                    key={uniqid("doticon")}
                   />
                 );
               }

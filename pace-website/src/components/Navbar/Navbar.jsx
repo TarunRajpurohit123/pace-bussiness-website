@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Logo, SearchIcon, Spacer } from "..";
 import { links } from "./links";
 import Overlay from "./Overlay";
+import uniqid from "uniqid";
 
 export default function Navbar() {
   return (
@@ -19,7 +20,10 @@ export default function Navbar() {
           <ul className="flex">
             {links?.map((link, ind) => {
               return (
-                <li className={ind != 0 ? `ml-[2.5rem]` : ``}>
+                <li
+                  key={uniqid("navlink")}
+                  className={ind != 0 ? `ml-[2.5rem]` : ``}
+                >
                   <Link className="navbar-link" href={link?.link}>
                     {link?.name}
                   </Link>

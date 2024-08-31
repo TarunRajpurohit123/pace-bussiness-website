@@ -7,6 +7,7 @@ import Image from "next/image";
 import { Logo } from "@/components";
 import DotIcon from "@/components/svgs/dotIcon";
 import { useRef, useState } from "react";
+import uniqid from "uniqid";
 
 export default function HomeThreePillar() {
   const [activeDot, setActiveDot] = useState({
@@ -77,13 +78,16 @@ export default function HomeThreePillar() {
           }}
           slidesPerView={1}
           spaceBetween={30}
-          mousewheel={true}
+          // mousewheel={true}
           pagination={{
             clickable: true,
           }}
-          mousewheel={{
-            releaseOnEdges: true, // Enable releaseOnEdges here
-          }}
+          mousewheel={
+            (true,
+            {
+              releaseOnEdges: true, // Enable releaseOnEdges here
+            })
+          }
           // loop={true}
           modules={[Mousewheel]}
           className="mySwiper"
@@ -132,9 +136,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
@@ -143,9 +147,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
@@ -156,24 +160,27 @@ export default function HomeThreePillar() {
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                   </div>
                 </div>
               </div>
               <div className="wc__right" style={{ width: "45rem" }}>
-                <Image src={"/01.png"} width={450} height={505} />
+                <Image src={"/01.png"} width={450} height={505} alt="image" />
               </div>
             </div>
           </SwiperSlide>
@@ -188,7 +195,7 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
+                    products. This pillar reflects PACE&apos;s dedication to creating
                     brands that resonate with modern lifestyles and consumer
                     aspirations.
                   </p>
@@ -199,7 +206,7 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
+                    products. This pillar reflects PACE&apos;s dedication to creating
                     brands that resonate with modern lifestyles and consumer
                     aspirations.
                   </p>
@@ -212,24 +219,27 @@ export default function HomeThreePillar() {
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                   </div>
                 </div>
               </div>
               <div className="wc__right">
-                <Image src={"/03.png"} width={450} height={505} />
+                <Image src={"/03.png"} width={450} height={505} alt="image" />
               </div>
             </div>
           </SwiperSlide>
@@ -244,7 +254,7 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
+                    products. This pillar reflects PACE&apos;s dedication to creating
                     brands that resonate with modern lifestyles and consumer
                     aspirations.
                   </p>
@@ -255,7 +265,7 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE's dedication to creating
+                    products. This pillar reflects PACE&apos;s dedication to creating
                     brands that resonate with modern lifestyles and consumer
                     aspirations.
                   </p>
@@ -268,24 +278,27 @@ export default function HomeThreePillar() {
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                     <Image
                       src={"/OstilosLogo.png"}
                       width={"138"}
                       height={"36"}
                       style={{ marginLeft: "5rem" }}
+                      alt="image"
                     />
                   </div>
                 </div>
               </div>
               <div className="wc__right">
-                <Image src={"/01.png"} width={450} height={505} />
+                <Image src={"/01.png"} width={450} height={505} alt="image" />
               </div>
             </div>
           </SwiperSlide>

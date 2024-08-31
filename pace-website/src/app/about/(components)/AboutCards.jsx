@@ -2,6 +2,7 @@ import Card from "@/app/components/Card";
 import CircleIcon from "@/components/svgs/CircleIcon";
 import CrownIcon from "@/components/svgs/CrownIcon";
 import MessageStarIcon from "@/components/svgs/MessageStarIcon";
+import uniqid from "uniqid";
 
 export default function AboutCards() {
   const cardData = [
@@ -31,6 +32,7 @@ export default function AboutCards() {
           {cardData?.map((card, ind) => {
             return (
               <Card
+                key={uniqid("about", "card")}
                 heading={card?.heading}
                 headingStyles={{
                   marginTop: "1.5rem",

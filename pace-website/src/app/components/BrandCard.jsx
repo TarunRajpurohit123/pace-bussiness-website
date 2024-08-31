@@ -82,6 +82,7 @@ export default function BrandCard({
                 height="300"
                 className="hbrandImage"
                 style={{ objectFit: "cover" }}
+                alt="image"
               />
               {hover && (
                 <div className="brand__overlay flex justify-center items-center flex-col">
@@ -91,7 +92,7 @@ export default function BrandCard({
                   >
                     Discover
                   </h2>
-                  <Image src={brandLogo} width="232" height="44" />
+                  <Image src={brandLogo} width="232" height="44" alt="image" />
                 </div>
               )}
             </div>

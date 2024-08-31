@@ -5,6 +5,7 @@ import Hero from "../components/Hero";
 import HeadIcon from "@/components/svgs/HeadIcon";
 import GpsIcon from "@/components/svgs/GpsIcon";
 import CallIcon from "@/components/svgs/CallIcon";
+import uniqid from "uniqid";
 
 export default function Contact() {
   const cardData = [
@@ -44,6 +45,7 @@ export default function Contact() {
         {cardData?.map((card) => {
           return (
             <Card
+              key={uniqid("contact", "card")}
               heading={card?.heading}
               text={card?.text}
               anchor={card?.anchor}

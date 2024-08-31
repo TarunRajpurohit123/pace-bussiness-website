@@ -141,15 +141,6 @@
   }
   /* navbar end */
 
-  /* footer */
-  #desktop__footer {
-    display: none;
-  }
-  #mobile__footer {
-    display: block;
-  }
-  /* footer end */
-
   /* annoncement */
   .annoucement_theme_switcher {
     display: none;
@@ -307,3 +298,54 @@
   }
 }
 /* about end */
+
+/* footer goes here */
+@media (max-width: 1000px) {
+  .footer-main {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .footer-right {
+    margin-top: 2.5rem;
+    width: 61.7rem;
+  }
+  #newsletter {
+    width: 80% !important;
+  }
+  .subfooter {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .subfooter > p {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 662px) {
+  .footer-main {
+    width: 90% !important;
+    margin: auto;
+    align-items: start;
+  }
+  .footer-link {
+    margin-left: 1rem;
+  }
+  .first-footer-link {
+    margin-left: 0;
+  }
+  .footer-right {
+    width: 54.2rem;
+  }
+  #newsletter {
+    width: 100% !important;
+  }
+  .subscribe_btn {
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+}
+/* footer end here */

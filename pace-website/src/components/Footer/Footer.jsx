@@ -7,6 +7,7 @@ import {
   Logo,
   TwitterIcon,
 } from "..";
+import uniqid from "uniqid";
 
 export default function Footer() {
   // links
@@ -41,8 +42,11 @@ export default function Footer() {
                 {links?.map((link, ind) => {
                   return (
                     <Link
+                      key={uniqid("footerlink")}
                       className={
-                        ind != 0 ? `ml-[2.5rem] footer-link` : `footer-link`
+                        ind != 0
+                          ? `ml-[2.5rem] footer-link`
+                          : `footer-link first-footer-link`
                       }
                       href={link?.link}
                     >

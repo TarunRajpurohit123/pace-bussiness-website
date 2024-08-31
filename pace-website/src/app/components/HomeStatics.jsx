@@ -1,4 +1,5 @@
 import { Logo } from "@/components";
+import uniqid from "uniqid";
 
 const data = [
   {
@@ -39,6 +40,7 @@ export default function HomeStatics() {
           {data?.map((statData, ind) => {
             return (
               <div
+                key={uniqid("static", "card")}
                 className="homeStatics__card"
                 style={ind != 0 ? { marginLeft: "10rem" } : {}}
               >

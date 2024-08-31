@@ -13,18 +13,21 @@ const CompanyProfile = () => {
             width="415"
             height="228"
             className="acp_r1_i1"
+            alt="image"
           />
           <Image
             src={"/r1i2.jpeg"}
             width="200"
             height="228"
             className="acp_r1_i2 acp_desktop_image"
+            alt="image"
           />
           <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
+            alt="image"
           />
         </div>
         {/* row 1 end */}
@@ -35,18 +38,21 @@ const CompanyProfile = () => {
             width="200"
             height="228"
             className="acp_r2_i1 acp_desktop_image"
+            alt="image"
           />
           <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r2_i2 "
+            alt="image"
           />
           <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
+            alt="image"
           />
         </div>
         {/* row 2 end */}
@@ -57,18 +63,21 @@ const CompanyProfile = () => {
             width="415"
             height="228"
             className="acp_r1_i1"
+            alt="image"
           />
           <Image
             src={"/r1i2.jpeg"}
             width="200"
             height="228"
             className="acp_r1_i2 acp_desktop_image"
+            alt="image"
           />
           <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
+            alt="image"
           />
         </div>
         {/* row 3 end */}

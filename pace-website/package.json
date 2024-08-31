@@ -21,6 +21,7 @@
     "react-transition-group": "^4.4.5",
     "swiper": "^11.1.10",
     "tailwind-merge": "^2.5.2",
+    "uniqid": "^5.4.0",
     "uuid": "^10.0.0",
     "zustand": "^4.5.5"
   },
