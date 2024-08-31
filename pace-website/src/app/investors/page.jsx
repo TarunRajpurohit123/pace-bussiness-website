@@ -1,5 +1,5 @@
 import Hero from "../components/Hero";
-import CTA from "./CTA";
+import InvestorCTA from "./InvestorCTA";
 import FinancialCalender from "./FinancialCalender";
 import InvestorStatics from "./InvestorStatics";
 import LatestPress from "./LatestPress";
@@ -17,7 +17,7 @@ export default function investors() {
       <ReportSection />
       <InvestorStatics />
       <FinancialCalender />
-      <CTA />
+      <InvestorCTA />
     </>
   );
 }

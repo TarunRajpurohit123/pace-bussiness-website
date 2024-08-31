@@ -1,15 +1,15 @@
 import Link from "next/link";
 
 export default function Card({
-  heading,
-  text,
-  anchor,
-  icon,
-  classNames,
-  styles,
-  wrapStyles,
-  headingStyles,
-  paragraphStyles,
+  heading = null,
+  text = null,
+  anchor = null,
+  icon = null,
+  classNames = null,
+  styles = null,
+  wrapStyles = null,
+  headingStyles = null,
+  paragraphStyles = null,
 }) {
   return (
     <>

@@ -4,6 +4,7 @@ import { Button } from "@/components";
 import { useEffect, useState } from "react";
 import { countriesCode } from "@/json/country";
 import Link from "next/link";
+import uniqid from "uniqid";
 
 export default function Form() {
   const [countries, setCountries] = useState([]);
@@ -80,10 +81,7 @@ export default function Form() {
                 >
                   {countriesCode?.map((cd, ind) => {
                     return (
-                      <option
-                        className="phone-code-opt"
-                        key={Date.now() * ind + 1}
-                      >
+                      <option className="phone-code-opt" key={uniqid()}>
                         {cd?.dialing_code}
                       </option>
                     );
@@ -109,10 +107,7 @@ export default function Form() {
                 >
                   {countries?.map((cd, ind) => {
                     return (
-                      <option
-                        className="phone-code-opt"
-                        key={Date.now() * ind + 1}
-                      >
+                      <option className="phone-code-opt" key={uniqid("pcode")}>
                         {cd?.flag} &nbsp;&nbsp;
                         {cd?.name?.common}
                       </option>

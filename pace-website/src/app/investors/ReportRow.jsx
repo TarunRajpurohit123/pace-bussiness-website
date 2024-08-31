@@ -3,7 +3,12 @@ import DownloadIcon from "@/components/svgs/DownloadIcon";
 import EyeIcon from "@/components/svgs/EyeIcon";
 import Link from "next/link";
 
-export default function ReportRow({ name, url, filename, type }) {
+export default function ReportRow({
+  name = null,
+  url = null,
+  filename = null,
+  type = null,
+}) {
   return (
     <>
       <div className="reportRow">

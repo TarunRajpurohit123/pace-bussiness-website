@@ -1,5 +1,5 @@
 export default function Hero({
-  className,
+  className = "",
   title = "Contact Us",
   content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore.",
 }) {

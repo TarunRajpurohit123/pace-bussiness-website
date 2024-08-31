@@ -1,11 +1,11 @@
 export default function Button({
-  classNames,
-  id,
-  text,
-  styles,
-  key,
+  classNames = null,
+  id = null,
+  text = null,
+  styles = null,
+  key = null,
   type = "button",
-  ariaLabel,
+  ariaLabel = null,
   ...props
 }) {
   return (

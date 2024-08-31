@@ -1,7 +1,7 @@
 import ArrowRight from "@/components/svgs/ArrowRight";
 import Link from "next/link";
 
-export default function CTA() {
+export default function InvestorCTA() {
   return (
     <div className="investors__cta flex justify-between items-center page-width">
       <div className="investors__left">
