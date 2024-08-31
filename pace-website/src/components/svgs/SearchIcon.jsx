@@ -7,9 +7,9 @@ export default function SearchIcon({
   strokeWidth = "1.5",
   strokeLinecap = "round",
   strokeLinejoin = "round",
-  classNames,
-  id,
-  styles,
+  classNames = "searchicon",
+  id = "Sicon",
+  styles = null,
 }) {
   return (
     <>

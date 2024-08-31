@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function Logo({
   color = "var(--pure)",
-  classNames,
-  id,
-  styles,
+  classNames = "logo--svg",
+  id = "logo--svg",
+  styles = null,
   width = "122",
   height = "34",
   viewBox = "0 0 122 34",

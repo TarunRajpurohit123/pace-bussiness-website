@@ -8,9 +8,9 @@ export default function MessageIcon(
   strokeLinejoin = "round",
   strokeWidth = "1.5",
   strokeMiterlimit = "10",
-  styles,
-  classNames,
-  id
+  styles = null,
+  classNames = "messageIcon",
+  id = "messicon"
 ) {
   return (
     <>

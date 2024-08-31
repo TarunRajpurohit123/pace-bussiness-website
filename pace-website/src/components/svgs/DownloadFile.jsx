@@ -1,5 +1,9 @@
 "use client";
-export default function DownloadFile({ url, fname, content }) {
+export default function DownloadFile({
+  url = null,
+  fname = null,
+  content = null,
+}) {
   const downloadFile = (url, fileName) => {
     const a = document.createElement("a");
     a.href = url;

@@ -7,7 +7,6 @@ import SearchIcon from "./svgs/SearchIcon";
 import PhoneIcon from "./svgs/PhoneIcon";
 import ShareIcon from "./svgs/ShareIcon";
 import MessageIcon from "./svgs/MessageIcon";
-import Hero from "./Hero/Hero";
 import TSwitcher from "./TSwitcher/TSwitcher";
 import StockInfo from "./StockInfo/StockInfo";
 import Spacer from "./Spacer/Spacer";
@@ -26,7 +25,6 @@ export {
   SearchIcon,
   PhoneIcon,
   MessageIcon,
-  Hero,
   TSwitcher,
   StockInfo,
   ShareIcon,

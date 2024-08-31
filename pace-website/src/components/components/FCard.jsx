@@ -1,4 +1,10 @@
-export default function FCard({ month, year, name, time, style }) {
+export default function FCard({
+  month = null,
+  year = null,
+  name = null,
+  time = null,
+  style = null,
+}) {
   return (
     <>
       <div className="financialCalenderCard" style={style}>

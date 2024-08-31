@@ -4,9 +4,9 @@ export default function TwitterIcon(
   viewBox = "0 0 16 16",
   svgFill = "none",
   color = "var(--pure)",
-  styles,
-  classNames,
-  id
+  styles = null,
+  classNames = "twitterIcon",
+  id = "ticon"
 ) {
   return (
     <>

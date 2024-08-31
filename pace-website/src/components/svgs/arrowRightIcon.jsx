@@ -1,6 +1,6 @@
 export default function ArrowRightIcon({
   color = "var(--red)",
-  className = "",
+  className = "arrow-right-icon",
 }) {
   return (
     <svg

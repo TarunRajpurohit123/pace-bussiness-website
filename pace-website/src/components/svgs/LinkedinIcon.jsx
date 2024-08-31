@@ -4,9 +4,9 @@ export default function LinkedinIcon(
   viewBox = "0 0 16 16",
   svgFill = "none",
   color = "var(--pure)",
-  styles,
-  classNames,
-  id
+  styles = null,
+  classNames = "linkicon",
+  id = "licon"
 ) {
   return (
     <>

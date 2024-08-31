@@ -14,7 +14,7 @@ export default function Home() {
       <HomeBrands />
       <HomeThreePillar />
       <HomeStatics />
-      <HomeHighlightCarousel />
+      {/* <HomeHighlightCarousel /> */}
       <HomeCta />
     </>
   );

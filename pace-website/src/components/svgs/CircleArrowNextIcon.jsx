@@ -1,7 +1,7 @@
 export default function CircleArrowNextIcon({
   color = "var(--iconColor)",
   isBorder = true,
-  style,
+  style = null,
 }) {
   return (
     <>

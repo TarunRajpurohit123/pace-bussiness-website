@@ -6,9 +6,9 @@ export default function PhoneIcon({
   color = "var(--primary-text)",
   strokeWidth = "1.5",
   strokeMiterlimit = "10",
-  styles,
-  classNames,
-  id,
+  styles = null,
+  classNames = "phoneicon",
+  id = "phnicon",
 }) {
   return (
     <>

@@ -8,15 +8,15 @@ import { useRef } from "react";
 const duration = 300;
 
 export default function BrandCard({
-  brand,
-  content,
-  image,
-  hoverColor,
-  hoverImage,
-  headingColor,
-  brandLogo,
-  subheadiColor,
-  contentColor,
+  brand = null,
+  content = null,
+  image = null,
+  hoverColor = null,
+  hoverImage = null,
+  headingColor = null,
+  brandLogo = null,
+  subheadiColor = null,
+  contentColor = null,
 }) {
   const [hover, setHover] = useState(false);
   const nodeRef = useRef(null);

@@ -81,17 +81,15 @@ export default function MobileNavbar() {
               <ul className="flex flex-col" style={{ marginTop: "2rem" }}>
                 {links?.map((link) => {
                   return (
-                    <>
-                      <li key={uniqid("mobile", "link")}>
-                        <Link
-                          href={link?.link}
-                          className="block py-2 pr-4 pl-3 rounded navbar-link"
-                          aria-current="page"
-                        >
-                          {link?.name}
-                        </Link>
-                      </li>
-                    </>
+                    <li key={uniqid("mobile", "link")}>
+                      <Link
+                        href={link?.link}
+                        className="block py-2 pr-4 pl-3 rounded navbar-link"
+                        aria-current="page"
+                      >
+                        {link?.name}
+                      </Link>
+                    </li>
                   );
                 })}
               </ul>

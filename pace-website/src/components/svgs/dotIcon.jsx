@@ -3,9 +3,9 @@ export default function DotIcon({
   width = "8",
   height = "9",
   view = `0 0 ${width} ${height}`,
-  className,
-  styles,
-  onClick,
+  className = "doticon--svg",
+  styles = { cursor: "pointer" },
+  onClick = null,
 }) {
   return (
     <>
@@ -16,7 +16,7 @@ export default function DotIcon({
         viewBox={view}
         fill="none"
         className={className}
-        style={{ cursor: "pointer" }}
+        style={styles}
         onClick={onClick}
       >
         <circle
