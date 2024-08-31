@@ -1,10 +1,15 @@
 import HomeBrands from "../components/components/HomeBrands";
 import HomeCta from "../components/components/HomeCta";
-import HomeHighlightCarousel from "../components/components/HomeHighlightCarousel";
 import HomeStatics from "../components/components/HomeStatics";
 import HomeThreePillar from "../components/components/HomeThreePillar";
 import HomeVideoComponent from "../components/components/HomeVideoComponent";
 import HomeWelcome from "../components/components/HomeWelcome";
+
+import dynamic from "next/dynamic";
+const HomeHighlightCarousel = dynamic(
+  () => import("../components/components/HomeHighlightCarousel"),
+  { ssr: false }
+);
 
 export default function Home() {
   return (
@@ -14,7 +19,7 @@ export default function Home() {
       <HomeBrands />
       <HomeThreePillar />
       <HomeStatics />
-      {/* <HomeHighlightCarousel /> */}
+      <HomeHighlightCarousel />
       <HomeCta />
     </>
   );
