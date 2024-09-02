@@ -4,6 +4,8 @@ import Image from "next/image";
 import { useState } from "react";
 import { Transition } from "react-transition-group";
 import { useRef } from "react";
+import BlankLinkIcon from "../svgs/BlankLinkIcon";
+import Link from "next/link";
 
 const duration = 300;
 
@@ -93,6 +95,15 @@ export default function BrandCard({
                     Discover
                   </h2>
                   <Image src={brandLogo} width="232" height="44" alt="image" />
+
+                  <Link href="#">
+                    <BlankLinkIcon
+                      color={
+                        brand === "Zwankee" ? "var(--mode-bg)" : "var(--pure)"
+                      }
+                      className="mt-[4.1rem]"
+                    />
+                  </Link>
                 </div>
               )}
             </div>

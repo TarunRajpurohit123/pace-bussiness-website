@@ -4,6 +4,7 @@ import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
 import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import BrandCard from "./BrandCard";
@@ -152,13 +153,15 @@ export default function HomeBrands() {
         </div>
 
         {/* carousel goes here*/}
-        <div className="flex justify-end page-width overflow-hidden">
+        <div
+          className="flex justify-end page-width overflow-hidden"
+          style={{ display: "flex", justifyContent: "flex-end" }}
+        >
           <div
             className="brand_carousel"
             style={{
               marginTop: "5rem",
-              width: "134.2rem",
-              marginRight: "-10rem",
+              width: "100%",
             }}
           >
             <Swiper
@@ -167,8 +170,10 @@ export default function HomeBrands() {
               pagination={{
                 clickable: true,
               }}
+              autoplay={{
+                delay: 1000,
+              }}
               onSlideChange={(e) => {
-                console.log("swipe", e.activeIndex + "==" + 4);
                 if (e.activeIndex < 4) {
                   setIsBrandNextActive(true);
                 }
@@ -185,13 +190,14 @@ export default function HomeBrands() {
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
               }}
-              className="mySwiper"
+              // modules={[Autoplay]}
+              // className="mySwiper"
             >
               {data?.map((card, ind) => {
                 return (
                   <SwiperSlide
                     key={uniqid()}
-                    style={ind !== 0 ? { marginLeft: "2.5rem" } : {}}
+                    style={ind != 0 ? { marginLeft: "4.7rem" } : {}}
                   >
                     <BrandCard
                       brand={card?.brand}

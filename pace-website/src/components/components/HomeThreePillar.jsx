@@ -91,11 +91,7 @@ export default function HomeThreePillar() {
           // loop={true}
           modules={[Mousewheel]}
           className="mySwiper"
-          onScroll={(e) => {
-            console.log({ e });
-          }}
           onSlideChange={(e) => {
-            console.log("slideChnage", e?.activeIndex);
             if (e?.activeIndex == 0) {
               setActiveDot(() => {
                 return {
@@ -195,9 +191,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE&apos;s dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
@@ -206,9 +202,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE&apos;s dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
@@ -254,9 +250,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE&apos;s dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
@@ -265,9 +261,9 @@ export default function HomeThreePillar() {
                   <p className="mt-[1.5rem]">
                     The commitment to enhancing the quality of life for
                     customers through innovative, stylish, and functional
-                    products. This pillar reflects PACE&apos;s dedication to creating
-                    brands that resonate with modern lifestyles and consumer
-                    aspirations.
+                    products. This pillar reflects PACE&apos;s dedication to
+                    creating brands that resonate with modern lifestyles and
+                    consumer aspirations.
                   </p>
                 </div>
 
