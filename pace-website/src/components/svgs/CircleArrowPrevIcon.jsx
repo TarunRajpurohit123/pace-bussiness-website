@@ -18,11 +18,10 @@ export default function CircleArrowPrevIcon({
             viewBox="0 0 32 32"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <rect
-              x="2.66675"
-              y="2.66663"
-              width="26.666"
-              height="26.666"
+            <circle
+              cx="16"
+              cy="16"
+              r="13.333"
               stroke={color}
               strokeWidth="1.5"
               strokeMiterlimit="10"

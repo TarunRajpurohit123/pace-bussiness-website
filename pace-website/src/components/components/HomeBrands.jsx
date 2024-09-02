@@ -24,7 +24,7 @@ export default function HomeBrands() {
       image: "/zwnakeeBrand.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
-      hoverImage: "/zbrandhover.png",
+      hoverImage: "/zhover.png",
       brandLogo: "/zwankeelogo.png",
       subheadiColor: "var(--mode-bg)",
     },
@@ -35,7 +35,7 @@ export default function HomeBrands() {
       image: "/ostilosBrand.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/OstilosLogo.png",
       subheadiColor: "var(--pure)",
     },
@@ -46,7 +46,7 @@ export default function HomeBrands() {
       image: "/widhrowsBrand.jpeg",
       hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/WishroLogo.png",
       subheadiColor: "var(--pure)",
     },
@@ -57,7 +57,7 @@ export default function HomeBrands() {
       image: "/ppiBrand.jpeg",
       hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/ppiLogo.png",
       subheadiColor: "var(--pure)",
       contentColor: "var(--pure)",
@@ -69,7 +69,7 @@ export default function HomeBrands() {
       image: "/zwnakeeBrand.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/zhover.png",
       brandLogo: "/zwankeelogo.png",
       subheadiColor: "var(--mode-bg)",
     },
@@ -80,7 +80,7 @@ export default function HomeBrands() {
       image: "/ostilosBrand.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/OstilosLogo.png",
       subheadiColor: "var(--pure)",
     },
@@ -91,7 +91,7 @@ export default function HomeBrands() {
       image: "/widhrowsBrand.jpeg",
       hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/WishroLogo.png",
       subheadiColor: "var(--pure)",
     },
@@ -102,7 +102,7 @@ export default function HomeBrands() {
       image: "/ppiBrand.jpeg",
       hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
-      hoverImage: "/ostilos__hover.png",
+      hoverImage: "/brandhover.png",
       brandLogo: "/ppiLogo.png",
       subheadiColor: "var(--pure)",
       contentColor: "var(--pure)",
@@ -171,8 +171,9 @@ export default function HomeBrands() {
                 clickable: true,
               }}
               autoplay={{
-                delay: 1000,
+                delay: 3000,
               }}
+              loop={true}
               onSlideChange={(e) => {
                 if (e.activeIndex < 4) {
                   setIsBrandNextActive(true);

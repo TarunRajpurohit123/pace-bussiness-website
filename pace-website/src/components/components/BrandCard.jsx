@@ -83,17 +83,24 @@ export default function BrandCard({
                 width="300"
                 height="300"
                 className="hbrandImage"
-                style={{ objectFit: "cover" }}
+                style={
+                  !hover
+                    ? { objectFit: "cover" }
+                    : {
+                        objectFit: "cover",
+                        opacity: brand != "Zwankee" ? "10%" : "10%",
+                      }
+                }
                 alt="image"
               />
               {hover && (
                 <div className="brand__overlay flex justify-center items-center flex-col">
-                  <h2
+                  <p
                     className="uppercase brand_overlay_subheading"
                     style={{ color: subheadiColor }}
                   >
                     Discover
-                  </h2>
+                  </p>
                   <Image src={brandLogo} width="232" height="44" alt="image" />
 
                   <Link href="#">

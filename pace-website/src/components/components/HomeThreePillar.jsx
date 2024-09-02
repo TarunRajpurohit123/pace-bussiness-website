@@ -19,7 +19,7 @@ export default function HomeThreePillar() {
   return (
     <>
       <section className="homeThreePillar page-width pt-[7.5rem] pb-[7.5rem]">
-        <div className="homeThree__top flex items-center justify-between">
+        <div className="homeThree__top mb-[5rem] flex items-center justify-between">
           <h1 className="htp__heading flex items-center">
             <Logo classNames={"mr-[1.3rem]"} color={"var(--pure)"} />{" "}
             <span style={{ color: "var(--pure)" }}>Pillars</span>
@@ -294,7 +294,7 @@ export default function HomeThreePillar() {
                 </div>
               </div>
               <div className="wc__right">
-                <Image src={"/01.png"} width={450} height={505} alt="image" />
+                <Image src={"/02.png"} width={450} height={505} alt="image" />
               </div>
             </div>
           </SwiperSlide>
