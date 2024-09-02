@@ -678,8 +678,8 @@ option:hover {
   display: inline-block;
   color: var(--gray_100);
   width: 20rem;
-  height: 5rem;
-  padding: 1rem 4rem 1rem 4rem;
+  /* height: 5rem; */
+  padding: 1rem;
   border-radius: 0.4rem;
   background-color: var(--red);
   font-size: 2rem;
@@ -865,9 +865,8 @@ option:hover {
   height: 49.6rem;
   padding: 2.5rem;
   border-radius: 12px;
-  box-shadow: 0px 4px 8px 0px #f7f7f70d;
-
-  box-shadow: 0px -2px 8px 0px #f7f7f70d;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.06) 0px 2px 4px -1px;
 }
 .wc__left > h1 {
   color: var(--pure);
@@ -1354,4 +1353,12 @@ option:hover {
 }
 .tsiwtcher--ball {
   border-radius: 100% !important;
+}
+.subheading__onHome {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 4.5rem;
+  letter-spacing: 0.14em;
+  text-align: center;
+  color: var(--pure);
 }

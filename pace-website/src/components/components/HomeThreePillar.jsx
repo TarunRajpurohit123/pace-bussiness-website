@@ -21,7 +21,7 @@ export default function HomeThreePillar() {
       <section className="homeThreePillar page-width pt-[7.5rem] pb-[7.5rem]">
         <div className="homeThree__top flex items-center justify-between">
           <h1 className="htp__heading flex items-center">
-            <Logo classNames={"mr-[1.3rem]"} color={"var(--red)"} />{" "}
+            <Logo classNames={"mr-[1.3rem]"} color={"var(--pure)"} />{" "}
             <span style={{ color: "var(--pure)" }}>Pillars</span>
           </h1>
           <div className="pillarCarouselDots flex">

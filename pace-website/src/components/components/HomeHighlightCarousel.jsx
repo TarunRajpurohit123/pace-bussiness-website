@@ -90,7 +90,7 @@ export default function HomeHighlightCarousel() {
   }, []);
 
   return (
-    <div className="mb-[25rem] mt-[7.5rem]">
+    <div className="my-[7.5rem]">
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
           <h1>Higlights of the Year</h1>
@@ -115,46 +115,44 @@ export default function HomeHighlightCarousel() {
           // showNavigation={true}
           animationConfig={config.gentle}
         />
-        <div
-          className="flex items-center justify-center"
-          style={{ textAlign: "center", marginTop: "2.4rem" }}
+      </div>
+      <div
+        className="flex items-center justify-center"
+        style={{ textAlign: "center", marginTop: "2.4rem" }}
+      >
+        <button
+          onClick={() => setIndex((index - 1 + slides.length) % slides.length)}
+          className={"mr-[1.5rem]"}
         >
-          <button
-            onClick={() =>
-              setIndex((index - 1 + slides.length) % slides.length)
+          <ArrowLeft />
+        </button>
+        <div className="flex items-center">
+          {slides?.map((slide, ind) => {
+            if (index == ind) {
+              return (
+                <DotIcon
+                  className={"mr-[0.4rem] scale-150"}
+                  color="var(--red)"
+                  key={uniqid("doticon")}
+                />
+              );
+            } else {
+              return (
+                <DotIcon
+                  className={"mr-[0.4rem] scale-100"}
+                  key={uniqid("doticon")}
+                />
+              );
             }
-            className={"mr-[1.5rem]"}
-          >
-            <ArrowLeft />
-          </button>
-          <div className="flex items-center">
-            {slides?.map((slide, ind) => {
-              if (index == ind) {
-                return (
-                  <DotIcon
-                    className={"mr-[0.4rem] scale-150"}
-                    color="var(--red)"
-                    key={uniqid("doticon")}
-                  />
-                );
-              } else {
-                return (
-                  <DotIcon
-                    className={"mr-[0.4rem] scale-100"}
-                    key={uniqid("doticon")}
-                  />
-                );
-              }
-            })}
-          </div>
-          <button
-            id="3dNext"
-            className={"ml-[1.1rem]"}
-            onClick={() => setIndex((index + 1) % slides.length)}
-          >
-            <ArrowRight />
-          </button>
+          })}
         </div>
+        <button
+          id="3dNext"
+          className={"ml-[1.1rem]"}
+          onClick={() => setIndex((index + 1) % slides.length)}
+        >
+          <ArrowRight />
+        </button>
       </div>
     </div>
   );

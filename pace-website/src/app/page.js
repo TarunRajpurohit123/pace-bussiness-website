@@ -1,3 +1,4 @@
+import InvestorCTA from "@/components/components/InvestorCTA";
 import HomeBrands from "../components/components/HomeBrands";
 import HomeCta from "../components/components/HomeCta";
 import HomeStatics from "../components/components/HomeStatics";
