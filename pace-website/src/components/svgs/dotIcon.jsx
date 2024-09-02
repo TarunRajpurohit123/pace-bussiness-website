@@ -19,10 +19,11 @@ export default function DotIcon({
         style={styles}
         onClick={onClick}
       >
-        <circle
-          cx="4"
-          cy="4.5"
-          r="4"
+        <rect
+          x="0"
+          y="0"
+          width="8"
+          height="8"
           transform="rotate(-180 4 4.5)"
           fill={color}
         />

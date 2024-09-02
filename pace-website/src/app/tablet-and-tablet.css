@@ -130,7 +130,7 @@
 @media (max-width: 1000px) {
   /* root */
   :root {
-    letter-spacing: -0.05em;
+    letter-spacing: 0rem;
   }
   /* navbar goes */
   #desktop__navbar {

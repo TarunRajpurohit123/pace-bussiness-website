@@ -4,11 +4,12 @@
 
 :root {
   font-size: 62.5%;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
 }
 
 * {
   scroll-behavior: smooth;
+  border-radius: 0 !important;
 }
 
 body {
@@ -17,14 +18,14 @@ body {
 
 .dark-mode {
   --pure: #f1f4e6;
-  --pure_F7: #f7f7f7;
+  --pure_F7: #f1f4e6;
   --primary-text: #b3b3b3;
   --mode-bg: #191918;
   --brandcard: #191918;
   --primary_01_black: #191918;
   --success: #17b26a;
-  --gray_25: #f9f9f9;
-  --gray_100: #e7e7e7;
+  --gray_25: #f1f4e6;
+  --gray_100: #f1f4e6;
   --gray_200: #cecece;
   --gray_400: #9d9d9d;
   --gray_500: #848384;
@@ -541,12 +542,12 @@ option:hover {
   color: var(--gray_100);
   font-size: 1.6rem;
   font-weight: 400;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
 }
 .acp__right > h1 {
   font-size: 2.8rem;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   color: var(--pure_F7);
   margin-top: 1rem;
 }
@@ -585,7 +586,7 @@ option:hover {
 .aboutcards_section > h1 {
   font-size: 4.4rem;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   color: var(--pure_F7);
   text-align: center;
 }
@@ -609,13 +610,13 @@ option:hover {
 .about__cta__section_wrapper > .about__cta__section > .cta_content > h1 {
   font-size: 6rem;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   color: var(--pure_F7);
 }
 .about__cta__section_wrapper > .about__cta__section > .cta_content > p {
   font-size: 1.8rem;
   font-weight: 500;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   color: var(--pure_F7);
   margin-top: 1.5rem;
 }
@@ -625,7 +626,7 @@ option:hover {
   font-weight: 500;
   font-size: 2rem;
   color: var(--gray_100);
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   border-radius: 0.4rem;
   display: flex;
   justify-content: center;
@@ -649,12 +650,12 @@ option:hover {
   color: var(--pure_F7);
   font-size: 4.8rem;
   font-weight: 700;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
 }
 .hero__two > p {
   font-size: 1.8rem;
   font-weight: 400;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   color: var(--gray_400);
   width: 46.6rem;
   text-align: center;
@@ -684,7 +685,7 @@ option:hover {
   font-size: 2rem;
   font-weight: 500;
   line-height: 3rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: center;
   transition: all 0.5s;
 }
@@ -695,7 +696,7 @@ option:hover {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 2.8rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   color: var(--gray_100);
 }
@@ -703,7 +704,7 @@ option:hover {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 5.2rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   color: var(--gray_100);
 }
@@ -723,7 +724,7 @@ option:hover {
   font-size: 4rem;
   font-weight: 700;
   line-height: 5.7rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: center;
   color: var(--gray_100);
 }
@@ -743,7 +744,7 @@ option:hover {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 6.6rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: center;
 }
 .home__welcome__section > p {
@@ -822,7 +823,7 @@ option:hover {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 5.7rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   color: var(--pure);
 }
@@ -873,7 +874,7 @@ option:hover {
   font-size: 4.4rem;
   font-weight: 700;
   line-height: 6.6rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
 }
 .wc__left__content > h1 {
@@ -1272,7 +1273,7 @@ option:hover {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.4rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   margin-top: 1rem;
   color: var(--gray_400);
@@ -1286,7 +1287,7 @@ option:hover {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.7rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   display: flex;
   align-items: center;
@@ -1297,7 +1298,7 @@ option:hover {
   font-size: 1.8rem;
   font-weight: 400;
   line-height: 2.7rem;
-  letter-spacing: -0.05em;
+  letter-spacing: 0rem;
   text-align: left;
   margin-left: 1.5rem;
 }
@@ -1337,4 +1338,11 @@ option:hover {
     rgba(255, 255, 255, 0) -7.55%,
     rgba(25, 25, 24, 0.2) 100%
   );
+}
+
+.tsiwtcher {
+  border-radius: 10rem !important;
+}
+.tsiwtcher--ball {
+  border-radius: 100% !important;
 }

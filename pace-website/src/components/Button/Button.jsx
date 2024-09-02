@@ -5,13 +5,11 @@ export default function Button({
   styles = null,
   key = null,
   type = "button",
-  ariaLabel = null,
   ...props
 }) {
   return (
     <>
       <button
-        aria-label={ariaLabel}
         type={type}
         key={key}
         style={styles}
