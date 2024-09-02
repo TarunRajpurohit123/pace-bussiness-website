@@ -12,11 +12,9 @@ import ArrowRightIcon from "@/components/svgs/arrowRightIcon";
 import uniqid from "uniqid";
 
 export default function HomeBrands() {
+  const [isBrandNextActive, setIsBrandNextActive] = useState(true);
+  const [isBrandPrevActive, setIsBrandPrevActive] = useState(false);
   const swiperRef = useRef(null);
-  const [activeIcon, setActiveIcon] = useState({
-    prev: "var(--iconColor)",
-    next: "var(--iconColor)",
-  });
   const data = [
     {
       brand: "Zwankee",
@@ -122,30 +120,22 @@ export default function HomeBrands() {
             <div className="bcarousel__button flex items-center">
               <button
                 onClick={() => {
-                  setActiveIcon(() => {
-                    return {
-                      prev: "var(--pure)",
-                      next: "var(--iconColor)",
-                    };
-                  });
                   if (swiperRef.current) swiperRef.current.slidePrev();
                 }}
               >
-                <CircleArrowPrevIcon color={activeIcon?.prev} />
+                <CircleArrowPrevIcon
+                  color={isBrandPrevActive ? "var(--pure)" : "var(--iconColor)"}
+                />
               </button>
               <button
                 className="ml-[2.5rem] mr-[2.5rem]"
                 onClick={() => {
-                  setActiveIcon(() => {
-                    return {
-                      prev: "var(--iconColor)",
-                      next: "var(--pure)",
-                    };
-                  });
                   if (swiperRef.current) swiperRef.current.slideNext();
                 }}
               >
-                <CircleArrowNextIcon color={activeIcon?.next} />
+                <CircleArrowNextIcon
+                  color={isBrandNextActive ? "var(--pure)" : "var(--iconColor)"}
+                />
               </button>
               <Link href="#" className="our__brands_viewLink flex items-center">
                 View all <ArrowRightIcon className="ml-[1.5rem]" />
@@ -174,9 +164,23 @@ export default function HomeBrands() {
             <Swiper
               slidesPerView={4}
               spaceBetween={30}
-              loop={true}
               pagination={{
                 clickable: true,
+              }}
+              onSlideChange={(e) => {
+                console.log("swipe", e.activeIndex + "==" + 4);
+                if (e.activeIndex < 4) {
+                  setIsBrandNextActive(true);
+                }
+                if (e.activeIndex == 4) {
+                  setIsBrandNextActive(false);
+                }
+                if (e.activeIndex > 0) {
+                  setIsBrandPrevActive(true);
+                }
+                if (e.activeIndex == 0) {
+                  setIsBrandPrevActive(false);
+                }
               }}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
