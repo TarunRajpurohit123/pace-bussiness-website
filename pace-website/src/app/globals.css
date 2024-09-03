@@ -1388,6 +1388,8 @@ option:hover {
 .zigzag__card {
   width: 141rem;
   margin: auto;
+  padding-top: 4.5rem !important;
+  padding-top: 4.5rem !important;
 }
 
 .marqueeSwiper > .swiper-wrapper {
