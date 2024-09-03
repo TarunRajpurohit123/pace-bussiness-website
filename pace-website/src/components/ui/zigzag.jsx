@@ -45,6 +45,7 @@ export default function Zigzag({ styles = null }) {
           spaceBetween={30}
           autoplay={{
             delay: 0,
+            stopOnLastSlide: false,
             disableOnInteraction: false, // Keeps autoplay even if user interacts
           }}
           speed={4000}
