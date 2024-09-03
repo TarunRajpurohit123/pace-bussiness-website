@@ -1427,3 +1427,6 @@ option:hover {
   color: var(--gray_400);
   margin-top: 1.5rem;
 }
+.explicit-rounded-full {
+  border-radius: 100% !important;
+}
