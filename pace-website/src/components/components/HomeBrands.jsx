@@ -115,7 +115,7 @@ export default function HomeBrands() {
           <div className="flex homebrands__top_one justify-between items-center">
             {/* heading */}
             <h1>
-              Our <span style={{ color: "var(--red)" }}>Brands</span>
+              Our <span style={{ color: "var(--pure)" }}>Brands</span>
             </h1>
             {/* carousel button */}
             <div className="bcarousel__button flex items-center">

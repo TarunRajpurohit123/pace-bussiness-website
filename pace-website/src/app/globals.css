@@ -647,8 +647,8 @@ option:hover {
   opacity: 80%;
 }
 .hero__two {
-  height: 45rem;
-  padding: 20.2rem 0 0 0;
+  /* height: 45rem; */
+  padding: 13.2rem 0 5.5rem 0;
   display: flex;
   align-items: center;
   flex-direction: column;

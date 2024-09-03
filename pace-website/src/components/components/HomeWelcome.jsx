@@ -6,7 +6,7 @@ const HomeWelcome = () => {
     <div className="home__welcome__section pt-[15rem] pb-[7.5rem] page-width">
       <h1 className="flex items-center justify-center">
         Welcome to the world of{" "}
-        <Logo color="var(--red)" classNames={"ml-[1.3rem]"} />
+        <Logo color="var(--pure)" classNames={"ml-[1.3rem]"} />
       </h1>
       <p className="mt-[2.5rem]">
         PACE Ecommerce Ventures Ltd is more than just a company; it&apos;s a
