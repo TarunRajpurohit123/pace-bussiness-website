@@ -1379,3 +1379,8 @@ option:hover {
 .navbar--link:hover {
   border-bottom: 2px solid var(--red);
 }
+
+.zigzag__card > div > div,
+.zigzag__card > div > div > img {
+  border-radius: 1.6rem !important;
+}

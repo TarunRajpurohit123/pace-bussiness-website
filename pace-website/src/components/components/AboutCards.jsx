@@ -26,7 +26,7 @@ export default function AboutCards() {
     <>
       <section className="aboutcards_section page-width">
         <h1>
-          Teamwork <span>fuels innovation</span> and growth.
+          Teamwork fuels innovation and growth.
         </h1>
         <section className="flex justify-center mt-[5rem]">
           {cardData?.map((card, ind) => {
