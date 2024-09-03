@@ -1384,3 +1384,12 @@ option:hover {
 .zigzag__card > div > div > img {
   border-radius: 1.6rem !important;
 }
+
+.marqueeSwiper > .swiper-wrapper {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.marqueeSwiper .swiper-slide > div,
+.marqueeSwiper .swiper-slide {
+  width: fit-content !important;
+}

@@ -2,7 +2,13 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import React, { useRef } from "react";
+import React from "react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+import "swiper/css";
+import "swiper/css/pagination";
+
+// Install required Swiper modules
 
 export default function Zigzag({ styles = null }) {
   const images = [
@@ -26,34 +32,50 @@ export default function Zigzag({ styles = null }) {
       zIndex: 100,
     },
   };
+
   return (
     <div
       className={`relative zigzag__card flex flex-col items-center p-8 gap-10 h-full overflow-hidden`}
       style={styles}
     >
-      <div className="flex flex-row -ml-20">
-        {images.map((image, idx) => (
-          <motion.div
-            key={`images-first-${idx}`} // Improved key format for better readability
-            variants={imageVariants}
-            style={{
-              rotate: Math.random() * 20 - 10,
-            }}
-            whileHover="whileHover"
-            whileTap="whileTap"
-            className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
-          >
-            <Image
-              src={image}
-              alt="Bali image"
-              width={288}
-              height={288}
-              className="rounded-lg zinzag-image  object-cover flex-shrink-0"
-              style={{ width: "28.8rem", height: "28.8rem" }}
-              priority // Optional: can be used for images that are in the viewport on page load
-            />
-          </motion.div>
-        ))}
+      <div className="flex flex-row -ml-20 w-full">
+        <Swiper
+          slidesPerView={5}
+          loop={true}
+          spaceBetween={30}
+          autoplay={{
+            delay: 0,
+            disableOnInteraction: false, // Keeps autoplay even if user interacts
+          }}
+          speed={4000}
+          modules={[Autoplay]}
+          className="marqueeSwiper"
+        >
+          {images.map((image, idx) => (
+            <SwiperSlide key={idx}>
+              <motion.div
+                key={`images-first-${idx}`}
+                variants={imageVariants}
+                style={{
+                  rotate: Math.random() * 20 - 10,
+                }}
+                whileHover="whileHover"
+                whileTap="whileTap"
+                className="rounded-xl -mr-4 mt-4 p-1 bg-white dark:bg-neutral-800 dark:border-neutral-700 border border-neutral-100 flex-shrink-0 overflow-hidden"
+              >
+                <Image
+                  src={image}
+                  alt="Image"
+                  width={288}
+                  height={288}
+                  className="rounded-lg zinzag-image object-cover flex-shrink-0"
+                  style={{ width: "28.8rem", height: "28.8rem" }}
+                  priority
+                />
+              </motion.div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </div>
   );
