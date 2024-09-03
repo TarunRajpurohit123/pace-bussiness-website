@@ -173,7 +173,7 @@ export default function HomeBrands() {
               autoplay={{
                 delay: 3000,
               }}
-              loop={true}
+              // loop={true}
               onSlideChange={(e) => {
                 if (e.activeIndex < 4) {
                   setIsBrandNextActive(true);
@@ -191,7 +191,7 @@ export default function HomeBrands() {
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
               }}
-              modules={[Autoplay]}
+              // modules={[Autoplay]}
               className="mySwiper"
             >
               {data?.map((card, ind) => {
