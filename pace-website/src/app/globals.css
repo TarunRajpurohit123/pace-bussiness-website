@@ -106,8 +106,8 @@ body {
   align-items: center;
 }
 .page-width {
-  width: 128rem;
-  margin: auto;
+  width: 128rem !important;
+  margin: auto !important;
 }
 .navbar-link {
   color: var(--pure);
@@ -1412,4 +1412,18 @@ option:hover {
   100% {
     width: 0%;
   }
+}
+.timeline--heading {
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 4.9rem;
+  color: var(--pure);
+}
+.timeline--introcontent {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  text-align: left;
+  color: var(--gray_400);
+  margin-top: 1.5rem;
 }

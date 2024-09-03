@@ -1,6 +1,7 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { Logo } from "..";
 
 export const Timeline = ({ data }) => {
   const ref = useRef(null);
@@ -24,19 +25,19 @@ export const Timeline = ({ data }) => {
 
   return (
     <div
-      className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
+      className="w-full font-sans md:px-10"
+      style={{ background: "var(--mode-bg)" }}
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Changelog from my journey
+      <div className="page-width">
+        <h2 className="flex timeline--heading items-center">
+          <Logo color="var(--pure)" classNames="mr-[1rem]" /> History
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+        <p className="timeline--introcontent">
+          Here's a timeline of our journey from beginning till now!!!
         </p>
       </div>
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative page-width">
         {data?.map((item, index) => (
           <div
             key={index}
