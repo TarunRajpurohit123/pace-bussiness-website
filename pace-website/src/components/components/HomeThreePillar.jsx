@@ -24,7 +24,7 @@ export default function HomeThreePillar() {
       if (!swiperRef.current || !carouselRef.current) return;
 
       const scrollTop =
-        window.pageYOffset || document.documentElement.scrollTop;
+        window?.pageYOffset || document.documentElement.scrollTop;
       const scrollDirection = scrollTop > lastScrollTop ? "down" : "up";
       setLastScrollTop(scrollTop);
 
@@ -37,7 +37,7 @@ export default function HomeThreePillar() {
           scrollTop >
           carouselRef.current.offsetTop +
             carouselRef.current.offsetHeight -
-            window.innerHeight
+            window?.innerHeight
         ) {
           swiperRef.current.slideNext(); // Slide to the next slide
         }
@@ -49,8 +49,8 @@ export default function HomeThreePillar() {
     };
 
     // Add scroll event listener
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window?.addEventListener("scroll", handleScroll);
+    return () => window?.removeEventListener("scroll", handleScroll);
   }, [lastScrollTop]);
 
   return (

@@ -55,12 +55,15 @@ export const Timeline = ({ data }) => {
               >
                 <div className=" w-full h-full rounded-full  p-2"></div>
               </div>
-              <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <p
+                className=" ml-[5rem] timelineTitle font-bold"
+                style={{ color: "var(--pure)" }}
+              >
                 {item.title}
-              </h3>
+              </p>
             </div>
 
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+            <div className="relative" style={{ width: "98rem" }}>
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>

@@ -11,7 +11,7 @@ import { useStore } from "@/store/useStore";
 
 export default function Navbar() {
   const [currentScroll, setCurrentScroll] = useState(0);
-  const scrollPosition = window.scrollY;
+  const scrollPosition = window?.scrollY;
   const isProgressHandle = useStore((state) => state.isProgressHandle);
 
   const router = useRouter();
@@ -19,7 +19,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollPosition = window.scrollY;
+      const scrollPosition = window?.scrollY;
       setCurrentScroll(scrollPosition);
     };
 
