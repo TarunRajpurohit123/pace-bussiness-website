@@ -29,7 +29,7 @@ export default function Contact() {
     },
     {
       heading: "Call us",
-      text: "Mon - Sat from 9:30 AM to 6:30 PM",
+      text: "Mon-Sat: 9:30 AM - 6:30 PM",
       anchor: ["+91 55555 55555", "#"],
       icon: <CallIcon />,
     },

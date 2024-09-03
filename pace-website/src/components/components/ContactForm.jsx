@@ -10,7 +10,7 @@ export default function ContactForm() {
       >
         {/* left */}
         <div className="cform_left ">
-          <div className="w-full h-full p-[8rem]">
+          <div className="w-full h-full p-[4rem]">
             <p className="pone1">
               Didn’t find what you were looking for on our website? You can
               begin with our online support resources by selecting the
