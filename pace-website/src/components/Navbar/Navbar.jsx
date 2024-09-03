@@ -17,10 +17,10 @@ export default function Navbar() {
       setCurrentScroll(scrollPosition);
     };
 
-    window.addEventListener("scroll", handleScroll);
+    window?.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      window?.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -55,7 +55,7 @@ export default function Navbar() {
                 return (
                   <li
                     key={uniqid("navlink")}
-                    className={ind != 0 ? `ml-[2.5rem]` : ``}
+                    className={ind != 0 ? `ml-[2.5rem] navbar--link` : `navbar--link`}
                   >
                     <Link className="navbar-link" href={link?.link}>
                       {link?.name}

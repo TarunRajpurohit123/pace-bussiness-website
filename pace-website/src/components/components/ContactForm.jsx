@@ -7,7 +7,7 @@ export default function ContactForm() {
       <section className="contact_form page-width c-mobile-width flex justify-between items-start">
         {/* left */}
         <div className="cform_left ">
-          <div className="w-full h-full pt-[8rem] pl-[8rem] pr-[8rem]">
+          <div className="w-full h-full p-[8rem]">
             <p className="pone1">
               Didn’t find what you were looking for on our website? You can
               begin with our online support resources by selecting the
