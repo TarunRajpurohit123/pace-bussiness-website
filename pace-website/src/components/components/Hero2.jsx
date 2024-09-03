@@ -1,12 +1,12 @@
-export default function Hero2() {
+export default function Hero2({
+  title = "Our Group",
+  content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
+}) {
   return (
     <>
       <section className="hero__two">
-        <h1>Our Group</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore.
-        </p>
+        <h1>{title}</h1>
+        <p>{content}</p>
       </section>
     </>
   );

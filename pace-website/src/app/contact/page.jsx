@@ -1,11 +1,11 @@
 import SmsIcon from "@/components/svgs/SmsIcon";
 import Card from "../../components/components/Card";
 import ContactForm from "../../components/components/ContactForm";
-import Hero from "../../components/components/Hero";
 import HeadIcon from "@/components/svgs/HeadIcon";
 import GpsIcon from "@/components/svgs/GpsIcon";
 import CallIcon from "@/components/svgs/CallIcon";
 import uniqid from "uniqid";
+import Hero2 from "@/components/components/Hero2";
 
 export default function Contact() {
   const cardData = [
@@ -36,7 +36,7 @@ export default function Contact() {
   ];
   return (
     <>
-      <Hero
+      <Hero2
         title="Contact Us"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
