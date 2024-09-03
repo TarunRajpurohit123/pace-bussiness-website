@@ -378,7 +378,7 @@ nav {
 }
 .contact_cards_section {
   margin-top: 10rem;
-  margin-bottom: 7.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .global-abs {
@@ -618,7 +618,7 @@ option:hover {
 }
 
 .about__cta__section_wrapper {
-  padding: 7.5rem 0px 10rem 0px;
+  padding: 7.5rem 0px 2.5rem 0px;
 }
 
 .about__cta__section_wrapper > .about__cta__section > .cta_content > h1 {
@@ -1243,7 +1243,7 @@ option:hover {
 }
 .investors__cta {
   padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: 2.5rem;
 }
 .latestpress__wrapper {
   padding-top: 7.5rem;
