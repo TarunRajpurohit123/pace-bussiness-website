@@ -4,7 +4,10 @@ import Form from "./Form";
 export default function ContactForm() {
   return (
     <>
-      <section className="contact_form page-width c-mobile-width flex justify-between items-start">
+      <section
+        className="contact_form page-width c-mobile-width flex justify-between items-start"
+        style={{ paddingTop: "7.5rem" }}
+      >
         {/* left */}
         <div className="cform_left ">
           <div className="w-full h-full p-[8rem]">
