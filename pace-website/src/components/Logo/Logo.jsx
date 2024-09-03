@@ -1,4 +1,8 @@
+"use client";
+
+import { useStore } from "@/store/useStore";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function Logo({
   color = "var(--pure)",
@@ -10,9 +14,16 @@ export default function Logo({
   viewBox = "0 0 122 34",
   svgFill = "none",
 }) {
+  const isProgressHandle = useStore((state) => state.isProgressHandle);
+  const router = useRouter();
   return (
     <>
-      <Link href="/">
+      <div
+        onClick={() => {
+          isProgressHandle();
+          router?.push("/");
+        }}
+      >
         <svg
           width={width}
           className={classNames}
@@ -40,7 +51,7 @@ export default function Logo({
             fill={color}
           />
         </svg>
-      </Link>
+      </div>
     </>
   );
 }

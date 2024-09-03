@@ -4,6 +4,7 @@ import "./tablet-and-tablet.css";
 import { Annoucebar, Footer, Navbar } from "@/components";
 import MobileNavbar from "@/components/Navbar/MobileNavbar";
 import FontProvider from "./providers/fontProvider";
+import ProgressBar from "@/components/ProgressBar";
 
 export const metadata = {
   title: "Pace",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <FontProvider />
       <html lang="en">
         <body className={`dark-mode`}>
+          <ProgressBar />
           <Annoucebar />
           <Navbar />
           <MobileNavbar />

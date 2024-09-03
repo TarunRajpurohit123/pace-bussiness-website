@@ -3,10 +3,13 @@ import AboutCards from "../../components/components/AboutCards";
 import Zigzag from "@/components/ui/zigzag";
 import CTA from "../../components/components/CTA";
 import Hero2 from "../../components/components/Hero2";
+import TimelineGroup from "@/components/components/TimelineGroup";
+import PageOcc from "@/components/PageOcc";
 
 export default function About() {
   return (
     <>
+      <PageOcc />
       <Hero2 />
       <CompanyProfile />
       <AboutCards />
@@ -15,6 +18,8 @@ export default function About() {
           padding: "7.5rem 0 7.5rem 0",
         }}
       />
+      {/* timeline */}
+      <TimelineGroup />
       <CTA />
     </>
   );

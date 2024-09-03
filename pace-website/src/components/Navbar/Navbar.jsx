@@ -6,10 +6,16 @@ import { links } from "./links";
 import Overlay from "./Overlay";
 import uniqid from "uniqid";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useStore } from "@/store/useStore";
 
 export default function Navbar() {
   const [currentScroll, setCurrentScroll] = useState(0);
   const scrollPosition = window.scrollY;
+  const isProgressHandle = useStore((state) => state.isProgressHandle);
+
+  const router = useRouter();
+  console.log({ router });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -23,8 +29,6 @@ export default function Navbar() {
       window?.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  console.log(currentScroll);
 
   return (
     <div className="relative flex justify-center">
@@ -55,9 +59,21 @@ export default function Navbar() {
                 return (
                   <li
                     key={uniqid("navlink")}
-                    className={ind != 0 ? `ml-[2.5rem] navbar--link` : `navbar--link`}
+                    className={
+                      ind != 0 ? `ml-[2.5rem] navbar--link` : `navbar--link`
+                    }
+                    onClick={() => {
+                      isProgressHandle();
+                      router?.push(link.link);
+                    }}
                   >
-                    <Link className="navbar-link" href={link?.link}>
+                    <Link
+                      className="navbar-link"
+                      href={link?.link}
+                      onClick={(e) => {
+                        e?.preventDefault();
+                      }}
+                    >
                       {link?.name}
                     </Link>
                   </li>

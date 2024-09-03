@@ -1396,3 +1396,20 @@ option:hover {
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
+.main-anima-progress-bar {
+  width: 0%;
+  border-radius: 50%;
+  animation: increaseWidth 1s ease-in-out infinite;
+}
+
+@keyframes increaseWidth {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}

@@ -6,6 +6,7 @@ import GpsIcon from "@/components/svgs/GpsIcon";
 import CallIcon from "@/components/svgs/CallIcon";
 import uniqid from "uniqid";
 import Hero2 from "@/components/components/Hero2";
+import PageOcc from "@/components/PageOcc";
 
 export default function Contact() {
   const cardData = [
@@ -36,6 +37,7 @@ export default function Contact() {
   ];
   return (
     <>
+      <PageOcc />
       <Hero2
         title="Contact Us"
         content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
