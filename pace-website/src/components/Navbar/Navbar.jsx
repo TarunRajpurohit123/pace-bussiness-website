@@ -6,7 +6,7 @@ import { links } from "./links";
 import Overlay from "./Overlay";
 import uniqid from "uniqid";
 import { useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useStore } from "@/store/useStore";
 
 export default function Navbar() {
@@ -15,7 +15,8 @@ export default function Navbar() {
   const isProgressHandle = useStore((state) => state.isProgressHandle);
 
   const router = useRouter();
-  console.log({ router });
+  const pathname = usePathname();
+  console.log("pathname=>", { pathname });
 
   useEffect(() => {
     const handleScroll = () => {
@@ -51,7 +52,7 @@ export default function Navbar() {
           id="desktop__navbar"
         >
           <div className="z-10 flex justify-between w-full">
-            <Logo />
+            <Logo pathname={pathname}/>
 
             {/* links goes here*/}
             <ul className="flex">
@@ -63,8 +64,10 @@ export default function Navbar() {
                       ind != 0 ? `ml-[2.5rem] navbar--link` : `navbar--link`
                     }
                     onClick={() => {
-                      isProgressHandle();
-                      router?.push(link.link);
+                      if (pathname != link.link) {
+                        isProgressHandle();
+                        router?.push(link.link);
+                      }
                     }}
                   >
                     <Link

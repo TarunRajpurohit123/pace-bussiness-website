@@ -13,6 +13,7 @@ export default function Logo({
   height = "34",
   viewBox = "0 0 122 34",
   svgFill = "none",
+  pathname,
 }) {
   const isProgressHandle = useStore((state) => state.isProgressHandle);
   const router = useRouter();
@@ -20,8 +21,10 @@ export default function Logo({
     <>
       <div
         onClick={() => {
-          isProgressHandle();
-          router?.push("/");
+          if (pathname != "/") {
+            isProgressHandle();
+            router?.push("/");
+          }
         }}
       >
         <svg
