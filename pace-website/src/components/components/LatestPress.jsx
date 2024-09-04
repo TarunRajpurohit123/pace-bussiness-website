@@ -55,7 +55,7 @@ export default function LatestPress() {
           </div>
         </div>
 
-        <div className="latestpress__carousel page-width flex justify-between items-center mt-[5rem]">
+        <div className="latestpress__carousel page-width flex justify-between items-center pt-[5rem]">
           <Swiper
             slidesPerView={3}
             spaceBetween={30}

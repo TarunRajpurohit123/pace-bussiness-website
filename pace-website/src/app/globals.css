@@ -1057,7 +1057,7 @@ option:hover {
   margin-top: 1.5rem;
   padding-left: 8rem;
   padding-right: 8rem;
-  padding-top: 2.5rem;
+  padding-top: 7.5rem;
   padding-bottom: 2.5rem;
   display: flex;
   justify-content: space-between;
@@ -1065,7 +1065,7 @@ option:hover {
   border-bottom: 1px solid var(--gray_700);
 }
 .report__main__section {
-  margin-top: 5rem;
+  padding-top: 5rem;
 }
 .report__sidebar {
   width: 52.5rem;
@@ -1450,7 +1450,7 @@ option:hover {
   color: var(--pure);
 }
 .timemainheading > span {
-  color: var(--red);
+  color: var(--pure);
   font-weight: bold;
 }
 .timemainImagesContainer {
