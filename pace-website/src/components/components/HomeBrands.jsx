@@ -129,7 +129,7 @@ export default function HomeBrands() {
                 />
               </button>
               <button
-                className="ml-[2.5rem] mr-[2.5rem]"
+                className="ml-[2.5rem]"
                 onClick={() => {
                   if (swiperRef.current) swiperRef.current.slideNext();
                 }}

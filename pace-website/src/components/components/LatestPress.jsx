@@ -10,6 +10,7 @@ import Link from "next/link";
 import EyeIcon from "@/components/svgs/EyeIcon";
 import DownloadFile from "@/components/svgs/DownloadFile";
 import DownloadIcon from "@/components/svgs/DownloadIcon";
+import ArrowRightIcon from "../svgs/arrowRightIcon";
 
 export default function LatestPress() {
   const swiperRef = useRef(null);
@@ -52,6 +53,9 @@ export default function LatestPress() {
                 style={{ marginLeft: "2.5rem" }}
               />
             </button>
+            <Link href="#" className="our__brands_viewLink flex items-center">
+              View all <ArrowRightIcon className="ml-[1.5rem]" />
+            </Link>
           </div>
         </div>
 
