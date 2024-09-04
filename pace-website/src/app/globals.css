@@ -1087,8 +1087,11 @@ option:hover {
   line-height: 3.1rem;
   border-radius: 0.8rem;
   text-align: left;
+  margin-top: 2.5rem;
 }
-
+.report__sidebar:first-of-type {
+  margin-top: 0rem !important;
+}
 .active_side_tab {
   background-color: var(--pure);
   color: var(--red);
