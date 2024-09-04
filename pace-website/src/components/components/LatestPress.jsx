@@ -18,6 +18,8 @@ export default function LatestPress() {
     prev: "var(--iconColor)",
     next: "var(--iconColor)",
   });
+  const [isBrandNextActive, setIsBrandNextActive] = useState(true);
+  const [isBrandPrevActive, setIsBrandPrevActive] = useState(false);
   return (
     <>
       <section className="latestpress__wrapper">
@@ -35,7 +37,9 @@ export default function LatestPress() {
                 if (swiperRef.current) swiperRef.current.slidePrev();
               }}
             >
-              <CircleArrowPrevIcon color={activeIcon?.prev} />
+              <CircleArrowPrevIcon
+                color={isBrandPrevActive ? "var(--pure)" : "var(--iconColor)"}
+              />
             </button>
             <button
               onClick={() => {
@@ -49,7 +53,7 @@ export default function LatestPress() {
               }}
             >
               <CircleArrowNextIcon
-                color={activeIcon?.next}
+                color={isBrandNextActive ? "var(--pure)" : "var(--iconColor)"}
                 style={{ marginLeft: "2.5rem" }}
               />
             </button>
@@ -63,12 +67,27 @@ export default function LatestPress() {
           <Swiper
             slidesPerView={3}
             spaceBetween={30}
-            loop={true}
+            // loop={true}
             pagination={{
               clickable: true,
             }}
             onSwiper={(swiper) => {
               swiperRef.current = swiper; // Store the Swiper instance in the ref
+            }}
+            onSlideChange={(e) => {
+              console.log("TestingData", e);
+              if (e.activeIndex < 1) {
+                setIsBrandNextActive(true);
+              }
+              if (e.activeIndex == 1) {
+                setIsBrandNextActive(false);
+              }
+              if (e.activeIndex > 0) {
+                setIsBrandPrevActive(true);
+              }
+              if (e.activeIndex == 0) {
+                setIsBrandPrevActive(false);
+              }
             }}
             className="mySwiper"
           >
