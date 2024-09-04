@@ -75,7 +75,6 @@ export default function LatestPress() {
               swiperRef.current = swiper; // Store the Swiper instance in the ref
             }}
             onSlideChange={(e) => {
-              console.log("TestingData", e);
               if (e.activeIndex < 1) {
                 setIsBrandNextActive(true);
               }
