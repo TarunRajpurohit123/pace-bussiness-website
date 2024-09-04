@@ -1,5 +1,6 @@
 import { Logo } from "@/components";
 import uniqid from "uniqid";
+import Counter from "./Counter";
 
 const data = [
   {
@@ -41,10 +42,12 @@ export default function HomeStatics() {
             return (
               <div
                 key={uniqid("static", "card")}
-                className="homeStatics__card"
+                className="homeStatics__card counter"
                 style={ind != 0 ? { marginLeft: "10rem" } : {}}
               >
-                <p className="stat_number">{statData?.number}</p>
+                {/* <p className="stat_number">{statData?.number}</p> */}
+                {/* <p className="stat_number">{count}</p> */}
+                <Counter targetNumber={5000} />
                 <p className="stat_heading">{statData?.heading}</p>
               </div>
             );
