@@ -1487,3 +1487,6 @@ option:hover {
 .uploader__btn {
   margin-right: 0.5rem;
 }
+.ql-snow{
+  background-color: white !important;
+}
