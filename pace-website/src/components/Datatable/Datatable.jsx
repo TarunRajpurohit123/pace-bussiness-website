@@ -1,6 +1,7 @@
 "use client";
 
 import { EyeIcon, PencilIcon, TrashIcon } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import DataTable from "react-data-table-component";
 
 const columns = [
@@ -28,7 +29,14 @@ const columns = [
 const data = [
   {
     id: 1,
-    feature: "image",
+    feature: (
+      <Image
+        src="/ostilosBrand.png"
+        width={50}
+        height={50}
+        style={{ width: "5rem", height: "5rem" }}
+      />
+    ),
     name: "How to make",
     category: "Fashion",
     status: "published",
@@ -48,7 +56,14 @@ const data = [
   },
   {
     id: 2,
-    feature: "image2",
+    feature: (
+      <Image
+        src="/ostilosBrand.png"
+        width={50}
+        height={50}
+        style={{ width: "5rem", height: "5rem" }}
+      />
+    ),
     name: "How to make",
     category: "Fashion",
     status: "drafted",
@@ -71,7 +86,7 @@ const data = [
 export default function Datatable() {
   return (
     <>
-      <DataTable columns={columns}  data={data} />
+      <DataTable columns={columns} data={data} />
     </>
   );
 }
