@@ -39,7 +39,12 @@ const data = [
     ),
     name: "How to make",
     category: "Fashion",
-    status: "published",
+    status: (
+      <div className="flex items-center">
+        <input type="checkbox" checked />
+        <span className="ml-[1rem]">Published</span>
+      </div>
+    ),
     actions: (
       <div className="flex items-center">
         <button>
@@ -66,7 +71,12 @@ const data = [
     ),
     name: "How to make",
     category: "Fashion",
-    status: "drafted",
+    status: (
+      <div className="flex items-center">
+        <input type="checkbox" />
+        <span className="ml-[1rem]">Drafted</span>
+      </div>
+    ),
     actions: (
       <div className="flex items-center">
         <button>
