@@ -1477,3 +1477,13 @@ option:hover {
   backdrop-filter: blur(3px);
   z-index: 999;
 }
+
+.uploader__container {
+  width: 50% !important;
+}
+.uploader__placeholder {
+  background: #e2e2e2 !important;
+}
+.uploader__btn {
+  margin-right: 0.5rem;
+}

@@ -1,3 +1,5 @@
+import MediaUploader from "@/components/MediaUploader";
+
 export default function BlogCreate() {
   return (
     <section className="blogs__wrapper">
@@ -12,7 +14,10 @@ export default function BlogCreate() {
       </div>
       <div className="mt-[1rem]">
         <form>
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center">
+            <MediaUploader key={13131} />
+          </div>
+          <div className="flex flex-col mt-[1rem]">
             <label htmlFor="blogtitle" style={{ fontSize: "1.5rem" }}>
               Blog Title
             </label>
