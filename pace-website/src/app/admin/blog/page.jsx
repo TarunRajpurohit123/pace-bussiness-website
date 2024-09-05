@@ -1,4 +1,4 @@
-import { PlusCircleIcon } from "@heroicons/react/24/outline";
+import Datatable from "@/components/Datatable/Datatable";
 
 export default function Blog() {
   return (
@@ -11,6 +11,9 @@ export default function Blog() {
         >
           Create
         </button>
+      </div>
+      <div className="mt-[1rem]">
+        <Datatable />
       </div>
     </section>
   );
