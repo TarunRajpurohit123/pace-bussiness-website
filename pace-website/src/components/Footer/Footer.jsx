@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import {
   Button,
@@ -8,8 +10,10 @@ import {
   TwitterIcon,
 } from "..";
 import uniqid from "uniqid";
+import { usePathname } from "next/navigation";
 
 export default function Footer() {
+  const pathname = usePathname();
   // links
   const links = [
     { name: "Group", link: "#" },
@@ -31,7 +35,11 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="footer" id="desktop__footer">
+      <footer
+        className="footer"
+        id="desktop__footer"
+        style={pathname == "/admin" ? { display: "none" } : {}}
+      >
         <section className="page-width">
           {/* main footer */}
           <div className="footer-main pt-[7.5rem] pb-[7.5rem] w-full flex justify-between items-start">
