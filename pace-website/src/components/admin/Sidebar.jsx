@@ -41,7 +41,7 @@ export default function Sidebar() {
               <BookmarkSquareIcon
                 style={{ width: "2rem", marginRight: "1rem" }}
               />
-              Blog Manager
+              Blog
             </Link>
           </li>
           <li
@@ -56,7 +56,7 @@ export default function Sidebar() {
               className="text-white text-[1.5rem] flex"
             >
               <ArrowUpIcon style={{ width: "2rem", marginRight: "1rem" }} />
-              Investor Manager
+              Financial Report
             </Link>
           </li>
           <li
