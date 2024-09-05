@@ -11,12 +11,13 @@ import {
   NewspaperIcon,
   NumberedListIcon,
 } from "@heroicons/react/24/outline";
+import { Logo } from "..";
 
 export default function Sidebar() {
   const path = usePathname();
   return (
     <>
-      <aside className="admin__sidebar bg-black w-[20rem] h-[100vh]">
+      <aside className="admin__sidebar flex flex-col justify-between items-center py-[1rem] bg-black w-[20rem] h-[100vh]">
         <ul className="aside__links__wrapper">
           <li
             className={
@@ -104,6 +105,7 @@ export default function Sidebar() {
             </Link>
           </li>
         </ul>
+        <Logo color="white" />
       </aside>
     </>
   );
