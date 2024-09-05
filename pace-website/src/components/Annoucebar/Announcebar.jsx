@@ -8,7 +8,7 @@ export default function Announcebar() {
     <>
       <div
         className="announcemnet-wrapper page-width "
-        style={pathname == "/admin" ? { display: "none" } : {}}
+        style={pathname.includes("/admin") ? { display: "none" } : {}}
       >
         <div className="w-[100%] annoucement-inner flex justify-between">
           <StockInfo />

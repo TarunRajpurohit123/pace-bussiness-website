@@ -38,7 +38,7 @@ export default function Footer() {
       <footer
         className="footer"
         id="desktop__footer"
-        style={pathname == "/admin" ? { display: "none" } : {}}
+        style={pathname.includes("/admin") ? { display: "none" } : {}}
       >
         <section className="page-width">
           {/* main footer */}
