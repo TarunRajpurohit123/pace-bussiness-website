@@ -83,7 +83,7 @@ const CompanyProfile = () => {
         {/* row 3 end */}
       </div>
       <div className="acp__right">
-        <Badge>About our organization</Badge>
+        {/* <Badge>About our organization</Badge> */}
         <h1>Company Profile</h1>
         <p>
           Founded in 2015 with the launch of Cot and Candy, <span>PACE</span>{" "}
