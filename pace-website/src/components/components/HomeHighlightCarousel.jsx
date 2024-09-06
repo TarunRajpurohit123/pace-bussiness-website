@@ -93,10 +93,18 @@ export default function HomeHighlightCarousel() {
     <div className="my-[7.5rem]">
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
-          <h1>Higlights of the Year</h1>
+          <h1>Highlights of the Year</h1>
           <p>
-            Founded in 2015 with the launch of Cot and Candy,
-            <br /> <span>PACE</span> Ecommerce Ventures Ltd.
+            {" "}
+            {index == 0
+              ? "OSTILOS Media reach"
+              : index == 1
+              ? "Launched WISHROWS"
+              : index == 2
+              ? "Entering into the world of B2B - Pace print innovation and Zwankee Global"
+              : index == 3
+              ? "Offline Presence - Zwankee exhibition"
+              : ""}
           </p>
         </div>
       </section>
