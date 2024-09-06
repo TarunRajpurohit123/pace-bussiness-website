@@ -1,6 +1,24 @@
 import Datatable from "@/components/Datatable/Datatable";
 import Link from "next/link";
 
+const columns = ["Image", "Title", "Category", "IsPublshed", "Actions"];
+const data = [
+  {
+    image: "/ostilos__hovesr.png",
+    title: "How to Make",
+    category: "Fashion",
+    isPublished: false,
+    id: "awe56ghy8h67",
+  },
+  {
+    image: "/ostilos__hovesr.png",
+    title: "How to Make 2",
+    category: "Fashion",
+    isPublished: true,
+    id: "awe56ghy8h68",
+  },
+];
+
 export default function Blog() {
   return (
     <section className="blogs__wrapper">
@@ -15,7 +33,7 @@ export default function Blog() {
         </Link>
       </div>
       <div className="mt-[1rem]">
-        <Datatable />
+        <Datatable columns={columns} data={data} />
       </div>
     </section>
   );
