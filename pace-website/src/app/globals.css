@@ -18,6 +18,7 @@ body {
 
 .dark-mode {
   --pure: #f1f4e6;
+  --pure-white: #ffffff;
   --pure_F7: #f1f4e6;
   --primary-text: #b3b3b3;
   --mode-bg: #191918;
@@ -47,6 +48,7 @@ body {
   --ostilosCardHover: #0c4831;
   --wishrowCardHover: #1e3557;
   --ppiCardHover: #f36c3f;
+  --cncCardHover: #fdaf40;
   --heroGradientColor1: rgba(204, 51, 33, 0.5);
   --brandHover: #0000001a;
   --threePillarBoxShadow: #f7f7f70d;
@@ -1487,6 +1489,6 @@ option:hover {
 .uploader__btn {
   margin-right: 0.5rem;
 }
-.ql-snow{
+.ql-snow {
   background-color: white !important;
 }

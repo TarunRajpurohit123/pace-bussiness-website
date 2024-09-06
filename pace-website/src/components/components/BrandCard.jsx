@@ -106,7 +106,12 @@ export default function BrandCard({
                   <Link href="#">
                     <BlankLinkIcon
                       color={
-                        brand === "Zwankee" ? "var(--mode-bg)" : "var(--pure)"
+                        brand === "Zwankee" ||
+                        brand === "Zwankee Global" ||
+                        brand === "Homepost" ||
+                        brand === "Cot & Candy"
+                          ? "var(--mode-bg)"
+                          : "var(--pure)"
                       }
                       className="mt-[4.1rem]"
                     />
