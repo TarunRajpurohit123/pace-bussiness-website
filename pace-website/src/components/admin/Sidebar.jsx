@@ -33,23 +33,6 @@ export default function Sidebar() {
           </li>
           <li
             className={
-              path == "/admin/file-manager"
-                ? "bg-gray-800 hover:bg-gray-600 px-4 py-2"
-                : "bg-black hover:bg-gray-600 px-4 py-2"
-            }
-          >
-            <Link
-              href="/admin/file-manager"
-              className="text-white text-[1.5rem] flex"
-            >
-              <NumberedListIcon
-                style={{ width: "2rem", marginRight: "1rem" }}
-              />
-              File Manager
-            </Link>
-          </li>
-          <li
-            className={
               path == "/admin/blog"
                 ? "bg-gray-800 hover:bg-gray-600 px-4 py-2"
                 : "bg-black hover:bg-gray-600 px-4 py-2"

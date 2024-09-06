@@ -131,7 +131,7 @@ export default function ReportEdit() {
             </div>
             <div className="border p-[1rem] mt-[1rem]">
               <button type="button" className="underline p-[1rem]">
-                Select Files From File Manager
+                Upload Related File
               </button>
 
               <div className="slected__files_reports bg-gray-600 mt-[1rem]">
