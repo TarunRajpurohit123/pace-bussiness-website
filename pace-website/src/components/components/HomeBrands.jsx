@@ -18,9 +18,19 @@ export default function HomeBrands() {
   const swiperRef = useRef(null);
   const data = [
     {
-      brand: "Zwankee",
+      brand: "Cot & Candy",
+      content: "Crafting imaginative worlds for kids with style and comfort.",
+      image: "/ostilosBrand.png",
+      hoverColor: "var(--ostilosCardHover)",
+      headingColor: "var(--pure)",
+      hoverImage: "/brandhover.png",
+      brandLogo: "/OstilosLogo.png",
+      subheadiColor: "var(--pure)",
+    },
+    {
+      brand: "Homepost",
       content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+        "Designing modern living spaces with elegance and functionality.",
       image: "/zwnakeeBrand.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
@@ -30,8 +40,7 @@ export default function HomeBrands() {
     },
     {
       brand: "Ostilos",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      content: "Where bold fashion meets artisanal craftsmanship.",
       image: "/ostilosBrand.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
@@ -40,32 +49,8 @@ export default function HomeBrands() {
       subheadiColor: "var(--pure)",
     },
     {
-      brand: "Wishrows",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
-      image: "/widhrowsBrand.jpeg",
-      hoverColor: "var(--wishrowCardHover)",
-      headingColor: "var(--pure)",
-      hoverImage: "/brandhover.png",
-      brandLogo: "/WishroLogo.png",
-      subheadiColor: "var(--pure)",
-    },
-    {
-      brand: "Pace Print Innovations",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
-      image: "/ppiBrand.jpeg",
-      hoverColor: "var(--ppiCardHover)",
-      headingColor: "var(--pure)",
-      hoverImage: "/brandhover.png",
-      brandLogo: "/ppiLogo.png",
-      subheadiColor: "var(--pure)",
-      contentColor: "var(--pure)",
-    },
-    {
       brand: "Zwankee",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      content: "Bridging global fashion with local markets.",
       image: "/zwnakeeBrand.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
@@ -74,20 +59,8 @@ export default function HomeBrands() {
       subheadiColor: "var(--mode-bg)",
     },
     {
-      brand: "Ostilos",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
-      image: "/ostilosBrand.png",
-      hoverColor: "var(--ostilosCardHover)",
-      headingColor: "var(--pure)",
-      hoverImage: "/brandhover.png",
-      brandLogo: "/OstilosLogo.png",
-      subheadiColor: "var(--pure)",
-    },
-    {
       brand: "Wishrows",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      content: "Customizing your world, one product at a time.",
       image: "/widhrowsBrand.jpeg",
       hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
@@ -96,9 +69,8 @@ export default function HomeBrands() {
       subheadiColor: "var(--pure)",
     },
     {
-      brand: "Pace Print Innovations",
-      content:
-        "Lorem ipsum dolor sit amet, sectetur adipiscing elit, sed do usmod temporincididunt ut lare et dolore magna.",
+      brand: "Zwankee Global",
+      content: "Elevating wholesale fashion with global collaborations.",
       image: "/ppiBrand.jpeg",
       hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
@@ -106,6 +78,27 @@ export default function HomeBrands() {
       brandLogo: "/ppiLogo.png",
       subheadiColor: "var(--pure)",
       contentColor: "var(--pure)",
+    },
+    {
+      brand: "Pace Print Innovations",
+      content: "Redefining printing excellence with precision and creativity.",
+      image: "/ppiBrand.jpeg",
+      hoverColor: "var(--ppiCardHover)",
+      headingColor: "var(--pure)",
+      hoverImage: "/brandhover.png",
+      brandLogo: "/ppiLogo.png",
+      subheadiColor: "var(--pure)",
+      contentColor: "var(--pure)",
+    },
+    {
+      brand: "Cot & Candy",
+      content: "Crafting imaginative worlds for kids with style and comfort.",
+      image: "/ostilosBrand.png",
+      hoverColor: "var(--ostilosCardHover)",
+      headingColor: "var(--pure)",
+      hoverImage: "/brandhover.png",
+      brandLogo: "/OstilosLogo.png",
+      subheadiColor: "var(--pure)",
     },
   ];
   return (
@@ -144,12 +137,12 @@ export default function HomeBrands() {
             </div>
           </div>
 
-          <p>
+          {/* <p>
             Founded in 2015 with the launch of Cot and Candy,{" "}
             <span style={{ color: "var(--red)" }}>PACE</span> Ecommerce Ventures
             Ltd began its journey with a clear vision of creating impactful and
             meaningful brands.
-          </p>
+          </p> */}
         </div>
 
         {/* carousel goes here*/}

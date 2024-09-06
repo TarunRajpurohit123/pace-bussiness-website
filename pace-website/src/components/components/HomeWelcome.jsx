@@ -9,12 +9,12 @@ const HomeWelcome = () => {
         <Logo color="var(--pure)" classNames={"ml-[1.3rem]"} />
       </h1>
       <p className="mt-[2.5rem]">
-        PACE Ecommerce Ventures Ltd is more than just a company; it&apos;s a
-        catalyst for change, inspiring a community of brands, partners, and
-        individuals to embrace a life of growth, empowerment, and fulfillment.
-        Through our diverse portfolio, we don&apos;t just operate—we lead with
-        purpose, creating opportunities that resonate with the heart and soul of
-        everyone we reach.
+        PACE Ecommerce Ventures Ltd is more than just a company; it's a catalyst
+        for change, inspiring a community of brands, partners, and individuals
+        to embrace a life of growth, empowerment, and fulfillment. Through our
+        diverse portfolio, we don't just operate—we lead with purpose, creating
+        opportunities that resonate with the heart and soul of everyone we
+        reach.
       </p>
     </div>
   );
