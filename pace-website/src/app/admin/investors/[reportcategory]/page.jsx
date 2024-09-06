@@ -1,5 +1,6 @@
 import MediaUploader from "@/components/MediaUploader";
 import RTE from "@/components/RTE";
+import { ArrowDownIcon, EyeIcon, TrashIcon } from "@heroicons/react/24/outline";
 
 export default function ReportEdit() {
   return (
@@ -128,10 +129,29 @@ export default function ReportEdit() {
                 />
               </div>
             </div>
-            <div className="flex border mt-[1rem]">
+            <div className="border p-[1rem] mt-[1rem]">
               <button type="button" className="underline p-[1rem]">
                 Select Files From File Manager
               </button>
+
+              <div className="slected__files_reports bg-gray-600 mt-[1rem]">
+                <div className="p-[0.5rem] flex justify-between">
+                  <b className="text-white">File 2023_24 123r3fc</b>
+                  <div className="flex items center">
+                    <button type="button">
+                      <EyeIcon style={{ width: "1.5rem", color: "white" }} />
+                    </button>
+                    <button type="button" className="ml-[0.5rem]">
+                      <ArrowDownIcon
+                        style={{ width: "1.5rem", color: "white" }}
+                      />
+                    </button>
+                    <button type="button" className="ml-[0.5rem]">
+                      <TrashIcon style={{ width: "1.5rem", color: "white" }} />
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="flex justify-center">
               <button
