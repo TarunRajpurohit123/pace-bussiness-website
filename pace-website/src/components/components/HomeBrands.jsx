@@ -20,7 +20,7 @@ export default function HomeBrands() {
     {
       brand: "Cot & Candy",
       content: "Crafting imaginative worlds for kids with style and comfort.",
-      image: "/ostilosBrand.png",
+      image: "/main/cotncandyimage.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
@@ -31,7 +31,7 @@ export default function HomeBrands() {
       brand: "Homepost",
       content:
         "Designing modern living spaces with elegance and functionality.",
-      image: "/zwnakeeBrand.png",
+      image: "/main/homepostimage.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
       hoverImage: "/zhover.png",
@@ -41,7 +41,7 @@ export default function HomeBrands() {
     {
       brand: "Ostilos",
       content: "Where bold fashion meets artisanal craftsmanship.",
-      image: "/ostilosBrand.png",
+      image: "/main/ostilosimage.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
@@ -51,7 +51,7 @@ export default function HomeBrands() {
     {
       brand: "Zwankee",
       content: "Bridging global fashion with local markets.",
-      image: "/zwnakeeBrand.png",
+      image: "/main/zwnakeeimage.png",
       hoverColor: "var(--pure)",
       headingColor: "var(--mode-bg)",
       hoverImage: "/zhover.png",
@@ -61,7 +61,7 @@ export default function HomeBrands() {
     {
       brand: "Wishrows",
       content: "Customizing your world, one product at a time.",
-      image: "/widhrowsBrand.jpeg",
+      image: "/main/wishrowimage.png",
       hoverColor: "var(--wishrowCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
@@ -71,7 +71,7 @@ export default function HomeBrands() {
     {
       brand: "Zwankee Global",
       content: "Elevating wholesale fashion with global collaborations.",
-      image: "/ppiBrand.jpeg",
+      image: "/main/zwankeeglobal.png",
       hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
@@ -82,7 +82,7 @@ export default function HomeBrands() {
     {
       brand: "Pace Print Innovations",
       content: "Redefining printing excellence with precision and creativity.",
-      image: "/ppiBrand.jpeg",
+      image: "/main/ppimage.png",
       hoverColor: "var(--ppiCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
@@ -93,7 +93,7 @@ export default function HomeBrands() {
     {
       brand: "Cot & Candy",
       content: "Crafting imaginative worlds for kids with style and comfort.",
-      image: "/ostilosBrand.png",
+      image: "/main/cotncandyimage.png",
       hoverColor: "var(--ostilosCardHover)",
       headingColor: "var(--pure)",
       hoverImage: "/brandhover.png",
