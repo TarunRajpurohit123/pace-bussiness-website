@@ -4,20 +4,20 @@ import Counter from "./Counter";
 
 const data = [
   {
-    number: "25+",
-    heading: "Talented Employees",
+    number: 100,
+    heading: "Product Distributors",
   },
   {
-    number: "07",
+    number: 7,
     heading: "Varieties of Brands",
   },
   {
-    number: "09",
-    heading: "Year of Experience",
+    number: 9,
+    heading: "Product Categories",
   },
   {
-    number: "10k+",
-    heading: "Happy Clients",
+    number: 1500,
+    heading: "Sales Points",
   },
 ];
 export default function HomeStatics() {
@@ -31,8 +31,8 @@ export default function HomeStatics() {
             Numericals
           </h1>
           <p className="w-[41.2rem]">
-            We source, vet & deploy the top marketing & technology professionals
-            India has to offer.{" "}
+            Within a short span of 9 years, PACE E-Commerce Ventures Limited has
+            emerged in every sector.
           </p>
         </div>
         {/* right */}
@@ -47,7 +47,10 @@ export default function HomeStatics() {
               >
                 {/* <p className="stat_number">{statData?.number}</p> */}
                 {/* <p className="stat_number">{count}</p> */}
-                <Counter targetNumber={5000} />
+                <Counter
+                  targetNumber={statData?.number}
+                  isPrifix={ind === 1 ? false : true}
+                />
                 <p className="stat_heading">{statData?.heading}</p>
               </div>
             );
