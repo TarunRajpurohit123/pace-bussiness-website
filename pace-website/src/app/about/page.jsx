@@ -5,6 +5,7 @@ import CTA from "../../components/components/CTA";
 import Hero2 from "../../components/components/Hero2";
 import TimelineGroup from "@/components/components/TimelineGroup";
 import PageOcc from "@/components/PageOcc";
+import CareerSection1 from "@/components/components/CareerSection1";
 
 export default function About() {
   return (
@@ -20,6 +21,7 @@ export default function About() {
       />
       {/* timeline */}
       <TimelineGroup />
+      <CareerSection1 />
       <CTA />
     </>
   );

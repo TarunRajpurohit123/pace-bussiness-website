@@ -23,6 +23,7 @@ body {
   --primary-text: #b3b3b3;
   --mode-bg: #191918;
   --brandcard: #191918;
+  --pureblack: #000000;
   --primary_01_black: #191918;
   --success: #17b26a;
   --gray_25: #f1f4e6;
@@ -1498,4 +1499,41 @@ option:hover {
   font-weight: 700;
   line-height: 2.7rem;
   color: var(--pure);
+}
+
+.careersection {
+  background-color: var(--pureblack);
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+  margin-top: 7.5rem;
+}
+
+.careersection__main > .careerLeft1 > h1 {
+  color: var(--pure);
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 5.7rem;
+}
+.careersection__main > .careerLeft1 > p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  color: var(--gray_400);
+}
+.careersection__main > .careerLeft1 > button {
+  background-color: var(--red);
+  color: var(--pure);
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  height: 5rem;
+  margin-top: 3.5rem;
+}
+.careerLeft1 {
+  width: 64rem;
+}
+.careerRight1 {
+  width: 59rem;
 }
