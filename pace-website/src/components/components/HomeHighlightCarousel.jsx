@@ -20,7 +20,7 @@ export default function HomeHighlightCarousel() {
           width={780}
           height={400}
           alt="image"
-          style={{ borderRadius: "2.4rem" }}
+          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
     },
@@ -32,7 +32,7 @@ export default function HomeHighlightCarousel() {
           width={780}
           height={400}
           alt="image"
-          style={{ borderRadius: "2.4rem" }}
+          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
     },
@@ -44,7 +44,7 @@ export default function HomeHighlightCarousel() {
           width={780}
           alt="image"
           height={400}
-          style={{ borderRadius: "2.4rem" }}
+          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
     },
@@ -56,7 +56,7 @@ export default function HomeHighlightCarousel() {
           width={780}
           height={400}
           alt="image"
-          style={{ borderRadius: "2.4rem" }}
+          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
     },
@@ -68,7 +68,7 @@ export default function HomeHighlightCarousel() {
           width={780}
           alt="image"
           height={400}
-          style={{ borderRadius: "2.4rem" }}
+          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
     },
