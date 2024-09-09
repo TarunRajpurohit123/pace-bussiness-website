@@ -11,23 +11,24 @@ import { useStore } from "@/store/useStore";
 
 export default function Navbar() {
   const [currentScroll, setCurrentScroll] = useState(0);
-  const scrollPosition = window?.scrollY;
   const isProgressHandle = useStore((state) => state.isProgressHandle);
 
   const router = useRouter();
   const pathname = usePathname();
 
   useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window?.scrollY;
-      setCurrentScroll(scrollPosition);
-    };
+    if (window) {
+      const handleScroll = () => {
+        const scrollPosition = window?.scrollY;
+        setCurrentScroll(scrollPosition);
+      };
 
-    window?.addEventListener("scroll", handleScroll);
+      window?.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window?.removeEventListener("scroll", handleScroll);
-    };
+      return () => {
+        window?.removeEventListener("scroll", handleScroll);
+      };
+    }
   }, []);
 
   return (
