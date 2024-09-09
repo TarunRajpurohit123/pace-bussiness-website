@@ -7,14 +7,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
+import { Autoplay, EffectCoverflow } from "swiper/modules";
+import uniqid from "uniqid";
 
 export default function HomeHighlightCarousel() {
   const [index, setIndex] = useState(0);
 
   const slides = [
     {
-      key: 1,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -26,7 +27,7 @@ export default function HomeHighlightCarousel() {
       ),
     },
     {
-      key: 2,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -38,7 +39,7 @@ export default function HomeHighlightCarousel() {
       ),
     },
     {
-      key: 3,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -50,7 +51,7 @@ export default function HomeHighlightCarousel() {
       ),
     },
     {
-      key: 4,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -62,7 +63,7 @@ export default function HomeHighlightCarousel() {
       ),
     },
     {
-      key: 5,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -74,7 +75,7 @@ export default function HomeHighlightCarousel() {
       ),
     },
     {
-      key: 6,
+      key: uniqid(),
       content: (
         <Image
           src="https://picsum.photos/620/320/?random"
@@ -92,18 +93,6 @@ export default function HomeHighlightCarousel() {
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
           <h1>Highlights of the Year</h1>
-          {/* <p>
-            {" "}
-            {index == 0
-              ? "OSTILOS Media reach"
-              : index == 1
-              ? "Launched WISHROWS"
-              : index == 2
-              ? "Entering into the world of B2B - Pace print innovation and Zwankee Global"
-              : index == 3
-              ? "Offline Presence - Zwankee exhibition"
-              : ""}
-          </p> */}
         </div>
       </section>
       <div
@@ -119,7 +108,7 @@ export default function HomeHighlightCarousel() {
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={3}
+          slidesPerView={"auto"}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -134,7 +123,10 @@ export default function HomeHighlightCarousel() {
         >
           {slides?.map((singleSlide) => {
             return (
-              <SwiperSlide style={{ width: "fit-content" }}>
+              <SwiperSlide
+                key={singleSlide?.key}
+                style={{ width: "fit-content" }}
+              >
                 {singleSlide?.content}
               </SwiperSlide>
             );
@@ -142,44 +134,12 @@ export default function HomeHighlightCarousel() {
         </Swiper>
         {/* 3d carousel end */}
       </div>
-      {/* <div
+      <div
         className="flex items-center justify-center"
         style={{ textAlign: "center", marginTop: "2.4rem" }}
       >
-        <button
-          onClick={() => setIndex((index - 1 + slides.length) % slides.length)}
-          className={"mr-[1.5rem]"}
-        >
-          <ArrowLeft />
-        </button>
-        <div className="flex items-center">
-          {slides?.map((slide, ind) => {
-            if (index == ind) {
-              return (
-                <DotIcon
-                  className={"mr-[0.4rem] scale-150"}
-                  color="var(--red)"
-                  key={uniqid("doticon")}
-                />
-              );
-            } else {
-              return (
-                <DotIcon
-                  className={"mr-[0.4rem] scale-100"}
-                  key={uniqid("doticon")}
-                />
-              );
-            }
-          })}
-        </div>
-        <button
-          id="3dNext"
-          className={"ml-[1.1rem]"}
-          onClick={() => setIndex((index + 1) % slides.length)}
-        >
-          <ArrowRight />
-        </button>
-      </div> */}
+        sjdsjd
+      </div>
     </div>
   );
 }
