@@ -21,14 +21,22 @@ export default function AboutCards() {
       text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
       icon: <MessageStarIcon />,
     },
+    {
+      heading: "As Brand Identity.",
+      text: "These pillars define PACE's brand identity, projecting our values to consumers, partners, and investors. They shape the narrative and messaging for each brand within our portfolio, ensuring a unified voice.",
+      icon: <CrownIcon />,
+    },
+    {
+      heading: "As strategic Drivers.",
+      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
+      icon: <MessageStarIcon />,
+    },
   ];
   return (
     <>
       <section className="aboutcards_section page-width">
-        <h1>
-          Teamwork fuels innovation and growth.
-        </h1>
-        <section className="flex justify-center mt-[5rem]">
+        <h1>Teamwork fuels innovation and growth.</h1>
+        <section className="flex flex-wrap justify-center mt-[5rem]">
           {cardData?.map((card, ind) => {
             return (
               <Card
@@ -50,11 +58,20 @@ export default function AboutCards() {
                 anchor={card?.anchor}
                 icon={card?.icon}
                 classNames={ind != 0 ? "ml-[2.5rem] " : ""}
-                styles={{
-                  width: "41rem",
-                  height: "auto",
-                  padding: "2.5rem",
-                }}
+                styles={
+                  ind <= 2
+                    ? {
+                        width: "41rem",
+                        height: "auto",
+                        padding: "2.5rem",
+                      }
+                    : {
+                        width: "41rem",
+                        height: "auto",
+                        padding: "2.5rem",
+                        marginTop: "5rem",
+                      }
+                }
                 wrapStyles={{
                   width: "6rem",
                   height: "6rem",
