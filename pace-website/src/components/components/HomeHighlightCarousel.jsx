@@ -1,14 +1,13 @@
 "use client";
 
-// components/Carousel3D.js
-import React, { useEffect, useState } from "react";
-import Carousel from "react-spring-3d-carousel";
-import { config } from "react-spring";
+import React, { useState } from "react";
 import Image from "next/image";
-import ArrowLeft from "@/components/svgs/ArrowLeft";
-import ArrowRight from "@/components/svgs/ArrowRight";
-import DotIcon from "@/components/svgs/dotIcon";
-import uniqid from "uniqid";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+import "swiper/css/pagination";
+import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function HomeHighlightCarousel() {
   const [index, setIndex] = useState(0);
@@ -74,27 +73,26 @@ export default function HomeHighlightCarousel() {
         />
       ),
     },
+    {
+      key: 6,
+      content: (
+        <Image
+          src="https://picsum.photos/620/320/?random"
+          width={620}
+          alt="image"
+          height={320}
+          style={{ borderRadius: "2.4rem" }}
+        />
+      ),
+    },
   ];
-
-  useEffect(() => {
-    // Set up an interval to update the state every second (1000 milliseconds)
-    const interval = setInterval(() => {
-      const ThreeNext = document.getElementById("3dNext");
-      if (ThreeNext) {
-        ThreeNext?.click();
-      }
-    }, 4000);
-
-    // Cleanup function to clear the interval when the component unmounts
-    return () => clearInterval(interval);
-  }, []);
 
   return (
     <div className="my-[7.5rem]">
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
           <h1>Highlights of the Year</h1>
-          <p>
+          {/* <p>
             {" "}
             {index == 0
               ? "OSTILOS Media reach"
@@ -105,7 +103,7 @@ export default function HomeHighlightCarousel() {
               : index == 3
               ? "Offline Presence - Zwankee exhibition"
               : ""}
-          </p>
+          </p> */}
         </div>
       </section>
       <div
@@ -116,15 +114,35 @@ export default function HomeHighlightCarousel() {
           position: "relative",
         }}
       >
-        <Carousel
-          slides={slides}
-          goToSlide={index}
-          offsetRadius={2}
-          // showNavigation={true}
-          animationConfig={config.gentle}
-        />
+        {/* 3d carousel start */}
+        <Swiper
+          effect={"coverflow"}
+          grabCursor={true}
+          centeredSlides={true}
+          slidesPerView={3}
+          coverflowEffect={{
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+          }}
+          autoplay={true}
+          loop={true}
+          modules={[EffectCoverflow, Autoplay]}
+          className="mySwiper"
+        >
+          {slides?.map((singleSlide) => {
+            return (
+              <SwiperSlide style={{ width: "fit-content" }}>
+                {singleSlide?.content}
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+        {/* 3d carousel end */}
       </div>
-      <div
+      {/* <div
         className="flex items-center justify-center"
         style={{ textAlign: "center", marginTop: "2.4rem" }}
       >
@@ -161,7 +179,7 @@ export default function HomeHighlightCarousel() {
         >
           <ArrowRight />
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }

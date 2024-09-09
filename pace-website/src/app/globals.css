@@ -1492,3 +1492,10 @@ option:hover {
 .ql-snow {
   background-color: white !important;
 }
+
+/* 3d swiper carousel */
+/* .swiper-3d .swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: none !important;
+} */
+/* 3d swiper carousel end */
