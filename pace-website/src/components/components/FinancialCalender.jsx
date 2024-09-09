@@ -9,7 +9,6 @@ export default function FinancialCalender() {
           <div className="flex items-center">
             <FCard
               style={{
-                borderTop: "1px solid var(--gray_700)",
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
@@ -20,24 +19,22 @@ export default function FinancialCalender() {
             />
             <FCard
               style={{
-                borderTop: "1px solid var(--gray_700)",
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"March"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Publication of Annual Report 2023"}
+              time={"Thursday, March 21, 2024"}
             />
             <FCard
               style={{
-                borderTop: "1px solid var(--gray_700)",
                 borderBottom: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"March"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Media Conference on Results 2023"}
+              time={"Thursday, March 21, 2024"}
             />
           </div>
           <div className="flex items-center">
@@ -46,29 +43,29 @@ export default function FinancialCalender() {
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"April"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Closing of share Register"}
+              time={"Wednesday, April 01, 2024"}
             />
             <FCard
               style={{
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"May"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Record Date"}
+              time={"Tuesday, May 01, 2024"}
             />
             <FCard
               style={{
                 borderBottom: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"May"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Ordinary General Meetings of Share holders"}
+              time={"Monday, May 08, 2024"}
             />
           </div>
           <div className="flex items-center">
@@ -77,30 +74,30 @@ export default function FinancialCalender() {
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"May"}
               year={2024}
               name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              time={"Tuesday, May 18, 2024"}
             />
             <FCard
               style={{
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
               }}
-              month={"January"}
+              month={"July"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
-              time={"Tuesday, January 23, 2024"}
+              name={"Publications of 2024 Half-year Results"}
+              time={"Monday, July 15, 2024"}
             />
             <FCard
               style={{
                 borderBottom: "1px solid var(--gray_700)",
                 height: "45.3rem",
               }}
-              // month={"January"}
+              // month={"May"}
               // year={2024}
-              // name={"Publications of Key Figures 2023"}
-              // time={"Tuesday, January 23, 2024"}
+              // name={"Ordinary General Meetings of Share holders"}
+              // time={"Monday, May 08, 2024"}
             />
           </div>
         </section>
