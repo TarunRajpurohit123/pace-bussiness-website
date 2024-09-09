@@ -91,7 +91,7 @@ export default function LatestPress() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <div className="latestpress__card">
+              <div className="latestpress__card ">
                 <div className="latestcard__top">
                   <p className="latestcard__top_para">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

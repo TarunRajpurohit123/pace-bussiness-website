@@ -1308,6 +1308,13 @@ option:hover {
   text-align: left;
   color: var(--pure);
 }
+.latestcard__top_text {
+  color: var(--pure);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  margin-top: 2.5rem;
+}
 .latestcard__top__time {
   font-size: 1.8rem;
   font-weight: 400;
@@ -1317,11 +1324,15 @@ option:hover {
   margin-top: 1rem;
   color: var(--gray_400);
 }
+.latestcard__top__time--full {
+  margin-top: 2.5rem;
+}
 .latest_footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .viewLatestFooter {
   font-size: 1.8rem;
   font-weight: 400;
@@ -1547,4 +1558,40 @@ option:hover {
 }
 .careerRight1 {
   width: 59rem;
+}
+.press_release_tab {
+  padding: 7.5rem 0rem 7.5rem 0rem;
+}
+.press_release_tab > h1 {
+  font-size: 4.4rem;
+  font-weight: 400;
+  line-height: 4.9rem;
+  color: var(--pure);
+  text-align: center;
+}
+.filtering__press_section {
+  padding-top: 5rem;
+  padding-bottom: 2.5rem;
+}
+.filtering__press_section > .filter_text {
+  color: var(--pure);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+.filtering__press_section > button {
+  color: var(--golden);
+  text-decoration: underline;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+.latestpress__card--full {
+  width: 100% !important;
+}
+.latestpress__card--full {
+  height: auto !important;
+}
+.latest_footer--full{
+  margin-top: 3.8rem;
 }
