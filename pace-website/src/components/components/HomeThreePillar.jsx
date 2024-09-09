@@ -2,12 +2,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { Mousewheel, Pagination } from "swiper/modules";
+import { Mousewheel } from "swiper/modules";
 import Image from "next/image";
 import { Logo } from "@/components";
 import DotIcon from "@/components/svgs/dotIcon";
-import { useRef, useState, useEffect } from "react";
-import uniqid from "uniqid";
+import { useRef, useState } from "react";
 
 export default function HomeThreePillar() {
   const [activeDot, setActiveDot] = useState({
@@ -16,42 +15,6 @@ export default function HomeThreePillar() {
     third: { color: "var(--gray_400)", scale: "scale-100" },
   });
   const swiperRef = useRef(null);
-  const carouselRef = useRef(null);
-  const [lastScrollTop, setLastScrollTop] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (!swiperRef.current || !carouselRef.current) return;
-
-      const scrollTop =
-        window?.pageYOffset || document.documentElement.scrollTop;
-      const scrollDirection = scrollTop > lastScrollTop ? "down" : "up";
-      setLastScrollTop(scrollTop);
-
-      // Determine carousel slide index
-      const currentSlide = swiperRef.current.activeIndex;
-      const slideCount = swiperRef.current.slides.length;
-
-      if (scrollDirection === "down") {
-        if (
-          scrollTop >
-          carouselRef.current.offsetTop +
-            carouselRef.current.offsetHeight -
-            window?.innerHeight
-        ) {
-          swiperRef.current.slideNext(); // Slide to the next slide
-        }
-      } else if (scrollDirection === "up") {
-        if (scrollTop < carouselRef.current.offsetTop) {
-          swiperRef.current.slidePrev(); // Slide to the previous slide
-        }
-      }
-    };
-
-    // Add scroll event listener
-    window?.addEventListener("scroll", handleScroll);
-    return () => window?.removeEventListener("scroll", handleScroll);
-  }, [lastScrollTop]);
 
   return (
     <>
@@ -108,7 +71,7 @@ export default function HomeThreePillar() {
         </div>
 
         {/* carousel wheelcontrol */}
-        <div ref={carouselRef}>
+        <div>
           <Swiper
             direction={"horizontal"}
             onSwiper={(swiper) => {
@@ -130,10 +93,6 @@ export default function HomeThreePillar() {
             modules={[Mousewheel]}
             className="mySwiper"
             onSlideChange={(e) => {
-              // if (e.activeIndex === e.slides.length - 1) {
-              //   document.body.style.overflow = "auto"; // Re-enable main scroll after last slide
-              //   isScrolling.current = false;
-              // }
               if (e?.activeIndex == 0) {
                 setActiveDot(() => {
                   return {
