@@ -1592,6 +1592,40 @@ option:hover {
 .latestpress__card--full {
   height: auto !important;
 }
-.latest_footer--full{
+.latest_footer--full {
   margin-top: 3.8rem;
+}
+.pagination__detail {
+  color: var(--pure);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+.pagination > button,
+.pagination > div > button {
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+  text-align: center;
+  color: var(--gray_700);
+  width: 4rem;
+  height: 4rem;
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prevpagination {
+  margin-left: 0rem;
+}
+.act__paginate_number {
+  background-color: var(--pure);
+  color: var(--red) !important;
 }

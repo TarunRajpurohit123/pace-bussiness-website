@@ -5,6 +5,8 @@ import DownloadFile from "../svgs/DownloadFile";
 import DownloadIcon from "../svgs/DownloadIcon";
 import Link from "next/link";
 import EyeIcon from "../svgs/EyeIcon";
+import CircleArrowPrevIcon from "../svgs/CircleArrowPrevIcon";
+import CircleArrowNextIcon from "../svgs/CircleArrowNextIcon";
 
 export default function PressReleaseTab() {
   const [currentTab, setCurrentTab] = useState(1);
@@ -131,6 +133,22 @@ export default function PressReleaseTab() {
             </div>
           </div>
         </main>
+        <div className="press__latest__paginationWarpper flex justify-between items-center page-width pt-[2.5rem]">
+          <div className="pagination__detail">Showing 2 of 10 Pages</div>
+          <div className="pagination flex">
+            <button className="prevpagination">
+              <CircleArrowPrevIcon isBorder={false} />
+            </button>
+            <div className="pnumbers flex">
+              <button>01</button>
+              <button className="act__paginate_number">02</button>
+              <button>03</button>
+            </div>
+            <button>
+              <CircleArrowNextIcon isBorder={false} color="var(--pure)" />
+            </button>
+          </div>
+        </div>
       </section>
     </>
   );
