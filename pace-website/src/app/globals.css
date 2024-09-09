@@ -674,8 +674,19 @@ option:hover {
   font-weight: 400;
   letter-spacing: 0rem;
   color: var(--gray_400);
-  width: 46.6rem;
+  width: 50.6rem;
   text-align: center;
+}
+.hero__two > button {
+  color: var(--red);
+  background-color: var(--pure);
+  width: 15rem;
+  height: 5rem;
+  padding: 0rem 1.5rem 0rem 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
 }
 .acp_mobile_image {
   display: none;
@@ -918,7 +929,7 @@ option:hover {
   font-size: 7.2rem;
   font-weight: 700;
   line-height: 9.3rem;
-  color: #f1f4e6;
+  color: var(--pure);
   opacity: 5%;
 }
 

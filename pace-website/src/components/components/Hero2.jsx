@@ -1,3 +1,5 @@
+import { Button } from "..";
+
 export default function Hero2({
   title = "Our Group",
   content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
@@ -7,6 +9,7 @@ export default function Hero2({
       <section className="hero__two">
         <h1>{title}</h1>
         <p>{content}</p>
+        <button>Back</button>
       </section>
     </>
   );
