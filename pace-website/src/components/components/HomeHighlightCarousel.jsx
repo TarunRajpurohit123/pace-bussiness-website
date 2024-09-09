@@ -11,16 +11,14 @@ import { Autoplay, EffectCoverflow } from "swiper/modules";
 import uniqid from "uniqid";
 
 export default function HomeHighlightCarousel() {
-  const [index, setIndex] = useState(0);
-
   const slides = [
     {
       key: uniqid(),
       content: (
         <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
-          height={320}
+          src={"/main/ostilos_highlight_01.png"}
+          width={780}
+          height={400}
           alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
@@ -30,9 +28,9 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
-          height={320}
+          src={"/main/wishrow_highlight_02.png"}
+          width={780}
+          height={400}
           alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
@@ -42,10 +40,10 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
+          src={"/main/zg_highlight_03.png"}
+          width={780}
           alt="image"
-          height={320}
+          height={400}
           style={{ borderRadius: "2.4rem" }}
         />
       ),
@@ -54,9 +52,9 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
-          height={320}
+          src={"/main/zwankee_highlight_04.png"}
+          width={780}
+          height={400}
           alt="image"
           style={{ borderRadius: "2.4rem" }}
         />
@@ -66,22 +64,10 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
+          src={"/main/ostilos_highlight_05.png"}
+          width={780}
           alt="image"
-          height={320}
-          style={{ borderRadius: "2.4rem" }}
-        />
-      ),
-    },
-    {
-      key: uniqid(),
-      content: (
-        <Image
-          src="https://picsum.photos/620/320/?random"
-          width={620}
-          alt="image"
-          height={320}
+          height={400}
           style={{ borderRadius: "2.4rem" }}
         />
       ),
