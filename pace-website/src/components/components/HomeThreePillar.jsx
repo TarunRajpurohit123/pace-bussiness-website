@@ -127,49 +127,98 @@ export default function HomeThreePillar() {
               <div className="wc_slide flex justify-between">
                 <div className="wc__left relative">
                   <p className="absolute right-0 top-0 tpslideNumber">01</p>
-                  <h1>Empowering Dreams</h1>
+                  <h1>Lifestyle</h1>
                   <div className="wc__left__content mt-[2.5rem]">
-                    <h1>What it Represents: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
+                    {/* <h1>What it Represents: </h1> */}
+                    <p className=" w-[60.8rem]">
+                      <span style={{ color: "var(--pure)" }}>Lifestyle</span>{" "}
+                      represents{" "}
+                      <span style={{ color: "var(--pure)" }}>PACE’</span>s
+                      commitment to enhancing the quality of life for its
                       customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
+                      products. This pillar reflects the company’s dedication to
                       creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
+                      consumer aspirations. It drives PACE’s focus on product
+                      development and brand positioning, ensuring that offerings
+                      are aligned with current trends and consumer needs,
+                      thereby maintaining relevance and desirability in a
+                      dynamic market.
                     </p>
                   </div>
 
-                  <div className="wc__left__content mt-[1.5rem]">
-                    <h1>Impact: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
-                      customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
-                      creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
-                    </p>
-                  </div>
-
-                  <div className="wc__left__content mt-[1.5rem]">
+                  <div className="wc__left__content mt-[2.5rem]">
                     <h1>Lifestyle: </h1>
                     <div className="mt-[2.5rem] flex">
                       <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
+                        src={"/main/pillar1_01.png"}
+                        width={119}
+                        height={30}
                         alt="image"
                       />
                       <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
+                        src={"/main/pillar1_02_.png"}
+                        width={146}
+                        height={30}
                         style={{ marginLeft: "5rem" }}
                         alt="image"
                       />
                       <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
+                        src={"/main/pillar1_03.png"}
+                        width={157}
+                        height={30}
+                        style={{ marginLeft: "5rem" }}
+                        alt="image"
+                      />
+                      <Image
+                        src={"/main/pillar1_04.png"}
+                        width={157}
+                        height={30}
+                        style={{ marginLeft: "5rem" }}
+                        alt="image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div className="wc__right" style={{ width: "45rem" }}>
+                  <Image src={"/03.png"} width={450} height={505} alt="image" />
+                </div>
+              </div>
+            </SwiperSlide>
+            {/* slide 2 */}
+            <SwiperSlide className="">
+              <div className="wc_slide flex justify-between">
+                <div className="wc__left relative">
+                  <p className="absolute right-0 top-0 tpslideNumber">02</p>
+                  <h1>Empowering Dreams</h1>
+                  <div className="wc__left__content mt-[2.5rem]">
+                    <p className=" w-[60.8rem]">
+                      <span style={{ color: "var(--pure)" }}>Empowerment</span>{" "}
+                      embodies{" "}
+                      <span style={{ color: "var(--pure)" }}>PACE’s</span>{" "}
+                      belief in fostering growth,confidence, and success for its
+                      customers, partners, and the broader community. This
+                      pillar highlights the company’s role in providing the
+                      tools, opportunities, and resources that enable
+                      individuals and businesses to thrive. It guides PACE’s
+                      initiatives in promoting collaboration, partnerships, and
+                      innovation, thereby empowering all businesses within its
+                      ecosystem to reach their full potential.
+                    </p>
+                  </div>
+
+                  <div className="wc__left__content mt-[2.5rem]">
+                    <h1>Empowering Dreams </h1>
+                    <div className="mt-[2.5rem] flex">
+                      <Image
+                        src={"/main/pillar2_01.png"}
+                        width={139}
+                        height={30}
+                        alt="image"
+                      />
+                      <Image
+                        src={"/main/pillar2_02.png"}
+                        width={66}
+                        height={30}
                         style={{ marginLeft: "5rem" }}
                         alt="image"
                       />
@@ -181,120 +230,44 @@ export default function HomeThreePillar() {
                 </div>
               </div>
             </SwiperSlide>
-            {/* slide 2 */}
-            <SwiperSlide>
-              <div className="wc_slide flex justify-between">
-                <div className="wc__left relative">
-                  <p className="absolute right-0 top-0 tpslideNumber">02</p>
-                  <h1>Empowering Dreams</h1>
-                  <div className="wc__left__content mt-[2.5rem]">
-                    <h1>What it Represents: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
-                      customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
-                      creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
-                    </p>
-                  </div>
-
-                  <div className="wc__left__content mt-[1.5rem]">
-                    <h1>Impact: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
-                      customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
-                      creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
-                    </p>
-                  </div>
-
-                  <div className="wc__left__content mt-[1.5rem]">
-                    <h1>Lifestyle: </h1>
-                    <div className="mt-[2.5rem] flex">
-                      <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        alt="image"
-                      />
-                      <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        style={{ marginLeft: "5rem" }}
-                        alt="image"
-                      />
-                      <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        style={{ marginLeft: "5rem" }}
-                        alt="image"
-                      />
-                    </div>
-                  </div>
-                </div>
-                <div className="wc__right">
-                  <Image src={"/03.png"} width={450} height={505} alt="image" />
-                </div>
-              </div>
-            </SwiperSlide>
             {/* slide 3 */}
-            <SwiperSlide>
+            <SwiperSlide className="">
               <div className="wc_slide flex justify-between">
                 <div className="wc__left relative">
                   <p className="absolute right-0 top-0 tpslideNumber">03</p>
-                  <h1>Empowering Dreams</h1>
+                  <h1>Fulfilling Aspirations</h1>
                   <div className="wc__left__content mt-[2.5rem]">
-                    <h1>What it Represents: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
-                      customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
-                      creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
+                    {/* <h1>What it Represents: </h1> */}
+                    <p className=" w-[60.8rem]">
+                      <span style={{ color: "var(--pure)" }}>Fulfilment</span>{" "}
+                      reflects{" "}
+                      <span style={{ color: "var(--pure)" }}>PACE’s</span>{" "}
+                      dedication to delivering tailored experiences that meet
+                      the unique needs and desires of its customers. This pillar
+                      emphasizes the importance of personalization and
+                      customization in enhancing customer satisfaction and
+                      engagement. By focusing on providing products and services
+                      that allow customers to express their individuality and
+                      preferences, PACE ensures that each interactionwith the
+                      brand is meaningful and personal. This commitment leads to
+                      a deeper connection with the brand, fostering a sense of
+                      ownership and satisfaction among customers
                     </p>
                   </div>
 
-                  <div className="wc__left__content mt-[1.5rem]">
-                    <h1>Impact: </h1>
-                    <p className="mt-[1.5rem]">
-                      The commitment to enhancing the quality of life for
-                      customers through innovative, stylish, and functional
-                      products. This pillar reflects PACE&apos;s dedication to
-                      creating brands that resonate with modern lifestyles and
-                      consumer aspirations.
-                    </p>
-                  </div>
-
-                  <div className="wc__left__content mt-[1.5rem]">
-                    <h1>Lifestyle: </h1>
+                  <div className="wc__left__content mt-[2.5rem]">
+                    <h1>Fulfilling </h1>
                     <div className="mt-[2.5rem] flex">
                       <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        alt="image"
-                      />
-                      <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        style={{ marginLeft: "5rem" }}
-                        alt="image"
-                      />
-                      <Image
-                        src={"/OstilosLogo.png"}
-                        width={"138"}
-                        height={"36"}
-                        style={{ marginLeft: "5rem" }}
+                        src={"/main/pillar3.png"}
+                        width={245}
+                        height={30}
                         alt="image"
                       />
                     </div>
                   </div>
                 </div>
-                <div className="wc__right">
+                <div className="wc__right" style={{ width: "45rem" }}>
                   <Image src={"/02.png"} width={450} height={505} alt="image" />
                 </div>
               </div>
