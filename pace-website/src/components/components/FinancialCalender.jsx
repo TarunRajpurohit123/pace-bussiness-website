@@ -45,7 +45,11 @@ export default function FinancialCalender() {
               }}
               month={"April"}
               year={2024}
-              name={"Closing of share Register"}
+              name={
+                <>
+                  Closing of share <br /> Register
+                </>
+              }
               time={"Wednesday, April 01, 2024"}
             />
             <FCard
@@ -55,7 +59,11 @@ export default function FinancialCalender() {
               }}
               month={"May"}
               year={2024}
-              name={"Record Date"}
+              name={
+                <>
+                  Record <br /> Date
+                </>
+              }
               time={"Tuesday, May 01, 2024"}
             />
             <FCard
