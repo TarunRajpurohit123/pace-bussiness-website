@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,8 +9,12 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 import uniqid from "uniqid";
+import ArrowLeft from "../svgs/ArrowLeft";
+import ArrowRight from "../svgs/ArrowRight";
 
 export default function HomeHighlightCarousel() {
+  const [swiper, setSwiper] = useState();
+  const swiperRef = useRef(null);
   const slides = [
     {
       key: uniqid(),
@@ -84,7 +88,7 @@ export default function HomeHighlightCarousel() {
       <div
         className="page-width hhcwrapper pt-[5rem]"
         style={{
-          height: "300px",
+          // height: "300px",
           margin: "auto",
           position: "relative",
         }}
@@ -106,6 +110,9 @@ export default function HomeHighlightCarousel() {
           loop={true}
           modules={[EffectCoverflow, Autoplay]}
           className="mySwiper"
+          onSwiper={(swiper) => {
+            swiperRef.current = swiper; // Store the Swiper instance in the ref
+          }}
         >
           {slides?.map((singleSlide) => {
             return (
@@ -121,10 +128,24 @@ export default function HomeHighlightCarousel() {
         {/* 3d carousel end */}
       </div>
       <div
-        className="flex items-center justify-center"
+        className="flex justify-center"
         style={{ textAlign: "center", marginTop: "2.4rem" }}
       >
-        sjdsjd
+        <button
+          onClick={() => {
+            if (swiperRef.current) swiperRef.current.slidePrev();
+          }}
+        >
+          <ArrowLeft />
+        </button>
+        <button
+          onClick={() => {
+            if (swiperRef.current) swiperRef.current.slideNext();
+          }}
+          className="ml-[1.5rem]"
+        >
+          <ArrowRight />
+        </button>
       </div>
     </div>
   );
