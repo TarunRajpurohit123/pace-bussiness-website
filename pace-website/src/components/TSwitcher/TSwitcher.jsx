@@ -1,9 +1,20 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function TSwitcher() {
   const [isSwitch, setIsSwitch] = useState(true);
+  useEffect(() => {
+    if (document) {
+      if (!isSwitch) {
+        document.getElementById("body").classList.add("light-mode");
+        document.getElementById("body").classList.remove("dark-mode");
+      } else {
+        document.getElementById("body").classList.add("dark-mode");
+        document.getElementById("body").classList.remove("light-mode");
+      }
+    }
+  }, [isSwitch]);
   return (
     <>
       <div className="website_switcher flex items-center">

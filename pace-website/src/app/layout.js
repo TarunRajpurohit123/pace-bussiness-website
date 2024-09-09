@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <>
       <FontProvider />
       <html lang="en">
-        <body className={`dark-mode`}>
+        <body className={`dark-mode`} id="body">
           <ProgressBar />
           <Annoucebar />
           <Navbar />
