@@ -1,24 +1,15 @@
-export default function LinkedinIcon(
-  width = "16",
-  height = "16",
-  viewBox = "0 0 16 16",
-  svgFill = "none",
-  color = "var(--pure)",
-  styles = null,
-  classNames = "linkicon",
-  id = "licon"
-) {
+export default function LinkedinIcon(color = "var(--pure)", styles = null) {
   return (
     <>
       <svg
-        width={width}
-        height={height}
-        viewBox={viewBox}
-        fill={svgFill}
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
         xmlns="http://www.w3.org/2000/svg"
         style={styles}
-        className={classNames}
-        id={id}
+        className="linkicon"
+        id="id"
       >
         <g clipPath="url(#clip0_146_565)">
           <path

@@ -1,23 +1,14 @@
-export default function TwitterIcon(
-  width = "16",
-  height = "16",
-  viewBox = "0 0 16 16",
-  svgFill = "none",
-  color = "var(--pure)",
-  styles = null,
-  classNames = "twitterIcon",
-  id = "ticon"
-) {
+export default function TwitterIcon(color = "var(--pure)", styles = null) {
   return (
     <>
       <svg
-        width={width}
-        height={height}
-        viewBox={viewBox}
-        fill={svgFill}
+        width="16"
+        height="16"
+        viewBox="0 0 16 16"
+        fill="none"
         style={styles}
-        id={id}
-        className={classNames}
+        id={"ticon"}
+        className={"twitterIcon"}
         xmlns="http://www.w3.org/2000/svg"
       >
         <g clipPath="url(#clip0_146_566)">
