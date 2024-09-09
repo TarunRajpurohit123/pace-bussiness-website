@@ -12,9 +12,10 @@ export default function TimelineGroup() {
             Establishment of <span>PACE</span>
           </p>
           <p className="timemainparagraph">
-            PACE was established in early 2015’s by 
-            <span>Mr. Shaival Gandhi</span> with the launch of{" "}
-            <span className="timemainparagraph--bold">Cot & Candy.</span>
+            <span className="timeline_bold_span">PACE</span> started its journey
+            by introducing the Kid's brand -{" "}
+            <span className="timeline_bold_span">Cot and Candy</span> in the
+            year 2015.
           </p>
           <div className="grid grid-cols-2 gap-4 timemainImagesContainer">
             <Image
@@ -50,16 +51,15 @@ export default function TimelineGroup() {
       ),
     },
     {
-      title: "2016",
+      title: "2020",
       content: (
         <div>
-          <p className="timemainheading">
-            Establishment of <span>PACE</span>
-          </p>
+          <p className="timemainheading">Homepost Introduced</p>
           <p className="timemainparagraph">
-            PACE was established in early 2015’s by 
-            <span>Mr. Shaival Gandhi</span> with the launch of{" "}
-            <span className="timemainparagraph--bold">Cot & Candy.</span>
+            <span className="timeline_bold_span">PACE</span> entered the Home
+            and furnishing market with{" "}
+            <span className="timeline_bold_span">HOMEPOST</span> in the year
+            2020.
           </p>
           <div className="grid grid-cols-2 gap-4 timemainImagesContainer">
             <Image
@@ -95,16 +95,14 @@ export default function TimelineGroup() {
       ),
     },
     {
-      title: "2017",
+      title: "2023",
       content: (
         <div>
-          <p className="timemainheading">
-            Establishment of <span>PACE</span>
-          </p>
+          <p className="timemainheading">Launching of OSTILOS</p>
           <p className="timemainparagraph">
-            PACE was established in early 2015’s by 
-            <span>Mr. Shaival Gandhi</span> with the launch of{" "}
-            <span className="timemainparagraph--bold">Cot & Candy.</span>
+            Entered into the world of{" "}
+            <span className="timeline_bold_span">FASHION</span> by introducing{" "}
+            <span className="timeline_bold_span">OSTILOS</span> in 2023.
           </p>
           <div className="grid grid-cols-2 gap-4 timemainImagesContainer">
             <Image
@@ -140,16 +138,19 @@ export default function TimelineGroup() {
       ),
     },
     {
-      title: "2018",
+      title: "2024",
       content: (
         <div>
           <p className="timemainheading">
-            Establishment of <span>PACE</span>
+            Launch of ZWANKEE, WISHROWS, ZWANKEE GLOBAL and PACE PRINT
+            INNOVATIONS.
           </p>
           <p className="timemainparagraph">
-            PACE was established in early 2015’s by 
-            <span>Mr. Shaival Gandhi</span> with the launch of{" "}
-            <span className="timemainparagraph--bold">Cot & Candy.</span>
+            Making a strong entry into the segment of{" "}
+            <span className="timeline_bold_span">B2B</span>,{" "}
+            <span className="timeline_bold_span">Fast-fashion</span> and
+            <span className="timeline_bold_span"> Print-on-demand</span> in
+            2024.
           </p>
           <div className="grid grid-cols-2 gap-4 timemainImagesContainer">
             <Image
