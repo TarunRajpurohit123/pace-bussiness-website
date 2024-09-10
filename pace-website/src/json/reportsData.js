@@ -455,6 +455,222 @@ const reportsData = [
       },
     ],
   },
+  {
+    id: 3,
+    uniq: "rpf",
+    tab: "REPORTS_PRESENTATIONS AND FINANCIALS",
+    sidebar: [
+      {
+        type: "ANNUAL REPORTS AND RETURNS",
+        years: ["2022-2023", "2023-2024"],
+        data: [
+          {
+            year: "2022-2023",
+            title: "Annual Report_2022-23",
+            url: "#",
+          },
+          {
+            year: "2022-2023",
+            title: "MGT-7_2022-2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Annual Report_2023-24",
+            url: "#",
+          },
+        ],
+      },
+      {
+        type: "BOARD MEETING",
+        years: ["2022-2023", "2023-2024", "2024-2025"],
+        data: [
+          {
+            year: "2022-2023",
+            title: "Intimation-of-BM-November-14-2022",
+            url: "#",
+          },
+          {
+            year: "2022-2023",
+            title: "Outcome-of-BM-November-14-2022",
+            url: "#",
+          },
+
+          {
+            year: "2023-2024",
+            title: "Intimation_BM_May_27_2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Intimation_BM_November_08_2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Intimation_BM_September_05_2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Outcome_BM_May_27_2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Outcome_BM_November_08_2023",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Outcome_BM_September_05_2023",
+            url: "#",
+          },
+
+          {
+            year: "2024-2025",
+            title: "Intimation_BM_04_September_2024",
+            url: "#",
+          },
+          {
+            year: "2024-2025",
+            title: "Intimation_BM_May_18_2024",
+            url: "#",
+          },
+          {
+            year: "2024-2025",
+            title: "Outcome_BM_04_September_2024",
+            url: "#",
+          },
+          {
+            year: "2024-2025",
+            title: "Outcome_BM_May_18_2024",
+            url: "#",
+          },
+        ],
+      },
+      {
+        type: "FINANCIALS",
+        years: ["2022-23", "2023-24"],
+        data: [
+          {
+            year: "2022-23",
+            title: "Financial Result_Half Yearly_September_2022-23",
+            url: "#",
+          },
+          {
+            year: "2022-23",
+            title: "Financial Result_Yearly_March_2022-23",
+            url: "#",
+          },
+
+          {
+            year: "2023-24",
+            title: "Financial Result_Half Yearly_September_2023-24",
+            url: "#",
+          },
+          {
+            year: "2023-24",
+            title: "Financial Result_Yearly_March_2023-24",
+            url: "#",
+          },
+        ],
+      },
+      {
+        type: "GENERAL MEETING",
+        years: ["2022-2023", "2023-2024"],
+        data: [
+          {
+            year: "2022-2023",
+            title: "Notice_AGM_FY-2022-23",
+            url: "#",
+          },
+          {
+            year: "2022-2023",
+            title: "Outcome-of-AGM_FY2022-23",
+            url: "#",
+          },
+
+          {
+            year: "2023-2024",
+            title: "Notice_AGM_FY-2023-24",
+            url: "#",
+          },
+        ],
+      },
+      {
+        type: "INVESTORS UPDATES",
+        years: null,
+        data: [
+          {
+            title: "DEMAND VIDEO",
+            url: "#",
+          },
+          {
+            title: "_PitchDeck_2021",
+            url: "#",
+          },
+
+          {
+            title: "PITCH DECK 2022",
+            url: "#",
+          },
+        ],
+      },
+      {
+        type: "POLICIES",
+        years: null,
+        data: [
+          {
+            title: "Board Diversity Policy",
+            url: "#",
+          },
+          {
+            title: "Code for Independent Directors",
+            url: "#",
+          },
+          {
+            title:
+              "Code of Conduct for Board Members and Senior Management Personnel",
+            url: "#",
+          },
+          {
+            title: "Code of Internal Procedure Conduct for Prevention",
+            url: "#",
+          },
+          {
+            title:
+              "Code of Practices and Procedures for Fair Disclosure of UPSI",
+            url: "#",
+          },
+          {
+            title: "Familiarization Programme for Independent",
+            url: "#",
+          },
+          {
+            title: "Nomination-Remuneration-Policy",
+            url: "#",
+          },
+          {
+            title: "Performance-Evaluation-Policy",
+            url: "#",
+          },
+          {
+            title: "Policy for Materiality of Events",
+            url: "#",
+          },
+          {
+            title: "Related Party Transaction Policy",
+            url: "#",
+          },
+          {
+            title: "Whistler Blowe Policy",
+            url: "#",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 const financialCalender = [
