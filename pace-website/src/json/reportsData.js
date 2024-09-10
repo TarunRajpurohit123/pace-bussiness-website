@@ -671,6 +671,61 @@ const reportsData = [
       },
     ],
   },
+  {
+    id: 4,
+    uniq: "sp",
+    tab: "SHAREHOLDING PATTERN",
+    sidebar: [
+      {
+        type: null,
+        years: ["2022-2023", "2023-2024", "2024-2025"],
+        data: [
+          {
+            year: "2022-2023",
+            title: "Shareholding Pattern_Before listing_2022-23",
+            url: "#",
+          },
+          {
+            year: "2022-2023",
+            title: "Shareholding Pattern_Q3",
+            url: "#",
+          },
+          {
+            year: "2022-2023",
+            title: "Shareholding Pattern_Q4",
+            url: "#",
+          },
+
+          {
+            year: "2023-2024",
+            title: "Shareholding Pattern_Q2",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Shareholding Pattern_Q3",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Shareholding Pattern_Q4",
+            url: "#",
+          },
+          {
+            year: "2023-2024",
+            title: "Shareholding Patter_Q1",
+            url: "#",
+          },
+
+          {
+            year: "2024-2025",
+            title: "Shareholding Pattern_Q1",
+            url: "#",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 const financialCalender = [
