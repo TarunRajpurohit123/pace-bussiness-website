@@ -15,7 +15,7 @@ import uniqid from "uniqid";
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState("ANNOUNCEMENT");
   const [currentTabId, setCurrentTabId] = useState(1);
-  const [currentSidebar, setCurrentSidebar] = useState(0);
+  const [currentSidebar, setCurrentSidebar] = useState(1);
   const swiperRef = useRef(null);
   return (
     <>
@@ -57,18 +57,11 @@ export default function ReportSection() {
           {/* sidebar */}
           {currentTabId != 4 && currentTabId != 2 && (
             <div className="report__sidebar">
-              {reportsData?.map((data, ind) => {
+              {reportsData?.map((data) => {
                 if (currentTab == data?.uniq) {
                   return data?.sidebar?.map((sidebar) => {
                     return (
-                      <button
-                        onClick={() => {
-                          setCurrentSidebar(ind);
-                        }}
-                        className=" side_tab"
-                      >
-                        {sidebar?.type}
-                      </button>
+                      <button className=" side_tab">{sidebar?.type}</button>
                     );
                   });
                 }
@@ -110,23 +103,30 @@ export default function ReportSection() {
                   }}
                   className="mySwiper"
                 >
-                  {reportsData?.map((data) => {
-                    if (data?.id === currentTabId) {
-                      return data?.sidebar?.map((sideData, i) => {
-                        if (i === currentSidebar) {
-                          return sideData?.data?.map((year) => {
-                            return (
-                              <SwiperSlide key={uniqid()}>
-                                <button className="year__tab">
-                                  {year?.year}
-                                </button>
-                              </SwiperSlide>
-                            );
-                          });
-                        }
-                      });
-                    }
-                  })}
+                  <SwiperSlide>
+                    <button className="year__tab">2024-25</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab year__tab_act">2023-24</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab">2023-24</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab">2023-24</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab">2024-25</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab year__tab_act">2023-24</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab">2023-24</button>
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <button className="year__tab">2023-24</button>
+                  </SwiperSlide>
                 </Swiper>
                 {5 > 4 && (
                   <button
