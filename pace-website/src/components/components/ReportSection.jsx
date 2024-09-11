@@ -40,15 +40,17 @@ export default function ReportSection() {
               );
             })}
           </div>
-          <div className="page-width pt-[5rem] flex justify-between">
-            {years?.map((year) => {
-              if (year.direct && currentTab === "SP") {
-                return year.years.map((yr) => {
-                  return <YearBox year={yr} />;
-                });
-              }
-            })}
-          </div>
+          {currentTab === "SP" && (
+            <div className="page-width pt-[5rem] flex justify-between">
+              {years?.map((year) => {
+                if (year.direct && currentTab === "SP") {
+                  return year.years.map((yr) => {
+                    return <YearBox year={yr} />;
+                  });
+                }
+              })}
+            </div>
+          )}
         </div>
         <main className="report__main__section page-width flex justify-between">
           {/* sidebar */}
