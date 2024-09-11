@@ -36,6 +36,7 @@ export default function ReportSection() {
                     setCurrentTab(mainTab?.key);
                     setCurrentTabId(mainTab?.id);
                     setCurrentSidebar(null);
+                    setCurrentYear(null);
                   }}
                 >
                   {mainTab?.name}
@@ -67,6 +68,7 @@ export default function ReportSection() {
                         className=" side_tab"
                         onClick={() => {
                           setCurrentSidebar(sidebar?.key);
+                          setCurrentYear(null);
                         }}
                       >
                         {sidebar?.type}
