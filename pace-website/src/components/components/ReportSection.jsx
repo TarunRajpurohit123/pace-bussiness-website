@@ -158,7 +158,10 @@ export default function ReportSection() {
                 if (currentTab == report?.uniq) {
                   return report?.sidebar?.map((side) => {
                     return side?.data?.map((data) => {
-                      if (data?.year == currentYear) {
+                      if (
+                        currentSidebar == side?.key &&
+                        data?.year == currentYear
+                      ) {
                         return (
                           <ReportRow
                             name={data?.title}
