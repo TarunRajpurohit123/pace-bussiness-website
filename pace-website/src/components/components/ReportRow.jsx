@@ -15,7 +15,11 @@ export default function ReportRow({
       <div className="reportRow" style={style}>
         <p className="reportRow__name">{name}</p>
         <div className="reportRow__viewDownload">
-          <Link target="_blank" href={url} className="flex items-center">
+          <Link
+            target="_blank"
+            href={url ? url : "#"}
+            className="flex items-center"
+          >
             <EyeIcon />
             <p className="ml-[1rem] view_report">View</p>
           </Link>

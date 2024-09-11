@@ -15,7 +15,8 @@ import uniqid from "uniqid";
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState("ANNOUNCEMENT");
   const [currentTabId, setCurrentTabId] = useState(1);
-  const [currentSidebar, setCurrentSidebar] = useState(1);
+  const [currentSidebar, setCurrentSidebar] = useState(11);
+  const [currentYear, setCurrentYear] = useState(null);
   const swiperRef = useRef(null);
   return (
     <>
@@ -34,6 +35,7 @@ export default function ReportSection() {
                   onClick={() => {
                     setCurrentTab(mainTab?.key);
                     setCurrentTabId(mainTab?.id);
+                    setCurrentSidebar(null);
                   }}
                 >
                   {mainTab?.name}
@@ -61,7 +63,14 @@ export default function ReportSection() {
                 if (currentTab == data?.uniq) {
                   return data?.sidebar?.map((sidebar) => {
                     return (
-                      <button className=" side_tab">{sidebar?.type}</button>
+                      <button
+                        className=" side_tab"
+                        onClick={() => {
+                          setCurrentSidebar(sidebar?.key);
+                        }}
+                      >
+                        {sidebar?.type}
+                      </button>
                     );
                   });
                 }
@@ -101,32 +110,35 @@ export default function ReportSection() {
                   onSwiper={(swiper) => {
                     swiperRef.current = swiper; // Store the Swiper instance in the ref
                   }}
-                  className="mySwiper"
+                  className="year_report_swiper_2"
+                  style={{ width: "100%" }}
                 >
-                  <SwiperSlide>
-                    <button className="year__tab">2024-25</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab year__tab_act">2023-24</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab">2023-24</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab">2023-24</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab">2024-25</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab year__tab_act">2023-24</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab">2023-24</button>
-                  </SwiperSlide>
-                  <SwiperSlide>
-                    <button className="year__tab">2023-24</button>
-                  </SwiperSlide>
+                  {reportsData?.map((data) => {
+                    if (data.id != 2 && data.id != 4) {
+                      return data?.sidebar.map((sidebarData) => {
+                        if (
+                          sidebarData?.key != 12 &&
+                          sidebarData?.key == currentSidebar
+                        ) {
+                          return sidebarData?.years?.map((year, index) => {
+                            return (
+                              <SwiperSlide>
+                                <button
+                                  className="year__tab"
+                                  onClick={() => {
+                                    setCurrentYear(year);
+                                  }}
+                                >
+                                  {year}
+                                </button>
+                              </SwiperSlide>
+                            );
+                          });
+                        }
+                      });
+                    }
+                    return;
+                  })}
                 </Swiper>
                 {5 > 4 && (
                   <button
@@ -142,17 +154,29 @@ export default function ReportSection() {
             )}
             <div className="report__list_wrapper mt-[2.5rem]">
               {/* year tab end here*/}
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-                style={
-                  currentTabId == 4 || currentTabId == 2
-                    ? { width: "100%" }
-                    : {}
+              {reportsData?.map((report) => {
+                if (currentTab == report?.uniq) {
+                  return report?.sidebar?.map((side) => {
+                    return side?.data?.map((data) => {
+                      if (data?.year == currentYear) {
+                        return (
+                          <ReportRow
+                            name={data?.title}
+                            url={data?.url}
+                            filename={data?.title}
+                            type={"sdsnajd"}
+                            style={
+                              currentTabId == 4 || currentTabId == 2
+                                ? { width: "100%" }
+                                : {}
+                            }
+                          />
+                        );
+                      }
+                    });
+                  });
                 }
-              />
+              })}
             </div>
           </div>
         </main>

@@ -1629,3 +1629,6 @@ option:hover {
   background-color: var(--pure);
   color: var(--red) !important;
 }
+.year_report_swiper_2 > .swiper-wrapper {
+  width: 100% !important;
+}
