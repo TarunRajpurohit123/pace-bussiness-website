@@ -1,8 +1,16 @@
+const mainTabs = [
+  { name: "ANNOUNCEMENT", key: "ANNOUNCEMENT" },
+  { name: "INITIAL PUBLIC OFFERING", key: "IPO" },
+  { name: "REPORTS_PRESENTATIONS AND FINANCIALS", key: "RPAF" },
+  { name: "SHAREHOLDING PATTERN", key: "SP" },
+];
+
 const reportsData = [
   {
     id: 1,
-    uniq: "annoucemnet",
+    uniq: "ANNOUNCEMENT",
     tab: "ANNOUNCEMENT",
+    type: "SYD",
     sidebar: [
       {
         type: "CLOSURE OF TRADING WINDOW",
@@ -438,7 +446,8 @@ const reportsData = [
   },
   {
     id: 2,
-    uniq: "ipo",
+    uniq: "IPO",
+    type: "D",
     tab: "INITIAL PUBLIC OFFERING",
     sidebar: [
       {
@@ -457,7 +466,8 @@ const reportsData = [
   },
   {
     id: 3,
-    uniq: "rpf",
+    uniq: "RPAF",
+    type: "SIYD",
     tab: "REPORTS_PRESENTATIONS AND FINANCIALS",
     sidebar: [
       {
@@ -673,7 +683,8 @@ const reportsData = [
   },
   {
     id: 4,
-    uniq: "sp",
+    uniq: "SP",
+    type: "YD",
     tab: "SHAREHOLDING PATTERN",
     sidebar: [
       {
@@ -728,37 +739,4 @@ const reportsData = [
   },
 ];
 
-const financialCalender = [
-  {
-    month: "January",
-    year: 2024,
-    name: "Publications of Key Figures2023",
-    time: "Tuesday, January 23, 2024",
-  },
-  {
-    month: "March",
-    year: 2024,
-    name: "Publications of Key Figures2023",
-    time: "Tuesday, January 23, 2024",
-  },
-  {
-    month: "April",
-    year: 2024,
-    name: "Publications of Key Figures2023",
-    time: "Tuesday, January 23, 2024",
-  },
-  {
-    month: "July",
-    year: 2024,
-    name: "Publications of Key Figures2023",
-    time: "Tuesday, January 23, 2024",
-  },
-  {
-    month: "November",
-    year: 2024,
-    name: "Publications of Key Figures2023",
-    time: "Tuesday, January 23, 2024",
-  },
-];
-
-export { reportsData, financialCalender };
+export { reportsData, mainTabs };

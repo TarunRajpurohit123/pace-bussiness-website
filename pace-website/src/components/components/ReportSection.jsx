@@ -9,6 +9,8 @@ import "swiper/css/pagination";
 import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
 import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 import YearBox from "./YearBox";
+import { mainTabs } from "@/json/reportsData";
+import uniqid from "uniqid";
 
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState(1);
@@ -19,40 +21,29 @@ export default function ReportSection() {
         <div className="report__section__top">
           <h1 className="report__section__heading">Financial Reports</h1>
           <div className="report__tab__header page-width">
-            <button
-              style={currentTab === 1 ? { color: "var(--red)" } : {}}
-              className="report_tab_btn"
-              onClick={() => {
-                setCurrentTab(1);
-              }}
-            >
-              Reports & Presentations
-            </button>
-            <button
-              style={currentTab === 2 ? { color: "var(--red)" } : {}}
-              className="report_tab_btn"
-              onClick={() => {
-                setCurrentTab(2);
-              }}
-            >
-              Initial Public Offering
-            </button>
-            <button
-              style={currentTab === 3 ? { color: "var(--red)" } : {}}
-              className="report_tab_btn"
-              onClick={() => {
-                setCurrentTab(3);
-              }}
-            >
-              Corporate Announcement
-            </button>
+            {mainTabs?.map((mainTab) => {
+              return (
+                <button
+                  key={uniqid(mainTab?.key)}
+                  style={
+                    currentTab === mainTab?.key ? { color: "var(--red)" } : {}
+                  }
+                  className="report_tab_btn"
+                  onClick={() => {
+                    setCurrentTab(mainTab?.key);
+                  }}
+                >
+                  {mainTab?.name}
+                </button>
+              );
+            })}
           </div>
-          <div className="page-width pt-[5rem] flex justify-between">
+          {/* <div className="page-width pt-[5rem] flex justify-between">
             <YearBox />
             <YearBox />
             <YearBox />
             <YearBox />
-          </div>
+          </div> */}
         </div>
         <main className="report__main__section page-width flex justify-between">
           {/* sidebar */}
