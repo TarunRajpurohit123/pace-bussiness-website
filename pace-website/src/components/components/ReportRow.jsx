@@ -8,10 +8,11 @@ export default function ReportRow({
   url = null,
   filename = null,
   type = null,
+  style,
 }) {
   return (
     <>
-      <div className="reportRow">
+      <div className="reportRow" style={style}>
         <p className="reportRow__name">{name}</p>
         <div className="reportRow__viewDownload">
           <Link target="_blank" href={url} className="flex items-center">

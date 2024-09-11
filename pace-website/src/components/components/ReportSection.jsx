@@ -44,7 +44,7 @@ export default function ReportSection() {
             <div className="page-width pt-[5rem] flex justify-between">
               {years?.map((year) => {
                 if (year.direct && currentTab === "SP") {
-                  return year.years.map((yr) => {
+                  return year?.years?.map((yr) => {
                     return <YearBox year={yr} />;
                   });
                 }
@@ -54,18 +54,28 @@ export default function ReportSection() {
         </div>
         <main className="report__main__section page-width flex justify-between">
           {/* sidebar */}
-          <div className="report__sidebar">
-            <button className="active_side_tab flex justify-between items-center side_tab">
-              General Meeting <ReportrightArrow />
-            </button>
-            <button className=" side_tab">Policies</button>
-            <button className=" side_tab">Investor Updates</button>
-            <button className=" side_tab">Financial Results</button>
-            <button className=" side_tab">Board Meetings</button>
-            <button className=" side_tab">Annual Reports and Returns</button>
-          </div>
+          {currentTabId != 4 && currentTabId != 2 && (
+            <div className="report__sidebar">
+              {reportsData?.map((data) => {
+                if (currentTab == data?.uniq) {
+                  return data?.sidebar?.map((sidebar) => {
+                    return (
+                      <button className=" side_tab">{sidebar?.type}</button>
+                    );
+                  });
+                }
+                return <></>;
+              })}
+            </div>
+          )}
+
           {/* report lists */}
-          <div className="report__list">
+          <div
+            className="report__list"
+            style={
+              currentTabId == 4 || currentTabId == 2 ? { width: "100%" } : {}
+            }
+          >
             {/* year tab goes here*/}
             <div className="flex items-center justify-between">
               {5 > 4 && (
@@ -134,48 +144,11 @@ export default function ReportSection() {
                 url={"/01.png"}
                 filename={"image"}
                 type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
-              />
-              <ReportRow
-                name={"demo file"}
-                url={"/01.png"}
-                filename={"image"}
-                type={"sdsnajd"}
+                style={
+                  currentTabId == 4 || currentTabId == 2
+                    ? { width: "100%" }
+                    : {}
+                }
               />
             </div>
           </div>

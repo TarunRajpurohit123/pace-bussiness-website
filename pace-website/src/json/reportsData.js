@@ -16,7 +16,7 @@ const years = [
     id: 2,
     key: "IPO",
     years: null,
-    direct: false,
+    direct: true,
   },
   {
     id: 3,
