@@ -156,32 +156,55 @@ export default function ReportSection() {
             )}
             <div className="report__list_wrapper mt-[2.5rem]">
               {/* year tab end here*/}
-              {reportsData?.map((report) => {
-                if (currentTab == report?.uniq) {
-                  return report?.sidebar?.map((side) => {
-                    return side?.data?.map((data) => {
-                      if (
-                        currentSidebar == side?.key &&
-                        data?.year == currentYear
-                      ) {
-                        return (
-                          <ReportRow
-                            name={data?.title}
-                            url={data?.url}
-                            filename={data?.title}
-                            type={"sdsnajd"}
-                            style={
-                              currentTabId == 4 || currentTabId == 2
-                                ? { width: "100%" }
-                                : {}
-                            }
-                          />
-                        );
-                      }
+              {currentTabId != 4 &&
+                currentTabId != 2 &&
+                reportsData?.map((report) => {
+                  if (currentTab == report?.uniq) {
+                    return report?.sidebar?.map((side) => {
+                      return side?.data?.map((data) => {
+                        if (
+                          currentSidebar == side?.key &&
+                          data?.year == currentYear
+                        ) {
+                          return (
+                            <ReportRow
+                              name={data?.title}
+                              url={data?.url}
+                              filename={data?.title}
+                              type={"sdsnajd"}
+                              style={
+                                currentTabId == 4 || currentTabId == 2
+                                  ? { width: "100%" }
+                                  : {}
+                              }
+                            />
+                          );
+                        }
+                      });
                     });
-                  });
-                }
-              })}
+                  }
+                })}
+              {/* if tab 2 */}
+              {currentTabId == 2 &&
+                reportsData?.map((report) => {
+                  if (currentTab == report?.uniq) {
+                    return report?.sidebar?.map((side) => {
+                      return (
+                        <ReportRow
+                          name={side?.title}
+                          url={side?.url}
+                          filename={side?.title}
+                          type={"sdsnajd"}
+                          style={
+                            currentTabId == 4 || currentTabId == 2
+                              ? { width: "100%" }
+                              : {}
+                          }
+                        />
+                      );
+                    });
+                  }
+                })}
             </div>
           </div>
         </main>

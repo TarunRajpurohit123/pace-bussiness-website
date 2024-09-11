@@ -483,15 +483,15 @@ const reportsData = [
     tab: "INITIAL PUBLIC OFFERING",
     sidebar: [
       {
-        name: "Draft Prospectus",
+        title: "Draft Prospectus",
         url: "#",
       },
       {
-        name: "General Information Document",
+        title: "General Information Document",
         url: "#",
       },
       {
-        name: "Prospectus",
+        title: "Prospectus",
         url: "#",
       },
     ],
