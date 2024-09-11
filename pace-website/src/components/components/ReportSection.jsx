@@ -9,11 +9,12 @@ import "swiper/css/pagination";
 import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
 import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 import YearBox from "./YearBox";
-import { mainTabs } from "@/json/reportsData";
+import { mainTabs, reportsData, years } from "@/json/reportsData";
 import uniqid from "uniqid";
 
 export default function ReportSection() {
-  const [currentTab, setCurrentTab] = useState(1);
+  const [currentTab, setCurrentTab] = useState("");
+  const [currentTabId, setCurrentTabId] = useState(1);
   const swiperRef = useRef(null);
   return (
     <>
@@ -31,6 +32,7 @@ export default function ReportSection() {
                   className="report_tab_btn"
                   onClick={() => {
                     setCurrentTab(mainTab?.key);
+                    setCurrentTabId(mainTab?.id);
                   }}
                 >
                   {mainTab?.name}
@@ -38,12 +40,15 @@ export default function ReportSection() {
               );
             })}
           </div>
-          {/* <div className="page-width pt-[5rem] flex justify-between">
-            <YearBox />
-            <YearBox />
-            <YearBox />
-            <YearBox />
-          </div> */}
+          <div className="page-width pt-[5rem] flex justify-between">
+            {years?.map((year) => {
+              if (year.direct && currentTab === "SP") {
+                return year.years.map((yr) => {
+                  return <YearBox year={yr} />;
+                });
+              }
+            })}
+          </div>
         </div>
         <main className="report__main__section page-width flex justify-between">
           {/* sidebar */}

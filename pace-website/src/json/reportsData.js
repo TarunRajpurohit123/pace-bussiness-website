@@ -1,8 +1,35 @@
 const mainTabs = [
-  { name: "ANNOUNCEMENT", key: "ANNOUNCEMENT" },
-  { name: "INITIAL PUBLIC OFFERING", key: "IPO" },
-  { name: "REPORTS_PRESENTATIONS AND FINANCIALS", key: "RPAF" },
-  { name: "SHAREHOLDING PATTERN", key: "SP" },
+  { id: 1, name: "ANNOUNCEMENT", key: "ANNOUNCEMENT" },
+  { id: 2, name: "INITIAL PUBLIC OFFERING", key: "IPO" },
+  { id: 3, name: "REPORTS_PRESENTATIONS AND FINANCIALS", key: "RPAF" },
+  { id: 4, name: "SHAREHOLDING PATTERN", key: "SP" },
+];
+
+const years = [
+  {
+    id: 1,
+    key: "ANNOUNCEMENT",
+    years: ["2022-2023", "2023-2024"],
+    direct: false,
+  },
+  {
+    id: 2,
+    key: "IPO",
+    years: null,
+    direct: false,
+  },
+  {
+    id: 3,
+    key: "RPAF",
+    years: ["2022-2023", "2023-2024"],
+    direct: false,
+  },
+  {
+    id: 4,
+    key: "SP",
+    years: ["2022-2023", "2023-2024", "2024-2025"],
+    direct: true,
+  },
 ];
 
 const reportsData = [
@@ -739,4 +766,4 @@ const reportsData = [
   },
 ];
 
-export { reportsData, mainTabs };
+export { reportsData, mainTabs, years };
