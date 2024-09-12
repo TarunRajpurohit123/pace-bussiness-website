@@ -164,6 +164,7 @@ export default function ReportSection() {
                       return side?.data?.map((data) => {
                         if (
                           currentSidebar == side?.key &&
+                          side?.key != 12 &&
                           data?.year == currentYear
                         ) {
                           return (
@@ -178,6 +179,18 @@ export default function ReportSection() {
                                   : {}
                               }
                             />
+                          );
+                        } else if (side?.key == 12) {
+                          return (
+                            <>
+                              <section id="accordian__report">
+                                <div className="accordian__report__header">
+                                  <p className="accrodian__name">
+                                    {data?.innerTab}
+                                  </p>
+                                </div>
+                              </section>
+                            </>
                           );
                         }
                       });
