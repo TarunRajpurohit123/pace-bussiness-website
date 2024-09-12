@@ -1032,7 +1032,13 @@ option:hover {
   width: 67rem;
   height: 8rem;
   padding: 0px 2.5rem 0px 2.5rem;
-  border-bottom: 0.1rem solid var(--gray_700);
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;

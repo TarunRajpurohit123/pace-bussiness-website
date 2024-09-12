@@ -161,7 +161,7 @@ export default function ReportSection() {
                 reportsData?.map((report) => {
                   if (currentTab == report?.uniq) {
                     return report?.sidebar?.map((side) => {
-                      return side?.data?.map((data) => {
+                      return side?.data?.map((data, dataInd) => {
                         if (
                           currentSidebar == side?.key &&
                           side?.key != 12 &&
@@ -184,7 +184,12 @@ export default function ReportSection() {
                           return (
                             <>
                               <section id="accordian__report">
-                                <div className="accordian__report__header">
+                                <div
+                                  className="accordian__report__header"
+                                  style={
+                                    dataInd != 0 ? { marginTop: "2.5rem" } : {}
+                                  }
+                                >
                                   <p className="accrodian__name">
                                     {data?.innerTab}
                                   </p>
