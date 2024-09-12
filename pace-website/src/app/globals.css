@@ -1032,7 +1032,7 @@ option:hover {
   width: 59.8rem;
   margin: auto;
 }
-#accordian__report {
+.accordian__report {
   border: 1px solid transparent; /* Set a border, but make it transparent */
   border-image-source: linear-gradient(
     180deg,
@@ -1040,6 +1040,9 @@ option:hover {
     rgba(129, 129, 129, 0.3) 63.55%
   );
   border-image-slice: 1;
+  height: 8rem;
+  overflow: hidden;
+  cursor: pointer;
 }
 .accordian__report__header {
   width: 67rem;

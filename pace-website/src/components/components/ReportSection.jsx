@@ -11,6 +11,7 @@ import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 import YearBox from "./YearBox";
 import { mainTabs, reportsData, years } from "@/json/reportsData";
 import uniqid from "uniqid";
+import ArrowRightIcon from "../svgs/arrowRightIcon";
 
 export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState("ANNOUNCEMENT");
@@ -18,6 +19,19 @@ export default function ReportSection() {
   const [currentSidebar, setCurrentSidebar] = useState(11);
   const [currentYear, setCurrentYear] = useState(null);
   const swiperRef = useRef(null);
+
+  // accordian control function
+  const accordianControl = (id) => {
+    if (document) {
+      const accordian = document.getElementById(id);
+      if (accordian.style.height == "8rem") {
+        accordian.style.height = "auto";
+      } else {
+        accordian.style.height = "8rem";
+      }
+    }
+  };
+
   return (
     <>
       <section className="report__wrapper">
@@ -182,20 +196,34 @@ export default function ReportSection() {
                           );
                         } else if (side?.key == 12) {
                           return (
-                            <>
+                            <div key={uniqid()}>
                               <section
-                                id="accordian__report"
+                                id={`accordian__report_${dataInd}`}
+                                className=" accordian__report"
                                 style={
                                   dataInd != 0 ? { marginTop: "2.5rem" } : {}
                                 }
+                                onClick={() => {
+                                  accordianControl(
+                                    `accordian__report_${dataInd}`
+                                  );
+                                }}
                               >
-                                <div className="accordian__report__header">
+                                <div className="accordian__report__header flex justify-center">
                                   <div
                                     className="accrodian__name"
-                                    style={{ width: "59.8rem", margin: "auto" }}
+                                    style={{ width: "59.8rem" }}
                                   >
                                     {data?.innerTab}
                                   </div>
+
+                                  <CircleArrowNextIcon
+                                    width="50"
+                                    height="50"
+                                    isBorder={false}
+                                    color="var(--red)"
+                                    className="ml-[1.5rem]"
+                                  />
                                 </div>
                                 <div className="accordian__report__body">
                                   {data?.innerData?.map((innerData) => {
@@ -215,7 +243,7 @@ export default function ReportSection() {
                                   })}
                                 </div>
                               </section>
-                            </>
+                            </div>
                           );
                         }
                       });

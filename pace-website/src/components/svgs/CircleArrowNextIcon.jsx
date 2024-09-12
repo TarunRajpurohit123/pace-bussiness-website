@@ -2,12 +2,14 @@ export default function CircleArrowNextIcon({
   color = "var(--iconColor)",
   isBorder = true,
   style = null,
+  width = "32",
+  height = "32",
 }) {
   return (
     <>
       <svg
-        width="32"
-        height="32"
+        width={width}
+        height={height}
         viewBox="0 0 32 32"
         style={style}
         fill="none"
