@@ -183,16 +183,33 @@ export default function ReportSection() {
                         } else if (side?.key == 12) {
                           return (
                             <>
-                              <section id="accordian__report">
-                                <div
-                                  className="accordian__report__header"
-                                  style={
-                                    dataInd != 0 ? { marginTop: "2.5rem" } : {}
-                                  }
-                                >
+                              <section
+                                id="accordian__report"
+                                style={
+                                  dataInd != 0 ? { marginTop: "2.5rem" } : {}
+                                }
+                              >
+                                <div className="accordian__report__header">
                                   <p className="accrodian__name">
                                     {data?.innerTab}
                                   </p>
+                                </div>
+                                <div className="accordian__report__body">
+                                  {data?.innerData?.map((innerData) => {
+                                    return (
+                                      <ReportRow
+                                        name={innerData?.title}
+                                        url={innerData?.url}
+                                        filename={innerData?.title}
+                                        type={"sdsnajd"}
+                                        style={
+                                          currentTabId == 4 || currentTabId == 2
+                                            ? { width: "100%" }
+                                            : {}
+                                        }
+                                      />
+                                    );
+                                  })}
                                 </div>
                               </section>
                             </>
