@@ -64,6 +64,7 @@ const reportsData = [
       {
         type: "DISCLOSURES",
         key: 12,
+        years: ["2022-2023", "2023-2024", "2024-2025"],
         data: [
           {
             innerTab: "COMPLIANCE CERTIFICATE",

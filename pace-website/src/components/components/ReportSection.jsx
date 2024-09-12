@@ -119,7 +119,7 @@ export default function ReportSection() {
                     if (data.id != 2 && data.id != 4) {
                       return data?.sidebar.map((sidebarData) => {
                         if (
-                          sidebarData?.key != 12 &&
+                          // sidebarData?.key != 12 &&
                           sidebarData?.key == currentSidebar
                         ) {
                           return sidebarData?.years?.map((year, index) => {
