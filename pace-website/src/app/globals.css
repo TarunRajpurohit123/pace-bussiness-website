@@ -1028,6 +1028,10 @@ option:hover {
   align-items: center;
   justify-content: space-between;
 }
+.accordian__report__body {
+  width: 59.8rem;
+  margin: auto;
+}
 #accordian__report {
   border: 1px solid transparent; /* Set a border, but make it transparent */
   border-image-source: linear-gradient(

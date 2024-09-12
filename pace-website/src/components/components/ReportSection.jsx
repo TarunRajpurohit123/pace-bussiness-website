@@ -190,9 +190,12 @@ export default function ReportSection() {
                                 }
                               >
                                 <div className="accordian__report__header">
-                                  <p className="accrodian__name">
+                                  <div
+                                    className="accrodian__name"
+                                    style={{ width: "59.8rem", margin: "auto" }}
+                                  >
                                     {data?.innerTab}
-                                  </p>
+                                  </div>
                                 </div>
                                 <div className="accordian__report__body">
                                   {data?.innerData?.map((innerData) => {
@@ -205,7 +208,7 @@ export default function ReportSection() {
                                         style={
                                           currentTabId == 4 || currentTabId == 2
                                             ? { width: "100%" }
-                                            : {}
+                                            : { width: "100%", margin: "auto" }
                                         }
                                       />
                                     );
