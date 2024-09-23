@@ -5,8 +5,8 @@ const HomeWelcome = () => {
   return (
     <div className="home__welcome__section pt-[15rem] pb-[7.5rem] page-width">
       <h1 className="flex items-center justify-center">
-        Welcome to the world of{" "}
-        <Logo color="var(--pure)" classNames={"ml-[1.3rem] logo--svg"} />
+        Welcome to the world of PACE
+        {/* <Logo color="var(--pure)" classNames={"ml-[1.3rem] logo--svg"} /> */}
       </h1>
       <p className="mt-[2.5rem]">
         PACE Ecommerce Ventures Ltd is more than just a company; it's a catalyst

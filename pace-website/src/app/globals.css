@@ -909,8 +909,13 @@ option:hover {
     padding-top: 0 !important;
     width: 90% !important;
   }
-  .home__welcome__section > h1{
+  .home__welcome__section > h1 {
     font-size: 3rem;
+    line-height: 3.6rem;
+  }
+  .home__welcome__section > p {
+    font-size: 1.4rem;
+    line-height: 2.6rem;
   }
   .global-abs {
     top: 9rem !important;
