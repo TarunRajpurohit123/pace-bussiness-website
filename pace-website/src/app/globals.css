@@ -905,6 +905,13 @@ option:hover {
   .video-background {
     display: none;
   }
+  .home__welcome__section {
+    padding-top: 0 !important;
+    width: 90% !important;
+  }
+  .home__welcome__section > h1{
+    font-size: 3rem;
+  }
   .global-abs {
     top: 9rem !important;
   }
