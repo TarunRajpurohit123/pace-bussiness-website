@@ -913,9 +913,31 @@ option:hover {
     font-size: 3rem;
     line-height: 3.6rem;
   }
+  .homebrands__top_one__heading {
+    font-size: 3rem !important;
+    line-height: 3.6rem !important;
+  }
+  .brand_right_button_arrow {
+    margin-left: 0.5rem;
+  }
+  .homebrands__top_one {
+    flex-direction: column;
+  }
+  .bcarousel__button {
+    margin-top: 1rem;
+  }
+  .brand_carousel_main_section {
+    width: 90% !important;
+  }
+  .hbrand-card {
+    width: 100%;
+  }
   .home__welcome__section > p {
     font-size: 1.4rem;
     line-height: 2.6rem;
+  }
+  .brand_swiper_slide {
+    margin-left: 0 !important;
   }
   .global-abs {
     top: 9rem !important;
@@ -946,6 +968,12 @@ option:hover {
   .announcemnet-wrapper {
     height: 3.7rem;
   }
+  .homebrands__top {
+    width: 90% !important;
+  }
+  /* .hbrand-card {
+    width: 100% !important;
+  } */
 }
 @media screen and (max-width: 1000px) {
   .sp_label {

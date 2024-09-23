@@ -21,7 +21,7 @@ export default function Home() {
       <HomeVideoComponent />
       <HomeVideoComponentMobile />
       <HomeWelcome />
-      {/* <HomeBrands /> */}
+      <HomeBrands />
       {/* <HomeThreePillar /> */}
       {/* <HomeStatics /> */}
       {/* <HomeHighlightCarousel /> */}

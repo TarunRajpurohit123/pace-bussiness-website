@@ -2,7 +2,7 @@
 
 import CircleArrowNextIcon from "@/components/svgs/CircleArrowNextIcon";
 import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -13,6 +13,12 @@ import ArrowRightIcon from "@/components/svgs/arrowRightIcon";
 import uniqid from "uniqid";
 
 export default function HomeBrands() {
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, [window.innerWidth]);
   const [isBrandNextActive, setIsBrandNextActive] = useState(true);
   const [isBrandPrevActive, setIsBrandPrevActive] = useState(false);
   const swiperRef = useRef(null);
@@ -106,8 +112,9 @@ export default function HomeBrands() {
         <div className="homebrands__top  page-width">
           <div className="flex homebrands__top_one justify-between items-center">
             {/* heading */}
-            <h1>
-              Our <span style={{ color: "var(--pure)" }}>Brands</span>
+            <h1 className="homebrands__top_one__heading">
+              Our Brands
+              {/* <span style={{ color: "var(--pure)" }}>Brands</span> */}
             </h1>
             {/* carousel button */}
             <div className="bcarousel__button flex items-center">
@@ -121,7 +128,7 @@ export default function HomeBrands() {
                 />
               </button>
               <button
-                className="ml-[2.5rem]"
+                className="ml-[2.5rem] brand_right_button_arrow"
                 onClick={() => {
                   if (swiperRef.current) swiperRef.current.slideNext();
                 }}
@@ -146,7 +153,7 @@ export default function HomeBrands() {
 
         {/* carousel goes here*/}
         <div
-          className="flex justify-end page-width overflow-hidden"
+          className="flex justify-end page-width overflow-hidden brand_carousel_main_section"
           style={{ display: "flex", justifyContent: "flex-end" }}
         >
           <div
@@ -157,7 +164,7 @@ export default function HomeBrands() {
             }}
           >
             <Swiper
-              slidesPerView={4}
+              slidesPerView={currentScreen <= 1000 ? 1 : 4}
               spaceBetween={30}
               pagination={{
                 clickable: true,
@@ -167,29 +174,45 @@ export default function HomeBrands() {
               }}
               // loop={true}
               onSlideChange={(e) => {
-                if (e.activeIndex < 4) {
-                  setIsBrandNextActive(true);
-                }
-                if (e.activeIndex == 4) {
-                  setIsBrandNextActive(false);
-                }
-                if (e.activeIndex > 0) {
-                  setIsBrandPrevActive(true);
-                }
-                if (e.activeIndex == 0) {
-                  setIsBrandPrevActive(false);
+                if (currentScreen > 1000) {
+                  if (e.activeIndex < 4) {
+                    setIsBrandNextActive(true);
+                  }
+                  if (e.activeIndex == 4) {
+                    setIsBrandNextActive(false);
+                  }
+                  if (e.activeIndex > 0) {
+                    setIsBrandPrevActive(true);
+                  }
+                  if (e.activeIndex == 0) {
+                    setIsBrandPrevActive(false);
+                  }
+                } else {
+                  if (e.activeIndex < 7) {
+                    setIsBrandNextActive(true);
+                  }
+                  if (e.activeIndex == 7) {
+                    setIsBrandNextActive(false);
+                  }
+                  if (e.activeIndex > 0) {
+                    setIsBrandPrevActive(true);
+                  }
+                  if (e.activeIndex == 0) {
+                    setIsBrandPrevActive(false);
+                  }
                 }
               }}
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
               }}
-              // modules={[Autoplay]}
+              modules={[Autoplay]}
               className="mySwiper"
             >
               {data?.map((card, ind) => {
                 return (
                   <SwiperSlide
                     key={uniqid()}
+                    className="brand_swiper_slide"
                     style={ind != 0 ? { marginLeft: "4.7rem" } : {}}
                   >
                     <BrandCard
