@@ -898,7 +898,7 @@ option:hover {
   z-index: -1; /* Places the video behind content */
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1000px) {
   .video-background--mobile {
     display: block;
   }
@@ -906,7 +906,7 @@ option:hover {
     display: none;
   }
   .global-abs {
-    top: 11rem !important;
+    top: 9rem !important;
   }
   .announcemnet-wrapper {
     width: 100% !important;
@@ -924,12 +924,15 @@ option:hover {
   .mobile-menu-2 {
     border: none !important;
   }
+  #mobile__navbar {
+    padding-bottom: 0.625rem !important;
+  }
   .hamburbug_wemw {
     width: 1.3rem !important;
     height: 1.3rem !important;
   }
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 1000px) {
   .sp_label {
     font-size: 1.3rem !important;
   }
@@ -940,7 +943,7 @@ option:hover {
     font-size: 1.1rem !important;
   }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 1000px) {
   .video-background--mobile {
     display: none;
   }
