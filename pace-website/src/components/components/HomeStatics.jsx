@@ -42,7 +42,7 @@ export default function HomeStatics() {
             return (
               <div
                 key={uniqid("static", "card")}
-                className="homeStatics__card counter"
+                className={`homeStatics__card counter ${ind!=0&& "homeStatic_not_first_card"}`}
                 style={ind != 0 ? { marginLeft: "10rem" } : {}}
               >
                 {/* <p className="stat_number">{statData?.number}</p> */}
