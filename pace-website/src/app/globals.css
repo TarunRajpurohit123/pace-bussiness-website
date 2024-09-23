@@ -951,6 +951,9 @@ option:hover {
   .hhcwrapper {
     width: 90% !important;
   }
+  .highlightC__inner {
+    width: 100% !important;
+  }
   .homeStatics__card {
     margin-left: 0 !important;
   }
@@ -1037,9 +1040,18 @@ option:hover {
   .homebrands__top {
     width: 90% !important;
   }
-  /* .hbrand-card {
+  .investors__cta {
+    width: 90% !important;
+  }
+  .investors__left {
     width: 100% !important;
-  } */
+  }
+  .investors__right {
+    width: 100% !important;
+  }
+  .investors__cta{
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 1000px) {
   .sp_label {
