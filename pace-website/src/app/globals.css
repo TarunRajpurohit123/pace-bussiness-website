@@ -899,6 +899,39 @@ option:hover {
 }
 
 @media screen and (max-width: 1000px) {
+  .wc_slide {
+    flex-direction: column;
+  }
+  .homeThreePillar {
+    width: 90% !important;
+  }
+  .wc__left {
+    width: 100% !important;
+  }
+  .wc__right {
+    width: 100% !important;
+    margin-top: 3rem;
+  }
+  .wc__left__content > p {
+    width: 100%;
+  }
+  .wc__left {
+    height: auto !important;
+    padding: 0 !important;
+  }
+  .home__welcome__section {
+    line-height: 2rem;
+  }
+  .homeThree__top {
+    margin-bottom: 2rem !important;
+  }
+  .tpslideNumber {
+    font-size: 4rem !important;
+  }
+  .wc__left__content > p {
+    font-size: 1.4rem !important;
+    line-height: 2rem;
+  }
   .video-background--mobile {
     display: block;
   }
@@ -912,6 +945,10 @@ option:hover {
   .home__welcome__section > h1 {
     font-size: 3rem;
     line-height: 3.6rem;
+  }
+  .wc__left > h1 {
+    font-size: 2.5rem !important;
+    line-height: 3.6rem !important;
   }
   .homebrands__top_one__heading {
     font-size: 3rem !important;

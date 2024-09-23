@@ -22,7 +22,7 @@ export default function Home() {
       <HomeVideoComponentMobile />
       <HomeWelcome />
       <HomeBrands />
-      {/* <HomeThreePillar /> */}
+      <HomeThreePillar />
       {/* <HomeStatics /> */}
       {/* <HomeHighlightCarousel /> */}
       {/* <HomeCta /> */}
