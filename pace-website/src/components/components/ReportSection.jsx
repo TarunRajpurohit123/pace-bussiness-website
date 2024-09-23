@@ -48,8 +48,18 @@ export default function ReportSection() {
                   onClick={() => {
                     setCurrentTab(mainTab?.key);
                     setCurrentTabId(mainTab?.id);
-                    setCurrentSidebar(null);
-                    setCurrentYear(null);
+                    if (mainTab.id == 1) {
+                      setCurrentSidebar(11);
+                    } else if (mainTab.id == 3) {
+                      setCurrentSidebar(21);
+                    } else if (mainTab.id == 2) {
+                      setCurrentSidebar(null);
+                    }
+                    if (mainTab.id == 4) {
+                      setCurrentYear("2022-23");
+                    } else {
+                      setCurrentYear(null);
+                    }
                   }}
                 >
                   {mainTab?.name}
