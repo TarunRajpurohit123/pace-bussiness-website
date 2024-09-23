@@ -17,7 +17,7 @@ export default function TSwitcher() {
   }, [isSwitch]);
   return (
     <>
-      <div className="website_switcher flex items-center">
+      <div className="website_switcher flex items-center hidden">
         <div className="website_switcher_text gray_25-text">Theme Mode</div>
         <div
           className={`ml-[1rem] cursor-pointer tsiwtcher pointer-events-auto w-[3.6rem] h-[1.9rem] rounded-full p-1 transition duration-200 ease-in-out ${

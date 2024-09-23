@@ -1,7 +1,7 @@
 "use client";
 
 import ReportrightArrow from "@/components/svgs/ReportrightArrow";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import ReportRow from "./ReportRow";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
@@ -19,18 +19,17 @@ export default function ReportSection() {
   const [currentSidebar, setCurrentSidebar] = useState(11);
   const [currentYear, setCurrentYear] = useState(null);
   const swiperRef = useRef(null);
+  const [accordians, setAccordians] = useState([]);
 
-  // accordian control function
-  const accordianControl = (id) => {
-    if (document) {
-      const accordian = document.getElementById(id);
-      if (accordian.style.height == "8rem") {
-        accordian.style.height = "auto";
-      } else {
-        accordian.style.height = "8rem";
+  useEffect(() => {
+    reportsData[0]?.sidebar?.forEach((elm) => {
+      if (elm.key === 12) {
+        elm?.data?.forEach((_, index) => {
+          setAccordians((prevState) => ({ ...prevState, [index]: false }));
+        });
       }
-    }
-  };
+    });
+  }, [reportsData]);
 
   return (
     <>
@@ -199,14 +198,19 @@ export default function ReportSection() {
                             <div key={uniqid()}>
                               <section
                                 id={`accordian__report_${dataInd}`}
-                                className=" accordian__report"
+                                className={
+                                  accordians[dataInd]
+                                    ? "accordian__report h-[auto]"
+                                    : "accordian__report h-[8rem]"
+                                }
                                 style={
                                   dataInd != 0 ? { marginTop: "2.5rem" } : {}
                                 }
                                 onClick={() => {
-                                  accordianControl(
-                                    `accordian__report_${dataInd}`
-                                  );
+                                  setAccordians({
+                                    ...accordians,
+                                    [dataInd]: true,
+                                  });
                                 }}
                               >
                                 <div className="accordian__report__header flex justify-center">

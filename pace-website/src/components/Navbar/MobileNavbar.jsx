@@ -34,7 +34,7 @@ export default function MobileNavbar() {
                   border: "2px solid var(--primary-text)",
                   marginLeft: "1rem",
                 }}
-                className="inline-flex items-center p-2 ml-1 rounded-lg lg:hidden"
+                className="inline-flex mobile-menu-2 items-center p-2 ml-1 rounded-lg lg:hidden"
                 aria-controls="mobile-menu-2"
                 aria-expanded="false"
                 onClick={() => {
@@ -45,7 +45,7 @@ export default function MobileNavbar() {
               >
                 <span className="sr-only">Open main menu</span>
                 <svg
-                  className="w-10 h-6"
+                  className="w-10 h-6 hamburbug_wemw"
                   fill="currentColor"
                   viewBox="0 0 20 20"
                   xmlns="http://www.w3.org/2000/svg"

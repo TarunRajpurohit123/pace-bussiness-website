@@ -8,6 +8,7 @@ import HomeWelcome from "../components/components/HomeWelcome";
 
 import dynamic from "next/dynamic";
 import PageOcc from "@/components/PageOcc";
+import HomeVideoComponentMobile from "@/components/components/HomeVideoComponentMobile";
 const HomeHighlightCarousel = dynamic(
   () => import("../components/components/HomeHighlightCarousel"),
   { ssr: false }
@@ -18,12 +19,13 @@ export default function Home() {
     <>
       <PageOcc />
       <HomeVideoComponent />
-      <HomeWelcome />
-      <HomeBrands />
-      <HomeThreePillar />
-      <HomeStatics />
-      <HomeHighlightCarousel />
-      <HomeCta />
+      <HomeVideoComponentMobile />
+      {/* <HomeWelcome /> */}
+      {/* <HomeBrands /> */}
+      {/* <HomeThreePillar /> */}
+      {/* <HomeStatics /> */}
+      {/* <HomeHighlightCarousel /> */}
+      {/* <HomeCta /> */}
     </>
   );
 }

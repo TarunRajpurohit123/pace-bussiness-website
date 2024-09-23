@@ -877,6 +877,78 @@ option:hover {
   z-index: -1; /* Places the video behind content */
 }
 
+.video-background--mobile {
+  position: relative;
+  width: auto;
+  height: 72.8rem;
+  /* max-width: 76.7rem; */
+  margin: auto;
+  overflow: hidden;
+}
+
+.video-background--mobile > .video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Ensures the video covers the background */
+  object-position: top; /* Ensures the video covers the background */
+  transform: translate(-50%, -50%);
+  z-index: -1; /* Places the video behind content */
+}
+
+@media screen and (max-width: 767px) {
+  .video-background--mobile {
+    display: block;
+  }
+  .video-background {
+    display: none;
+  }
+  .global-abs {
+    top: 11rem !important;
+  }
+  .announcemnet-wrapper {
+    width: 100% !important;
+  }
+  .logo--svg {
+    width: 8rem !important;
+  }
+  .navbar__overlay {
+    display: none;
+  }
+  .searchicon {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+  }
+  .mobile-menu-2 {
+    border: none !important;
+  }
+  .hamburbug_wemw {
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .sp_label {
+    font-size: 1.3rem !important;
+  }
+  .sp_rupee {
+    font-size: 1.3rem !important;
+  }
+  .sp_statics_text {
+    font-size: 1.1rem !important;
+  }
+}
+@media screen and (min-width: 767px) {
+  .video-background--mobile {
+    display: none;
+  }
+  .video-background {
+    display: block;
+  }
+}
+
 .video-background .content {
   position: relative;
   z-index: 1; /* Places content above the video */
