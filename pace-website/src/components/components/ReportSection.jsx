@@ -212,10 +212,16 @@ export default function ReportSection() {
                                   dataInd != 0 ? { marginTop: "2.5rem" } : {}
                                 }
                                 onClick={() => {
-                                  setAccordians({
-                                    ...accordians,
-                                    [dataInd]: true,
-                                  });
+                                  if (!accordians[dataInd]) {
+                                    setAccordians({
+                                      [dataInd]: true,
+                                    });
+                                  } else {
+                                    setAccordians({
+                                      [dataInd]: false,
+                                    });
+                                  }
+
                                   console.log("accprdians", accordians);
                                 }}
                               >
