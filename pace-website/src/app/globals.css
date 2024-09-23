@@ -931,6 +931,9 @@ option:hover {
     width: 1.3rem !important;
     height: 1.3rem !important;
   }
+  .announcemnet-wrapper {
+    height: 3.7rem;
+  }
 }
 @media screen and (max-width: 1000px) {
   .sp_label {
