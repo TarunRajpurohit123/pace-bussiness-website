@@ -925,6 +925,10 @@ option:hover {
   .homeThree__top {
     margin-bottom: 2rem !important;
   }
+  .homebrands__section {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+  }
   .tpslideNumber {
     font-size: 4rem !important;
   }

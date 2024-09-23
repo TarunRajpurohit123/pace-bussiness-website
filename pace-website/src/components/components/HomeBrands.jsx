@@ -18,7 +18,7 @@ export default function HomeBrands() {
     if (window.innerWidth) {
       setCurrentScreen(window?.innerWidth);
     }
-  }, [window.innerWidth]);
+  }, []);
   const [isBrandNextActive, setIsBrandNextActive] = useState(true);
   const [isBrandPrevActive, setIsBrandPrevActive] = useState(false);
   const swiperRef = useRef(null);

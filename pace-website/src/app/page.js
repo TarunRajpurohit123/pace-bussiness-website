@@ -20,9 +20,11 @@ export default function Home() {
       <PageOcc />
       <HomeVideoComponent />
       <HomeVideoComponentMobile />
-      <HomeWelcome />
-      <HomeBrands />
-      <HomeThreePillar />
+      <div>
+        <HomeWelcome />
+        <HomeBrands />
+        <HomeThreePillar />
+      </div>
       {/* <HomeStatics /> */}
       {/* <HomeHighlightCarousel /> */}
       {/* <HomeCta /> */}
