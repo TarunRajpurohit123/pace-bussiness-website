@@ -26,7 +26,7 @@ export default function Home() {
         <HomeThreePillar />
       </div>
       <HomeStatics />
-      {/* <HomeHighlightCarousel /> */}
+      <HomeHighlightCarousel />
       {/* <HomeCta /> */}
     </>
   );

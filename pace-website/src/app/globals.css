@@ -948,6 +948,9 @@ option:hover {
   .homeStatics__left > p {
     width: 100%;
   }
+  .hhcwrapper {
+    width: 90% !important;
+  }
   .homeStatics__card {
     margin-left: 0 !important;
   }
