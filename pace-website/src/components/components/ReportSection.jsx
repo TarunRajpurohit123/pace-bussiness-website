@@ -278,6 +278,27 @@ export default function ReportSection() {
                     });
                   }
                 })}
+                {/* if tab 2 */}
+              {currentTabId == 4 &&
+                reportsData?.map((report) => {
+                  if (currentTab == report?.uniq) {
+                    return report?.sidebar[0]?.data?.map((side) => {
+                      return (
+                        <ReportRow
+                          name={side?.title}
+                          url={side?.url}
+                          filename={side?.title}
+                          type={"sdsnajd"}
+                          style={
+                            currentTabId == 4 || currentTabId == 2
+                              ? { width: "100%" }
+                              : {}
+                          }
+                        />
+                      );
+                    });
+                  }
+                })}
             </div>
           </div>
         </main>
