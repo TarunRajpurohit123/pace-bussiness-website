@@ -62,7 +62,9 @@ export default function ReportSection() {
               {years?.map((year) => {
                 if (year.direct && currentTab === "SP") {
                   return year?.years?.map((yr) => {
-                    return <YearBox year={yr} />;
+                    return (
+                      <YearBox year={yr} setCurrentYear={setCurrentYear} />
+                    );
                   });
                 }
               })}
@@ -203,7 +205,7 @@ export default function ReportSection() {
                                 id={`accordian__report_${dataInd}`}
                                 className={
                                   accordians[dataInd]
-                                    ? "accordian__report h-[auto]"
+                                    ? "accordian__report accordian__report--overright"
                                     : "accordian__report h-[8rem]"
                                 }
                                 style={
@@ -214,6 +216,7 @@ export default function ReportSection() {
                                     ...accordians,
                                     [dataInd]: true,
                                   });
+                                  console.log("accprdians", accordians);
                                 }}
                               >
                                 <div className="accordian__report__header flex justify-center">
@@ -278,24 +281,26 @@ export default function ReportSection() {
                     });
                   }
                 })}
-                {/* if tab 2 */}
+              {/* if tab 4 */}
               {currentTabId == 4 &&
                 reportsData?.map((report) => {
                   if (currentTab == report?.uniq) {
                     return report?.sidebar[0]?.data?.map((side) => {
-                      return (
-                        <ReportRow
-                          name={side?.title}
-                          url={side?.url}
-                          filename={side?.title}
-                          type={"sdsnajd"}
-                          style={
-                            currentTabId == 4 || currentTabId == 2
-                              ? { width: "100%" }
-                              : {}
-                          }
-                        />
-                      );
+                      if (side?.year == currentYear) {
+                        return (
+                          <ReportRow
+                            name={side?.title}
+                            url={side?.url}
+                            filename={side?.title}
+                            type={"sdsnajd"}
+                            style={
+                              currentTabId == 4 || currentTabId == 2
+                                ? { width: "100%" }
+                                : {}
+                            }
+                          />
+                        );
+                      }
                     });
                   }
                 })}

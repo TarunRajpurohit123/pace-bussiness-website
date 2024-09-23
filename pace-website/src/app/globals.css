@@ -1049,7 +1049,7 @@ option:hover {
   .investors__right {
     width: 100% !important;
   }
-  .investors__cta{
+  .investors__cta {
     flex-direction: column;
   }
 }
@@ -1239,6 +1239,9 @@ option:hover {
   height: 8rem;
   overflow: hidden;
   cursor: pointer;
+}
+.accordian__report--overright {
+  height: auto !important;
 }
 .accordian__report__header {
   width: 67rem;
