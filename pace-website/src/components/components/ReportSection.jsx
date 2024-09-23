@@ -193,7 +193,10 @@ export default function ReportSection() {
                               }
                             />
                           );
-                        } else if (side?.key == 12) {
+                        } else if (
+                          currentSidebar == side?.key &&
+                          side?.key == 12
+                        ) {
                           return (
                             <div key={uniqid()}>
                               <section
