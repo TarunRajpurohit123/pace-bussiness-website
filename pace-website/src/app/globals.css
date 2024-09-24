@@ -2008,3 +2008,22 @@ option:hover {
   color: var(--gray_400);
   margin-top: 2.5rem;
 }
+.brand__card__2 {
+  width: 40rem;
+  height: 28.8rem;
+  padding: 2.5rem;
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.brand2__candy {
+  margin-left: 4rem;
+  cursor: pointer;
+}

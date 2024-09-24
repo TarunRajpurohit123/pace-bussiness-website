@@ -1,9 +1,12 @@
+import BrandCard2 from "./BrandCard2";
+
 export default function BrandGrid() {
   return (
     <>
       <div className="brand__main__grid page-width">
         {/* row 1 goes here */}
-        <div className="brand__main__row1 brand__main__row">
+        <div className="brand__main__row1 brand__main__row flex">
+          {/* big card goes */}
           <div className="brand__main__row--bigi brand__main__row--card">
             {/* content div goes here */}
             <div className="brand__main__row--bigi__content brand__main__row--card__content">
@@ -19,6 +22,13 @@ export default function BrandGrid() {
             {/* content div end here */}
             <button className="brand__main__row--bigi--btn">Learn More</button>
           </div>
+          {/* big card end */}
+          <BrandCard2
+            extraCls={"brand2__candy"}
+            width={223.03}
+            height={56}
+            imgUrl={"/main/cotcandy2.png"}
+          />
         </div>
         {/* row 1 end here */}
 
