@@ -1939,7 +1939,28 @@ option:hover {
   .investor_state_heading {
     font-size: 3.8rem;
   }
-  .investor_state_span{
+  .investor_state_span {
     font-size: 1.8rem;
+  }
+  .latestpress__carousel__top {
+    width: 90% !important;
+  }
+  .latestpress__carousel {
+    width: 90% !important;
+  }
+  .latestpress__heading {
+    font-size: 3.8rem !important;
+  }
+  .latestpress__carousel__top {
+    flex-direction: column;
+  }
+  .latestpress__controls {
+    margin-top: 1rem;
+  }
+  .less_than__3_slide {
+    width: 100% !important;
+  }
+  .latestpress__card {
+    width: 100%;
   }
 }

@@ -5,7 +5,7 @@ import CircleArrowPrevIcon from "@/components/svgs/CircleArrowPrevIcon";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import EyeIcon from "@/components/svgs/EyeIcon";
 import DownloadFile from "@/components/svgs/DownloadFile";
@@ -21,6 +21,12 @@ export default function LatestPress() {
   });
   const [isBrandNextActive, setIsBrandNextActive] = useState(true);
   const [isBrandPrevActive, setIsBrandPrevActive] = useState(false);
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, []);
   return (
     <>
       <section className="latestpress__wrapper">
@@ -60,7 +66,10 @@ export default function LatestPress() {
                 style={{ marginLeft: "2.5rem" }}
               />
             </button>
-            <Link href="#" className="our__brands_viewLink flex items-center">
+            <Link
+              href="/investors/press-releases"
+              className="our__brands_viewLink flex items-center"
+            >
               View all <ArrowRightIcon className="ml-[1.5rem]" />
             </Link>
           </div>
@@ -68,7 +77,7 @@ export default function LatestPress() {
 
         <div className="latestpress__carousel page-width flex justify-between items-center pt-[5rem]">
           <Swiper
-            slidesPerView={2}
+            slidesPerView={currentScreen <= 1000 ? 1 : 2}
             spaceBetween={30}
             // loop={true}
             pagination={{
@@ -92,7 +101,7 @@ export default function LatestPress() {
               // }
             }}
             className={
-              latestPress?.length <= 2
+              latestPress?.length <= 2 && currentScreen>1000
                 ? "mySwiper less_than__3_mySwiper"
                 : "mySwiper"
             }
