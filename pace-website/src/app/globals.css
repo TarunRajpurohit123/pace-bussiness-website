@@ -1868,3 +1868,39 @@ option:hover {
 .less_than__3_mySwiper {
   margin-left: 0 !important;
 }
+@media screen and (max-width: 1000px) {
+  .investors__cta--mobile {
+    flex-direction: row !important;
+    width: 90% !important;
+  }
+  .investors__cn {
+    font-size: 1.5rem !important;
+  }
+  .investor_contactHeding {
+    font-size: 1.5rem;
+  }
+  .arrow__investor_icon {
+    width: 18px;
+    height: 18px;
+  }
+  .investors_cnLink {
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  .investors__right {
+    height: 10rem;
+    width: 39% !important;
+  }
+  .investors__cta {
+    justify-content: space-between;
+  }
+  .investors__left {
+    height: 10rem;
+    width: 59% !important;
+  }
+  .investor_contactHeding {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    line-height: 0rem;
+  }
+}
