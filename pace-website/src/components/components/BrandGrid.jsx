@@ -33,11 +33,49 @@ export default function BrandGrid() {
         {/* row 1 end here */}
 
         {/* row 2 goes here */}
-        <div className="brand__main__row2 brand__main__row"></div>
+        <div className="brand__main__row2 brand__main__row">
+          <BrandCard2
+            extraCls={"brand2__homepost"}
+            width={273.58}
+            height={56}
+            imgUrl={"/main/homepost2.png"}
+          />
+          <BrandCard2
+            extraCls={"brand2__ostilos"}
+            width={214.15}
+            height={53.76}
+            imgUrl={"/main/ostilos2.png"}
+          />
+          <BrandCard2
+            extraCls={"brand2__wishrow"}
+            width={327.21}
+            height={40}
+            imgUrl={"/main/wishrow2.png"}
+          />
+        </div>
         {/* row 2 goes here */}
 
         {/* row 2 goes here */}
-        <div className="brand__main__row3 brand__main__row"></div>
+        <div className="brand__main__row3 brand__main__row flex">
+          <BrandCard2
+            extraCls={"brand2__zwankee"}
+            width={295.27}
+            height={56}
+            imgUrl={"/main/zwankee2.png"}
+          />
+          <BrandCard2
+            extraCls={"brand2__zwankeeglobal"}
+            width={260.37}
+            height={53.76}
+            imgUrl={"/main/zwglobal2.png"}
+          />
+          <BrandCard2
+            extraCls={"brand2__ppi"}
+            width={123.41}
+            height={56}
+            imgUrl={"/main/ppi2.png"}
+          />
+        </div>
         {/* row 2 end here */}
       </div>
     </>

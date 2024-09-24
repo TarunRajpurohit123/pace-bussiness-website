@@ -2027,3 +2027,32 @@ option:hover {
   margin-left: 4rem;
   cursor: pointer;
 }
+.brand2__homepost {
+  cursor: pointer;
+}
+.brand2__zwankee {
+  cursor: pointer;
+}
+.brand2__zwankeeglobal {
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.brand2__ppi {
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.brand2__ostilos {
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.brand2__wishrow {
+  margin-left: 4rem;
+  cursor: pointer;
+}
+.brand__main__row2 {
+  margin-top: 5rem;
+  display: flex;
+}
+.brand__main__row3 {
+  margin-top: 5rem;
+}
