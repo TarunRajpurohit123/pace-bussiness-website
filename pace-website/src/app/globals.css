@@ -2056,3 +2056,41 @@ option:hover {
 .brand__main__row3 {
   margin-top: 5rem;
 }
+.BrandGridMainSection {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.BrandGridMainSection--directChild {
+  width: 40rem;
+  height: 50rem;
+}
+.BrandGridMainSection--second {
+  margin-left: 4rem;
+  background-color: var(--red);
+}
+.BrandGridMainSection--third {
+  margin-left: 4rem;
+}
+.BrandGridMainSection__lowHeight {
+  width: 100%;
+  height: 14rem;
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
+}
+.BrandGridMainSection__highHeight {
+  height: 32rem;
+  width: 100%;
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
+}
