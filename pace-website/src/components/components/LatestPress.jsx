@@ -11,6 +11,7 @@ import EyeIcon from "@/components/svgs/EyeIcon";
 import DownloadFile from "@/components/svgs/DownloadFile";
 import DownloadIcon from "@/components/svgs/DownloadIcon";
 import ArrowRightIcon from "../svgs/arrowRightIcon";
+import { latestPress } from "@/json/latestPress";
 
 export default function LatestPress() {
   const swiperRef = useRef(null);
@@ -65,7 +66,7 @@ export default function LatestPress() {
 
         <div className="latestpress__carousel page-width flex justify-between items-center pt-[5rem]">
           <Swiper
-            slidesPerView={3}
+            slidesPerView={2}
             spaceBetween={30}
             // loop={true}
             pagination={{
@@ -88,112 +89,41 @@ export default function LatestPress() {
                 setIsBrandPrevActive(false);
               }
             }}
-            className="mySwiper"
+            className={
+              latestPress?.length <= 2
+                ? "mySwiper less_than__3_mySwiper"
+                : "mySwiper"
+            }
           >
-            <SwiperSlide>
-              <div className="latestpress__card ">
-                <div className="latestcard__top">
-                  <p className="latestcard__top_para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor...
-                  </p>
-                  <p className="latestcard__top__time">30 Aug 2024</p>
-                </div>
-                <div className="latest_footer">
-                  <Link href="#" className="viewLatestFooter">
-                    <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
-                  </Link>
-                  <DownloadFile
-                    url="#"
-                    fname="untitled"
-                    content={
-                      <div className="flex items-center">
-                        <DownloadIcon color="var(--red)" />
-                        <p className="viewdox__latestPress">Download</p>
-                      </div>
-                    }
-                  ></DownloadFile>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="latestpress__card">
-                <div className="latestcard__top">
-                  <p className="latestcard__top_para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor...
-                  </p>
-                  <p className="latestcard__top__time">30 Aug 2024</p>
-                </div>
-                <div className="latest_footer">
-                  <Link href="#" className="viewLatestFooter">
-                    <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
-                  </Link>
-                  <DownloadFile
-                    url="#"
-                    fname="untitled"
-                    content={
-                      <div className="flex items-center">
-                        <DownloadIcon color="var(--red)" />
-                        <p className="viewdox__latestPress">Download</p>
-                      </div>
-                    }
-                  ></DownloadFile>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="latestpress__card">
-                <div className="latestcard__top">
-                  <p className="latestcard__top_para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor...
-                  </p>
-                  <p className="latestcard__top__time">30 Aug 2024</p>
-                </div>
-                <div className="latest_footer">
-                  <Link href="#" className="viewLatestFooter">
-                    <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
-                  </Link>
-                  <DownloadFile
-                    url="#"
-                    fname="untitled"
-                    content={
-                      <div className="flex items-center">
-                        <DownloadIcon color="var(--red)" />
-                        <p className="viewdox__latestPress">Download</p>
-                      </div>
-                    }
-                  ></DownloadFile>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="latestpress__card">
-                <div className="latestcard__top">
-                  <p className="latestcard__top_para">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor...
-                  </p>
-                  <p className="latestcard__top__time">30 Aug 2024</p>
-                </div>
-                <div className="latest_footer">
-                  <Link href="#" className="viewLatestFooter">
-                    <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
-                  </Link>
-                  <DownloadFile
-                    url="#"
-                    fname="untitled"
-                    content={
-                      <div className="flex items-center">
-                        <DownloadIcon color="var(--red)" />
-                        <p className="viewdox__latestPress">Download</p>
-                      </div>
-                    }
-                  ></DownloadFile>
-                </div>
-              </div>
-            </SwiperSlide>
+            {latestPress?.map((pressData) => {
+              return (
+                <SwiperSlide
+                  className={latestPress?.length <= 2 && "less_than__3_slide"}
+                >
+                  <div className="latestpress__card ">
+                    <div className="latestcard__top">
+                      <p className="latestcard__top_para">{pressData?.name}</p>
+                      <p className="latestcard__top__time">{pressData?.time}</p>
+                    </div>
+                    <div className="latest_footer">
+                      <Link href={pressData?.url} className="viewLatestFooter">
+                        <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
+                      </Link>
+                      <DownloadFile
+                        url={pressData?.url}
+                        fname="untitled"
+                        content={
+                          <div className="flex items-center">
+                            <DownloadIcon color="var(--red)" />
+                            <p className="viewdox__latestPress">Download</p>
+                          </div>
+                        }
+                      ></DownloadFile>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </section>

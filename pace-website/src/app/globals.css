@@ -1862,3 +1862,9 @@ option:hover {
 .year_report_swiper_2 > .swiper-wrapper {
   width: 100% !important;
 }
+.less_than__3_slide {
+  width: 40rem !important;
+}
+.less_than__3_mySwiper {
+  margin-left: 0 !important;
+}
