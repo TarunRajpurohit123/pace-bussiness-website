@@ -39,7 +39,8 @@ export default function LatestPress() {
               }}
             >
               <CircleArrowPrevIcon
-                color={isBrandPrevActive ? "var(--pure)" : "var(--iconColor)"}
+                color={"var(--iconColor)"}
+                // color={isBrandPrevActive ? "var(--pure)" : "var(--iconColor)"}
               />
             </button>
             <button
@@ -54,7 +55,8 @@ export default function LatestPress() {
               }}
             >
               <CircleArrowNextIcon
-                color={isBrandNextActive ? "var(--pure)" : "var(--iconColor)"}
+                color={"var(--iconColor)"}
+                // color={isBrandNextActive ? "var(--pure)" : "var(--iconColor)"}
                 style={{ marginLeft: "2.5rem" }}
               />
             </button>
@@ -76,18 +78,18 @@ export default function LatestPress() {
               swiperRef.current = swiper; // Store the Swiper instance in the ref
             }}
             onSlideChange={(e) => {
-              if (e.activeIndex < 1) {
-                setIsBrandNextActive(true);
-              }
-              if (e.activeIndex == 1) {
-                setIsBrandNextActive(false);
-              }
-              if (e.activeIndex > 0) {
-                setIsBrandPrevActive(true);
-              }
-              if (e.activeIndex == 0) {
-                setIsBrandPrevActive(false);
-              }
+              // if (e.activeIndex < 1) {
+              //   setIsBrandNextActive(true);
+              // }
+              // if (e.activeIndex == 1) {
+              //   setIsBrandNextActive(false);
+              // }
+              // if (e.activeIndex > 0) {
+              //   setIsBrandPrevActive(true);
+              // }
+              // if (e.activeIndex == 0) {
+              //   setIsBrandPrevActive(false);
+              // }
             }}
             className={
               latestPress?.length <= 2

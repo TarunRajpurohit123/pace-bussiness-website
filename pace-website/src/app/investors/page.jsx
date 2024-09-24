@@ -15,9 +15,9 @@ export default function investors() {
         title="Highlights"
         content=""
       />
-      {/* <LatestPress /> */}
+      <LatestPress />
       {/* <ReportSection /> */}
-      <InvestorStatics />
+      {/* <InvestorStatics /> */}
       {/* <FinancialCalender /> */}
       {/* <InvestorCTA />  */}
     </>
