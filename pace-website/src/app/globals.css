@@ -1964,3 +1964,47 @@ option:hover {
     width: 100%;
   }
 }
+
+.brand__main__row--bigi {
+  width: 84rem;
+  height: 28.8rem;
+  padding: 5rem;
+  border: 1px solid transparent; /* Set a border, but make it transparent */
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(231, 231, 231, 0.3) 0%,
+    rgba(129, 129, 129, 0.3) 63.55%
+  );
+  border-image-slice: 1;
+}
+.brand__main__grid {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.brand__main__row--bigi--btn {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  text-align: center;
+  background: var(--red);
+  color: var(--pure);
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2.5rem;
+}
+.brand__main__row--bigi__content__heading {
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 4.9rem;
+  text-align: left;
+  color: var(--pure);
+}
+.brand__main__row--bigi__content__paragraph {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+  text-align: left;
+  color: var(--gray_400);
+  margin-top: 2.5rem;
+}
