@@ -15,8 +15,8 @@ export default function investors() {
         title="Highlights"
         content=""
       />
-      <LatestPress />
-      {/* <ReportSection /> */}
+      {/* <LatestPress /> */}
+      <ReportSection />
       {/* <InvestorStatics /> */}
       {/* <FinancialCalender /> */}
       {/* <InvestorCTA />  */}
