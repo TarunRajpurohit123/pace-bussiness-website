@@ -12,8 +12,8 @@ export default function investors() {
       <PageOcc />
       <Hero2
         // className="pages_investor_wrapper"
-        title="Investor Relation Highlights"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        title="Highlights"
+        content=""
       />
       <LatestPress />
       <ReportSection />
