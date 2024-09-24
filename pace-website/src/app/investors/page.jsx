@@ -17,8 +17,8 @@ export default function investors() {
       />
       {/* <LatestPress /> */}
       {/* <ReportSection /> */}
-      {/* <InvestorStatics /> */}
-      <FinancialCalender />
+      <InvestorStatics />
+      {/* <FinancialCalender /> */}
       {/* <InvestorCTA />  */}
     </>
   );

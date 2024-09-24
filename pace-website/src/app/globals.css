@@ -1926,4 +1926,20 @@ option:hover {
   .first__fcard {
     margin-top: 0rem;
   }
+  .investor__statics {
+    width: 90% !important;
+    flex-direction: column;
+  }
+  .investor_state_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .investor_state_heading {
+    font-size: 3.8rem;
+  }
+  .investor_state_span{
+    font-size: 1.8rem;
+  }
 }
