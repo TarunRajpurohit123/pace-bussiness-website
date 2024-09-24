@@ -1,6 +1,7 @@
 import BrandCards from "@/components/components/BrandCards";
 import BrandGrid from "@/components/components/BrandGrid";
 import Hero2 from "@/components/components/Hero2";
+import HomeCta from "@/components/components/HomeCta";
 import HomeWelcome from "@/components/components/HomeWelcome";
 
 export default function Page() {
@@ -13,6 +14,7 @@ export default function Page() {
       <HomeWelcome />
       <BrandCards />
       <BrandGrid />
+      <HomeCta />
     </>
   );
 }

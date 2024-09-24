@@ -21,7 +21,7 @@ export default function About() {
       />
       {/* timeline */}
       <TimelineGroup />
-      <CareerSection1 />
+      {/* <CareerSection1 /> */}
       <CTA />
     </>
   );
