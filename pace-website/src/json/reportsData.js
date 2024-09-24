@@ -486,15 +486,15 @@ const reportsData = [
     sidebar: [
       {
         title: "Draft Prospectus",
-        url: "#",
+        url: "/main/Draft Prospectus.pdf",
       },
       {
         title: "General Information Document",
-        url: "#",
+        url: "/main/General Information Document.pdf",
       },
       {
         title: "Prospectus",
-        url: "#",
+        url: "/main/Prospectus.pdf",
       },
     ],
   },
