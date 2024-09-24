@@ -4,10 +4,11 @@ export default function FCard({
   name = null,
   time = null,
   style = null,
+  className
 }) {
   return (
     <>
-      <div className="financialCalenderCard" style={style}>
+      <div className={`financialCalenderCard ${className}`} style={style}>
         <p className="monthname">{month}</p>
         <p className="year">{year}</p>
         <div className="fc__main">

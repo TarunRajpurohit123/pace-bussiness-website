@@ -1903,4 +1903,27 @@ option:hover {
     padding-left: 1rem;
     line-height: 0rem;
   }
+  .financialCalender {
+    width: 90% !important;
+  }
+  .financialCalenderGrid > div {
+    flex-wrap: wrap;
+  }
+  .financialCalenderCard {
+    width: 100%;
+    padding: 5rem 2.5rem 5rem 2.5rem;
+    border: 1px solid var(--gray_700);
+  }
+  .last__fcard {
+    display: none;
+  }
+  .financialCalender {
+    font-size: 3rem;
+  }
+  .financialCalenderCard {
+    margin-top: 1rem;
+  }
+  .first__fcard {
+    margin-top: 0rem;
+  }
 }

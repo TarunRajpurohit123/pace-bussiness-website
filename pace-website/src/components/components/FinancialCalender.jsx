@@ -8,6 +8,7 @@ export default function FinancialCalender() {
         <section className="financialCalenderGrid mt-[5rem]">
           <div className="flex items-center">
             <FCard
+              className="first__fcard"
               style={{
                 borderBottom: "1px solid var(--gray_700)",
                 borderRight: "1px solid var(--gray_700)",
@@ -98,6 +99,7 @@ export default function FinancialCalender() {
               time={"Monday, July 15, 2024"}
             />
             <FCard
+              className="last__fcard"
               style={{
                 borderBottom: "1px solid var(--gray_700)",
                 height: "45.3rem",
