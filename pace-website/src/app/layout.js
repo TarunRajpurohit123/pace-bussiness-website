@@ -18,12 +18,12 @@ export default function RootLayout({ children }) {
       <html lang="en">
         <body className={`dark-mode`} id="body">
           <ProgressBar />
-          <Annoucebar />
+          {/* <Annoucebar /> */}
           <Navbar />
           <MobileNavbar />
           <section className="absolute global-abs top-[5rem] z-[-9]">
             {children}
-            <Footer />
+            {/* <Footer /> */}
           </section>
         </body>
       </html>

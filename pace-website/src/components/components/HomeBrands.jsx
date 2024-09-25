@@ -137,7 +137,10 @@ export default function HomeBrands() {
                   color={isBrandNextActive ? "var(--pure)" : "var(--iconColor)"}
                 />
               </button>
-              <Link href="#" className="our__brands_viewLink flex items-center">
+              <Link
+                href="/brand"
+                className="our__brands_viewLink flex items-center"
+              >
                 View all <ArrowRightIcon className="ml-[1.5rem]" />
               </Link>
             </div>
