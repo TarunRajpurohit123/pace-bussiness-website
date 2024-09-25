@@ -26,7 +26,7 @@ export default function Page() {
           "PACE  is home to a distinguished portfolio of brands spanning multiple lifestyle sectors. Each of our brands-ranging from fashion and kids’ essentials to home décor and print-on-demand solutions-reflects a deep commitment to quality, innovation, and customer satisfaction. With a legacy rooted in excellence, PACE continues to evolve, offering a seamless blend of functionality and style, making it the ultimate destination for diverse lifestyle needs and aspirations."
         }
       />
-      {/* <BrandCards /> */}
+      <BrandCards />
       {/* <BrandGrid /> */}
       {/* <HomeCta /> */}
     </>
