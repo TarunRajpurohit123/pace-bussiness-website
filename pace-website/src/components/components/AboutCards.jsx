@@ -7,7 +7,7 @@ import AgileIcon from "../svgs/AgileIcon";
 import QualityIcon from "../svgs/QualityIcon";
 import VisionIcon from "../svgs/VisionIcon";
 
-export default function AboutCards() {
+export default function AboutCards({ extclass = "" }) {
   const cardData = [
     {
       heading: "Collaborative Growth",
@@ -37,7 +37,7 @@ export default function AboutCards() {
   ];
   return (
     <>
-      <section className="aboutcards_section page-width">
+      <section className={`aboutcards_section page-width ${extclass}`}>
         <h1>Teamwork fuels innovation and growth.</h1>
         <section className="flex flex-wrap justify-center mt-[5rem] aboutcards_section--main">
           {cardData?.map((card, ind) => {

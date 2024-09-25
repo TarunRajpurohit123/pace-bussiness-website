@@ -15,7 +15,7 @@ export default function About() {
       <PageOcc />
       <Hero2 />
       <CompanyProfile />
-      <AboutCards />
+      <AboutCards extclass={"about__aboutcardz"} />
       {/* <AboutCoverFlowSlider /> */}
       <Zigzag
         styles={{

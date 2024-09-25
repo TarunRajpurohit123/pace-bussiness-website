@@ -2474,6 +2474,9 @@ option:hover {
   .brand__main__row--bigi--btn {
     font-size: 1.2rem;
   }
+  .acp__right {
+    margin-bottom: 7rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
