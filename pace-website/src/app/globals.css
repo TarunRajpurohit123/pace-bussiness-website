@@ -2114,7 +2114,7 @@ option:hover {
   }
   .hero__two {
     /* height: 45rem; */
-    padding: 5.5rem 0 5.5rem 0 !important;
+    padding: 11.5rem 0 5.5rem 0 !important;
   }
   .contact_card > p {
     font-size: 1.4rem !important;
@@ -2374,6 +2374,9 @@ option:hover {
   }
   .footer-main {
     padding-top: 7rem !important;
+  }
+  .footer-left {
+    width: 100% !important;
   }
 }
 @media (min-width: 1000px) {
