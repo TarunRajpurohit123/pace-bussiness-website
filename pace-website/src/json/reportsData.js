@@ -472,7 +472,7 @@ const reportsData = [
           {
             year: "2023-24",
             title: "Scrutinizer_Report_",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/VOTING RESULT/2023-2024/Scrutinizer_Report_.pdf",
           },
         ],
       },
