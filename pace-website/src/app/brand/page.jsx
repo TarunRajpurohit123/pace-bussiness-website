@@ -27,7 +27,7 @@ export default function Page() {
         }
       />
       <BrandCards />
-      {/* <BrandGrid /> */}
+      <BrandGrid />
       {/* <HomeCta /> */}
     </>
   );

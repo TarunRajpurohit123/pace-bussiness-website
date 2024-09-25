@@ -2438,6 +2438,42 @@ option:hover {
   .web__brand--strip {
     padding-bottom: 0 !important;
   }
+  .aboutcards_section {
+    margin-top: 0 !important;
+  }
+  .brand__main__grid {
+    width: 90% !important;
+  }
+  .brand__main__row {
+    flex-direction: column;
+  }
+  .brand__main__row--bigi {
+    height: auto;
+  }
+  .brand__main__row {
+    margin-top: 0;
+  }
+  .brand__card__2 {
+    margin-top: 1rem;
+  }
+  .brand__main__row--card {
+    width: 100%;
+    margin-left: 0;
+  }
+  .brand__main__row--bigi {
+    padding: 2rem;
+  }
+  .brand__main__row--bigi__content__heading {
+    font-size: 2.4rem;
+    line-height: 3rem;
+  }
+  .brand__main__row--bigi__content__paragraph {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .brand__main__row--bigi--btn {
+    font-size: 1.2rem;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
