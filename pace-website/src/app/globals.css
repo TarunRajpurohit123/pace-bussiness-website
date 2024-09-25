@@ -2150,6 +2150,9 @@ option:hover {
   .acp__left--mobile {
     display: block;
   }
+  .zigzag__card {
+    width: 100% !important;
+  }
 }
 @media (min-width: 1000px) {
   .acp__left--mobile {
