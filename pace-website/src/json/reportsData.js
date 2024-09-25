@@ -512,17 +512,17 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Annual Report_2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/ANNUAL REPORTS AND RETURNS/2022-2023/Annual Report_2022-23.pdf",
           },
           {
             year: "2022-23",
             title: "MGT-7_2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/ANNUAL REPORTS AND RETURNS/2022-2023/MGT-7_2022-2023.pdf",
           },
           {
             year: "2023-24",
             title: "Annual Report_2023-24",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/ANNUAL REPORTS AND RETURNS/2023-2024/Annual Report_2023-24.pdf",
           },
         ],
       },
@@ -534,64 +534,64 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Intimation-of-BM-November-14-2022",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2022-2023/Intimation-of-BM-November-14-2022.pdf",
           },
           {
             year: "2022-23",
             title: "Outcome-of-BM-November-14-2022",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2022-2023/Outcome-of-BM-November-14-2022.pdf",
           },
 
           {
             year: "2023-24",
             title: "Intimation_BM_May_27_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Intimation_BM_May_27_2023.pdf",
           },
           {
             year: "2023-24",
             title: "Intimation_BM_November_08_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Intimation_BM_November_08_2023.pdf",
           },
           {
             year: "2023-24",
             title: "Intimation_BM_September_05_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Intimation_BM_September_05_2023.pdf",
           },
           {
             year: "2023-24",
             title: "Outcome_BM_May_27_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Outcome_BM_May_27_2023.pdf",
           },
           {
             year: "2023-24",
             title: "Outcome_BM_November_08_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Outcome_BM_November_08_2023.pdf",
           },
           {
             year: "2023-24",
             title: "Outcome_BM_September_05_2023",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2023-2024/Outcome_BM_September_05_2023.pdf",
           },
 
           {
             year: "2024-25",
             title: "Intimation_BM_04_September_2024",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Intimation_BM_04_September_2024.pdf",
           },
           {
             year: "2024-25",
             title: "Intimation_BM_May_18_2024",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Intimation_BM_May_18_2024.pdf",
           },
           {
             year: "2024-25",
             title: "Outcome_BM_04_September_2024",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Outcome_BM_04_September_2024.pdf",
           },
           {
             year: "2024-25",
             title: "Outcome_BM_May_18_2024",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Outcome_BM_May_18_2024.pdf",
           },
         ],
       },
@@ -603,23 +603,23 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Financial Result_Half Yearly_September_2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2022-23/Financial Result_Half Yearly_September_2022-23.pdf",
           },
           {
             year: "2022-23",
             title: "Financial Result_Yearly_March_2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2022-23/Financial Result_Yearly_March_2022-23.pdf",
           },
 
           {
             year: "2023-24",
             title: "Financial Result_Half Yearly_September_2023-24",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2023-24/Financial Result_Half Yearly_September_2023-24.pdf",
           },
           {
             year: "2023-24",
             title: "Financial Result_Yearly_March_2023-24",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2023-24/Financial Result_Yearly_March_2023-24.pdf",
           },
         ],
       },
@@ -631,18 +631,18 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Notice_AGM_FY-2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             year: "2022-23",
             title: "Outcome-of-AGM_FY2022-23",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/#",
           },
 
           {
             year: "2023-24",
             title: "Notice_AGM_FY-23-24",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
         ],
       },
@@ -653,16 +653,16 @@ const reportsData = [
         data: [
           {
             title: "DEMAND VIDEO",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "_PitchDeck_2021",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
 
           {
             title: "PITCH DECK 2022",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
         ],
       },
@@ -673,49 +673,49 @@ const reportsData = [
         data: [
           {
             title: "Board Diversity Policy",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Code for Independent Directors",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title:
               "Code of Conduct for Board Members and Senior Management Personnel",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Code of Internal Procedure Conduct for Prevention",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title:
               "Code of Practices and Procedures for Fair Disclosure of UPSI",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Familiarization Programme for Independent",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Nomination-Remuneration-Policy",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Performance-Evaluation-Policy",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Policy for Materiality of Events",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Related Party Transaction Policy",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
           {
             title: "Whistler Blowe Policy",
-            url: "#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
           },
         ],
       },
