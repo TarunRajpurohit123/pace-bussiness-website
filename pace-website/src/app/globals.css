@@ -2234,3 +2234,7 @@ option:hover {
   margin-top: 10rem !important;
   margin-bottom: 2.5rem !important;
 }
+.navbar-main-wrapperr {
+  z-index: 99;
+  background-color: var(--mode-bg);
+}

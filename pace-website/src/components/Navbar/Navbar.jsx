@@ -33,7 +33,7 @@ export default function Navbar() {
 
   return (
     <div
-      className="relative flex justify-center"
+      className="relative flex justify-center navbar-main-wrapperr"
       style={pathname.includes("/admin") ? { display: "none" } : {}}
     >
       {pathname == "/" && <Overlay />}

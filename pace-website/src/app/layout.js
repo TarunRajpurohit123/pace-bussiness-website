@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
           {/* <Annoucebar /> */}
           <Navbar />
           <MobileNavbar />
-          <section className="absolute global-abs top-[5rem] z-[-9]">
+          <section className="absolute global-abs top-[8rem] z-[-9]">
             {children}
             {/* <Footer /> */}
           </section>
