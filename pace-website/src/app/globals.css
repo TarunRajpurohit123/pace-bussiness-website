@@ -2113,7 +2113,7 @@ option:hover {
     font-size: 1.4rem !important;
   }
   .contact_card > h1 {
-    font-size: 1.8rem;
+    font-size: 1.8rem !important;
     line-height: 3rem;
   }
   .contact_card {
@@ -2158,4 +2158,9 @@ option:hover {
   .acp__left--mobile {
     display: none;
   }
+}
+
+.coverflow--group--wrapper {
+  padding-top: 7.5rem !important;
+  padding-bottom: 7.5rem !important;
 }

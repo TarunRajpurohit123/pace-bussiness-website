@@ -6,6 +6,7 @@ import Hero2 from "../../components/components/Hero2";
 import TimelineGroup from "@/components/components/TimelineGroup";
 import PageOcc from "@/components/PageOcc";
 import CareerSection1 from "@/components/components/CareerSection1";
+import AboutCoverFlowSlider from "@/components/components/AboutCoverFlowSlider";
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
       <Hero2 />
       <CompanyProfile />
       <AboutCards />
+      <AboutCoverFlowSlider />
       {/* <Zigzag
         styles={{
           padding: "7.5rem 0 7.5rem 0",
