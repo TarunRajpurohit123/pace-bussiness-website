@@ -2216,6 +2216,20 @@ option:hover {
   .timeline--websitegroup {
     display: none;
   }
+  .investors__cta {
+    width: 90% !important;
+    flex-direction: row !important;
+  }
+  .investors__cta .subheading__onHome {
+    font-size: 1.8rem !important;
+    line-height: 3rem !important;
+  }
+  .investors__left {
+    height: 15rem;
+  }
+  .investors__right {
+    height: 15rem;
+  }
 }
 @media (min-width: 1000px) {
   .acp__left--mobile {
