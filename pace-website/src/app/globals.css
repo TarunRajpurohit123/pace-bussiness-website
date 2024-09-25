@@ -2343,6 +2343,35 @@ option:hover {
   .investors__cta {
     padding-top: 0 !important;
   }
+  .footer > section {
+    width: 90% !important;
+  }
+  .footer-links {
+    width: 100% !important;
+  }
+  .footer-right {
+    width: 100% !important;
+  }
+  .footer-link {
+    font-size: 1.2rem;
+    margin-left: 0 !important;
+  }
+  .footer-links {
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-wrap: wrap !important;
+    line-height: 3rem;
+  }
+  .subscribe_btn {
+    font-size: 1.2rem;
+  }
+  .subfooter > p {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+  .investors__cta {
+    padding-bottom: 7rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .acp__left--mobile {

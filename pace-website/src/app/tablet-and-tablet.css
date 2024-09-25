@@ -328,7 +328,7 @@
 }
 @media (max-width: 662px) {
   .footer-main {
-    width: 90% !important;
+    /* width: 90% !important; */
     margin: auto;
     align-items: start;
   }
