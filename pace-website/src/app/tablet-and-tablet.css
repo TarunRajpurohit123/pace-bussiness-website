@@ -183,9 +183,9 @@
     align-items: center;
     padding-bottom: 0;
   }
-  .acp__left {
+  /* .acp__left {
     width: 90%;
-  }
+  } */
   /* .acp__left_row {
         flex-direction: column;
         height: auto;
@@ -207,7 +207,7 @@
     margin-top: 2.5rem;
   }
   .acp__right {
-    width: 90%;
+    /* width: 90%; */
     height: auto;
     margin-top: 5rem;
     padding: 2rem;
@@ -227,7 +227,7 @@
   }
   .aboutcards_section > h1 {
     margin: auto;
-    width: 90%;
+    /* width: 90%; */
   }
   .aboutcards_section > section {
     flex-direction: column;
@@ -235,7 +235,7 @@
   }
   .aboutcards_section > section > .contact_card {
     margin-left: 0;
-    width: 90% !important;
+    /* width: 90% !important; */
     margin-top: 2.5rem;
   }
   .zigzag__card > div {

@@ -12,7 +12,7 @@ export default function About() {
     <>
       <PageOcc />
       <Hero2 />
-      {/* <CompanyProfile /> */}
+      <CompanyProfile />
       <AboutCards />
       {/* <Zigzag
         styles={{
