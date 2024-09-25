@@ -19,6 +19,7 @@ export default function BrandCard({
   brandLogo = null,
   subheadiColor = null,
   contentColor = null,
+  href = "#",
 }) {
   const [hover, setHover] = useState(false);
   const nodeRef = useRef(null);
@@ -45,7 +46,8 @@ export default function BrandCard({
     <>
       <Transition nodeRef={nodeRef} in={hover}>
         {(state) => (
-          <section
+          <a
+            href={href}
             ref={nodeRef}
             style={{
               ...defaultStyle,
@@ -119,7 +121,7 @@ export default function BrandCard({
                 </div>
               )}
             </div>
-          </section>
+          </a>
         )}
       </Transition>
     </>

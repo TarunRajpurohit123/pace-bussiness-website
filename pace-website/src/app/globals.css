@@ -135,6 +135,9 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
 }
+.hbrand-card {
+  display: inline-block;
+}
 #newsletter {
   border: 1px solid var(--gray_700);
   background: none;

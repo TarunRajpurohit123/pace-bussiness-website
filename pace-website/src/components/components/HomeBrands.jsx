@@ -32,6 +32,7 @@ export default function HomeBrands() {
       hoverImage: "/brandhover.png",
       brandLogo: "/main/cnclogo.png",
       subheadiColor: "var(--pure)",
+      href: "https://www.cotandcandy.com/",
     },
     {
       brand: "Homepost",
@@ -43,6 +44,7 @@ export default function HomeBrands() {
       hoverImage: "/zhover.png",
       brandLogo: "/main/homepostlogo.png",
       subheadiColor: "var(--mode-bg)",
+      href: "#",
     },
     {
       brand: "Ostilos",
@@ -53,6 +55,7 @@ export default function HomeBrands() {
       hoverImage: "/brandhover.png",
       brandLogo: "/OstilosLogo.png",
       subheadiColor: "var(--pure)",
+      href: "https://ostilos.com/",
     },
     {
       brand: "Zwankee",
@@ -63,6 +66,7 @@ export default function HomeBrands() {
       hoverImage: "/zhover.png",
       brandLogo: "/zwankeelogo.png",
       subheadiColor: "var(--mode-bg)",
+      href: "https://zwankee.com/",
     },
     {
       brand: "Wishrows",
@@ -73,6 +77,7 @@ export default function HomeBrands() {
       hoverImage: "/brandhover.png",
       brandLogo: "/WishroLogo.png",
       subheadiColor: "var(--pure)",
+      href: "https://wishrows.in/",
     },
     {
       brand: "Zwankee Global",
@@ -83,6 +88,7 @@ export default function HomeBrands() {
       hoverImage: "/zhover.png",
       brandLogo: "/main/zglogo.png",
       subheadiColor: "var(--mode-bg)",
+      href: "https://zwankeeglobal.com/",
     },
     {
       brand: "Pace Print Innovations",
@@ -94,6 +100,7 @@ export default function HomeBrands() {
       brandLogo: "/ppiLogo.png",
       subheadiColor: "var(--pure)",
       contentColor: "var(--pure)",
+      href: "https://paceprintinnovation.com/",
     },
     {
       brand: "Cot & Candy",
@@ -104,6 +111,7 @@ export default function HomeBrands() {
       hoverImage: "/brandhover.png",
       brandLogo: "/OstilosLogo.png",
       subheadiColor: "var(--pure)",
+      href: "https://www.cotandcandy.com/",
     },
   ];
   return (
@@ -219,6 +227,7 @@ export default function HomeBrands() {
                     style={ind != 0 ? { marginLeft: "4.7rem" } : {}}
                   >
                     <BrandCard
+                      href={card?.href}
                       brand={card?.brand}
                       content={card?.content}
                       image={card?.image}
