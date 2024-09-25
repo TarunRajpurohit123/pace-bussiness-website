@@ -196,7 +196,7 @@
         width: 100%;
         margin-top: 2.5rem;
       } */
-  .acp__left_row {
+  /* .acp__left_row {
     flex-direction: row;
     height: auto;
     margin-top: 0;
@@ -205,7 +205,7 @@
     border-radius: 1.6rem;
     width: 49%;
     margin-top: 2.5rem;
-  }
+  } */
   .acp__right {
     /* width: 90%; */
     height: auto;

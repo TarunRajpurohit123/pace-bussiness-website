@@ -2144,4 +2144,15 @@ option:hover {
   .acp_r1_i1_margin {
     margin-top: 0 !important;
   }
+  .acp__left {
+    display: none;
+  }
+  .acp__left--mobile {
+    display: block;
+  }
+}
+@media (min-width: 1000px) {
+  .acp__left--mobile {
+    display: none;
+  }
 }

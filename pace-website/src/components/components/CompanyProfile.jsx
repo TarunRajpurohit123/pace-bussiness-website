@@ -22,14 +22,14 @@ const CompanyProfile = () => {
             className="acp_r1_i2 acp_desktop_image"
             alt="image"
           />
-          <Image
+          {/* <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
             alt="image"
             style={{ marginTop: 0 }}
-          />
+          /> */}
         </div>
         {/* row 1 end */}
         {/* row 2 start*/}
@@ -48,13 +48,13 @@ const CompanyProfile = () => {
             className="acp_r2_i2 "
             alt="image"
           />
-          <Image
+          {/* <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
             alt="image"
-          />
+          /> */}
         </div>
         {/* row 2 end */}
         {/* row 3 start*/}
@@ -73,15 +73,23 @@ const CompanyProfile = () => {
             className="acp_r1_i2 acp_desktop_image"
             alt="image"
           />
-          <Image
+          {/* <Image
             src={"/r1i1.jpeg"}
             width="415"
             height="228"
             className="acp_r1_i2 acp_mobile_image"
             alt="image"
-          />
+          /> */}
         </div>
         {/* row 3 end */}
+      </div>
+      <div className="acp__left--mobile">
+        <Image
+          src="/main/group/company-mobile.png"
+          width={343}
+          height={276}
+          alt="company--mobile--image"
+        />
       </div>
       <div className="acp__right">
         {/* <Badge>About our organization</Badge> */}
