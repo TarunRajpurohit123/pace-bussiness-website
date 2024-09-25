@@ -3,33 +3,36 @@ import CircleIcon from "@/components/svgs/CircleIcon";
 import CrownIcon from "@/components/svgs/CrownIcon";
 import MessageStarIcon from "@/components/svgs/MessageStarIcon";
 import uniqid from "uniqid";
+import AgileIcon from "../svgs/AgileIcon";
+import QualityIcon from "../svgs/QualityIcon";
+import VisionIcon from "../svgs/VisionIcon";
 
 export default function AboutCards() {
   const cardData = [
     {
-      heading: "As core values.",
-      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
+      heading: "Collaborative Growth",
+      text: "PACE values partnerships for mutual growth,  expanding market influence and product  offerings through collaboration. This ensures sustainable, beneficial growth.",
       icon: <CircleIcon />,
     },
     {
-      heading: "As Brand Identity.",
-      text: "These pillars define PACE's brand identity, projecting our values to consumers, partners, and investors. They shape the narrative and messaging for each brand within our portfolio, ensuring a unified voice.",
+      heading: "Empowered Vision",
+      text: "PACE empowers B2B businesses to thrive by providing tools, resources, and support. As a collaborative partner, PACE helps businesses realize their potential through innovative solutions and strategic guidance.",
+      icon: <VisionIcon />,
+    },
+    {
+      heading: "Pioneering Excellence",
+      text: "PACE aims to lead the industry through innovation and excellence, pioneering groundbreaking ideas and delivering exceptional results.",
       icon: <CrownIcon />,
     },
     {
-      heading: "As strategic Drivers.",
-      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
-      icon: <MessageStarIcon />,
+      heading: "Agile Adaptability",
+      text: "PACE values flexibility and adaptability to navigate the ever-changing market, ensuring sustained success through quick responsiveness and strategic adjustments.",
+      icon: <AgileIcon />,
     },
     {
-      heading: "As Brand Identity.",
-      text: "These pillars define PACE's brand identity, projecting our values to consumers, partners, and investors. They shape the narrative and messaging for each brand within our portfolio, ensuring a unified voice.",
-      icon: <CrownIcon />,
-    },
-    {
-      heading: "As strategic Drivers.",
-      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
-      icon: <MessageStarIcon />,
+      heading: "Quality Commitment",
+      text: "PACE is committed to maintaining the highest standards in all aspects of its business, ensuring excellence and building trust through quality products and exceptional service.",
+      icon: <QualityIcon />,
     },
   ];
   return (
