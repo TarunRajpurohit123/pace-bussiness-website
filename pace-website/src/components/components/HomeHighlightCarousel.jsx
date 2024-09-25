@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -15,6 +15,12 @@ import ArrowRight from "../svgs/ArrowRight";
 export default function HomeHighlightCarousel() {
   const [swiper, setSwiper] = useState();
   const swiperRef = useRef(null);
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, []);
   const slides = [
     {
       key: uniqid(),
@@ -98,7 +104,7 @@ export default function HomeHighlightCarousel() {
           effect={"coverflow"}
           grabCursor={true}
           centeredSlides={true}
-          slidesPerView={"auto"}
+          slidesPerView={currentScreen <= 500 ? 2 : "auto"}
           coverflowEffect={{
             rotate: 0,
             stretch: 0,
@@ -118,7 +124,11 @@ export default function HomeHighlightCarousel() {
             return (
               <SwiperSlide
                 key={singleSlide?.key}
-                style={{ width: "fit-content" }}
+                style={
+                  currentScreen <= 500
+                    ? { width: "fit-content", height: "15rem" }
+                    : { width: "fit-content" }
+                }
               >
                 {singleSlide?.content}
               </SwiperSlide>

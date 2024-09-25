@@ -2230,6 +2230,27 @@ option:hover {
   .investors__right {
     height: 15rem;
   }
+  .cform_left p {
+    font-size: 1.2rem;
+  }
+  .pone1 {
+    font-size: 1.2rem !important;
+  }
+  .pure-contact-form h1 {
+    font-size: 2.4rem;
+    line-height: 3rem !important;
+  }
+  .pure-contact-form p {
+    font-size: 1.2rem;
+    line-height: 1.5rem !important;
+    margin-top: 1rem;
+  }
+  .contact__left_select {
+    width: 100% !important;
+  }
+  label{
+    font-size: 1.5rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .acp__left--mobile {
