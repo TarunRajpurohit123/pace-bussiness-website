@@ -2189,8 +2189,8 @@ option:hover {
   .cta__group__mobile_btn > a {
     display: inline-block;
     /* width: 11.4rem; */
-    height: 3rem;
-    padding: 0px 2rem 0px 2rem;
+    /* height: 3rem; */
+    padding: 0.5rem 2rem 0.5rem 2rem;
     gap: 0px;
     border-radius: 0.4rem;
     background-color: var(--mode-bg);
@@ -2198,6 +2198,20 @@ option:hover {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 2.4rem;
+    margin-top: 2.5rem;
+  }
+  .cta_group_mobile_content > h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    color: var(--pure);
+  }
+  .cta_group_mobile_content > p {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    color: var(--gray_100);
   }
 }
 @media (min-width: 1000px) {
