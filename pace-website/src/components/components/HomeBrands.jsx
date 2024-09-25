@@ -208,7 +208,7 @@ export default function HomeBrands() {
               onSwiper={(swiper) => {
                 swiperRef.current = swiper; // Store the Swiper instance in the ref
               }}
-              modules={[Autoplay]}
+              // modules={[Autoplay]}
               className="mySwiper"
             >
               {data?.map((card, ind) => {

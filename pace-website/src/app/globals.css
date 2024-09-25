@@ -1012,7 +1012,7 @@ option:hover {
     margin-left: 0 !important;
   }
   .global-abs {
-    top: 9rem !important;
+    top: 2rem !important;
   }
   .announcemnet-wrapper {
     width: 100% !important;
@@ -2270,6 +2270,10 @@ option:hover {
   .htp__heading {
     font-size: 3rem;
     line-height: 3rem;
+  }
+  .hbrand-card--paragraph {
+    font-size: 1.2rem;
+    line-height: 2rem;
   }
 }
 @media (min-width: 1000px) {
