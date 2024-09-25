@@ -23,7 +23,7 @@ export default function About() {
         }}
       />
       {/* timeline */}
-      {/* <TimelineGroup /> */}
+      <TimelineGroup />
       {/* <CareerSection1 /> */}
       <CTA />
       <CTA_Group_Mobile />

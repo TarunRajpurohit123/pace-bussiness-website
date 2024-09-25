@@ -124,7 +124,7 @@ export default function TimelineGroup() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full timeline--websitegroup">
       <Timeline data={data} />
     </div>
   );
