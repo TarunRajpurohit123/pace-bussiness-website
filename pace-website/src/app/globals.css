@@ -2378,6 +2378,16 @@ option:hover {
   .footer-left {
     width: 100% !important;
   }
+  .contact_cards_section {
+    margin-top: 7rem !important;
+  }
+  .contact_btn {
+    font-size: 1.2rem !important;
+  }
+  .contact_card > a {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .acp__left--mobile {
@@ -2389,6 +2399,9 @@ option:hover {
   .temp--home--banner {
     display: none;
   }
+  .contact_cards_section {
+    margin-top: 7rem !important;
+  }
 }
 
 .coverflow--group--wrapper {
@@ -2396,7 +2409,7 @@ option:hover {
   padding-bottom: 7.5rem !important;
 }
 .contact_cards_section {
-  margin-top: 10rem !important;
+  margin-top: 10rem;
   margin-bottom: 2.5rem !important;
 }
 .navbar-main-wrapperr {
