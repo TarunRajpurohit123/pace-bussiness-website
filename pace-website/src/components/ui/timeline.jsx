@@ -63,7 +63,7 @@ export const Timeline = ({ data }) => {
               </p>
             </div>
 
-            <div className="relative" style={{ width: "98rem" }}>
+            <div className="relative timeline--relative-wrpa" style={{ width: "98rem" }}>
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
