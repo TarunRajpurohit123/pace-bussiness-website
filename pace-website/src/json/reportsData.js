@@ -384,44 +384,44 @@ const reportsData = [
           {
             year: "2022-23",
             title: "INVESTOR GRIVENCE_2022-23_Q2",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2022-2023/INVESTOR GRIVENCE_2022-23_Q2.pdf",
           },
           {
             year: "2022-23",
             title: "INVESTOR GRIVENCE_2022-23_Q3",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2022-2023/INVESTOR GRIVENCE_2022-23_Q3.pdf",
           },
           {
             year: "2022-23",
             title: "INVESTOR GRIVENCE_2022-23_Q4",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2022-2023/INVESTOR GRIVENCE_2022-23_Q4.pdf",
           },
 
           {
             year: "2023-24",
             title: "INVESTORS GRIVENCES_2023-24_Q1",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2023-2024/INVESTORS GRIVENCES_2023-2024_Q1.pdf",
           },
           {
             year: "2023-24",
             title: "INVESTORS GRIVENCES_2023-24_Q2",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2023-2024/INVESTORS GRIVENCES_2023-2024_Q2.pdf",
           },
           {
             year: "2023-24",
             title: "INVESTORS GRIVENCES_2023-24_Q3",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2023-2024/INVESTORS GRIVENCES_2023-2024_Q3.pdf",
           },
           {
             year: "2023-24",
             title: "INVESTORS GRIVENCES_2023-24_Q4",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2023-2024/INVESTORS GRIVENCES_2023-2024_Q4.pdf",
           },
 
           {
             year: "2024-25",
             title: "INVESTORS GRIVENCES_2024-25_Q1",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2024-2025/INVESTORS GRIVENCES_2024-2025_Q1.pdf",
           },
         ],
       },
