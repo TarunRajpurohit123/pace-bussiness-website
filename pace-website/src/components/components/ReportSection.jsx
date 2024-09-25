@@ -114,7 +114,7 @@ export default function ReportSection() {
             }
           >
             {/* year tab goes here*/}
-            {currentTabId !== 4 && (
+            {currentTabId !== 4 && currentTabId !== 2 && (
               <div className="flex items-center justify-between">
                 {5 > 4 && (
                   <button
