@@ -12,7 +12,7 @@ export default function Page() {
       <PageOcc />
       <Hero2
         title="Our Brands"
-        // content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        content="With 7 esteemed brands spanning 5 sectors, PACE is dedicated to revolutionalize these sectors, all while ensuring a steadfast commitment to the highest product standards."
       />
       <BrandGridMainSection />
       <HomeWelcome />
