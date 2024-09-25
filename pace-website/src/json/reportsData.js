@@ -433,34 +433,34 @@ const reportsData = [
           {
             year: "2022-23",
             title: "SDD_Q4_2022-23",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2022-2023/SDD_Q4_2022-23.pdf",
           },
 
           {
             year: "2023-24",
             title: "SDD Compliance_Q1",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2023-2024/SDD Compliance_Q1.pdf",
           },
           {
             year: "2023-24",
             title: "SDD Compliance_Q2",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2023-2024/SDD Compliance_Q2.pdf",
           },
           {
             year: "2023-24",
             title: "SDD Compliance_Q3",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2023-2024/SDD Compliance_Q3.pdf",
           },
           {
             year: "2023-24",
             title: "SDD Compliance_Q4",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2023-2024/SDD Compliance_Q4.pdf",
           },
 
           {
             year: "2024-25",
             title: "SDD Compliance_Q1",
-            url: "#",
+            url: "/main/ANNOUNCEMENT/SDD/2024-2025/SDD Compliance_Q1.pdf",
           },
         ],
       },
