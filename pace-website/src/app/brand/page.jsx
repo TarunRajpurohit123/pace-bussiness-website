@@ -15,7 +15,7 @@ export default function Page() {
         title="Our Brands"
         content="With 7 esteemed brands spanning 5 sectors, PACE is dedicated to revolutionalize these sectors, all while ensuring a steadfast commitment to the highest product standards."
       />
-      <BrandGridMainSection />
+      {/* <BrandGridMainSection />
       <BrandStrip/>
       <HomeWelcome
         extClass="brand--welcoome"
@@ -26,7 +26,7 @@ export default function Page() {
       />
       <BrandCards />
       <BrandGrid />
-      <HomeCta />
+      <HomeCta /> */}
     </>
   );
 }
