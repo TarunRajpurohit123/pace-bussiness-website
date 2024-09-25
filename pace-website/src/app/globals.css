@@ -987,7 +987,7 @@ option:hover {
   }
   .homebrands__top_one__heading {
     font-size: 3rem !important;
-    line-height: 3.6rem !important;
+    line-height: 3rem !important;
   }
   .brand_right_button_arrow {
     margin-left: 0.5rem;
@@ -996,7 +996,7 @@ option:hover {
     flex-direction: column;
   }
   .bcarousel__button {
-    margin-top: 1rem;
+    margin-top: 3rem;
   }
   .brand_carousel_main_section {
     width: 90% !important;
@@ -2250,6 +2250,26 @@ option:hover {
   }
   label {
     font-size: 1.5rem !important;
+  }
+  .home__welcome__section {
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+  }
+  .home__welcome__section > h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .home__welcome__section > p {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    line-height: 2rem;
+  }
+  .brand_carousel {
+    margin-top: 4rem !important;
+  }
+  .htp__heading {
+    font-size: 3rem;
+    line-height: 3rem;
   }
 }
 @media (min-width: 1000px) {

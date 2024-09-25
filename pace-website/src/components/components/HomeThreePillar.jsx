@@ -6,7 +6,7 @@ import { Mousewheel } from "swiper/modules";
 import Image from "next/image";
 import { Logo } from "@/components";
 import DotIcon from "@/components/svgs/dotIcon";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function HomeThreePillar() {
   const [activeDot, setActiveDot] = useState({
@@ -15,13 +15,24 @@ export default function HomeThreePillar() {
     third: { color: "var(--gray_400)", scale: "scale-100" },
   });
   const swiperRef = useRef(null);
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, []);
 
   return (
     <>
       <section className="homeThreePillar page-width pt-[7.5rem] pb-[7.5rem]">
         <div className="homeThree__top mb-[5rem] flex items-center justify-between">
           <h1 className="htp__heading flex items-center">
-            <Logo classNames={"mr-[1.3rem]"} color={"var(--pure)"} />{" "}
+            <Logo
+              currentScreen={currentScreen}
+              mbWidth={"80"}
+              classNames={"mr-[1.3rem] mobile--logo--sdaud"}
+              color={"var(--pure)"}
+            />{" "}
             <span style={{ color: "var(--pure)" }}>Pillars</span>
           </h1>
           <div className="pillarCarouselDots flex">

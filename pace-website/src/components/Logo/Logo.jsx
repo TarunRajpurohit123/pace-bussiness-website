@@ -14,6 +14,8 @@ export default function Logo({
   viewBox = "0 0 122 34",
   svgFill = "none",
   pathname,
+  currentScreen,
+  mbWidth
 }) {
   const isProgressHandle = useStore((state) => state.isProgressHandle);
   const router = useRouter();
@@ -28,7 +30,7 @@ export default function Logo({
         }}
       >
         <svg
-          width={width}
+          width={currentScreen<=1000?mbWidth:width}
           className={classNames}
           id={id}
           style={styles}
