@@ -631,18 +631,18 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Notice_AGM_FY-2022-23",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/GENERAL MEETING/2022-2023/Notice_AGM_FY-2022-23.pdf",
           },
           {
             year: "2022-23",
             title: "Outcome-of-AGM_FY2022-23",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/#",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/GENERAL MEETING/2022-2023/Outcome-of-AGM_FY2022-23.pdf",
           },
 
           {
             year: "2023-24",
             title: "Notice_AGM_FY-23-24",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/GENERAL MEETING/2023-2024/Notice_AGM_FY-2023-24.pdf",
           },
         ],
       },
@@ -653,16 +653,16 @@ const reportsData = [
         data: [
           {
             title: "DEMAND VIDEO",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/INVESTORS UPDATES/DEMAND VIDEO.mp4",
           },
           {
             title: "_PitchDeck_2021",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/INVESTORS UPDATES/_PitchDeck_2021.pdf",
           },
 
           {
             title: "PITCH DECK 2022",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/INVESTORS UPDATES/PITCH DECK 2022.pdf",
           },
         ],
       },
@@ -673,49 +673,49 @@ const reportsData = [
         data: [
           {
             title: "Board Diversity Policy",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Board Diversity Policy.pdf",
           },
           {
             title: "Code for Independent Directors",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Code for Independent Directors.pdf",
           },
           {
             title:
               "Code of Conduct for Board Members and Senior Management Personnel",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Code of Conduct for Board Members and Senior Management Personnel.pdf",
           },
           {
             title: "Code of Internal Procedure Conduct for Prevention",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Code of Internal Procedure Conduct for Prevention.pdf",
           },
           {
             title:
               "Code of Practices and Procedures for Fair Disclosure of UPSI",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Code of Practices and Procedures for Fair Disclosure of UPSI.pdf",
           },
           {
             title: "Familiarization Programme for Independent",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Familiarization Programme for Independent.pdf",
           },
           {
             title: "Nomination-Remuneration-Policy",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Nomination-Remuneration-Policy.pdf",
           },
           {
             title: "Performance-Evaluation-Policy",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Performance-Evaluation-Policy.pdf",
           },
           {
             title: "Policy for Materiality of Events",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Policy for Materiality of Events.pdf",
           },
           {
             title: "Related Party Transaction Policy",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Related Party Transaction Policy.pdf",
           },
           {
             title: "Whistler Blowe Policy",
-            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/POLICIES/Whistler Blowe Policy.pdf",
           },
         ],
       },
@@ -734,44 +734,44 @@ const reportsData = [
           {
             year: "2022-23",
             title: "Shareholding Pattern_Before listing_2022-23",
-            url: "papa",
+            url: "/main/SHAREHOLDING PATTERN/2022-23/Shareholding Pattern_Before listing_2022-23.pdf",
           },
           {
             year: "2022-23",
             title: "Shareholding Pattern_Q3",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2022-23/Shareholding Pattern_Q3.pdf",
           },
           {
             year: "2022-23",
             title: "Shareholding Pattern_Q4",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2022-23/Shareholding Pattern_Q4.pdf",
           },
 
           {
             year: "2023-24",
             title: "Shareholding Pattern_Q2",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2023-24/Shareholding Pattern_Q2.pdf",
           },
           {
             year: "2023-24",
             title: "Shareholding Pattern_Q3",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2023-24/Shareholding Pattern_Q3.pdf",
           },
           {
             year: "2023-24",
             title: "Shareholding Pattern_Q4",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2023-24/Shareholding Pattern_Q4.pdf",
           },
           {
             year: "2023-24",
             title: "Shareholding Patter_Q1",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2023-24/Shareholding Patter_Q1.pdf",
           },
 
           {
             year: "2024-25",
             title: "Shareholding Pattern_Q1",
-            url: "#",
+            url: "/main/SHAREHOLDING PATTERN/2024-25/Shareholding Pattern_Q1.pdf",
           },
         ],
       },
