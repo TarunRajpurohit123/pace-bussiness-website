@@ -209,19 +209,14 @@ export default function HomeThreePillar() {
                   <div className="wc__left__content mt-[2.5rem]">
                     <h1>Empowering Dreams </h1>
                     <div className="mt-[2.5rem] flex">
-                      <Image
-                        src={"/main/pillar2_01.png"}
-                        width={139}
-                        height={30}
-                        alt="image"
-                      />
-                      <Image
-                        src={"/main/pillar2_02.png"}
-                        width={66}
-                        height={30}
-                        style={{ marginLeft: "5rem" }}
-                        alt="image"
-                      />
+                      <div className="mt-[2.5rem] flex">
+                        <Image
+                          src={"/main/pillar3.png"}
+                          width={245}
+                          height={30}
+                          alt="image"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -257,11 +252,19 @@ export default function HomeThreePillar() {
 
                   <div className="wc__left__content mt-[2.5rem]">
                     <h1>Fulfilling </h1>
+
                     <div className="mt-[2.5rem] flex">
                       <Image
-                        src={"/main/pillar3.png"}
-                        width={245}
+                        src={"/main/pillar2_01.png"}
+                        width={139}
                         height={30}
+                        alt="image"
+                      />
+                      <Image
+                        src={"/main/pillar2_02.png"}
+                        width={66}
+                        height={30}
+                        style={{ marginLeft: "5rem" }}
                         alt="image"
                       />
                     </div>
