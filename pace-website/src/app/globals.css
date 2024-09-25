@@ -2108,4 +2108,19 @@ option:hover {
     /* height: 45rem; */
     padding: 5.5rem 0 5.5rem 0 !important;
   }
+  .contact_card > p {
+    font-size: 1.4rem !important;
+  }
+  .contact_card > h1 {
+    font-size: 2rem;
+  }
+  .contact_card {
+    width: 100% !important;
+  }
+  .aboutcards_section--main {
+    margin-top: 2rem !important;
+  }
+  .contact_card {
+    margin-top: 2rem !important;
+  }
 }

@@ -12,8 +12,8 @@ export default function About() {
     <>
       <PageOcc />
       <Hero2 />
-      <CompanyProfile />
-      {/* <AboutCards /> */}
+      {/* <CompanyProfile /> */}
+      <AboutCards />
       {/* <Zigzag
         styles={{
           padding: "7.5rem 0 7.5rem 0",

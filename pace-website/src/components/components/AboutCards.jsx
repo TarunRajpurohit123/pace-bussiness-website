@@ -36,7 +36,7 @@ export default function AboutCards() {
     <>
       <section className="aboutcards_section page-width">
         <h1>Teamwork fuels innovation and growth.</h1>
-        <section className="flex flex-wrap justify-center mt-[5rem]">
+        <section className="flex flex-wrap justify-center mt-[5rem] aboutcards_section--main">
           {cardData?.map((card, ind) => {
             return (
               <Card
