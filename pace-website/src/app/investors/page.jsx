@@ -16,10 +16,10 @@ export default function investors() {
         content=""
       />
       {/* <LatestPress /> */}
-      {/* <ReportSection /> */}
+      <ReportSection />
       {/* <InvestorStatics /> */}
       {/* <FinancialCalender /> */}
-      <InvestorCTA />
+      {/* <InvestorCTA /> */}
     </>
   );
 }
