@@ -15,12 +15,12 @@ export default function About() {
       <Hero2 />
       <CompanyProfile />
       <AboutCards />
-      <AboutCoverFlowSlider />
-      {/* <Zigzag
+      {/* <AboutCoverFlowSlider /> */}
+      <Zigzag
         styles={{
           padding: "7.5rem 0 7.5rem 0",
         }}
-      /> */}
+      />
       {/* timeline */}
       {/* <TimelineGroup /> */}
       {/* <CareerSection1 /> */}
