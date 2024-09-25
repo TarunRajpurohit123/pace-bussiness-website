@@ -2435,6 +2435,9 @@ option:hover {
   .bstripWarpplast svg {
     margin-left: -19px;
   }
+  .web__brand--strip {
+    padding-bottom: 0 !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {

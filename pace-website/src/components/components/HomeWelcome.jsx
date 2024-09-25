@@ -17,7 +17,7 @@ const HomeWelcome = ({
         </h1>
       )}
 
-      <p className="mt-[2.5rem]">{content}</p>
+      <p className={!isHeading ? "" : "mt-[2.5rem]"}>{content}</p>
     </div>
   );
 };
