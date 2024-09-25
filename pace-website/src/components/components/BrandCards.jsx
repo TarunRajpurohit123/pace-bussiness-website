@@ -8,17 +8,17 @@ export default function BrandCards() {
   const cardData = [
     {
       heading: "As core values.",
-      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
+      text: "Three pillars represent the fundamental beliefs and standards that PACE upholds in every aspect of its operations. They inform the company culture and ethical approach to business.",
       icon: <CircleIcon />,
     },
     {
       heading: "As Brand Identity.",
-      text: "These pillars define PACE's brand identity, projecting our values to consumers, partners, and investors. They shape the narrative and messaging for each brand within our portfolio, ensuring a unified voice.",
+      text: "They serve as guiding principles for decision-making and strategic planning. Every brand, product launch, and partnership is aligned with these pillars to ensure consistency and coherence in the company’s growth and impact.",
       icon: <CrownIcon />,
     },
     {
       heading: "As strategic Drivers.",
-      text: "These principles guide decisions and strategies, ensuring consistent and coherent growth. Every action aligns with them, contributing to our overall impact. They serve as a compass.",
+      text: "These pillars are integral to PACE’s brand identity, helping to communicate what the company stands for to consumers, partners, and investors. They shape the narrative and messaging around each brand within the portfolio.",
       icon: <MessageStarIcon />,
     },
   ];
