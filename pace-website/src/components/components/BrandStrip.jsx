@@ -115,7 +115,7 @@ export default function BrandStrip() {
         </div>
         {/* card 3 goes end */}
         {/* card 4 goes here */}
-        <div className="bstripWarpp bstripWarpp2">
+        <div className="bstripWarpp bstripWarpp2 bstripWarpplast">
           <div className="bstrip4 bstrip flex">
             <svg
               width="49"

@@ -661,7 +661,7 @@ option:hover {
 }
 .hero__two {
   /* height: 45rem; */
-  padding: 13.2rem 0 5.5rem 0;
+  padding: 8.2rem 0 5.5rem 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -2294,4 +2294,14 @@ option:hover {
 }
 .bstripWarpp2 {
   margin-left: 6rem;
+}
+.bstripWarpplast {
+  border: none !important;
+}
+.web__brand--strip {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+.brand--welcoome {
+  padding-top: 7.5rem !important;
 }
