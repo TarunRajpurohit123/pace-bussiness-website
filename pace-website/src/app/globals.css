@@ -2392,8 +2392,24 @@ option:hover {
     font-size: 1.2rem !important;
     line-height: 2rem !important;
   }
+  .BrandGridMainSection {
+    display: none;
+  }
+  .BrandGridMainSection--mobile {
+    width: 90%;
+    height: 35rem;
+    margin: auto;
+    padding-top: 7rem;
+  }
+  .BrandGridMainSection--mobile > img {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (min-width: 1000px) {
+  .BrandGridMainSection--mobile {
+    display: none;
+  }
   .acp__left--mobile {
     display: none;
   }
