@@ -13,16 +13,16 @@ export default function About() {
       <PageOcc />
       <Hero2 />
       <CompanyProfile />
-      <AboutCards />
-      <Zigzag
+      {/* <AboutCards /> */}
+      {/* <Zigzag
         styles={{
           padding: "7.5rem 0 7.5rem 0",
         }}
-      />
+      /> */}
       {/* timeline */}
-      <TimelineGroup />
+      {/* <TimelineGroup /> */}
       {/* <CareerSection1 /> */}
-      <CTA />
+      {/* <CTA /> */}
     </>
   );
 }

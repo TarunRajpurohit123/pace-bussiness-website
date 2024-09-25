@@ -40,7 +40,7 @@ export default function Contact() {
       <PageOcc />
       <Hero2
         title="Contact Us"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        // content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
       <ContactForm />
       <section className="contact_cards_section page-width c-mobile-width mt-[10rem] mb-[7.5rem] flex justify-between">

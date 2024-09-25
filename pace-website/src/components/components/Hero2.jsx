@@ -2,10 +2,7 @@
 
 import { usePathname, useRouter } from "next/navigation";
 
-export default function Hero2({
-  title = "Our Group",
-  content = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore",
-}) {
+export default function Hero2({ title = "Our Group", content = "" }) {
   const router = useRouter();
   const currentRoute = usePathname();
   return (

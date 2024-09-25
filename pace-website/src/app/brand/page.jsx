@@ -12,7 +12,7 @@ export default function Page() {
       <PageOcc />
       <Hero2
         title="Our Brands"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        // content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
       <BrandGridMainSection />
       <HomeWelcome />
