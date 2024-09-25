@@ -18,7 +18,7 @@ export default function Page() {
       />
       <BrandGridMainSection />
       <BrandGridMainMobile />
-      {/* <BrandStrip/> */}
+      <BrandStrip />
       {/* <HomeWelcome
         extClass="brand--welcoome"
         isHeading={false}

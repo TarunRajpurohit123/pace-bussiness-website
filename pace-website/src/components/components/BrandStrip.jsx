@@ -35,7 +35,7 @@ export default function BrandStrip() {
         </div>
         {/* card 1 goes end */}
         {/* card 2 goes here */}
-        <div className="bstripWarpp bstripWarpp2">
+        <div className="bstripWarpp bstripWarpp__extra bstripWarpp2">
           <div className="bstrip2 bstrip flex">
             <svg
               width="49"
@@ -75,7 +75,7 @@ export default function BrandStrip() {
         </div>
         {/* card 2 goes end */}
         {/* card 3 goes here */}
-        <div className="bstripWarpp bstripWarpp2">
+        <div className="bstripWarpp bstripWarpp__extra bstripWarpp2">
           <div className="bstrip3 bstrip flex">
             <svg
               width="49"
@@ -115,7 +115,7 @@ export default function BrandStrip() {
         </div>
         {/* card 3 goes end */}
         {/* card 4 goes here */}
-        <div className="bstripWarpp bstripWarpp2 bstripWarpplast">
+        <div className="bstripWarpp bstripWarpp__extra bstripWarpp2 bstripWarpplast">
           <div className="bstrip4 bstrip flex">
             <svg
               width="49"

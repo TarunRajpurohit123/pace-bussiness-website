@@ -2104,6 +2104,9 @@ option:hover {
   );
   border-image-slice: 1; */
 }
+.bstripWarpplast {
+  border: none !important;
+}
 @media screen and (max-width: 1000px) {
   .aboutcards_section {
     width: 90% !important;
@@ -2405,6 +2408,30 @@ option:hover {
     width: 100%;
     height: 100%;
   }
+  .web__brand--strip {
+    width: 90% !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .bstripWarpp {
+    margin-left: 0 !important;
+    border-left: 1px solid var(--gray_700) !important;
+    border-right: 1px solid var(--gray_700) !important;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  .bstripWarpplast {
+    border-left: 1px solid var(--gray_700) !important;
+    border-right: 1px solid var(--gray_700) !important;
+  }
+  .bstrip {
+    width: auto !important;
+  }
+  .bstripWarpp__extra {
+    margin-top: 4rem;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
@@ -2458,9 +2485,7 @@ option:hover {
 .bstripWarpp2 {
   margin-left: 6rem;
 }
-.bstripWarpplast {
-  border: none !important;
-}
+
 .web__brand--strip {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
