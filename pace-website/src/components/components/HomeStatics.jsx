@@ -1,6 +1,9 @@
+"use client";
+
 import { Logo } from "@/components";
 import uniqid from "uniqid";
 import Counter from "./Counter";
+import { useEffect, useState } from "react";
 
 const data = [
   {
@@ -21,14 +24,25 @@ const data = [
   },
 ];
 export default function HomeStatics() {
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, []);
   return (
     <>
       <section className="page-width homeStatics flex items-center">
         {/* left */}
         <div className="homeStatics__left">
           <h1 className="flex items-center">
-            <Logo color="var(--pure)" styles={{ marginRight: "1.3rem" }} /> In
-            Numericals
+            <Logo
+              currentScreen={currentScreen}
+              mbWidth={"80"}
+              color="var(--pure)"
+              styles={{ marginRight: "1.3rem" }}
+            />{" "}
+            In Numericals
           </h1>
           <p className="w-[41.2rem]">
             Within a short span of 9 years, PACE E-Commerce Ventures Limited has
@@ -42,7 +56,9 @@ export default function HomeStatics() {
             return (
               <div
                 key={uniqid("static", "card")}
-                className={`homeStatics__card counter ${ind!=0&& "homeStatic_not_first_card"}`}
+                className={`homeStatics__card counter ${
+                  ind != 0 && "homeStatic_not_first_card"
+                }`}
                 style={ind != 0 ? { marginLeft: "10rem" } : {}}
               >
                 {/* <p className="stat_number">{statData?.number}</p> */}

@@ -941,9 +941,11 @@ option:hover {
     height: auto !important;
   }
   .homeStatics__right {
-    flex-direction: column;
+    /* flex-direction: column; */
     margin-top: 3rem;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
   }
   .homeStatic_not_first_card {
     margin-top: 1rem;
@@ -955,10 +957,12 @@ option:hover {
     width: 90% !important;
   }
   .highlightC__inner {
-    width: 100% !important;
+    width: 90% !important;
   }
   .homeStatics__card {
     margin-left: 0 !important;
+    width: 23% !important;
+    margin-top: 0;
   }
   .tpslideNumber {
     font-size: 4rem !important;
@@ -2274,6 +2278,67 @@ option:hover {
   .hbrand-card--paragraph {
     font-size: 1.2rem;
     line-height: 2rem;
+  }
+  .wc__left__content > div {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin-top: 0 !important;
+  }
+  .wc__left__content > div > div {
+    margin-top: 0rem;
+  }
+  .wc__left__content > div img {
+    margin-left: 1rem !important;
+    margin-top: 2rem !important;
+  }
+  .wc__left__content > p {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+  .wc__left__content {
+    margin-top: 1.5rem;
+  }
+  .homeThreePillar {
+    padding-bottom: 7rem !important;
+  }
+  .homeStatics {
+    padding-top: 0 !important;
+  }
+  .homeStatics__left h1 {
+    font-size: 3rem;
+  }
+  .homeStatics__left > p {
+    margin-top: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .homeStatics__right {
+    justify-content: space-between;
+    width: 100% !important;
+  }
+  .homeStatics__card > .stat_heading {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .counter .stat_number {
+    font-size: 2rem !important;
+  }
+  .homeStatics__card {
+    height: 12rem;
+  }
+  .homeStatics {
+    padding-bottom: 7rem !important;
+  }
+  .home__high__carousel_outer {
+    margin-top: 0 !important;
+    margin-bottom: 7 !important;
+  }
+  .highlightC__inner > h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .investors__cta {
+    padding-top: 0 !important;
   }
 }
 @media (min-width: 1000px) {

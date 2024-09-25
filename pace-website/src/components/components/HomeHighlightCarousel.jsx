@@ -85,7 +85,7 @@ export default function HomeHighlightCarousel() {
   ];
 
   return (
-    <div className="my-[7.5rem]">
+    <div className="my-[7.5rem] home__high__carousel_outer">
       <section className="home__high__carousel">
         <div className="highlightC__inner page-width">
           <h1>Highlights of the Year</h1>
