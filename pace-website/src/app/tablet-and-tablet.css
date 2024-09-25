@@ -160,9 +160,9 @@
   }
 
   /* about goes here */
-  .about__company_profile_section {
+  /* .about__company_profile_section {
     padding-top: 0 !important;
-  }
+  } */
   .hero__two {
     padding-top: 17rem;
   }
@@ -209,7 +209,7 @@
   .acp__right {
     /* width: 90%; */
     height: auto;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     padding: 2rem;
   }
   .acp_mobile_image {

@@ -9,14 +9,14 @@ const CompanyProfile = () => {
         {/* row 1 start*/}
         <div className="acp__left_row flex justify-between">
           <Image
-            src={"/r1i1.jpeg"}
+            src={"/main/group/1.png"}
             width="415"
             height="228"
-            className="acp_r1_i1"
+            className="acp_r1_i1 acp_r1_i1_margin"
             alt="image"
           />
           <Image
-            src={"/r1i2.jpeg"}
+            src={"/main/group/2.png"}
             width="200"
             height="228"
             className="acp_r1_i2 acp_desktop_image"
@@ -28,20 +28,21 @@ const CompanyProfile = () => {
             height="228"
             className="acp_r1_i2 acp_mobile_image"
             alt="image"
+            style={{ marginTop: 0 }}
           />
         </div>
         {/* row 1 end */}
         {/* row 2 start*/}
         <div className="acp__left_row flex justify-between mt-[2.5rem]">
           <Image
-            src={"/r1i2.jpeg"}
+            src={"/main/group/3.png"}
             width="200"
             height="228"
             className="acp_r2_i1 acp_desktop_image"
             alt="image"
           />
           <Image
-            src={"/r1i1.jpeg"}
+            src={"/main/group/4.png"}
             width="415"
             height="228"
             className="acp_r2_i2 "
@@ -59,14 +60,14 @@ const CompanyProfile = () => {
         {/* row 3 start*/}
         <div className="acp__left_row flex justify-between mt-[2.5rem]">
           <Image
-            src={"/r1i1.jpeg"}
+            src={"/main/group/5.png"}
             width="415"
             height="228"
             className="acp_r1_i1"
             alt="image"
           />
           <Image
-            src={"/r1i2.jpeg"}
+            src={"/main/group/6.png"}
             width="200"
             height="228"
             className="acp_r1_i2 acp_desktop_image"

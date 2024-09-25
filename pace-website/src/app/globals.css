@@ -2135,7 +2135,13 @@ option:hover {
   .acp__right > p {
     font-size: 1.2rem !important;
   }
+  .acp__right {
+    margin-top: 4rem;
+  }
   .aboutcards_section {
-    margin-top: 4rem !important;
+    margin-top: 7rem !important;
+  }
+  .acp_r1_i1_margin {
+    margin-top: 0 !important;
   }
 }
