@@ -2621,6 +2621,15 @@ option:hover {
     font-size: 3rem !important;
     line-height: 3rem !important;
   }
+  .filtering__press_section {
+    width: 90% !important;
+  }
+  .press__latest_release--main--page {
+    width: 90% !important;
+  }
+  .press__latest__paginationWarpper {
+    width: 90% !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {

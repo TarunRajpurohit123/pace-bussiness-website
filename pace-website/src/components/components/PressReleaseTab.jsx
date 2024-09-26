@@ -69,7 +69,7 @@ export default function PressReleaseTab() {
           <div className="filter_text">2 results</div>
           <button>Most Recent</button>
         </div>
-        <main className="press__latest_release--main page-width">
+        <main className="press__latest_release--main press__latest_release--main--page page-width">
           {latestPress?.map((lp, ind) => {
             if (lp?.year == currentYear) {
               return (
