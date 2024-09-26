@@ -15,11 +15,11 @@ export default function investors() {
         title="Highlights"
         content=""
       />
-      {/* <LatestPress /> */}
+      <LatestPress />
       <ReportSection />
-      {/* <InvestorStatics /> */}
-      {/* <FinancialCalender /> */}
-      {/* <InvestorCTA /> */}
+      <InvestorStatics />
+      <FinancialCalender />
+      <InvestorCTA />
     </>
   );
 }

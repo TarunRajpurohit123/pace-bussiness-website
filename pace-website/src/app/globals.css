@@ -2574,7 +2574,42 @@ option:hover {
     font-size: 3rem !important;
     line-height: 3rem !important;
   }
+  .report__wrapper {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
   /* report section end */
+  .latestpress__heading {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+  }
+  .latestpress__controls {
+    margin-top: 3rem;
+  }
+  .investor_state_heading {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+  }
+  .investor_state_span {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+  .InvestorStatics--mobile {
+    padding-top: 7rem !important;
+    padding-bottom: 7rem !important;
+  }
+  .financialCalenderGrid {
+    margin-top: 4rem !important;
+  }
+  .financialCalender {
+    padding-bottom: 7rem !important;
+  }
+  .investor_state_card {
+    height: 9rem;
+  }
+  .financialCalender {
+    padding-top: 0 !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
