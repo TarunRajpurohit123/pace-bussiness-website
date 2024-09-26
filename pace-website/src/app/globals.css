@@ -2610,6 +2610,17 @@ option:hover {
   .financialCalender {
     padding-top: 0 !important;
   }
+  .press_release_tab--page {
+    width: 90% !important;
+    margin: auto;
+  }
+  .report__tab__header--page {
+    flex-direction: row !important;
+  }
+  .press_release_tab--page > h1 {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {

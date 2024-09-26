@@ -14,9 +14,9 @@ export default function PressReleaseTab() {
   const [currentYear, setCurrentYear] = useState("2024");
   return (
     <>
-      <section className="press_release_tab">
+      <section className="press_release_tab press_release_tab--page">
         <h1>Year Wise Press Releases</h1>
-        <div className="report__tab__header page-width">
+        <div className="report__tab__header report__tab__header--page page-width">
           <button
             style={currentTab === 1 ? { color: "var(--red)" } : {}}
             className="report_tab_btn"
