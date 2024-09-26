@@ -259,19 +259,26 @@ export default function ReportSection() {
                                 </div>
                                 <div className="accordian__report__body">
                                   {data?.innerData?.map((innerData) => {
-                                    return (
-                                      <ReportRow
-                                        name={innerData?.title}
-                                        url={innerData?.url}
-                                        filename={innerData?.title}
-                                        type={"sdsnajd"}
-                                        style={
-                                          currentTabId == 4 || currentTabId == 2
-                                            ? { width: "100%" }
-                                            : { width: "100%", margin: "auto" }
-                                        }
-                                      />
-                                    );
+                                    if (innerData.year == currentYear) {
+                                      return (
+                                        <ReportRow
+                                          name={innerData?.title}
+                                          url={innerData?.url}
+                                          filename={innerData?.title}
+                                          type={"sdsnajd"}
+                                          style={
+                                            currentTabId == 4 ||
+                                            currentTabId == 2
+                                              ? { width: "100%" }
+                                              : {
+                                                  width: "100%",
+                                                  margin: "auto",
+                                                }
+                                          }
+                                        />
+                                      );
+                                    }
+                                    return <></>;
                                   })}
                                 </div>
                               </section>

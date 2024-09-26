@@ -2563,12 +2563,16 @@ option:hover {
     font-size: 1.3rem !important;
     line-height: 3rem !important;
   }
-  .yearBox__company{
-    font-size:1rem !important;
-    line-height: 2rem !important; 
+  .yearBox__company {
+    font-size: 1rem !important;
+    line-height: 2rem !important;
   }
   .yearBox {
     width: 30% !important;
+  }
+  .report__section__heading {
+    font-size: 3rem !important;
+    line-height: 3rem !important;
   }
   /* report section end */
 }
