@@ -9,7 +9,7 @@ export default function PressReleases() {
       <PageOcc />
       <Hero2
         title="Press Releases"
-        content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
+        // content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
       <PressReleaseTab />
       <InvestorCTA />
