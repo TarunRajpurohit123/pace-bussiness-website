@@ -1,4 +1,4 @@
-export default function EyeIcon({ color = "var(--pure)" }) {
+export default function EyeIcon({ color = "var(--pure)", extcls = "" }) {
   return (
     <>
       <svg
@@ -7,6 +7,7 @@ export default function EyeIcon({ color = "var(--pure)" }) {
         viewBox="0 0 24 24"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className={extcls}
       >
         <path
           d="M15.58 12C15.58 13.98 13.98 15.58 12 15.58C10.02 15.58 8.42004 13.98 8.42004 12C8.42004 10.02 10.02 8.42004 12 8.42004C13.98 8.42004 15.58 10.02 15.58 12Z"

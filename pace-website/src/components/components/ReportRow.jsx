@@ -20,13 +20,13 @@ export default function ReportRow({
             href={url ? url : "#"}
             className="flex items-center"
           >
-            <EyeIcon />
+            <EyeIcon extcls={"report_row_icon"} />
             <p className="ml-[1rem] view_report">View</p>
           </Link>
           <DownloadFile
             content={
               <div className="ml-[2.5rem] flex items-center">
-                <DownloadIcon />
+                <DownloadIcon extcls={"report_row_icon"} />
                 <p className="ml-[1rem] download_report">Download</p>
               </div>
             }

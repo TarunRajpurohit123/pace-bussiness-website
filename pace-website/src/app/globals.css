@@ -2489,9 +2489,69 @@ option:hover {
     padding: 1rem !important;
     flex-direction: column;
   }
+  .report__main__section {
+    width: 100% !important;
+  }
+  .report__sidebar {
+    width: 30% !important;
+    height: auto !important;
+  }
   .report_tab_btn {
     font-size: 1rem;
     line-height: 2rem;
+  }
+  .side_tab {
+    width: 100% !important;
+    height: auto !important;
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0 !important;
+  }
+  .report__main__section {
+    padding-top: 0 !important;
+  }
+  .year__tab {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .reportRow {
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .reportRow__name {
+    font-size: 1rem;
+    line-height: 2rem;
+  }
+  .report__list {
+    width: 70% !important;
+  }
+  .view_report,
+  .download_report {
+    font-size: 1rem;
+    margin-left: 0 !important;
+  }
+  .report__list_wrapper {
+    height: auto !important;
+  }
+  .accordian__report__header {
+    width: 100%;
+  }
+  .accrodian__name {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .reportRow {
+    display: block;
+    padding-left: 0 !important;
+  }
+  .accordian__report__header {
+    padding: 0;
+  }
+  .report_row_icon {
+    display: none;
+  }
+  .accordian__report--mobile {
+    height: 5rem !important;
   }
   /* report section end */
 }

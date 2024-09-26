@@ -20,6 +20,12 @@ export default function ReportSection() {
   const [currentYear, setCurrentYear] = useState(null);
   const swiperRef = useRef(null);
   const [accordians, setAccordians] = useState([]);
+  const [currentScreen, setCurrentScreen] = useState(null);
+  useEffect(() => {
+    if (window.innerWidth) {
+      setCurrentScreen(window?.innerWidth);
+    }
+  }, []);
 
   useEffect(() => {
     reportsData[0]?.sidebar?.forEach((elm) => {
@@ -128,7 +134,7 @@ export default function ReportSection() {
                 )}
 
                 <Swiper
-                  slidesPerView={4}
+                  slidesPerView={currentScreen <= 500 ? 2 : 4}
                   spaceBetween={30}
                   loop={true}
                   pagination={{
@@ -216,7 +222,7 @@ export default function ReportSection() {
                                 className={
                                   accordians[dataInd]
                                     ? "accordian__report accordian__report--overright"
-                                    : "accordian__report h-[8rem]"
+                                    : "accordian__report h-[8rem] accordian__report--mobile"
                                 }
                                 style={
                                   dataInd != 0 ? { marginTop: "2.5rem" } : {}

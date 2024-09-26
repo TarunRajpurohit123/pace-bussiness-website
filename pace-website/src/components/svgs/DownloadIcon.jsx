@@ -1,4 +1,4 @@
-export default function DownloadIcon({ color = "var(--pure)" }) {
+export default function DownloadIcon({ color = "var(--pure)", extcls = "" }) {
   return (
     <>
       <svg
@@ -6,6 +6,7 @@ export default function DownloadIcon({ color = "var(--pure)" }) {
         height="24"
         viewBox="0 0 24 24"
         fill="none"
+        className={extcls}
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
