@@ -74,7 +74,7 @@ export default function ReportSection() {
             })}
           </div>
           {currentTab === "SP" && (
-            <div className="page-width pt-[5rem] flex justify-between">
+            <div className="page-width yearboxex-section pt-[5rem] flex justify-between">
               {years?.map((year) => {
                 if (year.direct && currentTab === "SP") {
                   return year?.years?.map((yr) => {

@@ -2531,7 +2531,7 @@ option:hover {
     margin-left: 0 !important;
   }
   .report__list_wrapper {
-    height: auto !important;
+    height: 23rem !important;
   }
   .accordian__report__header {
     width: 100%;
@@ -2552,6 +2552,23 @@ option:hover {
   }
   .accordian__report--mobile {
     height: 5rem !important;
+  }
+  .report__list {
+    height: auto !important;
+  }
+  .yearboxex-section {
+    width: 100% !important;
+  }
+  .yearBox__year {
+    font-size: 1.3rem !important;
+    line-height: 3rem !important;
+  }
+  .yearBox__company{
+    font-size:1rem !important;
+    line-height: 2rem !important; 
+  }
+  .yearBox {
+    width: 30% !important;
   }
   /* report section end */
 }
