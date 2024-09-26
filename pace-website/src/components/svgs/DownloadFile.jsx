@@ -3,6 +3,7 @@ export default function DownloadFile({
   url = null,
   fname = null,
   content = null,
+  className=""
 }) {
   const downloadFile = (url, fileName) => {
     const a = document.createElement("a");
@@ -14,7 +15,7 @@ export default function DownloadFile({
   };
   return (
     <>
-      <button onClick={() => downloadFile(url, fname)}>{content}</button>
+      <button className={className} onClick={() => downloadFile(url, fname)}>{content}</button>
     </>
   );
 }

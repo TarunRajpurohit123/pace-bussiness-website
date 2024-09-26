@@ -2630,6 +2630,39 @@ option:hover {
   .press__latest__paginationWarpper {
     width: 90% !important;
   }
+  .hero__two button {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  .filter_text {
+    font-size: 1.2rem !important;
+    line-height: 2rem !important;
+  }
+  .filtering__press_section button {
+    font-size: 1.2rem;
+  }
+  .latestcard__top_text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .viewLatestFooter p {
+    font-size: 1.2rem !important;
+  }
+  .donwload--tbext--moile p {
+    font-size: 1.2rem !important;
+  }
+  .pagination__detail {
+    font-size: 1.2rem !important;
+  }
+  .prevpagination,
+  .act__paginate_number,
+  .nextpagination {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .act__paginate_number {
+    font-size: 1.2rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {

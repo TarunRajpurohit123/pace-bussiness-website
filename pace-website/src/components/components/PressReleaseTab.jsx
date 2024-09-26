@@ -93,6 +93,7 @@ export default function PressReleaseTab() {
                         <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
                       </Link>
                       <DownloadFile
+                        className="donwload--text--mobile"
                         url={lp?.url}
                         fname={lp?.name}
                         content={
@@ -121,7 +122,7 @@ export default function PressReleaseTab() {
               {/* <button className="act__paginate_number">02</button>
               <button>03</button> */}
             </div>
-            <button>
+            <button className="nextpagination">
               <CircleArrowNextIcon isBorder={false} color="var(--pure)" />
             </button>
           </div>
