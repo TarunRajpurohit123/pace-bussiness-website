@@ -11,6 +11,7 @@ import { latestPress } from "@/json/latestPress";
 
 export default function PressReleaseTab() {
   const [currentTab, setCurrentTab] = useState(1);
+  const [currentYear, setCurrentYear] = useState("2024");
   return (
     <>
       <section className="press_release_tab">
@@ -21,19 +22,21 @@ export default function PressReleaseTab() {
             className="report_tab_btn"
             onClick={() => {
               setCurrentTab(1);
+              setCurrentYear("2023");
             }}
           >
-            2024-25
+            2023
           </button>
-          {/* <button
+          <button
             style={currentTab === 2 ? { color: "var(--red)" } : {}}
             className="report_tab_btn"
             onClick={() => {
               setCurrentTab(2);
+              setCurrentYear("2024");
             }}
           >
-            2023-24
-          </button> */}
+            2024
+          </button>
           {/* <button
             style={currentTab === 3 ? { color: "var(--red)" } : {}}
             className="report_tab_btn"
@@ -68,40 +71,43 @@ export default function PressReleaseTab() {
         </div>
         <main className="press__latest_release--main page-width">
           {latestPress?.map((lp, ind) => {
-            return (
-              <>
-                <div
-                  className={
-                    ind != 0
-                      ? "latestpress__card latestpress__card--full mt-[2.5rem]"
-                      : "latestpress__card latestpress__card--full"
-                  }
-                >
-                  <div className="latestcard__top">
-                    <p className="latestcard__top_para">{lp?.name}</p>
-                    <p className="latestcard__top_text">{lp?.data}</p>
-                    <p className="latestcard__top__time latestcard__top__time--full">
-                      {lp?.time}
-                    </p>
+            if (lp?.year == currentYear) {
+              return (
+                <>
+                  <div
+                    className={
+                      ind != 0
+                        ? "latestpress__card latestpress__card--full"
+                        : "latestpress__card latestpress__card--full"
+                    }
+                  >
+                    <div className="latestcard__top">
+                      <p className="latestcard__top_para">{lp?.name}</p>
+                      <p className="latestcard__top_text">{lp?.data}</p>
+                      <p className="latestcard__top__time latestcard__top__time--full">
+                        {lp?.time}
+                      </p>
+                    </div>
+                    <div className="latest_footer latest_footer--full">
+                      <Link href={lp?.url} className="viewLatestFooter">
+                        <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
+                      </Link>
+                      <DownloadFile
+                        url={lp?.url}
+                        fname={lp?.name}
+                        content={
+                          <div className="flex items-center">
+                            <DownloadIcon color="var(--red)" />
+                            <p className="viewdox__latestPress">Download</p>
+                          </div>
+                        }
+                      ></DownloadFile>
+                    </div>
                   </div>
-                  <div className="latest_footer latest_footer--full">
-                    <Link href={lp?.url} className="viewLatestFooter">
-                      <p className="mr-[1.5rem] ">View Doc</p> <EyeIcon />
-                    </Link>
-                    <DownloadFile
-                      url={lp?.url}
-                      fname={lp?.name}
-                      content={
-                        <div className="flex items-center">
-                          <DownloadIcon color="var(--red)" />
-                          <p className="viewdox__latestPress">Download</p>
-                        </div>
-                      }
-                    ></DownloadFile>
-                  </div>
-                </div>
-              </>
-            );
+                </>
+              );
+            }
+            return <></>;
           })}
         </main>
         <div className="press__latest__paginationWarpper flex justify-between items-center page-width pt-[2.5rem]">
