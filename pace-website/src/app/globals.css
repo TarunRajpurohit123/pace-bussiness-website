@@ -2669,6 +2669,9 @@ option:hover {
   .act__paginate_number {
     font-size: 1.2rem !important;
   }
+  .brand__card__2 {
+    height: 16.8rem;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
