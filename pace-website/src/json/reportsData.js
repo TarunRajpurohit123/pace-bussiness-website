@@ -1,7 +1,11 @@
 const mainTabs = [
   { id: 1, name: "ANNOUNCEMENT", key: "ANNOUNCEMENT" },
   { id: 2, name: "INITIAL PUBLIC OFFERING", key: "IPO" },
-  { id: 3, name: "REPORTS_PRESENTATIONS AND FINANCIALS", key: "RPAF" },
+  {
+    id: 3,
+    name: "REPORTS_PRESENTATIONS AND FINANCIALS",
+    key: "RPAF",
+  },
   { id: 4, name: "SHAREHOLDING PATTERN", key: "SP" },
 ];
 

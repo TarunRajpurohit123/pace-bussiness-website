@@ -17,7 +17,7 @@ export default function ReportSection() {
   const [currentTab, setCurrentTab] = useState("ANNOUNCEMENT");
   const [currentTabId, setCurrentTabId] = useState(1);
   const [currentSidebar, setCurrentSidebar] = useState(11);
-  const [currentYear, setCurrentYear] = useState(null);
+  const [currentYear, setCurrentYear] = useState("2022-23");
   const swiperRef = useRef(null);
   const [accordians, setAccordians] = useState([]);
   const [currentScreen, setCurrentScreen] = useState(null);
@@ -36,6 +36,16 @@ export default function ReportSection() {
       }
     });
   }, [reportsData]);
+
+  useEffect(() => {
+    // Set the default year when the component mounts
+    if (reportsData && reportsData.length > 0) {
+      const firstAvailableYear = reportsData[0].sidebar?.[0]?.years?.[0];
+      if (firstAvailableYear) {
+        setCurrentYear(firstAvailableYear);
+      }
+    }
+  }, [reportsData, currentSidebar]);
 
   return (
     <>
