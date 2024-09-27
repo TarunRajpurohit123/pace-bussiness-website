@@ -42,7 +42,7 @@ export default function Contact() {
     <>
       <PageOcc />
       <Hero2
-        title="Contact Us"
+        title="Connect with us"
         // content="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
       />
       <ContactForm />
