@@ -77,7 +77,7 @@ export default function Form() {
     <>
       <section className="pure-contact-form p-[4rem]">
         <h1>
-          We’d <span className="red-text">love to</span> help
+          We would to <span className="red-text">love to</span> connect.
         </h1>
         <p>Reach out and we’ll get in touch within 24 hours</p>
         <form className="mt-[4rem]">
