@@ -96,6 +96,14 @@ export default function ReportSection() {
                   return data?.sidebar?.map((sidebar) => {
                     return (
                       <button
+                        style={
+                          sidebar?.key == currentSidebar
+                            ? {
+                                background: "var(--pure)",
+                                color: "var(--mode-bg)",
+                              }
+                            : {}
+                        }
                         className=" side_tab"
                         onClick={() => {
                           setCurrentSidebar(sidebar?.key);
