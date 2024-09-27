@@ -100,6 +100,7 @@ export default function ReportSection() {
                         onClick={() => {
                           setCurrentSidebar(sidebar?.key);
                           setCurrentYear(null);
+                          setCurrentYear(sidebar?.years[0]);
                         }}
                       >
                         {sidebar?.type}
