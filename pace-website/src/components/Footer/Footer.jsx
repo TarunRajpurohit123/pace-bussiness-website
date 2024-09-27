@@ -89,7 +89,7 @@ export default function Footer() {
                     <Link href="">
                       <InstagramIcon />
                     </Link> */}
-                    <Link href="">
+                    <Link href="https://www.linkedin.com/company/pace-sports-and-entertainment-pvt-ltd/">
                       <LinkedinIcon />
                     </Link>
                     {/* <Link href="">

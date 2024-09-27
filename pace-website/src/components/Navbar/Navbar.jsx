@@ -40,7 +40,7 @@ export default function Navbar() {
 
       <div
         className={
-          currentScroll > 100 && "w-full fixed bg-[var(--mode-bg)] top-0"
+          currentScroll > 100 ? "w-full fixed bg-[var(--mode-bg)] top-0" : ""
         }
         style={
           currentScroll > 100
