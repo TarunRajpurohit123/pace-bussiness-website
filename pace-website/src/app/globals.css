@@ -2672,6 +2672,9 @@ option:hover {
   .brand__card__2 {
     height: 16.8rem;
   }
+  .brand__card__2 img {
+    width: 50% !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
