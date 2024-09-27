@@ -46,11 +46,7 @@ export default function FinancialCalender() {
               }}
               month={"April"}
               year={2024}
-              name={
-                <>
-                  Closing of share <br /> Register
-                </>
-              }
+              name={<>Closing of share Register</>}
               time={"Wednesday, April 01, 2024"}
             />
             <FCard
@@ -60,11 +56,7 @@ export default function FinancialCalender() {
               }}
               month={"May"}
               year={2024}
-              name={
-                <>
-                  Record <br /> Date
-                </>
-              }
+              name={<>Record Date</>}
               time={"Tuesday, May 01, 2024"}
             />
             <FCard
@@ -73,7 +65,7 @@ export default function FinancialCalender() {
               }}
               month={"May"}
               year={2024}
-              name={"Ordinary General Meetings of Share holders"}
+              name={"Shareholders' General Meeting"}
               time={"Monday, May 08, 2024"}
             />
           </div>
@@ -85,7 +77,11 @@ export default function FinancialCalender() {
               }}
               month={"May"}
               year={2024}
-              name={"Publications of Key Figures 2023"}
+              name={
+                <>
+                  Publications of Key Figures <br /> 2023
+                </>
+              }
               time={"Tuesday, May 18, 2024"}
             />
             <FCard
