@@ -18,9 +18,9 @@ export default function Footer() {
   const links = [
     { name: "Group", link: "/about" },
     { name: "Brands", link: "/brand" },
-    { name: "Contact Us", link: "/contact" },
-    { name: "Career", link: "#" },
     { name: "Investor Relations", link: "/investors" },
+    { name: "Contact Us", link: "/contact" },
+    // { name: "Career", link: "#" },
   ];
 
   // subfooter link
@@ -44,7 +44,9 @@ export default function Footer() {
           <div className="footer-main pt-[7.5rem] pb-[7.5rem] w-full flex justify-between items-start">
             {/* footer left goes */}
             <div className="footer-left">
-              <Logo color="var(--red)" />
+              <Link href={"/"}>
+                <Logo color="var(--red)" />
+              </Link>
               <div className="footer-links mt-[2.1rem]">
                 {links?.map((link, ind) => {
                   return (

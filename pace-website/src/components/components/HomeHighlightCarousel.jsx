@@ -148,7 +148,7 @@ export default function HomeHighlightCarousel() {
             modifier: 2,
             slideShadows: true,
           }}
-          // autoplay={true}
+          autoplay={true}
           loop={true}
           modules={[EffectCoverflow, Autoplay]}
           className="mySwiper"
