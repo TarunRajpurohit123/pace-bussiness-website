@@ -31,7 +31,7 @@ const years = [
   {
     id: 4,
     key: "SP",
-    years: ["2022-23", "2023-24", "2024-25"],
+    years: ["2024-25", "2023-24", "2022-23"],
     direct: true,
   },
 ];
@@ -46,7 +46,7 @@ const reportsData = [
       {
         type: "CLOSURE OF TRADING WINDOW",
         key: 11,
-        years: ["2022-23", "2023-24"],
+        years: ["2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -69,7 +69,7 @@ const reportsData = [
         type: "DISCLOSURES",
         key: 12,
         isNested: true,
-        years: ["2022-23", "2023-24", "2024-25"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             innerTab: "COMPLIANCE CERTIFICATE",
@@ -383,7 +383,7 @@ const reportsData = [
       {
         type: "QUARTERLY INVESTOR GRIEVANCES",
         key: 13,
-        years: ["2022-23", "2023-24", "2024-25"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -432,7 +432,7 @@ const reportsData = [
       {
         type: "SDD",
         key: 14,
-        years: ["2022-23", "2023-24", "2024-25"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -510,7 +510,7 @@ const reportsData = [
     sidebar: [
       {
         type: "ANNUAL REPORTS AND RETURNS",
-        years: ["2022-23", "2023-24"],
+        years: ["2023-24", "2022-23"],
         key: 21,
         data: [
           {
@@ -533,7 +533,7 @@ const reportsData = [
       {
         type: "BOARD MEETING",
         key: 22,
-        years: ["2022-23", "2023-24", "2024-25"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -602,7 +602,7 @@ const reportsData = [
       {
         type: "FINANCIALS",
         key: 23,
-        years: ["2022-23", "2023-24"],
+        years: ["2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -630,7 +630,7 @@ const reportsData = [
       {
         type: "GENERAL MEETING",
         key: 24,
-        years: ["2022-23", "2023-24"],
+        years: ["2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -733,7 +733,7 @@ const reportsData = [
     sidebar: [
       {
         type: null,
-        years: ["2022-23", "2023-24", "2024-25"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
