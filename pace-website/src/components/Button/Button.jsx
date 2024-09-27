@@ -5,6 +5,7 @@ export default function Button({
   styles = null,
   key = null,
   type = "button",
+  onClick = () => {},
   ...props
 }) {
   return (
@@ -16,6 +17,7 @@ export default function Button({
         className={classNames}
         id={id}
         {...props}
+        onClick={onClick}
       >
         {text}
       </button>

@@ -8,6 +8,13 @@ import uniqid from "uniqid";
 
 export default function Form() {
   const [countries, setCountries] = useState([]);
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
 
   useEffect(() => {
     fetch("https://restcountries.com/v3.1/all")
@@ -15,6 +22,56 @@ export default function Form() {
       .then((data) => setCountries(data))
       .catch((error) => console.error("Error:", error));
   }, []);
+
+  // when form input change
+  const onFormChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  // submit form
+  const submitForm = (e) => {
+    e.preventDefault();
+    const nameRegex = /^[a-zA-Z]{2,50}$/;
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    const phoneRegex =
+      /^\+?(\d{1,3})?[-.\s]?\(?\d{1,4}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,9}$/;
+    const messageRegex = /.+/;
+
+    const { firstName, lastName, email, phone, message } = formData;
+
+    if (window) {
+      if (!nameRegex.test(firstName)) {
+        window.alert("Invalid First Name");
+        return;
+      }
+      if (!nameRegex.test(lastName)) {
+        window.alert("Invalid Last Name");
+        return;
+      }
+      if (!emailRegex.test(email)) {
+        window.alert("Invalid Email");
+        return;
+      }
+      if (!phoneRegex.test(phone)) {
+        window.alert("Invalid Phone");
+        return;
+      }
+      if (!messageRegex.test(message)) {
+        window.alert("Message cannot be empty");
+        return;
+      }
+      window.alert(
+        "Thank you! Your message has been successfully sent. We will get back to you shortly."
+      );
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    }
+  };
 
   return (
     <>
@@ -36,6 +93,11 @@ export default function Form() {
                 id="fname"
                 type="text"
                 placeholder="First Name"
+                name="firstName"
+                onChange={(e) => {
+                  onFormChange(e);
+                }}
+                value={formData.firstName}
               />
             </div>
             {/* last name */}
@@ -48,6 +110,11 @@ export default function Form() {
                 id="lname"
                 type="text"
                 placeholder="Last Name"
+                name="lastName"
+                onChange={(e) => {
+                  onFormChange(e);
+                }}
+                value={formData.lastName}
               />
             </div>
           </div>
@@ -63,6 +130,11 @@ export default function Form() {
                 id="email"
                 type="text"
                 placeholder="Email Address"
+                name="email"
+                onChange={(e) => {
+                  onFormChange(e);
+                }}
+                value={formData.email}
               />
             </div>
           </div>
@@ -90,8 +162,13 @@ export default function Form() {
                 <input
                   className="pl-[1.5rem] mt-[0.5rem] ml-[0.5rem] w-[23.4rem] h-[3.4rem] cinput"
                   id="phone"
-                  type="text"
+                  name="phone"
+                  type="number"
                   placeholder="Phone Number"
+                  onChange={(e) => {
+                    onFormChange(e);
+                  }}
+                  value={formData.phone}
                 />
               </div>
             </div>
@@ -123,11 +200,16 @@ export default function Form() {
             <div className="contactInputContainer flex flex-col">
               <label htmlFor="message">Message</label>
               <textarea
+                name="message"
+                onChange={(e) => {
+                  onFormChange(e);
+                }}
                 className="pl-[1.5rem] w-[63rem] h-[8rem] cinput mt-[0.5rem]"
                 id="message"
                 placeholder="Leave us a message"
+                value={formData.message}
               />
-              <div className="mt-[0.7rem] check_contact_text flex items-center">
+              {/* <div className="mt-[0.7rem] check_contact_text flex items-center">
                 <div class="checkbox-wrapper-40">
                   <label>
                     <input type="checkbox" />
@@ -137,10 +219,16 @@ export default function Form() {
                 <p className="ml-[0.7rem]">
                   You agree to our friendly <Link href="#">Privacy Policy</Link>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
-          <Button text={"Send Message"} classNames={"contact_btn"} />
+          <Button
+            text={"Send Message"}
+            classNames={"contact_btn"}
+            onClick={(e) => {
+              submitForm(e);
+            }}
+          />
         </form>
       </section>
     </>
