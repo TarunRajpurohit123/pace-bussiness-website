@@ -67,7 +67,7 @@ export default function Footer() {
             {/* footer right goes */}
             <div className="footer-right">
               <div>
-                <label className="newsletter--label" for="newsletter">
+                <label className="newsletter--label" htmlFor="newsletter">
                   Join our newsletter
                 </label>
                 <div className="mt-[1rem]">

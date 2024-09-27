@@ -11,7 +11,7 @@ export const metadata = {
   description: "Ecommerce Ventures Ltd.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children = null }) {
   return (
     <>
       <FontProvider />

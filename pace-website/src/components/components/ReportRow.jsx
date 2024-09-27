@@ -8,7 +8,7 @@ export default function ReportRow({
   url = null,
   filename = null,
   type = null,
-  style,
+  style=null,
 }) {
   return (
     <>

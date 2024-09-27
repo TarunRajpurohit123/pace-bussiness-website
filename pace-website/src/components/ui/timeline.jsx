@@ -3,7 +3,7 @@ import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 import { Logo } from "..";
 
-export const Timeline = ({ data }) => {
+export const Timeline = ({ data=null }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);

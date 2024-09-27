@@ -1,4 +1,4 @@
-export default function BlankLinkIcon({ className, color = "var(--pure)" }) {
+export default function BlankLinkIcon({ className=null, color = "var(--pure)" }) {
   return (
     <>
       <svg

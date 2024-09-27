@@ -4,7 +4,7 @@ export default function FCard({
   name = null,
   time = null,
   style = null,
-  className
+  className=null
 }) {
   return (
     <>

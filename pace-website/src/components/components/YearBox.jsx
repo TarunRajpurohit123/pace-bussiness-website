@@ -1,4 +1,4 @@
-export default function YearBox({ year, setCurrentYear }) {
+export default function YearBox({ year=null, setCurrentYear=null }) {
   return (
     <>
       <section
