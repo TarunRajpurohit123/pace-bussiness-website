@@ -98,7 +98,7 @@ export default function FinancialCalender() {
               className="last__fcard"
               style={{
                 borderBottom: "1px solid var(--gray_700)",
-                height: "45.3rem",
+                height: "35.3rem",
               }}
               // month={"May"}
               // year={2024}

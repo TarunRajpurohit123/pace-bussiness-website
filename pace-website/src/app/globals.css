@@ -1422,7 +1422,7 @@ option:hover {
 .financialCalenderCard {
   width: 42.7rem;
   /* height: 42.7rem; */
-  padding: 10rem 5rem 10rem 5rem;
+  padding: 5rem 5rem 5rem 5rem;
 }
 
 .financialCalenderCard > .monthname {
@@ -2107,6 +2107,11 @@ option:hover {
 .bstripWarpplast {
   border: none !important;
 }
+.investor_state_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 @media screen and (max-width: 1000px) {
   .aboutcards_section {
     width: 90% !important;
@@ -2169,6 +2174,7 @@ option:hover {
   .timeline--relative-wrpa {
     width: 100% !important;
   }
+
   .about__cta__section {
     width: 90% !important;
   }
