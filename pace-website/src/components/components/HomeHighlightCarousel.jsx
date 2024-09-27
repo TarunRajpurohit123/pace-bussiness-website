@@ -26,11 +26,19 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={currentScreen <= 500 ? "" : "/main/ostilos_highlight_01.png"}
-          width={780}
-          height={400}
+          src={
+            currentScreen <= 500
+              ? "/main/home/h1.png"
+              : "/main/ostilos_highlight_01.png"
+          }
+          width={currentScreen <= 500 ? 169 : 780}
+          height={currentScreen <= 500 ? 169 : 400}
           alt="image"
-          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
+          style={
+            currentScreen <= 500
+              ? { borderRadius: "2.4rem", width: "78rem" }
+              : { borderRadius: "2.4rem", width: "78rem", height: "40rem" }
+          }
         />
       ),
     },
@@ -38,11 +46,19 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={currentScreen <= 500 ? "" : "/main/wishrow_highlight_02.png"}
-          width={780}
-          height={400}
+          src={
+            currentScreen <= 500
+              ? "/main/home/h2.png"
+              : "/main/wishrow_highlight_02.png"
+          }
+          width={currentScreen <= 500 ? 169 : 780}
+          height={currentScreen <= 500 ? 169 : 400}
           alt="image"
-          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
+          style={
+            currentScreen <= 500
+              ? { borderRadius: "2.4rem", width: "78rem" }
+              : { borderRadius: "2.4rem", width: "78rem", height: "40rem" }
+          }
         />
       ),
     },
@@ -50,11 +66,19 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={currentScreen <= 500 ? "" : "/main/zg_highlight_03.png"}
-          width={780}
+          src={
+            currentScreen <= 500
+              ? "/main/home/h3.png"
+              : "/main/zg_highlight_03.png"
+          }
+          width={currentScreen <= 500 ? 169 : 780}
           alt="image"
-          height={400}
-          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
+          height={currentScreen <= 500 ? 169 : 400}
+          style={
+            currentScreen <= 500
+              ? { borderRadius: "2.4rem", width: "78rem" }
+              : { borderRadius: "2.4rem", width: "78rem", height: "40rem" }
+          }
         />
       ),
     },
@@ -62,11 +86,19 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={currentScreen <= 500 ? "" : "/main/zwankee_highlight_04.png"}
-          width={780}
-          height={400}
+          src={
+            currentScreen <= 500
+              ? "/main/home/h4.png"
+              : "/main/zwankee_highlight_04.png"
+          }
+          width={currentScreen <= 500 ? 169 : 780}
+          height={currentScreen <= 500 ? 169 : 400}
           alt="image"
-          style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
+          style={
+            currentScreen <= 500
+              ? { borderRadius: "2.4rem", width: "78rem" }
+              : { borderRadius: "2.4rem", width: "78rem", height: "40rem" }
+          }
         />
       ),
     },
@@ -74,10 +106,14 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={currentScreen <= 500 ? "" : "/main/ostilos_highlight_05.png"}
-          width={780}
+          src={
+            currentScreen <= 500
+              ? "/main/home/h5.png"
+              : "/main/ostilos_highlight_05.png"
+          }
+          width={currentScreen <= 500 ? 169 : 780}
           alt="image"
-          height={400}
+          height={currentScreen <= 500 ? 169 : 400}
           style={{ borderRadius: "2.4rem", width: "78rem", height: "40rem" }}
         />
       ),
@@ -112,7 +148,7 @@ export default function HomeHighlightCarousel() {
             modifier: 2,
             slideShadows: true,
           }}
-          autoplay={true}
+          // autoplay={true}
           loop={true}
           modules={[EffectCoverflow, Autoplay]}
           className="mySwiper"

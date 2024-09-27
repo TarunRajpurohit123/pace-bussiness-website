@@ -21,7 +21,7 @@ export default function MobileNavbar() {
             <Logo />
             <div className="flex items-center lg:order-2">
               {/* search icon start */}
-              <SearchIcon />
+              {/* <SearchIcon /> */}
               {/* search icon end */}
 
               <TSwitcher />
