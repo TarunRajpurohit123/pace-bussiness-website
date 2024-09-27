@@ -1,4 +1,3 @@
-import Link from "next/link";
 
 export default function Card({
   heading = null,
@@ -19,7 +18,7 @@ export default function Card({
         </div>
         <h1 style={headingStyles}>{heading}</h1>
         <p style={paragraphStyles}>{text}</p>
-        {anchor ? <Link href={anchor[1]}>{anchor[0]}</Link> : <></>}
+        {anchor ? <a target="_blank" href={anchor[1]}>{anchor[0]}</a> : <></>}
       </div>
     </>
   );

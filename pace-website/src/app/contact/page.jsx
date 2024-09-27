@@ -25,13 +25,16 @@ export default function Contact() {
     {
       heading: "Visit Us",
       text: "Visit our office HQ",
-      anchor: ["View on google maps", "#"],
+      anchor: [
+        "View on google maps",
+        "https://www.google.com/maps/search/SUMEL+BUSINESS+PARK-6,+C-423,+11,+Shahibag,+Ahmedabad,+Gujarat+380004/@23.029322,72.5902398,14z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkyNS4wIKXMDSoASAFQAw%3D%3D",
+      ],
       icon: <GpsIcon />,
     },
     {
       heading: "Call us",
       text: "Mon-Sat: 9:30 AM - 6:30 PM",
-      anchor: ["+91 55555 55555", "#"],
+      anchor: ["+91 95120 14210", "tel:+919512014210"],
       icon: <CallIcon />,
     },
   ];
