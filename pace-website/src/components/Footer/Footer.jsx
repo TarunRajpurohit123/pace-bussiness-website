@@ -11,6 +11,7 @@ import {
 } from "..";
 import uniqid from "uniqid";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function Footer() {
   const pathname = usePathname();
@@ -31,6 +32,21 @@ export default function Footer() {
     { name: "Accessibility", link: "#" },
     { name: "Sitemap", link: "#" },
   ];
+
+  const [newsLetter, setNewsLetter] = useState("");
+
+  // submitNewLetter()
+  function submitNewLetter() {
+    const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (window) {
+      if (emailRegex.test(newsLetter)) {
+        window.alert("Thank you for subscribing to our newsletter!");
+        setNewsLetter("");
+      } else {
+        window.alert("Please enter a valid email address.");
+      }
+    }
+  }
 
   return (
     <>
@@ -78,8 +94,19 @@ export default function Footer() {
                     id="newsletter"
                     type="text"
                     placeholder="Enter Your Email"
+                    name="newsLetter"
+                    value={newsLetter}
+                    onChange={(e) => {
+                      setNewsLetter(e.target.value);
+                    }}
                   />
-                  <Button text={"Subscribe"} classNames={"subscribe_btn"} />
+                  <Button
+                    text={"Subscribe"}
+                    classNames={"subscribe_btn"}
+                    onClick={() => {
+                      submitNewLetter();
+                    }}
+                  />
                 </div>
                 {/* footer social goes  */}
                 <div className="mt-[2.5rem] footer-socials flex items-center">
