@@ -83,18 +83,18 @@ export default function Footer() {
                 <div className="mt-[2.5rem] footer-socials flex items-center">
                   <label>Follow us on:</label>
                   <div className="flex w-[10.9rem] ml-[1rem] justify-between">
-                    <Link href="#">
+                    {/* <Link href="#">
                       <FacebookIcon />
                     </Link>
                     <Link href="">
                       <InstagramIcon />
-                    </Link>
+                    </Link> */}
                     <Link href="">
                       <LinkedinIcon />
                     </Link>
-                    <Link href="">
+                    {/* <Link href="">
                       <TwitterIcon />
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
                 {/* footer social end */}
