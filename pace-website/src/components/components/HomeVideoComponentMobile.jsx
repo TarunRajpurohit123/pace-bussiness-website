@@ -5,9 +5,9 @@ export default function HomeVideoComponentMobile() {
     <>
       <div className="temp--home--banner">
         <Image
-          src="/main/home/tempbanner.jpg"
+          src="/main/home/tempbanner.png"
           width={640}
-          height={960}
+          height={682}
           alt="home banner"
         />
       </div>

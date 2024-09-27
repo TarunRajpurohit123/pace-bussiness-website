@@ -26,7 +26,7 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={"/main/ostilos_highlight_01.png"}
+          src={currentScreen <= 500 ? "" : "/main/ostilos_highlight_01.png"}
           width={780}
           height={400}
           alt="image"
@@ -38,7 +38,7 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={"/main/wishrow_highlight_02.png"}
+          src={currentScreen <= 500 ? "" : "/main/wishrow_highlight_02.png"}
           width={780}
           height={400}
           alt="image"
@@ -50,7 +50,7 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={"/main/zg_highlight_03.png"}
+          src={currentScreen <= 500 ? "" : "/main/zg_highlight_03.png"}
           width={780}
           alt="image"
           height={400}
@@ -62,7 +62,7 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={"/main/zwankee_highlight_04.png"}
+          src={currentScreen <= 500 ? "" : "/main/zwankee_highlight_04.png"}
           width={780}
           height={400}
           alt="image"
@@ -74,7 +74,7 @@ export default function HomeHighlightCarousel() {
       key: uniqid(),
       content: (
         <Image
-          src={"/main/ostilos_highlight_05.png"}
+          src={currentScreen <= 500 ? "" : "/main/ostilos_highlight_05.png"}
           width={780}
           alt="image"
           height={400}
