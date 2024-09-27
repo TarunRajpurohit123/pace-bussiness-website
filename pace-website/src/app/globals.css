@@ -176,6 +176,7 @@ body {
   border-radius: 0.4rem;
   margin-top: 2.5rem;
 }
+
 .footer-socials > label {
   color: var(--primary-text);
   font-size: 1.6rem;
@@ -2675,11 +2676,15 @@ option:hover {
   .brand__card__2 img {
     width: 50% !important;
   }
+  .investors__cn {
+    line-height: 3rem !important;
+  }
 }
 @media (min-width: 1000px) {
   .BrandGridMainSection--mobile {
     display: none;
   }
+
   .acp__left--mobile {
     display: none;
   }
@@ -2740,4 +2745,9 @@ option:hover {
   width: 100%;
   height: 68.2rem;
   object-fit: cover;
+}
+.investors__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
