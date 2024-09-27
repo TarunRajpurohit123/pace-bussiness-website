@@ -45,7 +45,7 @@ export default function ReportSection() {
         setCurrentYear(firstAvailableYear);
       }
     }
-  }, [reportsData, currentSidebar]);
+  }, [currentSidebar]);
 
   return (
     <>
@@ -89,7 +89,18 @@ export default function ReportSection() {
                 if (year.direct && currentTab === "SP") {
                   return year?.years?.map((yr) => {
                     return (
-                      <YearBox year={yr} setCurrentYear={setCurrentYear} />
+                      <YearBox
+                        style={
+                          yr == currentYear
+                            ? {
+                                background: "var(--pure)",
+                                color: "var(--mode-bg)",
+                              }
+                            : {}
+                        }
+                        year={yr}
+                        setCurrentYear={setCurrentYear}
+                      />
                     );
                   });
                 }
