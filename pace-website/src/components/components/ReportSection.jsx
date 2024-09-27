@@ -69,10 +69,11 @@ export default function ReportSection() {
                     } else if (mainTab.id == 3) {
                       setCurrentSidebar(21);
                     } else if (mainTab.id == 2) {
-                      setCurrentSidebar(null);
+                      setCurrentSidebar(999);
                     }
                     if (mainTab.id == 4) {
                       setCurrentYear("2022-23");
+                      setCurrentSidebar(1000);
                     } else {
                       setCurrentYear(null);
                     }
