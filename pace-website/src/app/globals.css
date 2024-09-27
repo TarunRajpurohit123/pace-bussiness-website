@@ -2751,3 +2751,9 @@ option:hover {
   justify-content: center;
   align-items: center;
 }
+
+@media (min-width: 1000px) and (max-width: 1340px) {
+  :root {
+    font-size: 57%;
+  }
+}
