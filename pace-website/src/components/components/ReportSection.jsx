@@ -167,6 +167,11 @@ export default function ReportSection() {
                               <SwiperSlide>
                                 <button
                                   className="year__tab"
+                                  style={
+                                    currentYear == year
+                                      ? { color: "var(--pure)" }
+                                      : {}
+                                  }
                                   onClick={() => {
                                     setCurrentYear(year);
                                   }}
