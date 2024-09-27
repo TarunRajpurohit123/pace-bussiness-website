@@ -12,9 +12,9 @@ export default function ContactForm() {
         <div className="cform_left ">
           <div className="w-full h-full p-[4rem]">
             <p className="pone1">
-              Didn’t find what you were looking for on our website? You can
-              begin with our online support resources by selecting the
-              applicable topic below.
+              Trying to connect with us? Couldn't find what you are looking for?
+              Please select the topic from the below options given and send us
+              an email. Our team will get back to you within 24hrs.
             </p>
 
             {/* topic selector start */}
@@ -22,12 +22,17 @@ export default function ContactForm() {
               <label>Topics (Please choose the following)</label>
               <br />
               <select className="contact__left_select">
-                <option>Retailer Request</option>
+                <option>B2B</option>
+                <option>Wholesale</option>
+                <option>Customization</option>
+                <option>Business inquiries</option>
+                <option>Suppliers</option>
+                <option>Other</option>
               </select>
             </div>
             {/* topic selector end */}
 
-            <p className="pone2 mt-[4rem]">
+            {/* <p className="pone2 mt-[4rem]">
               In our dedicated <Link href="#">Media Contacts page</Link> you
               will find the Group’s primary contacts to be used only for media
               purposes. Any submitted request sent that is unrelated to these
@@ -42,7 +47,7 @@ export default function ContactForm() {
             <p className="pone2 mt-[2.5rem]">
               To discover our latest corporate news and press releases, visit
               our Newsroom section.
-            </p>
+            </p> */}
           </div>
         </div>
         {/* right */}
