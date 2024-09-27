@@ -2757,3 +2757,25 @@ option:hover {
     font-size: 57%;
   }
 }
+
+.brand2__candy:hover {
+  background-color: var(--cncCardHover);
+}
+.brand2__homepost:hover {
+  background-color: var(--pureblack);
+}
+.brand2__ostilos:hover {
+  background-color: var(--ostilosCardHover);
+}
+.brand2__wishrow:hover {
+  background-color: var(--wishrowCardHover);
+}
+.brand2__zwankee:hover {
+  background-color: var(--pureblack);
+}
+.brand2__zwankeeglobal:hover {
+  background-color: var(--pureblack);
+}
+.brand2__ppi:hover {
+  background-color: var(--ppiCardHover);
+}
