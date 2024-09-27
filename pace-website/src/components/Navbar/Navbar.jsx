@@ -88,9 +88,9 @@ export default function Navbar() {
             </ul>
             {/* links end here*/}
 
-            <div className="cursor-pointer" style={{ visibility: "hidden" }}>
+            {/* <div className="cursor-pointer" style={{ visibility: "hidden" }}>
               <SearchIcon />
-            </div>
+            </div> */}
           </div>
         </nav>
       </div>
