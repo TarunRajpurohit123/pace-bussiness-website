@@ -52,7 +52,7 @@ export default function HomeThreePillar() {
             />
             <DotIcon
               onClick={() => {
-                swiperRef.current.slideTo(2);
+                swiperRef.current.slideTo(1);
                 setActiveDot(() => {
                   return {
                     second: { color: "var(--red)", scale: "scale-150" },
@@ -66,7 +66,7 @@ export default function HomeThreePillar() {
             />
             <DotIcon
               onClick={() => {
-                swiperRef.current.slideTo(1);
+                swiperRef.current.slideTo(2);
                 setActiveDot(() => {
                   return {
                     third: { color: "var(--red)", scale: "scale-150" },
