@@ -7,15 +7,10 @@ export default function CTA() {
         <div className="cta_content">
           <h1>Let’s Get In Touch</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do{" "}
-            <br />
-            eiusmod tempor incididunt ut labore et dolore.
+            We’d love to hear from you! Reach out with any <br /> questions or
+            feedback, and let’s start a conversation.
           </p>
-          <Link
-            href="/contact"
-          >
-            Contact us
-          </Link>
+          <Link href="/contact">Contact us</Link>
         </div>
       </section>
     </div>
