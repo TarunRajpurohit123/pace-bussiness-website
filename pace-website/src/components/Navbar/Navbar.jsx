@@ -55,7 +55,7 @@ export default function Navbar() {
           id="desktop__navbar"
         >
           <div className="z-10 flex justify-between w-full">
-            <Logo pathname={pathname} />
+            <Logo color="var(--red)" pathname={pathname} />
 
             {/* links goes here*/}
             <ul className="flex">

@@ -5,11 +5,8 @@ export default function CTA() {
     <div className={"about__cta__section_wrapper"}>
       <section className="page-width about__cta__section">
         <div className="cta_content">
-          <h1>Let’s Get In Touch</h1>
-          <p>
-            We’d love to hear from you! Reach out with any <br /> questions or
-            feedback, and let’s start a conversation.
-          </p>
+          <h1>More info</h1>
+          <p>Visit here to know more about us.</p>
           <Link href="/contact">Contact us</Link>
         </div>
       </section>

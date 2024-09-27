@@ -5,9 +5,9 @@ export default function BrandGridMainMobile() {
     <>
       <section className="BrandGridMainSection--mobile">
         <Image
-          src="/main/brand/dummy.jpg"
-          width={1000}
-          height={667}
+          src="/brand-mobile-grid.png"
+          width={375}
+          height={500}
           alt="image"
         />
       </section>
