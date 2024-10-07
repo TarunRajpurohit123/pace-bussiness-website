@@ -191,7 +191,12 @@ export default function HomeThreePillar() {
                   </div>
                 </div>
                 <div className="wc__right" style={{ width: "45rem" }}>
-                  <Image src={"/03.png"} width={450} height={505} alt="image" />
+                  <Image
+                    src={"/main/pillar_1.png"}
+                    width={450}
+                    height={505}
+                    alt="image"
+                  />
                 </div>
               </div>
             </SwiperSlide>
@@ -232,7 +237,12 @@ export default function HomeThreePillar() {
                   </div>
                 </div>
                 <div className="wc__right" style={{ width: "45rem" }}>
-                  <Image src={"/01.png"} width={450} height={505} alt="image" />
+                  <Image
+                    src={"/main/pillar_2.png"}
+                    width={450}
+                    height={505}
+                    alt="image"
+                  />
                 </div>
               </div>
             </SwiperSlide>
