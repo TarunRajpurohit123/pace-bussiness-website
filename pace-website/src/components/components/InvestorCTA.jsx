@@ -4,7 +4,7 @@ export default function InvestorCTA() {
   return (
     <div className="investors__cta investors__cta--mobile flex justify-between items-center page-width">
       <div className="investors__left">
-        <p className="investors__cn">PACE Ecommerce Ventures LTD.</p>
+        <p className="investors__cn">PACE E-Commerce Ventures Ltd.</p>
       </div>
       <div className="investors__right relative">
         <p className="investor_contactHeding">Contact Us</p>

@@ -15,8 +15,8 @@ export default function YearBox({
         <p className="yearBox__year" style={style}>
           {year ? year : ""}
         </p>
-        <p className="yearBox__company" style={style}>
-          PACE Ventures LTD.
+        <p className="yearBox__company text-center" style={style}>
+          PACE E-commerce Ventures LTD.
         </p>
       </section>
     </>
