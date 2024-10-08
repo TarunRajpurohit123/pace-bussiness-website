@@ -134,7 +134,7 @@ export default function Footer() {
           {/* subfooter goes*/}
           <section className="subfooter flex justify-between items-center py-[2.5rem]">
             <p>© 2024 PACE . All right reserved</p>
-            <div className="footer-links ">
+            {/* <div className="footer-links ">
               {subLinks?.map((link, ind) => {
                 return (
                   <Link
@@ -148,7 +148,7 @@ export default function Footer() {
                   </Link>
                 );
               })}
-            </div>
+            </div> */}
           </section>
           {/* subfooter end*/}
         </section>
