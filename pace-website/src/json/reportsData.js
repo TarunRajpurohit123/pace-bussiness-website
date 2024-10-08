@@ -683,6 +683,32 @@ const reportsData = [
             title: "PITCH DECK 2022",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/INVESTORS UPDATES/PITCH DECK 2022.pdf",
           },
+          // kyc
+          {
+            title: "Form_ISR-1",
+            url: "/main/kyc/Form_ISR-1.pdf",
+          },
+          {
+            title: "Form_ISR-2",
+            url: "/main/kyc/Form_ISR-2.pdf",
+          },
+          {
+            title: "Form_ISR-3",
+            url: "/main/kyc/Form_ISR-3.pdf",
+          },
+          {
+            title: "Form_ISR-4",
+            url: "/main/kyc/Form_ISR-4.pdf",
+          },
+          {
+            title: "Form_No_SH-13",
+            url: "/main/kyc/Form_No_SH-13.pdf",
+          },
+          {
+            title: "Form_No_SH-14",
+            url: "/main/kyc/Form_No_SH-14.pdf",
+          },
+          // kyc end
         ],
       },
       {
