@@ -311,12 +311,12 @@ const reportsData = [
 
               {
                 year: "2024-25",
-                title: "Appointment_Internal Auditor_2023-24",
+                title: "Appointment_Internal Auditor_2024-25",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Appointment_Internal Auditor_2023-24.pdf",
               },
               {
                 year: "2024-25",
-                title: "Appointment_Secretarial Auditor_2023-24",
+                title: "Appointment_Secretarial Auditor_2024-25",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Appointment_Secretarial Auditor_2023-24.pdf",
               },
               {
