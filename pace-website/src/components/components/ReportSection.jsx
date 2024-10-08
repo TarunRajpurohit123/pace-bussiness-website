@@ -182,7 +182,7 @@ export default function ReportSection() {
                       return data?.sidebar.map((sidebarData) => {
                         if (
                           // sidebarData?.key != 12 &&
-                          sidebarData?.key == currentSidebar 
+                          sidebarData?.key == currentSidebar
                         ) {
                           return sidebarData?.years?.map((year, index) => {
                             return (
@@ -229,6 +229,36 @@ export default function ReportSection() {
                   if (currentTab == report?.uniq) {
                     return report?.sidebar?.map((side) => {
                       return side?.data?.map((data, dataInd) => {
+                        if (currentSidebar == side?.key && side?.key == 25) {
+                          return (
+                            <ReportRow
+                              name={data?.title}
+                              url={data?.url}
+                              filename={data?.title}
+                              type={"sdsnajd"}
+                              style={
+                                currentTabId == 4 || currentTabId == 2
+                                  ? { width: "100%" }
+                                  : {}
+                              }
+                            />
+                          );
+                        }
+                        if (currentSidebar == side?.key && side?.key == 26) {
+                          return (
+                            <ReportRow
+                              name={data?.title}
+                              url={data?.url}
+                              filename={data?.title}
+                              type={"sdsnajd"}
+                              style={
+                                currentTabId == 4 || currentTabId == 2
+                                  ? { width: "100%" }
+                                  : {}
+                              }
+                            />
+                          );
+                        }
                         if (
                           currentSidebar == side?.key &&
                           side?.key != 12 &&
