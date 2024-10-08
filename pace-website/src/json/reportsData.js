@@ -46,7 +46,7 @@ const reportsData = [
       {
         type: "CLOSURE OF TRADING WINDOW",
         key: 11,
-        years: ["2023-24", "2022-23"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -62,6 +62,11 @@ const reportsData = [
             year: "2023-24",
             title: "Closure-of-Trading-Window_31-03-24",
             url: "/main/ANNOUNCEMENT/CLOSURE OF TRADING WINDOW/2023-2024/Closure-of-Trading-Window_31-03-2024.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Closure of window_",
+            url: "/main/ANNOUNCEMENT/CLOSURE OF TRADING WINDOW/2024-2025/Closure of window_.pdf",
           },
         ],
       },
