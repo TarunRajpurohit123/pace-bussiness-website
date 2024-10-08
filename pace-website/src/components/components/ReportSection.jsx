@@ -88,7 +88,7 @@ export default function ReportSection() {
             <div className="page-width yearboxex-section pt-[5rem] flex justify-between">
               {years?.map((year) => {
                 if (year.direct && currentTab === "SP") {
-                  return year?.years?.map((yr) => {
+                  return year?.years?.map((yr, yrInd) => {
                     return (
                       <YearBox
                         style={
@@ -98,6 +98,11 @@ export default function ReportSection() {
                                 color: "var(--mode-bg)",
                               }
                             : {}
+                        }
+                        className={
+                          yrInd != 0
+                            ? "margin-yearbox-left"
+                            : "margin-yearbox-left-none"
                         }
                         year={yr}
                         setCurrentYear={setCurrentYear}

@@ -2,11 +2,12 @@ export default function YearBox({
   year = null,
   setCurrentYear = null,
   style = {},
+  className,
 }) {
   return (
     <>
       <section
-        className="yearBox"
+        className={`yearBox ${className}`}
         onClick={() => {
           setCurrentYear(year);
         }}
@@ -16,7 +17,7 @@ export default function YearBox({
           {year ? year : ""}
         </p>
         <p className="yearBox__company text-center" style={style}>
-          PACE E-commerce Ventures LTD.
+          PACE E-commerce Ventures Ltd.
         </p>
       </section>
     </>
