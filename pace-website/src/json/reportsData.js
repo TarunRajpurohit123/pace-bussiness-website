@@ -334,6 +334,11 @@ const reportsData = [
                 title: "Regulation 7(2)_PIT Regulation_30.08.2024",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Regulation 7(2)_PIT Regulation_30.08.2024.pdf",
               },
+              {
+                year: "2024-25",
+                title: "Intimation under Regulation_30_Alteration of MOA",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Intimation under Regulation_30_Alteration of MOA.pdf",
+              },
             ],
           },
           {
@@ -471,12 +476,17 @@ const reportsData = [
       {
         type: "VOTING RESULT",
         key: 15,
-        years: ["2023-24"],
+        years: ["2024-25", "2023-24"],
         data: [
           {
             year: "2023-24",
             title: "Scrutinizer_Report_",
             url: "/main/ANNOUNCEMENT/VOTING RESULT/2023-2024/Scrutinizer_Report_.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Scrutinizer's Report_Voting Results_AGM 23-24",
+            url: "/main/ANNOUNCEMENT/VOTING RESULT/2024-25/Scrutinizer's Report_Voting Results_AGM 23-24.pdf",
           },
         ],
       },
