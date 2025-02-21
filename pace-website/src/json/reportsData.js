@@ -126,6 +126,11 @@ const reportsData = [
                 title: "Regulation_74(5)_Compliance Certificate_Q2",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2024-2025/Regulation_74(5)_Compliance Certificate_Q2.pdf",
               },
+              {
+                year: "2024-25",
+                title: "Regulation_74(5)_Compliance Certificate_Q3",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2024-2025/Regulation_74(5)_Compliance Certificate_Q3_.pdf",
+              },
             ],
           },
           {
@@ -170,6 +175,11 @@ const reportsData = [
                 year: "2024-25",
                 title: "Regulation 27(2)_Compliance Certificate_Q2",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2024-2025/Regulation 27(2)_Compliance Certificate_Q2.pdf",
+              },
+              {
+                year: "2024-25",
+                title: "Regulation 27(2)_Compliance Certificate_Q3",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2024-2025/Regulation 27(2)_Compliance Certificate_Q3.pdf",
               },
             ],
           },
@@ -401,6 +411,11 @@ const reportsData = [
                 title: "Reconciliation of Share Capital Report_Q2",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2024-2025/Reconciliation of Share Capital Report_Q2.pdf",
               },
+              {
+                year: "2024-25",
+                title: "Reconciliation of Share Capital Report_Q3",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2024-2025/Reconciliation of Share Capital Report_Q3.pdf",
+              },
             ],
           },
         ],
@@ -456,6 +471,11 @@ const reportsData = [
             year: "2024-25",
             title: "INVESTORS GRIVENCES_2024-2025_Q2",
             url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2024-2025/INVESTORS GRIVENCES_2024-2025_Q2.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "INVESTOR GRIEVANCES_2024-25_Q3",
+            url: "/main/ANNOUNCEMENT/QUARTERLY INVESTOR GRIEVANCES/2024-2025/INVESTOR GRIEVANCES_2024-25_Q3.pdf",
           },
         ],
       },
