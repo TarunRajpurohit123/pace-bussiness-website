@@ -540,6 +540,18 @@ const reportsData = [
           },
         ],
       },
+      {
+        type: "INTEGRATED CORPORATE GOVERNANCE FILING",
+        key: 669,
+        years: ["2024-25"],
+        data: [
+          {
+            year: "2024-25",
+            title: "Integrated Corporate Governance_Q3",
+            url: "/main/ANNOUNCEMENT/INTEGRATED CORPORATE GOVERNANCE FILING/2024-25/Integrated Corporate Governance_Q3.pdf",
+          },
+        ],
+      },
     ],
   },
   {
@@ -662,12 +674,27 @@ const reportsData = [
             title: "Outcome_BM_May_18_2024",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Outcome_BM_May_18_2024.pdf",
           },
+          {
+            year: "2024-25",
+            title: "Outcome of BM_November_11_2024",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Outcome of BM_November_11_2024.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Intimation of BM_11_November_2024",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Intimation of BM_11_November_2024.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Intimation_of BM_28_February_2025",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Intimation_of BM_28_February_2025.pdf",
+          },
         ],
       },
       {
         type: "FINANCIALS",
         key: 23,
-        years: ["2023-24", "2022-23"],
+        years: ["2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -689,6 +716,11 @@ const reportsData = [
             year: "2023-24",
             title: "Financial Result_Yearly_March_2023-24",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2023-24/Financial Result_Yearly_March_2023-24.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Financial Results_Half Yearly_September_2024-25",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2024-25/Financial Results_Half Yearly_September_2024-25.pdf",
           },
         ],
       },
@@ -819,6 +851,23 @@ const reportsData = [
           },
         ],
       },
+      {
+        type: "CHARTER DOCUMENTS",
+        key: 259,
+        years: ["2024-25"],
+        data: [
+          {
+            year: "2024-25",
+            title: "Articles of Association",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/CHARTER DOCUMENTS/2024-25/Articles of Association.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Memorandum of Association",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/CHARTER DOCUMENTS/2024-25/Memorandum of Association.pdf",
+          },
+        ],
+      },
     ],
   },
   {
@@ -877,6 +926,11 @@ const reportsData = [
             year: "2024-25",
             title: "Shareholding Pattern_Q2",
             url: "/main/SHAREHOLDING PATTERN/2024-25/Shareholding Pattern_Q2.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Shareholding Pattern_Q3",
+            url: "/main/SHAREHOLDING PATTERN/2024-25/Shareholding Pattern_Q3.pdf",
           },
         ],
       },
