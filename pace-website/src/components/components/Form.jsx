@@ -20,7 +20,7 @@ export default function Form() {
     fetch("https://restcountries.com/v3.1/all")
       .then((response) => response.json())
       .then((data) => setCountries(data))
-      .catch((error) => console.error("Error:", error));
+      .catch((error) => setCountries([]));
   }, []);
 
   // when form input change
@@ -182,14 +182,18 @@ export default function Form() {
                   className="h-[3.4rem] cursor-pointer phone-code location-code outline-none"
                   style={{ borderRadius: "0.4rem" }}
                 >
-                  {countries?.map((cd, ind) => {
-                    return (
-                      <option className="phone-code-opt" key={uniqid("pcode")}>
-                        {cd?.flag} &nbsp;&nbsp;
-                        {cd?.name?.common}
-                      </option>
-                    );
-                  })}
+                  {/* {countries &&
+                    countries?.map((cd, ind) => {
+                      return (
+                        <option
+                          className="phone-code-opt" 
+                          key={uniqid("pcode")}
+                        >
+                          {cd?.flag} &nbsp;&nbsp;
+                          {cd?.name?.common}
+                        </option>
+                      );
+                    })} */}
                 </select>
               </div>
             </div>
