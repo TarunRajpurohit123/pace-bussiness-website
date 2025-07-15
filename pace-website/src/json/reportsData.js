@@ -68,6 +68,11 @@ const reportsData = [
             title: "Closure of window_",
             url: "/main/ANNOUNCEMENT/CLOSURE OF TRADING WINDOW/2024-2025/Closure of window_.pdf",
           },
+          {
+            year: "2024-25",
+            title: "Closure of Trading Window_31.03.2025",
+            url: "/main/ANNOUNCEMENT/CLOSURE OF TRADING WINDOW/2024-2025/Closure of window_31.03.2025.pdf",
+          },
         ],
       },
       {
@@ -550,6 +555,11 @@ const reportsData = [
             title: "Integrated Corporate Governance_Q3",
             url: "/main/ANNOUNCEMENT/INTEGRATED CORPORATE GOVERNANCE FILING/2024-25/Integrated Corporate Governance_Q3.pdf",
           },
+          {
+            year: "2024-25",
+            title: "Integrated Governance Report_Q4",
+            url: "/main/ANNOUNCEMENT/INTEGRATED CORPORATE GOVERNANCE FILING/2024-25/Integrated Governance Report_Q4.pdf",
+          },
         ],
       },
     ],
@@ -721,6 +731,11 @@ const reportsData = [
             year: "2024-25",
             title: "Financial Results_Half Yearly_September_2024-25",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2024-25/Financial Results_Half Yearly_September_2024-25.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Financial Results_Yearly_March_2024-25",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/FINANCIALS/2024-25/Financial Results_Yearly_March_2024-25 (1).pdf",
           },
         ],
       },
