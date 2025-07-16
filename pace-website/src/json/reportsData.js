@@ -25,7 +25,7 @@ const years = [
   {
     id: 3,
     key: "RPAF",
-    years: ["2022-23", "2023-24"],
+    years: ["2022-23", "2023-24", "2025-26"],
     direct: false,
   },
   {
@@ -135,6 +135,11 @@ const reportsData = [
                 year: "2024-25",
                 title: "Regulation_74(5)_Compliance Certificate_Q3",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2024-2025/Regulation_74(5)_Compliance Certificate_Q3_.pdf",
+              },
+              {
+                year: "2024-25",
+                title: "Regulation_74(5)_Compliance Certificate_Q4",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2024-2025/Regulation_74(5)_Compliance Certificate_Q4.pdf",
               },
             ],
           },
@@ -369,6 +374,11 @@ const reportsData = [
                 title: "Intimation under Regulation_30_Alteration of MOA",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Intimation under Regulation_30_Alteration of MOA.pdf",
               },
+              {
+                year: "2024-25",
+                title: "Regulation_24A_ASCR_2024-25",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/GENERAL ANNOUNCEMENTS/2024-2025/Regulation_24A_ASCR_2024-25.pdf",
+              },
             ],
           },
           {
@@ -420,6 +430,11 @@ const reportsData = [
                 year: "2024-25",
                 title: "Reconciliation of Share Capital Report_Q3",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2024-2025/Reconciliation of Share Capital Report_Q3.pdf",
+              },
+              {
+                year: "2024-25",
+                title: "Reconciliation of Share Capital Report_Q4",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2024-2025/Reconciliation of Share Capital Report_Q4.pdf",
               },
             ],
           },
@@ -620,7 +635,7 @@ const reportsData = [
       {
         type: "BOARD MEETING",
         key: 22,
-        years: ["2024-25", "2023-24", "2022-23"],
+        years: ["2025-26", "2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -699,6 +714,17 @@ const reportsData = [
             title: "Intimation_of BM_28_February_2025",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2024-2025/Intimation_of BM_28_February_2025.pdf",
           },
+
+          {
+            year: "2025-26",
+            title: "Intimation of BM_27th May 2025",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2025-2026/Intimation of BM_27th May 2025.pdf",
+          },
+          {
+            year: "2025-26",
+            title: "Outcome of BM_27th May 2025",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/BOARD MEETING/2025-2026/Outcome of BM_27th May 2025.pdf",
+          },
         ],
       },
       {
@@ -773,7 +799,7 @@ const reportsData = [
         years: null,
         data: [
           {
-            title: "DEMAND VIDEO",
+            title: "PACE VIDEO",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/INVESTORS UPDATES/DEMAND VIDEO.mp4",
           },
           {
