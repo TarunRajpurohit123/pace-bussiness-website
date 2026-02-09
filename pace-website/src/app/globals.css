@@ -2775,10 +2775,10 @@ option:hover {
   background-color: var(--pureblack);
 }
 .brand2__zwankeeglobal:hover {
-  background-color: var(--pureblack);
+  background-color: #f51410;
 }
 .brand2__ppi:hover {
-  background-color: var(--ppiCardHover);
+  background-color: black;
 }
 
 .report__sidebar button {

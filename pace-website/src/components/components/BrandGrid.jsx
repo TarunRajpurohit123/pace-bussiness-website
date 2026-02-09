@@ -64,7 +64,7 @@ export default function BrandGrid() {
           <BrandCard2
             extraCls={"brand2__zwankeeglobal"}
             width={260.37}
-            href={"https://zwankeeglobal.com/"}
+            href={"https://www.paceroots.com/"}
             height={53.76}
             imgUrl={"/paceroots_logo_white.png"}
           />
@@ -72,7 +72,7 @@ export default function BrandGrid() {
             extraCls={"brand2__ppi"}
             width={123.41}
             height={56}
-            href={"https://paceprintinnovation.com/"}
+            href={"https://hirone.com/"}
             imgUrl={"/hirone_white.png"}
           />
         </div>
