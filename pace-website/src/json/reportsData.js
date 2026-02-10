@@ -13,7 +13,7 @@ const years = [
   {
     id: 1,
     key: "ANNOUNCEMENT",
-    years: ["2022-23", "2023-24", "2024-25"],
+    years: ["2022-23", "2023-24", "2024-25", "2025-26"],
     direct: false,
   },
   {
@@ -31,7 +31,7 @@ const years = [
   {
     id: 4,
     key: "SP",
-    years: ["2024-25", "2023-24", "2022-23"],
+    years: ["2025-26", "2024-25", "2023-24", "2022-23"],
     direct: true,
   },
 ];
@@ -147,6 +147,22 @@ const reportsData = [
                 title: "Regulation_74(5)_Compliance Certificate_Q4",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2024-2025/Regulation_74(5)_Compliance Certificate_Q4.pdf",
               },
+
+              {
+                year: "2025-26",
+                title: "Compliance Certificate_74(5)_Q1",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2025-2026/Compliance Certificate_74(5)_Q1.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "Compliance Certificate_74(5)_Q2",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2025-2026/Compliance Certificate_74(5)_Q2.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "Compliance Certificate_74(5)_Q3",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/COMPLIANCE CERTIFICATE/2025-2026/Compliance Certificate_74(5)_Q3.pdf",
+              },
             ],
           },
           {
@@ -196,6 +212,22 @@ const reportsData = [
                 year: "2024-25",
                 title: "Regulation 27(2)_Compliance Certificate_Q3",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2024-2025/Regulation 27(2)_Compliance Certificate_Q3.pdf",
+              },
+
+              {
+                year: "2025-26",
+                title: "Corporate Governance Certificate_Q1_",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2025-2026/Corporate Governance Certificate_Q1_.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "Corporate Governance Certificate_Q2_",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2025-2026/Corporate Governance Certificate_Q2_.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "Corporate Governance Certificate_Q3_",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/CORPORATE GOVERNANCE/2025-2026/Corporate Governance Certificate_Q3_.pdf",
               },
             ],
           },
@@ -448,6 +480,22 @@ const reportsData = [
                 title: "Reconciliation of Share Capital Report_Q4",
                 url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2024-2025/Reconciliation of Share Capital Report_Q4.pdf",
               },
+
+              {
+                year: "2025-26",
+                title: "RECONCILIATION OF SHARE CAPITAL AUDIT_Q1",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2025-2026/RECONCILIATION OF SHARE CAPITAL AUDIT_Q1.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "RECONCILIATION OF SHARE CAPITAL AUDIT_Q2",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2025-2026/RECONCILIATION OF SHARE CAPITAL AUDIT_Q2.pdf",
+              },
+              {
+                year: "2025-26",
+                title: "RECONCILIATION OF SHARE CAPITAL AUDIT_Q3",
+                url: "/main/ANNOUNCEMENT/DISCLOSURES/RECONCILIATION OF SHARE CAPITAL/2025-2026/RECONCILIATION OF SHARE CAPITAL AUDIT_Q3.pdf",
+              },
             ],
           },
         ],
@@ -651,6 +699,11 @@ const reportsData = [
             year: "2024-25",
             title: "Annual Report_FY 2024_25",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/ANNUAL REPORTS AND RETURNS/2024-2025/Annual Report_FY 2024_25.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Annual Return_24-25",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/ANNUAL REPORTS AND RETURNS/2024-2025/Annual Return_24-25.pdf",
           },
         ],
       },
@@ -965,6 +1018,11 @@ const reportsData = [
             title: "Memorandum of Association",
             url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/CHARTER DOCUMENTS/2024-25/Memorandum of Association.pdf",
           },
+          {
+            year: "2024-25",
+            title: "Altered MOA_C",
+            url: "/main/REPORTS_PRESENTATIONS AND FINANCIALS/CHARTER DOCUMENTS/2024-25/Altered MOA_C.pdf",
+          },
         ],
       },
     ],
@@ -977,7 +1035,7 @@ const reportsData = [
     sidebar: [
       {
         type: null,
-        years: ["2024-25", "2023-24", "2022-23"],
+        years: ["2025-26", "2024-25", "2023-24", "2022-23"],
         data: [
           {
             year: "2022-23",
@@ -1030,6 +1088,27 @@ const reportsData = [
             year: "2024-25",
             title: "Shareholding Pattern_Q3",
             url: "/main/SHAREHOLDING PATTERN/2024-25/Shareholding Pattern_Q3.pdf",
+          },
+          {
+            year: "2024-25",
+            title: "Shareholding Pattern_Q4",
+            url: "/main/SHAREHOLDING PATTERN/2024-25/Shareholding Pattern_Q4.pdf",
+          },
+
+          {
+            year: "2025-26",
+            title: "Shareholding Pattern_Q1",
+            url: "/main/SHAREHOLDING PATTERN/2025-26/Shareholding Pattern_Q1.pdf",
+          },
+          {
+            year: "2025-26",
+            title: "Shareholding Pattern_Q2",
+            url: "/main/SHAREHOLDING PATTERN/2025-26/Shareholding Pattern_Q2.pdf",
+          },
+          {
+            year: "2025-26",
+            title: "Shareholding Pattern_Q3",
+            url: "/main/SHAREHOLDING PATTERN/2025-26/Shareholding Pattern_Q3.pdf",
           },
         ],
       },
