@@ -3350,3 +3350,60 @@ option:hover {
 .lalina {
   border: 0.5px solid #FFFFFF !important;
 }
+
+.stat-box-container {
+  background-color: #000000 !important;
+  width: 100% !important;
+  border-style: solid !important;
+  border-width: 2.5px 0px 2.5px 0px !important;
+  border-image-source: linear-gradient(90deg, #CB3321 0%, #000000 50%, #CB3321 100%) !important;
+  border-image-slice: 1 !important;
+}
+
+
+.stat-number-text {
+  font-family: 'Lora', serif !important;
+  font-weight: 700 !important;
+  font-size: 3.8rem !important;
+  line-height: 120% !important;
+  color: #FFFFFF !important;
+}
+
+.stat-label-text {
+  font-family: 'Karla', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 140% !important;
+  color: #9D9D9D !important;
+}
+
+.stat-divider-line {
+  width: 1px !important;
+  height: 6.5rem !important;
+  background-color: #3A3A3C !important;
+}
+
+.stat-number-text {
+  font-family: 'Lora' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 4rem !important;
+  line-height: 130% !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+}
+
+.stat-label-text {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 2.4rem !important;
+  line-height: 130% !important;
+  color: #9D9D9D;
+}
+
+.stat-divider-line {
+  width: 2px !important;
+  height: 6.5rem !important;
+  background-color: white !important;
+}

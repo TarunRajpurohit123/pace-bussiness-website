@@ -16,8 +16,8 @@ export default function investors() {
         content=""
       />
       <LatestPress />
-      <ReportSection />
       <InvestorStatics />
+      <ReportSection />
       <FinancialCalender />
       <InvestorCTA />
     </>
