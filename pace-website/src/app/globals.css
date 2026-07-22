@@ -3298,3 +3298,31 @@ option:hover {
   line-height: 130% !important;
   color: #9D9D9D !important;
 }
+
+.subtabfr--btn {
+  font-family: 'Karla' !important;
+  font-weight: 400 !important;
+  font-style: Regular !important;
+  font-size: 1.4rem !important;
+  line-height: 130% !important;
+  letter-spacing: 0%;
+  color: #9D9D9D !important;
+}
+
+.frtitle {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.4rem !important;
+  line-height: 130%;
+  color: #9D9D9D;
+}
+
+.frview-btn {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.4rem !important;
+  line-height: 130% !important;
+  color: #9D9D9D !important;
+}

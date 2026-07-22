@@ -214,12 +214,13 @@ export default function Form() {
                 value={formData.message}
               />
               {/* <div className="mt-[0.7rem] check_contact_text flex items-center">
-                <div class="checkbox-wrapper-40">
+                <div className="checkbox-wrapper-40">
                   <label>
                     <input type="checkbox" />
-                    <span class="checkbox"></span>
+                    <span className="checkbox"></span>
                   </label>
                 </div>
+
                 <p className="ml-[0.7rem]">
                   You agree to our friendly <Link href="#">Privacy Policy</Link>
                 </p>

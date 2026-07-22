@@ -23,16 +23,16 @@ export default function InvestorCTA() {
             <path
               d="M14.4299 5.93018L20.4999 12.0002L14.4299 18.0702"
               stroke="var(--pure)"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
             <path
               d="M3.5 12H20.33"
               stroke="var(--pure)"
-              stroke-miterlimit="10"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeMiterlimit="10"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             ></path>
           </svg>
         </Link>

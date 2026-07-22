@@ -1,7 +1,7 @@
 export default function BrandStrip() {
   return (
     <>
-      <section class="page-width web__brand--strip flex">
+      <section className="page-width web__brand--strip flex">
         {/* card 1 goes here */}
         <div className="bstripWarpp">
           <div className="bstrip1 bstrip flex">
@@ -17,8 +17,9 @@ export default function BrandStrip() {
                 stroke="var(--red)"
                 strokeWidth="1.5"
                 strokeLinecap="round"
-                stroke-linejoin="round"
+                strokeLinejoin="round"
               />
+
               <path
                 d="M44.28 24.5C44.28 35.54 35.32 44.5 24.28 44.5C13.24 44.5 6.5 33.38 6.5 33.38M6.5 33.38H15.54M6.5 33.38V43.38"
                 stroke="var(--pure)"

@@ -164,9 +164,8 @@ export default function FinancialReportsNew() {
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            className={`transition-transform duration-200 ${
-                              isExpanded ? "rotate-90" : ""
-                            }`}
+                            className={`transition-transform duration-200 ${isExpanded ? "rotate-90" : ""
+                              }`}
                           >
                             <path
                               d="M8.91016 19.9201L15.4302 13.4001C16.2002 12.6301 16.2002 11.3701 15.4302 10.6001L8.91016 4.08008"
@@ -195,7 +194,7 @@ export default function FinancialReportsNew() {
                               onClick={() =>
                                 handleSubcategoryClick(cat.category, sub.name)
                               }
-                              className={`text-left text-sm transition-colors py-1 ${isSubSelected
+                              className={`subtabfr--btn text-left text-sm transition-colors py-1 ${isSubSelected
                                 ? "text-white font-medium"
                                 : "text-[#8E8E93] hover:text-[#C7C7CC]"
                                 }`}
@@ -221,7 +220,7 @@ export default function FinancialReportsNew() {
                     key={`${file.filename}-${idx}`}
                     className="flex items-center justify-between py-4 hover:bg-[#1C1C1E]/40 transition-colors px-3 rounded-lg group"
                   >
-                    <p className="text-sm md:text-base font-normal text-[#E5E5EA] group-hover:text-white pr-4 leading-normal">
+                    <p className="text-sm md:text-base font-normal text-[#E5E5EA] group-hover:text-white pr-4 leading-normal frtitle">
                       {file.title}
                     </p>
                     <div className="flex items-center gap-8 shrink-0">
@@ -231,15 +230,15 @@ export default function FinancialReportsNew() {
                         href={file.url}
                         className="flex items-center gap-2 text-[#8E8E93] hover:text-white text-xs md:text-sm transition-colors"
                       >
-                        <EyeIcon color="currentColor" extcls="w-4 h-4" />
-                        <span>View</span>
+                        <EyeIcon color="currentColor" extcls="w-[1.6rem] h-[1.6rem]" />
+                        <span class="frview-btn">View</span>
                       </Link>
                       <button
                         onClick={() => triggerDownload(file.url, file.filename)}
                         className="flex items-center gap-2 text-[#8E8E93] hover:text-white text-xs md:text-sm transition-colors"
                       >
-                        <DownloadIcon color="currentColor" extcls="w-4 h-4" />
-                        <span>Download</span>
+                        <DownloadIcon color="currentColor" extcls="w-[1.6rem] h-[1.6rem]" />
+                        <span class="frview-btn">Download</span>
                       </button>
                     </div>
                   </div>

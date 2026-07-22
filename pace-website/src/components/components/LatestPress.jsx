@@ -106,11 +106,13 @@ export default function LatestPress() {
                 : "mySwiper"
             }
           >
-            {latestPress?.map((pressData) => {
+            {latestPress?.map((pressData, ind) => {
               return (
                 <SwiperSlide
-                  className={latestPress?.length <= 2 && "less_than__3_slide"}
+                  key={pressData?.name || ind}
+                  className={latestPress?.length <= 2 ? "less_than__3_slide" : undefined}
                 >
+
                   <div className="latestpress__card ">
                     <div className="latestcard__top">
                       <p className="latestcard__top_para">{pressData?.name}</p>
