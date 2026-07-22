@@ -85,7 +85,7 @@ export default function FinancialReportsNew() {
   };
 
   return (
-    <section className="bg-[#171717] page-width text-white py-16 px-6 md:px-16 lg:px-24 font-sans min-h-[850px]">
+    <section className="bg-[#191918] page-width text-white py-16  font-sans min-h-[100%]">
       <div className="max-w-[1360px] mx-auto">
         {/* Top Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-4">
@@ -106,31 +106,29 @@ export default function FinancialReportsNew() {
 
         {/* Year Selector Bar - Only rendered if available years exist for selected section */}
         {availableYearsForSelection.length > 0 && (
-          <div className="border-t border-b border-[#2C2C2E] my-8">
-            <div
-              className={`grid divide-x divide-[#2C2C2E]`}
-              style={{
-                gridTemplateColumns: `repeat(${availableYearsForSelection.length}, minmax(0, 1fr))`,
-              }}
-            >
-              {availableYearsForSelection.map((year) => {
+          <div className="my-8 py-5">
+            <div className="flex items-center justify-between border-b pb-[5rem]">
+              {availableYearsForSelection.map((year, index) => {
                 const isSelected = activeYear === year;
                 return (
-                  <button
-                    key={year}
-                    onClick={() => setSelectedYear(year)}
-                    className={`py-5 text-center text-sm md:text-base transition-colors ${isSelected
-                      ? "text-white font-medium"
-                      : "text-[#8E8E93] hover:text-white font-normal"
-                      }`}
-                  >
-                    {year}
-                  </button>
+                  <div key={year} className="flex-1 flex items-center justify-center relative">
+                    <button
+                      onClick={() => setSelectedYear(year)}
+                      className={`fryear-btn text-center cursor-pointer ${isSelected ? "active" : ""
+                        }`}
+                    >
+                      {year}
+                    </button>
+                    {index < availableYearsForSelection.length - 1 && (
+                      <span className="absolute lalina right-0 h-4 w-[1px] bg-[#2C2C2E]" />
+                    )}
+                  </div>
                 );
               })}
             </div>
           </div>
         )}
+
 
 
         {/* Two Column Layout: Sidebar + Document List */}

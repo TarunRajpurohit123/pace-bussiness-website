@@ -3326,3 +3326,26 @@ option:hover {
   line-height: 130% !important;
   color: #9D9D9D !important;
 }
+
+.fryear-btn {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 100% !important;
+  color: #9D9D9D !important;
+  transition: color 0.2s ease;
+}
+
+.fryear-btn:hover {
+  color: #FFFFFF !important;
+}
+
+.fryear-btn.active {
+  font-weight: 500 !important;
+  color: #F1F4E6 !important;
+}
+
+.lalina {
+  border: 0.5px solid #FFFFFF !important;
+}
