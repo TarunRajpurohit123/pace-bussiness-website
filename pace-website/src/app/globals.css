@@ -1649,7 +1649,8 @@ option:hover {
 }
 
 .gradient-border-container {
-  background-color: var(--mode-bg);
+  /* background-color: var(--mode-bg); */
+  background-color: black;
   /* Background color similar to the image */
   text-align: center;
   padding-top: 5rem;
