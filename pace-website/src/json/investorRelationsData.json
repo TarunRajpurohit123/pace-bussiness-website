@@ -1,0 +1,714 @@
+[
+  {
+    "id": 1,
+    "category": "AGM Reports",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Annual Report",
+        "filename": "Annual Report.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202022-23/Annual%20Report.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Notice of AGM",
+        "filename": "Notice of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202022-23/Notice%20of%20AGM.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Proceedings of AGM",
+        "filename": "Proceedings of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202022-23/Proceedings%20of%20AGM.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Scrutinizer Report Voting results",
+        "filename": "Scrutinizer_Report_Voting results.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202022-23/Scrutinizer_Report_Voting%20results.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Annual Report",
+        "filename": "Annual Report.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202023-24/Annual%20Report.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Notice of AGM",
+        "filename": "Notice of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202023-24/Notice%20of%20AGM.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Proceedings of AGM",
+        "filename": "Proceedings of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202023-24/Proceedings%20of%20AGM.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Scrutinizer's Report Voting Results",
+        "filename": "Scrutinizer's Report_Voting Results.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202023-24/Scrutinizer's%20Report_Voting%20Results.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Annual Report",
+        "filename": "Annual Report.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202024-25/Annual%20Report.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Notice of AGM",
+        "filename": "Notice of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202024-25/Notice%20of%20AGM.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Proceedings of AGM",
+        "filename": "Proceedings of AGM.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202024-25/Proceedings%20of%20AGM.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Scrutinizer's Report Voting Results",
+        "filename": "Scrutinizer's Report_Voting Results.pdf",
+        "url": "/Investor%20Relations/AGM%20Reports/Financial%20Year%202024-25/Scrutinizer's%20Report_Voting%20Results.pdf",
+        "year": "FY 2024-25"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Announcement Under Regulation 30",
+    "hasSubcategories": true,
+    "subcategories": [
+      {
+        "name": "Charter Documents",
+        "files": [
+          {
+            "title": "Articles of Association",
+            "filename": "Articles of Association.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Charter%20Documents/Articles%20of%20Association.pdf",
+            "year": null
+          },
+          {
+            "title": "Memorandum of Association",
+            "filename": "Memorandum of Association.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Charter%20Documents/Memorandum%20of%20Association.pdf",
+            "year": null
+          }
+        ]
+      },
+      {
+        "name": "Company Policies",
+        "files": [
+          {
+            "title": "Board Diversity Policy",
+            "filename": "Board Diversity Policy.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Board%20Diversity%20Policy.pdf",
+            "year": null
+          },
+          {
+            "title": "Code for Independent Directors",
+            "filename": "Code for Independent Directors.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Code%20for%20Independent%20Directors.pdf",
+            "year": null
+          },
+          {
+            "title": "Code of Conduct for Directors & Senior KMPs",
+            "filename": "Code of Conduct for Directors & Senior KMPs.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Code%20of%20Conduct%20for%20Directors%20%26%20Senior%20KMPs.pdf",
+            "year": null
+          },
+          {
+            "title": "Code of Internal Procedure Conduct for Prevention",
+            "filename": "Code of Internal Procedure Conduct for Prevention.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Code%20of%20Internal%20Procedure%20Conduct%20for%20Prevention.pdf",
+            "year": null
+          },
+          {
+            "title": "Code of Practices and Procedures for Fair Disclosure of UPSI",
+            "filename": "Code of Practices and Procedures for Fair Disclosure of UPSI.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Code%20of%20Practices%20and%20Procedures%20for%20Fair%20Disclosure%20of%20UPSI.pdf",
+            "year": null
+          },
+          {
+            "title": "Composition of various committees of board of directors",
+            "filename": "Composition of various committees of board of directors.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Composition%20of%20various%20committees%20of%20board%20of%20directors.pdf",
+            "year": null
+          },
+          {
+            "title": "Disclosure of policy for determination of materiality of events",
+            "filename": "Disclosure-of-policy-for-determination-of-materiality-of-events.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Disclosure-of-policy-for-determination-of-materiality-of-events.pdf",
+            "year": null
+          },
+          {
+            "title": "Dividend Distribution Policy",
+            "filename": "Dividend Distribution Policy.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Dividend%20Distribution%20Policy.pdf",
+            "year": null
+          },
+          {
+            "title": "Familiarization Programme Policy",
+            "filename": "Familiarization Programme Policy.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Familiarization%20Programme%20Policy.pdf",
+            "year": null
+          },
+          {
+            "title": "Materiality Policy",
+            "filename": "Materiality Policy.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Materiality%20Policy.pdf",
+            "year": null
+          },
+          {
+            "title": "Policy on Related Party Transaction",
+            "filename": "Policy on Related Party Transaction.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Policy%20on%20Related%20Party%20Transaction.pdf",
+            "year": null
+          },
+          {
+            "title": "Policy of Making Payments to Non-Executive Directors",
+            "filename": "Policy-of-Making-Payments-to-Non-Executive-Directors_.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Policy-of-Making-Payments-to-Non-Executive-Directors_.pdf",
+            "year": null
+          },
+          {
+            "title": "Terms & Conditions of appointment of Independent Directors",
+            "filename": "Terms & Conditions of appointment of Independent Directors.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Terms%20%26%20Conditions%20of%20appointment%20of%20Independent%20Directors.pdf",
+            "year": null
+          },
+          {
+            "title": "Whistle Blower Policy",
+            "filename": "Whistle Blower Policy.pdf",
+            "url": "/Investor%20Relations/Announcement%20Under%20Regulation%2030/Company%20Policies/Whistle%20Blower%20Policy.pdf",
+            "year": null
+          }
+        ]
+      }
+    ],
+    "files": []
+  },
+  {
+    "id": 3,
+    "category": "Annual Returns",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "MGT-7 2022-23",
+        "filename": "MGT- 7_2022-23.pdf",
+        "url": "/Investor%20Relations/Annual%20Returns/MGT-%207_2022-23.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "MGT-7 2023-24",
+        "filename": "MGT- 7_2023-24.pdf",
+        "url": "/Investor%20Relations/Annual%20Returns/MGT-%207_2023-24.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "MGT-7 2024-25",
+        "filename": "MGT- 7_2024-25.pdf",
+        "url": "/Investor%20Relations/Annual%20Returns/MGT-%207_2024-25.pdf",
+        "year": "FY 2024-25"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Corporate Governance",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Corporate Governance Certificate Q3",
+        "filename": "Corporate Goverence certificate__Q3.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202022-23/Corporate%20Goverence%20certificate__Q3.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Corporate Governance Certificate Q4",
+        "filename": "Corporate Goverence certificate_Q4.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202022-23/Corporate%20Goverence%20certificate_Q4.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Corporate Governance Certificate Q1",
+        "filename": "Corporate Governance Certificate_Q1.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202023-24/Corporate%20Governance%20Certificate_Q1.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Corporate Governance Certificate Q2",
+        "filename": "Corporate Governance Certificate_Q2.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202023-24/Corporate%20Governance%20Certificate_Q2.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Corporate Governance Certificate Q3",
+        "filename": "Corporate Governance Certificate_Q3.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202023-24/Corporate%20Governance%20Certificate_Q3.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Corporate Governance Certificate Q4",
+        "filename": "Corporate Governance Certificate_Q4.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202023-24/Corporate%20Governance%20Certificate_Q4.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Corporate Governance Certificate Q1",
+        "filename": "Corporate Governance Certificate_Q1.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202024-25/Corporate%20Governance%20Certificate_Q1.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Corporate Governance Certificate Q2",
+        "filename": "Corporate Governance Certificate_Q2.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202024-25/Corporate%20Governance%20Certificate_Q2.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Corporate Governance Certificate Q3",
+        "filename": "Corporate Governance Certificate_Q3.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202024-25/Corporate%20Governance%20Certificate_Q3.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Corporate Governance Certificate Q1",
+        "filename": "Corporate Governance Certificate_Q1.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202025-26/Corporate%20Governance%20Certificate_Q1.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Corporate Governance Certificate Q2",
+        "filename": "Corporate Governance Certificate_Q2.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202025-26/Corporate%20Governance%20Certificate_Q2.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Corporate Governance Certificate Q3",
+        "filename": "Corporate Governance Certificate_Q3.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202025-26/Corporate%20Governance%20Certificate_Q3.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Corporate Governance Certificate Q4",
+        "filename": "Corporate Governance Certificate_Q4.pdf",
+        "url": "/Investor%20Relations/Corporate%20Governance/Financial%20Year%202025-26/Corporate%20Governance%20Certificate_Q4.pdf",
+        "year": "FY 2025-26"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Financial Results",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Financial Result Half Yearly September",
+        "filename": "Financial Result_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Financial%20Result_Half%20Yearly_September.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Financial Result Yearly March",
+        "filename": "Financial Result_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Financial%20Result_Yearly_March.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Intimation of BM Half Yearly September",
+        "filename": "Intimation of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Intimation%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Intimation of BM Yearly March",
+        "filename": "Intimation of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Intimation%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Outcome of BM Half Yearly September",
+        "filename": "Outcome of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Outcome%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Outcome of BM Yearly March",
+        "filename": "Outcome of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202022-23/Outcome%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Financial Result Half Yearly September",
+        "filename": "Financial Result_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Financial%20Result_Half%20Yearly_September.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Financial Result Yearly March",
+        "filename": "Financial Result_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Financial%20Result_Yearly_March.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Intimation of BM Half Yearly September",
+        "filename": "Intimation of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Intimation%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Intimation of BM Yearly March",
+        "filename": "Intimation of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Intimation%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Outcome for BM Half Yearly September",
+        "filename": "Outcome for BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Outcome%20for%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Outcome of BM Yearly March",
+        "filename": "Outcome of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202023-24/Outcome%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Financial Results Half Yearly September",
+        "filename": "Financial Results_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Financial%20Results_Half%20Yearly_September.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Financial Results Yearly March",
+        "filename": "Financial Results_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Financial%20Results_Yearly_March.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Intimation of BM Half Yearly September",
+        "filename": "Intimation of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Intimation%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Intimation of BM Yearly March",
+        "filename": "Intimation of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Intimation%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Outcome of BM Half Yearly September",
+        "filename": "Outcome of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Outcome%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Outcome of BM Yearly March",
+        "filename": "Outcome of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202024-25/Outcome%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Financial Results Half Yearly September",
+        "filename": "Financial Results_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Financial%20Results_Half%20Yearly_September.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Financial Results Yearly March",
+        "filename": "Financial Results_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Financial%20Results_Yearly_March.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Intimation of BM Yearly March",
+        "filename": "Intimation of BM__Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Intimation%20of%20BM__Yearly_March.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Intimation of BM Half Yearly September",
+        "filename": "Intimation of BM_Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Intimation%20of%20BM_Half%20Yearly_September.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Outcome of BM Half Yearly September",
+        "filename": "Outcome of BM__Half Yearly_September.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Outcome%20of%20BM__Half%20Yearly_September.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Outcome of BM Yearly March",
+        "filename": "Outcome of BM_Yearly_March.pdf",
+        "url": "/Investor%20Relations/Financial%20Results/Financial%20Year%202025-26/Outcome%20of%20BM_Yearly_March.pdf",
+        "year": "FY 2025-26"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "General Information",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Contact information of the designated officials",
+        "filename": "Contact information of the designated officials.pdf",
+        "url": "/Investor%20Relations/General%20Information/Contact%20information%20of%20the%20designated%20officials.pdf",
+        "year": null
+      },
+      {
+        "title": "Details of Agreements Media Companies Associates",
+        "filename": "Details of Agreements  Media Companies  Associates.pdf",
+        "url": "/Investor%20Relations/General%20Information/Details%20of%20Agreements%20%20Media%20Companies%20%20Associates.pdf",
+        "year": null
+      },
+      {
+        "title": "Email ID of Grievance Redressal Cell",
+        "filename": "Email ID of Grievance Redressal Cell.pdf",
+        "url": "/Investor%20Relations/General%20Information/Email%20ID%20of%20Grievance%20Redressal%20Cell.pdf",
+        "year": null
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Investor Information",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Master Circular for dispute resolution mechanism",
+        "filename": "Master Circular for dispute resolution mechanism.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/Master%20Circular%20for%20dispute%20resolution%20mechanism.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular dated 04.08.2023",
+        "filename": "SEBI Circular dated 04.08.2023.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular%20dated%2004.08.2023.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular dated 31.07.2023",
+        "filename": "SEBI Circular dated 31.07.2023.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular%20dated%2031.07.2023.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular on Special Window for Relodgement of Shares-02.07.2025",
+        "filename": "SEBI Circular on Special Window for Relodgement of Shares-02.07.2025.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular%20on%20Special%20Window%20for%20Relodgement%20of%20Shares-02.07.2025.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular-Issue of Sec in demat form only-25.01.2022",
+        "filename": "SEBI Circular-Issue of Sec in demat form only-25.01.2022.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular-Issue%20of%20Sec%20in%20demat%20form%20only-25.01.2022.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular-KYC Updation-03.11.2021",
+        "filename": "SEBI Circular-KYC Updation-03.11.2021.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular-KYC%20Updation-03.11.2021.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular-KYC Updation-16.03.2023",
+        "filename": "SEBI Circular-KYC Updation-16.03.2023.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular-KYC%20Updation-16.03.2023.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular-Model Tripartite Agreement-25.05.2023",
+        "filename": "SEBI Circular-Model Tripartite Agreement-25.05.2023.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular-Model%20Tripartite%20Agreement-25.05.2023.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circular-SOP on Duplicate Share Certificate-25.05.2022",
+        "filename": "SEBI Circular-SOP on Duplicate Share Certificate-25.05.2022.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI%20Circular-SOP%20on%20Duplicate%20Share%20Certificate-25.05.2022.pdf",
+        "year": null
+      },
+      {
+        "title": "SEBI Circulars Issue of Sec in Demat and Special Window 30.01.2026",
+        "filename": "SEBI_Circulars_Issue of Sec in Demat and Special Window_30.01.2026.pdf",
+        "url": "/Investor%20Relations/Investor%20Information/SEBI_Circulars_Issue%20of%20Sec%20in%20Demat%20and%20Special%20Window_30.01.2026.pdf",
+        "year": null
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Investor Services",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Form A",
+        "filename": "Form A.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20A.pdf",
+        "year": null
+      },
+      {
+        "title": "Form B",
+        "filename": "Form B.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20B.pdf",
+        "year": null
+      },
+      {
+        "title": "Form C",
+        "filename": "Form C.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20C.pdf",
+        "year": null
+      },
+      {
+        "title": "Form ISR-1",
+        "filename": "Form ISR-1.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20ISR-1.pdf",
+        "year": null
+      },
+      {
+        "title": "Form ISR-2",
+        "filename": "Form ISR-2.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20ISR-2.pdf",
+        "year": null
+      },
+      {
+        "title": "Form ISR-3",
+        "filename": "Form ISR-3.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20ISR-3.pdf",
+        "year": null
+      },
+      {
+        "title": "Form ISR-4",
+        "filename": "Form ISR-4.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20ISR-4.pdf",
+        "year": null
+      },
+      {
+        "title": "Form No. SH-13",
+        "filename": "Form No. SH-13.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20No.%20SH-13.pdf",
+        "year": null
+      },
+      {
+        "title": "Form No. SH-14",
+        "filename": "Form No. SH-14.pdf",
+        "url": "/Investor%20Relations/Investor%20Services/Form%20No.%20SH-14.pdf",
+        "year": null
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Shareholding Pattern",
+    "hasSubcategories": false,
+    "subcategories": [],
+    "files": [
+      {
+        "title": "Shareholding Pattern Before listing 2022-23",
+        "filename": "Shareholding Pattern_Before listing_2022-23.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202022-23/Shareholding%20Pattern_Before%20listing_2022-23.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Shareholding Pattern Q3",
+        "filename": "Shareholding Pattern_Q3.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202022-23/Shareholding%20Pattern_Q3.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Shareholding Pattern Q4",
+        "filename": "Shareholding Pattern_Q4.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202022-23/Shareholding%20Pattern_Q4.pdf",
+        "year": "FY 2022-23"
+      },
+      {
+        "title": "Shareholding Pattern Q1",
+        "filename": "Shareholding Pattern_Q1.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202023-24/Shareholding%20Pattern_Q1.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Shareholding Pattern Q2",
+        "filename": "Shareholding Pattern_Q2.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202023-24/Shareholding%20Pattern_Q2.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Shareholding Pattern Q3",
+        "filename": "Shareholding Pattern_Q3.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202023-24/Shareholding%20Pattern_Q3.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Shareholding Pattern Q4",
+        "filename": "Shareholding Pattern_Q4.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202023-24/Shareholding%20Pattern_Q4.pdf",
+        "year": "FY 2023-24"
+      },
+      {
+        "title": "Shareholding Pattern Q1",
+        "filename": "Shareholding Pattern_Q1.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202024-25/Shareholding%20Pattern_Q1.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Shareholding Pattern Q2",
+        "filename": "Shareholding Pattern_Q2.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202024-25/Shareholding%20Pattern_Q2.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Shareholding Pattern Q3",
+        "filename": "Shareholding Pattern_Q3.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202024-25/Shareholding%20Pattern_Q3.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Shareholding Pattern Q4",
+        "filename": "Shareholding Pattern_Q4.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202024-25/Shareholding%20Pattern_Q4.pdf",
+        "year": "FY 2024-25"
+      },
+      {
+        "title": "Shareholding Pattern Q1",
+        "filename": "Shareholding Pattern_Q1.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202025-26/Shareholding%20Pattern_Q1.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Shareholding Pattern Q2",
+        "filename": "Shareholding Pattern_Q2.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202025-26/Shareholding%20Pattern_Q2.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Shareholding Pattern Q3",
+        "filename": "Shareholding Pattern_Q3.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202025-26/Shareholding%20Pattern_Q3.pdf",
+        "year": "FY 2025-26"
+      },
+      {
+        "title": "Shareholding Pattern Q4",
+        "filename": "Shareholding Pattern_Q4.pdf",
+        "url": "/Investor%20Relations/Shareholding%20Pattern/Financial%20Year%202025-26/Shareholding%20Pattern_Q4.pdf",
+        "year": "FY 2025-26"
+      }
+    ]
+  }
+]
