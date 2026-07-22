@@ -97,8 +97,8 @@ export default function FinancialReportsNew() {
               Financial Reports
             </h1>
           </div>
-          <div className="max-w-[340px] md:text-right">
-            <p className="text-xs md:text-sm text-[#8E8E93] leading-relaxed font-light">
+          <div className="max-w-[40%] md:text-right">
+            <p className="text-xs md:text-sm text-[#8E8E93] leading-relaxed font-light finanrepo-header-ted">
               Everything SEBI requires us to publish — organised so you can actually find what you need.
             </p>
           </div>
@@ -149,7 +149,7 @@ export default function FinancialReportsNew() {
                       className="flex items-center justify-between cursor-pointer group py-1"
                     >
                       <span
-                        className={`text-base md:text-lg transition-colors ${isCatSelected && !cat.hasSubcategories
+                        className={`text-base md:text-lg transition-colors tabcate-frs ${isCatSelected && !cat.hasSubcategories
                           ? "text-white font-medium"
                           : "text-[#C7C7CC] group-hover:text-white"
                           }`}
@@ -157,23 +157,29 @@ export default function FinancialReportsNew() {
                         {cat.category}
                       </span>
                       {cat.hasSubcategories && (
-                        <span className="text-[#8E8E93] group-hover:text-white transition-transform duration-200">
+                        <span className="text-[#8E8E93] group-hover:text-white">
                           <svg
-                            className={`w-4 h-4 transition-transform duration-200 ${isExpanded ? "rotate-180" : ""
-                              }`}
-                            fill="none"
+                            width="19"
+                            height="19"
                             viewBox="0 0 24 24"
-                            stroke="currentColor"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            className={`transition-transform duration-200 ${
+                              isExpanded ? "rotate-90" : ""
+                            }`}
                           >
                             <path
+                              d="M8.91016 19.9201L15.4302 13.4001C16.2002 12.6301 16.2002 11.3701 15.4302 10.6001L8.91016 4.08008"
+                              stroke="#F1F4E6"
+                              strokeWidth="1.5"
+                              strokeMiterlimit="10"
                               strokeLinecap="round"
                               strokeLinejoin="round"
-                              strokeWidth="1.5"
-                              d="M19 9l-7 7-7-7"
                             />
                           </svg>
                         </span>
                       )}
+
                     </div>
 
                     {/* Subcategories Accordion */}

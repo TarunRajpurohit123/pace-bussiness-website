@@ -3279,3 +3279,22 @@ option:hover {
   line-height: 4.6rem !important;
   color: #F1F4E6 !important;
 }
+
+.finanrepo-header-ted {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.6rem !important;
+  line-height: 150% !important;
+  color: #9D9D9D !important;
+  width: 100%;
+}
+
+.tabcate-frs {
+  font-family: 'Karla' !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 1.8rem !important;
+  line-height: 130% !important;
+  color: #9D9D9D !important;
+}
