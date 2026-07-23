@@ -225,7 +225,7 @@ export default function FinancialReportsNew() {
                     strokeLinejoin="round"
                   />
                 </svg>
-                <span className="text-base font-serif font-medium text-white">Categories</span>
+                {/* <span className="text-base font-serif font-medium text-white">Categories</span> */}
               </div>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
