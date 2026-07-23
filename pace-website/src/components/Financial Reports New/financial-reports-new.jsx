@@ -18,6 +18,7 @@ export default function FinancialReportsNew() {
 
   const handleCategoryClick = (cat) => {
     setSelectedCategory(cat.category);
+    setSelectedYear(YEARS[0]);
     if (cat.hasSubcategories && cat.subcategories.length > 0) {
       setExpandedAccordions((prev) => ({
         ...prev,
@@ -37,6 +38,7 @@ export default function FinancialReportsNew() {
   const handleSubcategoryClick = (catName, subName) => {
     setSelectedCategory(catName);
     setSelectedSubcategory(subName);
+    setSelectedYear(YEARS[0]);
   };
 
   // Get active files based on selected category & subcategory
@@ -134,7 +136,8 @@ export default function FinancialReportsNew() {
         {/* Two Column Layout: Sidebar + Document List */}
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 mt-10">
           {/* Left Sidebar */}
-          <div className="w-full lg:w-[340px] shrink-0">
+          {/* <div className="w-full lg:w-[340px] shrink-0"> */}
+          <div className="w-[40%] shrink-0">
             <div className="flex flex-col divide-y divide-[#2C2C2E]">
               {investorData.map((cat) => {
                 const isCatSelected = selectedCategory === cat.category;
@@ -210,7 +213,7 @@ export default function FinancialReportsNew() {
           </div>
 
           {/* Right Panel: Document List */}
-          <div className="flex-1 min-h-[450px]">
+          <div className="flex-1 min-h-[450px]" style={{ width: "60%" }}>
             {filteredFiles.length > 0 ? (
               <div className="flex flex-col">
                 {filteredFiles.map((file, idx) => (
