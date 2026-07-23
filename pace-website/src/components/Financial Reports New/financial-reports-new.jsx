@@ -90,7 +90,7 @@ export default function FinancialReportsNew() {
   };
 
   return (
-    <section className="bg-[#191918] w-full max-w-full overflow-x-hidden text-white py-12 md:py-16 font-sans min-h-[100%]">
+    <section className="bg-[#191918] w-full max-w-full overflow-x-hidden text-white py-8 md:py-16 font-sans">
       <div className="w-full max-w-[1360px] mx-auto px-4 md:px-6">
         {/* Top Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 md:mb-12 gap-4 w-full">
@@ -314,7 +314,7 @@ export default function FinancialReportsNew() {
           </div>
 
           {/* Right Panel: Document List */}
-          <div className="w-full lg:w-[60%] flex-1 min-h-[450px] min-w-0">
+          <div className="w-full lg:w-[60%] flex-1 min-h-0 lg:min-h-[450px] min-w-0">
             {filteredFiles.length > 0 ? (
               <div className="flex flex-col w-full">
                 {filteredFiles.map((file, idx) => (
@@ -347,7 +347,7 @@ export default function FinancialReportsNew() {
                 ))}
               </div>
             ) : (
-              <div className="flex flex-col items-center justify-center py-20 text-center bg-[#1C1C1E]/30 rounded-2xl p-8 border border-[#2C2C2E] w-full">
+              <div className="flex flex-col items-center justify-center py-10 md:py-20 text-center bg-[#1C1C1E]/30 rounded-2xl p-8 border border-[#2C2C2E] w-full">
                 <p className="text-[#C7C7CC] text-base mb-4">
                   No documents found for{" "}
                   {activeYear && <span className="text-white font-medium">{activeYear} </span>}
