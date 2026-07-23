@@ -3407,3 +3407,13 @@ option:hover {
   height: 6.5rem !important;
   background-color: white !important;
 }
+
+@media (max-width: 768px) {
+  .stat-number-text {
+    font-size: 2.4rem !important;
+  }
+
+  .stat-label-text {
+    font-size: 1.4rem !important;
+  }
+}
